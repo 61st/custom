@@ -1,0 +1,1 @@
+#include "\z\sixtyone\addons\tasks\script_component.hpp"

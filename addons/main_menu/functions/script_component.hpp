@@ -1,0 +1,1 @@
+#include "\z\sixtyone\addons\main_menu\script_component.hpp"

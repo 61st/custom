@@ -1,0 +1,1 @@
+#include "\z\sixtyone\addons\curator\script_component.hpp"

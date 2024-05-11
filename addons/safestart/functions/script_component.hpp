@@ -1,0 +1,1 @@
+#include "\z\sixtyone\addons\safestart\script_component.hpp"

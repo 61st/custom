@@ -1,0 +1,1 @@
+#include "\z\sixtyone\addons\medical_treatment\script_component.hpp"
