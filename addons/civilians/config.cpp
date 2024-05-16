@@ -2,7 +2,7 @@
 
 class CfgPatches
 {
-    class GHOST_Civilians
+    class SIXTYONE_Civilians
     {
         name = COMPONENT_NAME;
         units[] = {};
@@ -18,7 +18,7 @@ class CfgPatches
             "cba_main",
             "cba_xeh"
         };
-        authorUrl = "https://www.ghostsofbattle.com/";
+        authorUrl = "https://www.sixtyonesofbattle.com/";
         author = QAUTHOR;
         VERSION_CONFIG;
         authors[] = {"MitchJC", "Mokka"};

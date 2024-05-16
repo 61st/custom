@@ -497,11 +497,6 @@ class ACE_ADDON(medical_treatment) {
             incompatibleMedication[] = {};
             viscosityChange = 5;
         };
-        class Apap: PainKillers {
-            painReduce = 0.5;
-            timeInSystem = 420;
-            timeTillMaxEffect = 60;
-        };
     };
 
     class IV {

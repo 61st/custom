@@ -1,5 +1,5 @@
 /*
-Function: ghost_fnc_Patches
+Function: sixtyone_fnc_Patches
 
 Description:
  Apply Section Patches to Players/Vehicles
@@ -10,7 +10,7 @@ Arguments:
 
 Examples:
  (begin example)
-  [this, "1Section"] call ghost_fnc_Patches;
+  [this, "1Section"] call sixtyone_fnc_Patches;
  (end)
 
 Author:

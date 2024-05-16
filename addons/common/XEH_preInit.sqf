@@ -1,8 +1,8 @@
 #include "script_component.hpp"
 ADDON = false;
 
-ghost_unit = objNull;
-uiNamespace setVariable ["ghost_unit", objNull];
+sixtyone_unit = objNull;
+uiNamespace setVariable ["sixtyone_unit", objNull];
 
 PREP_RECOMPILE_START;
 #include "XEH_PREP.hpp"

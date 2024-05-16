@@ -11,7 +11,7 @@
  * None
  *
  * Example:
- * [target, 0] call ghost_shootingrange_fnc_triggerPopup;
+ * [target, 0] call sixtyone_shootingrange_fnc_triggerPopup;
  *
  * Public: No
  */

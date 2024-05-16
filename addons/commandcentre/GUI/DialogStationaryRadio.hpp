@@ -3,7 +3,7 @@ class RadioConfigDialog {
 	idd = 21821;
 
     class controlsBackground {
-        class Backdrop: GHOST_CC_RscText
+        class Backdrop: SIXTYONE_CC_RscText
         {
         	idc = 1000;
         	x = "10 * GUI_GRID_CENTER_W + GUI_GRID_CENTER_X";
@@ -14,7 +14,7 @@ class RadioConfigDialog {
         };
     };
     class controls {
-        class TitleText: GHOST_CC_RscText
+        class TitleText: SIXTYONE_CC_RscText
         {
         	idc = 1001;
             style = "ST_TITLE_BAR";
@@ -25,7 +25,7 @@ class RadioConfigDialog {
         	h = "1 * GUI_GRID_CENTER_H";
         	colorBackground[] = {0.2,0.4,0.2,1};
         };
-        class ChOneText: GHOST_CC_RscText
+        class ChOneText: SIXTYONE_CC_RscText
         {
         	idc = 1002;
         	text = "Channel 1 Frequency:";
@@ -34,7 +34,7 @@ class RadioConfigDialog {
         	w = "10 * GUI_GRID_CENTER_W";
         	h = "1 * GUI_GRID_CENTER_H";
         };
-        class ChTwoText: GHOST_CC_RscText
+        class ChTwoText: SIXTYONE_CC_RscText
         {
         	idc = 1003;
         	text = "Channel 2 Frequency:";
@@ -43,7 +43,7 @@ class RadioConfigDialog {
         	w = "10 * GUI_GRID_CENTER_W";
         	h = "1 * GUI_GRID_CENTER_H";
         };
-        class VolText: GHOST_CC_RscText
+        class VolText: SIXTYONE_CC_RscText
         {
         	idc = 1004;
         	text = "Radio Volume:";
@@ -52,7 +52,7 @@ class RadioConfigDialog {
         	w = "10 * GUI_GRID_CENTER_W";
         	h = "1 * GUI_GRID_CENTER_H";
         };
-        class ButtonOK: GHOST_CC_RscButton
+        class ButtonOK: SIXTYONE_CC_RscButton
         {
 			idc = 1100;
         	x = "10 * GUI_GRID_CENTER_W + GUI_GRID_CENTER_X";
@@ -61,7 +61,7 @@ class RadioConfigDialog {
         	h = "1 * GUI_GRID_CENTER_H";
 			text = "OK";
         };
-        class ButtonCancel: GHOST_CC_RscButton
+        class ButtonCancel: SIXTYONE_CC_RscButton
         {
 			idc = 1101;
         	x = "25 * GUI_GRID_CENTER_W + GUI_GRID_CENTER_X";
@@ -70,7 +70,7 @@ class RadioConfigDialog {
         	h = "1 * GUI_GRID_CENTER_H";
 			text = "Cancel";
         };
-        class ChOneEdit: GHOST_CC_RscEdit
+        class ChOneEdit: SIXTYONE_CC_RscEdit
         {
         	idc = 1400;
         	text = "30";
@@ -80,7 +80,7 @@ class RadioConfigDialog {
         	h = "1 * GUI_GRID_CENTER_H";
         	tooltip = "Set Channel 1 of the radio to this frequency. -1 disables the channel.";
         };
-        class ChTwoEdit: GHOST_CC_RscEdit
+        class ChTwoEdit: SIXTYONE_CC_RscEdit
         {
         	idc = 1401;
         	text = "40";
@@ -90,7 +90,7 @@ class RadioConfigDialog {
         	h = "1 * GUI_GRID_CENTER_H";
         	tooltip = "Set Channel 2 of the radio to this frequency. -1 disables the channel.";
         };
-        class VolEdit: GHOST_CC_RscEdit
+        class VolEdit: SIXTYONE_CC_RscEdit
         {
         	idc = 1402;
         	text = "7";

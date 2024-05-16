@@ -3,5 +3,5 @@
 
 ["visionMode", {
   params ["_unit", "_visionMode"];
-  [] spawn ghost_nvg_fnc_setNvgEffect;
+  [] spawn sixtyone_nvg_fnc_setNvgEffect;
 }, true] call CBA_fnc_addPlayerEventHandler;

@@ -8,8 +8,8 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "ace_common",
-            "ghost_main",
-            "ghost_common"
+            "sixtyone_main",
+            "sixtyone_common"
         };
         author = ECSTRING(Main,ModTeam);
         authors[] = {"PiZZADOX"};

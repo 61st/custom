@@ -1,4 +1,4 @@
-class GHOST_Civilians {
+class SIXTYONE_Civilians {
 
     tag = "SIXTYONE";
     class Civilians {

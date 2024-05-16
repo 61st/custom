@@ -10,7 +10,7 @@
  * Marker Color <STRING>
  *
  * Example:
- * ["UNIT"] call ghost_bft_fnc_getMarkerColor
+ * ["UNIT"] call sixtyone_bft_fnc_getMarkerColor
  *
  * Public: No
  */

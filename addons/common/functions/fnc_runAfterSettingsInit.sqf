@@ -11,7 +11,7 @@
  * None
  *
  * Example:
- * [_function, _args] call ghost_common_fnc_runAfterSettingsInit
+ * [_function, _args] call sixtyone_common_fnc_runAfterSettingsInit
  *
  * Public: No
  */

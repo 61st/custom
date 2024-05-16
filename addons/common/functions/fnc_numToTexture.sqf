@@ -1,5 +1,5 @@
 /*
- * Name: ghost_common_fnc_numToTexture
+ * Name: sixtyone_common_fnc_numToTexture
  * Author: Snippers
  *
  * Arguments:

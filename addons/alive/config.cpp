@@ -7,10 +7,10 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "ghost_main",
+            "sixtyone_main",
             "ALIVE_splashscreen"
         };
-        authorUrl = "https://www.ghostsofbattle.com/";
+        authorUrl = "https://www.sixtyonesofbattle.com/";
         skipWhenMissingDependencies = 1;
         author = QAUTHOR;
         authors[] = {""};

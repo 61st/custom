@@ -2,10 +2,10 @@
 
 class CfgPatches {
 	class ADDON {
-		author = "$STR_ghost_Author";
+		author = "$STR_sixtyone_Author";
 		name = COMPONENT_NAME;
 		requiredAddons[] = {
-			"ghost_main"
+			"sixtyone_main"
 		};
 		units[] = {};
 		weapons[] = {};

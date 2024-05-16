@@ -10,12 +10,12 @@
  * has any sort of GPS device <BOOL>
  *
  * Example:
- * ["UNIT"] call ghost_bft_fnc_getMarkerSize
+ * ["UNIT"] call sixtyone_bft_fnc_getMarkerSize
  *
  * Public: No
  */
 
-params [["_unit", ghost_unit]];
+params [["_unit", sixtyone_unit]];
 
 private _return = FALSE;
 

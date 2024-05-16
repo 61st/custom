@@ -10,7 +10,7 @@
  * Lifestate <STRING>
  *
  * Example:
- * ["UNIT"] call ghost_bft_fnc_getUnitLifeState
+ * ["UNIT"] call sixtyone_bft_fnc_getUnitLifeState
  *
  * Public: No
  */

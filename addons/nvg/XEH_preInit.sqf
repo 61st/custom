@@ -5,7 +5,7 @@ ADDON = "true";
 
 // ACE check
 [
-  "ghost_nvg_ACE",
+  "sixtyone_nvg_ACE",
   "CHECKBOX",
   ["Use ACE color preset","Enable if using ACE"],
   COMPONENT_NAME,
@@ -14,7 +14,7 @@ ADDON = "true";
 
 // NVG effect select
 [
-  "ghost_nvg_Effect",
+  "sixtyone_nvg_Effect",
   "LIST",
   [
     "NVG Effect",
@@ -50,7 +50,7 @@ ADDON = "true";
 
 // NVG blacklist
 [
-  "ghost_nvg_Blacklist",
+  "sixtyone_nvg_Blacklist",
   "EDITBOX",
   ["Blacklisted NVG classnames", "Seperrate classnames by commas \nEg. className1, className2, className3, etc"],
   COMPONENT_NAME,

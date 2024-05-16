@@ -3,7 +3,7 @@ class RscDisplayMain: RscStandardDisplay {
     // delete all Spotlights added directly to the display. (only saw it in WS CDLC so far)
     delete Spotlight;
     class Controls {
-        class GhostJoin : RscButton {
+        class SixtyoneJoin : RscButton {
             idc = -1;
             text = QPATHTOF(data\menulogo.paa);
             colorBackground[] = {0,0,0,0};
@@ -16,8 +16,8 @@ class RscDisplayMain: RscStandardDisplay {
             w = "4 *     (pixelW * pixelGrid * 2)";
             y = "safezoneY + 2 * 	(pixelH * pixelGrid * 2)";
 
-            tooltip = CSTRING(GhostJoin_tooltip);
-            url = CSTRING(GhostJoin_url);
+            tooltip = CSTRING(SixtyoneJoin_tooltip);
+            url = CSTRING(SixtyoneJoin_url);
             onMouseEnter = "";
             onSetFocus = "";
             onMouseExit = "";

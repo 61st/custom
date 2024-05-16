@@ -1,7 +1,7 @@
 #include "script_component.hpp"
 // Global Text
 [
-    "ghost_channels_GlobalText",
+    "sixtyone_channels_GlobalText",
     "CHECKBOX",
     ["Global Text", "Allow players to use Global Text Channel and draw on map."],
     COMPONENT_NAME,
@@ -14,7 +14,7 @@
 
 // Global Voice
 [
-    "ghost_channels_GlobalVoice",
+    "sixtyone_channels_GlobalVoice",
     "CHECKBOX",
     ["Global Voice", "Allow players to speak in Global Voice Channel."],
     COMPONENT_NAME,
@@ -27,7 +27,7 @@
 
 // Global Duration
 [
-    "ghost_channels_GlobalDuration",
+    "sixtyone_channels_GlobalDuration",
     "SLIDER",
     ["Global Duration", "If enabled, how long till selected channels are disabled. 0 is permanent."],
     COMPONENT_NAME,
@@ -40,7 +40,7 @@
 
 // Side Text
 [
-    "ghost_channels_SideText",
+    "sixtyone_channels_SideText",
     "CHECKBOX",
     ["Side Text", "Allow players to use Side Text Channel and draw on map."],
     COMPONENT_NAME,
@@ -53,7 +53,7 @@
 
 // Side Voice
 [
-    "ghost_channels_SideVoice",
+    "sixtyone_channels_SideVoice",
     "CHECKBOX",
     ["Side Voice", "Allow players to speak in Side Voice Channel."],
     COMPONENT_NAME,
@@ -66,7 +66,7 @@
 
 // Side Duration
 [
-    "ghost_channels_SideDuration",
+    "sixtyone_channels_SideDuration",
     "SLIDER",
     ["Side Duration", "If enabled, how long till selected channels are disabled. 0 is permanent."],
     COMPONENT_NAME,
@@ -79,7 +79,7 @@
 
 // Command Text
 [
-    "ghost_channels_CommandText",
+    "sixtyone_channels_CommandText",
     "CHECKBOX",
     ["Command Text", "Allow players to use Command Text Channel and draw on map."],
     COMPONENT_NAME,
@@ -92,7 +92,7 @@
 
 // Command Voice
 [
-    "ghost_channels_CommandVoice",
+    "sixtyone_channels_CommandVoice",
     "CHECKBOX",
     ["Command Voice", "Allow players to speak in Command Voice Channel."],
     COMPONENT_NAME,
@@ -105,7 +105,7 @@
 
 // Command Duration
 [
-    "ghost_channels_CommandDuration",
+    "sixtyone_channels_CommandDuration",
     "SLIDER",
     ["Command Duration", "If enabled, how long till selected channels are disabled. 0 is permanent."],
     COMPONENT_NAME,
@@ -118,7 +118,7 @@
 
 // Group Text
 [
-    "ghost_channels_GroupText",
+    "sixtyone_channels_GroupText",
     "CHECKBOX",
     ["Group Text", "Allow players to use Group Text Channel and draw on map."],
     COMPONENT_NAME,
@@ -131,7 +131,7 @@
 
 // Group Voice
 [
-    "ghost_channels_GroupVoice",
+    "sixtyone_channels_GroupVoice",
     "CHECKBOX",
     ["Group Voice", "Allow players to speak in Group Voice Channel."],
     COMPONENT_NAME,
@@ -144,7 +144,7 @@
 
 // Group Duration
 [
-    "ghost_channels_GroupDuration",
+    "sixtyone_channels_GroupDuration",
     "SLIDER",
     ["Group Duration", "If enabled, how long till selected channels are disabled. 0 is permanent."],
     COMPONENT_NAME,
@@ -157,7 +157,7 @@
 
 // Vehicle Text
 [
-    "ghost_channels_VehicleText",
+    "sixtyone_channels_VehicleText",
     "CHECKBOX",
     ["Vehicle Text", "Allow players to use Vehicle Text Channel and draw on map."],
     COMPONENT_NAME,
@@ -170,7 +170,7 @@
 
 // Vehicle Voice
 [
-    "ghost_channels_VehicleVoice",
+    "sixtyone_channels_VehicleVoice",
     "CHECKBOX",
     ["Vehicle Voice", "Allow players to speak in Vehicle Voice Channel."],
     COMPONENT_NAME,
@@ -183,7 +183,7 @@
 
 // Vehicle Duration
 [
-    "ghost_channels_VehicleDuration",
+    "sixtyone_channels_VehicleDuration",
     "SLIDER",
     ["Vehicle Duration", "If enabled, how long till selected channels are disabled. 0 is permanent."],
     COMPONENT_NAME,
@@ -196,7 +196,7 @@
 
 // Direct Text
 [
-    "ghost_channels_DirectText",
+    "sixtyone_channels_DirectText",
     "CHECKBOX",
     ["Direct Text", "Allow players to use Direct Text Channel and draw on map."],
     COMPONENT_NAME,
@@ -209,7 +209,7 @@
 
 // Direct Voice
 [
-    "ghost_channels_DirectVoice",
+    "sixtyone_channels_DirectVoice",
     "CHECKBOX",
     ["Direct Voice", "Allow players to speak in Direct Voice Channel."],
     COMPONENT_NAME,
@@ -222,7 +222,7 @@
 
 // Direct Duration
 [
-    "ghost_channels_DirectDuration",
+    "sixtyone_channels_DirectDuration",
     "SLIDER",
     ["Direct Duration", "If enabled, how long till selected channels are disabled. 0 is permanent."],
     COMPONENT_NAME,

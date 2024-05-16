@@ -10,7 +10,7 @@
  * 0: Is unconscious <BOOL>
  *
  * Example:
- * [player] call ghost_common_fnc_isUnconscious
+ * [player] call sixtyone_common_fnc_isUnconscious
  *
  * Public: No
  */

@@ -1,10 +1,10 @@
-class GHOST_ModuleVehicleCam: Module_F
+class SIXTYONE_ModuleVehicleCam: Module_F
 {
 	scope = 2;
 	displayName = "Add Vehicle Camera";
 	icon = "\z\sixtyone\addons\media\images\icons\Camera.paa";
 	category = QPREFIX;
-	function = "ghost_commandcenter_fnc_moduleVehicleCam";
+	function = "sixtyone_commandcenter_fnc_moduleVehicleCam";
 	functionPriority = 4;
 	isGlobal = 0;
 	isTriggerActivated = 0;

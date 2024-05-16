@@ -1,9 +1,9 @@
 class CfgDifficultyPresets {
 
-    defaultPreset = QUOTE(Difficulty_GHOST);
+    defaultPreset = QUOTE(Difficulty_SIXTYONE);
 
     class Custom;
-    class Difficulty_GHOST {
+    class Difficulty_SIXTYONE {
         displayName = CSTRING(DifficultyName);
 
         description = CSTRING(DifficultyDescription);

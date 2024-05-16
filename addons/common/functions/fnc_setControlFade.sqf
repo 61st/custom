@@ -11,8 +11,8 @@
  * None
  *
  * Examples:
- * [true, [_ctrlText]] call ghost_common_fnc_setControlFade; // fade control in
- * [false, [_ctrlText, _ctrlSet]] call ghost_common_fnc_setControlFade; // fade control out
+ * [true, [_ctrlText]] call sixtyone_common_fnc_setControlFade; // fade control in
+ * [false, [_ctrlText, _ctrlSet]] call sixtyone_common_fnc_setControlFade; // fade control out
  *
  * Public: Yes
  */

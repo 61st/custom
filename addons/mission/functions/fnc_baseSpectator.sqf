@@ -49,7 +49,7 @@ if (isNil QGVAR(baseSpectatorAllowed)) then {
     GVAR(baseSpectatorScreens) = [_object];
 
     // Admin chat command to toggle spectator availability
-    ["ghost-spec", {
+    ["sixtyone-spec", {
         private _nearbyPlayersAll = [ACE_player];
         {
             private _nearbyPlayers = _x nearObjects ["CAManBase", NOTIFY_RANGE];
@@ -61,11 +61,11 @@ if (isNil QGVAR(baseSpectatorAllowed)) then {
             [QGVAR(baseSpectatorProhibit), nil, call CBA_fnc_players] call CBA_fnc_targetEvent;
             GVAR(baseSpectatorAllowed) = false;
             publicVariable QGVAR(baseSpectatorAllowed);
-            ["ace_common_systemChatGlobal", "[GHOST] Spectator Prohibited", _nearbyPlayersAll] call CBA_fnc_targetEvent;
+            ["ace_common_systemChatGlobal", "[61ST] Spectator Prohibited", _nearbyPlayersAll] call CBA_fnc_targetEvent;
         } else {
             GVAR(baseSpectatorAllowed) = true;
             publicVariable QGVAR(baseSpectatorAllowed);
-            ["ace_common_systemChatGlobal", "[GHOST] Spectator Allowed", _nearbyPlayersAll] call CBA_fnc_targetEvent;
+            ["ace_common_systemChatGlobal", "[61ST] Spectator Allowed", _nearbyPlayersAll] call CBA_fnc_targetEvent;
         };
     }, "admin"] call CBA_fnc_registerChatCommand;
 } else {

@@ -1,1 +1,1 @@
-GHOST_CC_vehicleCamList = [];
+SIXTYONE_CC_vehicleCamList = [];

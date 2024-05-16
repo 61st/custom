@@ -4,7 +4,7 @@
  * This function add diary records.
  *
  * Example:
- * call Ghost_fnc_init_diary
+ * call Sixtyone_fnc_init_diary
  *
  * Public: No
  */
@@ -12,7 +12,7 @@
 waitUntil {!isNull player && player == player};
 
 
-// Add New Topic (Ghost)
+// Add New Topic (Sixtyone)
 if !(player diarySubjectExists "mission") then {
     player createDiarySubject ["mission","Mission"];
 

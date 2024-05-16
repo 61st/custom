@@ -1,6 +1,6 @@
 #include "\z\sixtyone\addons\common\script_component.hpp"
 /*
- * Name: ghost_common_fnc_evaluateCondArray
+ * Name: sixtyone_common_fnc_evaluateCondArray
  * Author: Snippers
  *
  * Arguments:

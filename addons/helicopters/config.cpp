@@ -7,7 +7,7 @@ class CfgPatches {
         url = URL;
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "ghost_main"
+            "sixtyone_main"
         };
         units[] = {};
         weapons[] = {};

@@ -10,7 +10,7 @@
  * None
  *
  * Example:
- * call ghost_respawn_fnc_enable
+ * call sixtyone_respawn_fnc_enable
  *
  * Public: No
  */

@@ -13,7 +13,7 @@
  * None
  *
  * Example:
- * ["range", [controller1, controller2], 15, [target1, target2]] call ghost_shootingrange_fnc_setConfigTargetAmount;
+ * ["range", [controller1, controller2], 15, [target1, target2]] call sixtyone_shootingrange_fnc_setConfigTargetAmount;
  *
  * Public: No
  */

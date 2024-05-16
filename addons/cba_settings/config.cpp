@@ -9,7 +9,7 @@ class CfgPatches {
         requiredAddons[] = {"cba_settings"};
         author = "sixtyone";
         authors[] = {"commy2"};
-        authorUrl = "https://ghostsofbattle.com";
+        authorUrl = "https://sixtyonesofbattle.com";
         VERSION_CONFIG;
     };
 };

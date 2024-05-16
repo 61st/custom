@@ -14,4 +14,5 @@
 #include "\z\sixtyone\addons\main\script_macros.hpp"
 
 #define ADMIN_YONV "76561198000002705"
-#define ADMIN_TAC "76561199026111523"
+#define ADMIN_MAJORCARNAGE "76561198176590682"
+#define ADMIN_CURY  "76561198068010293"

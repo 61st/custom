@@ -1,10 +1,10 @@
-class GHOST_ModuleMultiScreen: Module_F
+class SIXTYONE_ModuleMultiScreen: Module_F
 {
 	scope = 2;
 	displayName = "Setup Multi Screen";
 	icon = "\z\sixtyone\addons\media\images\icons\MultiScreen.paa";
 	category = QPREFIX;
-	function = "ghost_commandcenter_fnc_moduleMultiScreen";
+	function = "sixtyone_commandcenter_fnc_moduleMultiScreen";
 	functionPriority = 4;
 	isGlobal = 0;
 	isTriggerActivated = 0;

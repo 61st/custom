@@ -18,7 +18,7 @@ private _configAction = [
 	{
 		params ["_target", "_player", "_params"];
 		_params params ["_object", "_radio"];
-		[_object, _player, _radio] call ghost_commandcenter_fnc_configureRadio;
+		[_object, _player, _radio] call sixtyone_commandcenter_fnc_configureRadio;
 	},
 	{ true },
 	nil,
@@ -32,7 +32,7 @@ private _turnOnAction = [
 	{
 		params ["_target", "_player", "_params"];
 		_params params ["_object", "_radio"];
-		[_object, _radio, true] call ghost_commandcenter_fnc_turnOnRadio;
+		[_object, _radio, true] call sixtyone_commandcenter_fnc_turnOnRadio;
 	},
 	{
 		params ["_target", "_player", "_params"];
@@ -49,7 +49,7 @@ private _turnOffAction = [
 	{
 		params ["_target", "_player", "_params"];
 		_params params ["_object", "_radio"];
-		[_object, _radio, false] call ghost_commandcenter_fnc_turnOnRadio;
+		[_object, _radio, false] call sixtyone_commandcenter_fnc_turnOnRadio;
 	},
 	{
 		params ["_target", "_player", "_params"];

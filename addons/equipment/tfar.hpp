@@ -1,5 +1,5 @@
 /*
- * Author: <author>
+ * Author: AUTHOR
  * Function description
  *
  * Arguments:
@@ -10,7 +10,7 @@
  * None
  *
  * Example:
- * [[bob, ted], false] call afm_main_fnc_example
+ * [[bob, ted], false] call sixtyone_main_fnc_example
  *
  * Public: No
  */

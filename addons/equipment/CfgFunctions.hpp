@@ -1,4 +1,4 @@
-class GHOST_Equipment {
+class SIXTYONE_Equipment {
 
     tag = "SIXTYONE";
     class Equipment {

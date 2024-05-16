@@ -10,7 +10,7 @@
  * Marker Size <ARRAY>
  *
  * Example:
- * ["UNIT"] call ghost_bft_fnc_getMarkerSize
+ * ["UNIT"] call sixtyone_bft_fnc_getMarkerSize
  *
  * Public: No
  */

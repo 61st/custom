@@ -21,19 +21,20 @@
 #define QACEGVAR(module,var)        QUOTE(ACEGVAR(module,var))
 
 #define ACEFUNC(module,function)    TRIPLES(DOUBLES(ACE_PREFIX,module),fnc,function)
+#define DACEFUNC(var1,var2) TRIPLES(DOUBLES(ACE_PREFIX,var1),fnc,var2)
 #define QACEFUNC(module,function)   QUOTE(ACEFUNC(module,function))
 
 #define ACELSTRING(module,string)   QUOTE(TRIPLES(STR,DOUBLES(ACE_PREFIX,module),string))
 #define ACECSTRING(module,string)   QUOTE(TRIPLES($STR,DOUBLES(ACE_PREFIX,module),string))
 
-// GHOST macros
+// SIXTYONE macros
 #define IS_MOD_LOADED(modclass)     (isClass (configFile >> "CfgPatches" >> #modclass))
 
 // Extension macros
 #define EXT "61st Mechanized Infantry Battalion_mods"
 #define EXT_LOG "61st Mechanized Infantry Battalion_mods_log"
 
-// GHOST Debug macros
+// SIXTYONE Debug macros
 #include "\z\sixtyone\addons\main\script_debug.hpp"
 
 // Items

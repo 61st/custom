@@ -14,7 +14,7 @@
  * None
  *
  * Example:
- * [controller, [controller1, controller2], "range", [target1, target2], [invalidTarget1, invalidTarget2]] call ghost_shootingrange_fnc_start;
+ * [controller, [controller1, controller2], "range", [target1, target2], [invalidTarget1, invalidTarget2]] call sixtyone_shootingrange_fnc_start;
  *
  * Public: No
  */

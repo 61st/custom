@@ -1,6 +1,6 @@
 /*
 
- * \ghost_common\functions\common\fn_addItem.sqf
+ * \sixtyone_common\functions\common\fn_addItem.sqf
  * by YonV
  *
  * add item to unit/vehicle

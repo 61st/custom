@@ -15,7 +15,7 @@
  *
  * Example:
  * [_player] call MFUNC(groundFog)
- * [_player, [1, 1, 1, 0.04], {GHOST_Example}] call MFUNC(groundFog)
+ * [_player, [1, 1, 1, 0.04], {SIXTYONE_Example}] call MFUNC(groundFog)
  */
 
 params ["_player", ["_colour", [1, 1, 1, 0.04]], ["_condition", {true}]];

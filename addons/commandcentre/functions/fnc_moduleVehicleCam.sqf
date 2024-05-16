@@ -11,7 +11,7 @@ if (not isServer) exitWith {};
 
 private _objects = synchronizedObjects _logic;
 {
-    GHOST_CC_vehicleCamList pushBackUnique _x;
+    SIXTYONE_CC_vehicleCamList pushBackUnique _x;
 } foreach _objects;
 
-publicVariable "GHOST_CC_vehicleCamList";
+publicVariable "SIXTYONE_CC_vehicleCamList";

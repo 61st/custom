@@ -1,5 +1,5 @@
 /*
- * Name: ghost_common_fnc_sideToNum
+ * Name: sixtyone_common_fnc_sideToNum
  * Author: Snippers
  *
  * Arguments:

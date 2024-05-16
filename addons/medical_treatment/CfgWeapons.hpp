@@ -1,23 +1,6 @@
 class CfgWeapons {
     class ACE_ItemCore;
     class CBA_MiscItem_ItemInfo;
-    class GHOST_apap: ACE_ItemCore {
-        scope = 2;
-        scopeCurator = 2;
-        author = "ArmaForces";
-        displayName = CSTRING(Apap_DisplayName);
-        descriptionShort = CSTRING(Apap_Desc_Short);
-        descriptionUse = CSTRING(Apap_Desc_Use);
-        picture = QPATHTOF(ui\icons\apap.paa);
-
-        model = "\A3\Structures_F_EPA\Items\Medical\PainKillers_F.p3d";
-
-        ACE_isMedicalItem = 1;
-
-        class ItemInfo: CBA_MiscItem_ItemInfo {
-            mass = 0.5;
-        };
-    };
     class ACE_fieldDressing : ACE_ItemCore {
         scope=2;
         picture="\z\sixtyone\addons\media\images\icon\IB.paa";

@@ -10,7 +10,7 @@
  * None
  *
  * Example:
- * [30] call ghost_respawn_fnc_adjustTimeLocal
+ * [30] call sixtyone_respawn_fnc_adjustTimeLocal
  *
  * Public: No
  */

@@ -10,7 +10,7 @@
  * Can spectate <BOOL>
  *
  * Example:
- * [player] call ghost_spectator_fnc_canSpectate
+ * [player] call sixtyone_spectator_fnc_canSpectate
  *
  * Public: No
  */

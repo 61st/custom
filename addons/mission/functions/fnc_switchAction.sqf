@@ -23,7 +23,7 @@
  *
  * Example:
  * [My_Switch, 0, [0.3, 0.4]] call MFUNC(switchAction);
- * [My_Switch, 1, [0.7, 0.2], {GHOST_Example}] call MFUNC(switchAction);
+ * [My_Switch, 1, [0.7, 0.2], {SIXTYONE_Example}] call MFUNC(switchAction);
  */
 
 params ["_object", ["_state", 0], ["_voltages", [1, 1]], ["_condition", {true}]];

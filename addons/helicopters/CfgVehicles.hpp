@@ -155,7 +155,7 @@ class CfgVehicles {
     class GVAR(B_Heli_Transport_01_F_medic): B_Heli_Transport_01_F {
         author = QAUTHOR;
         _generalMacro="B_Heli_Transport_01_F";
-        displayName="GhostHawk(MedEvac)"; /// how is the heli displayed in editor
+        displayName="SixtyoneHawk(MedEvac)"; /// how is the heli displayed in editor
         vehicleClass = "Air";
         faction = QUOTE(PREFIX);
         crew="B_Helipilot_F";
@@ -192,7 +192,7 @@ class CfgVehicles {
     class GVAR(B_Heli_Transport_01_F_sand): B_Heli_Transport_01_F {
         author = QAUTHOR;
         _generalMacro="B_Heli_Transport_01_F";
-        displayName="GhostHawk(Sand)"; /// how is the heli displayed in editor
+        displayName="SixtyoneHawk(Sand)"; /// how is the heli displayed in editor
         vehicleClass = "Air";
         faction = QUOTE(PREFIX);
         crew="B_Helipilot_F";
@@ -223,7 +223,7 @@ class CfgVehicles {
     class GVAR(B_Heli_Transport_01_F_trop): B_Heli_Transport_01_F {
         author = QAUTHOR;
         _generalMacro="B_Heli_Transport_01_F";
-        displayName="GhostHawk(Tropical)"; /// how is the heli displayed in editor
+        displayName="SixtyoneHawk(Tropical)"; /// how is the heli displayed in editor
         vehicleClass = "Air";
         faction = QUOTE(PREFIX);
         crew="B_Helipilot_F";
@@ -254,7 +254,7 @@ class CfgVehicles {
     class GVAR(B_Heli_Transport_01_F_grey): B_Heli_Transport_01_F {
         author = QAUTHOR;
         _generalMacro="B_Heli_Transport_01_F";
-        displayName="GhostHawk(Grey)"; /// how is the heli displayed in editor
+        displayName="SixtyoneHawk(Grey)"; /// how is the heli displayed in editor
         vehicleClass = "Air";
         faction = QUOTE(PREFIX);
         crew="B_Helipilot_F";

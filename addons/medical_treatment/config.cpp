@@ -8,7 +8,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "ace_medical_treatment",
-            "ghost_main"
+            "sixtyone_main"
         };
         author = "ArmaForces";
         VERSION_CONFIG;
@@ -19,5 +19,6 @@ class CfgPatches {
 #include "CfgEventHandlers.hpp"
 #include "CfgVehicles.hpp"
 #include "CfgWeapons.hpp"
+#include "Naloxone_Patch.hpp"
 #include "ACE_Medical_Treatment_Actions.hpp"
 #include "ACE_Medical_Treatment.hpp"

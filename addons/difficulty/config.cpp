@@ -6,7 +6,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "ghost_main"
+            "sixtyone_main"
         };
         author = QAUTHOR;
         authors[] = {"3Mydlo3", "veteran29"};

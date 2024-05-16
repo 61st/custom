@@ -11,7 +11,7 @@ successful: number of the slot; error: -1 <NUMBER>
 
 Example:
 
-call GHOST_fnc_arsenal;
+call SIXTYONE_fnc_arsenal;
 Public: Yes
 
 [
@@ -29,13 +29,13 @@ Public: Yes
 // ] call ACEFUNC(arsenal,addRightPanelButton);
 
 // [
-//     ["GHOST_VPN","ghost_defib_AED","GHOST_fentanyl","GHOST_epinephrine","GHOST_ketamine","GHOST_morphine","GHOST_naloxone","GHOST_Apap","GHOST_tetra","ACE_adenosine","ACE_bloodIV_250","ACE_bloodIV_500","ACE_bloodIV","ACE_bodyBag","ACE_elasticBandage","ACE_epinephrine","ACE_fieldDressing","ACE_morphine","ACE_packingBandage","ACE_personalAidKit","ACE_plasmaIV_250","ACE_plasmaIV_500","ACE_plasmaIV","ACE_quikclot","ACE_salineIV_250","ACE_salineIV_500","ACE_salineIV","ACE_splint","ACE_surgicalKit","ACE_tourniquet","FirstAidKit","GHOST_Apap","ghost_defib_AED","GHOST_epinephrine","GHOST_fentanyl","GHOST_ketamine","ghost_medbags_DrugKit","ghost_medbags_FirstAid","ghost_medbags_MedicKit","ghost_medbags_Trauma","ghost_medbags_Fluid"],
-//     "Ghost Medical",
+//     ["SIXTYONE_VPN","sixtyone_defib_AED","SIXTYONE_fentanyl","SIXTYONE_epinephrine","SIXTYONE_ketamine","SIXTYONE_morphine","SIXTYONE_naloxone","SIXTYONE_Apap","SIXTYONE_tetra","ACE_adenosine","ACE_bloodIV_250","ACE_bloodIV_500","ACE_bloodIV","ACE_bodyBag","ACE_elasticBandage","ACE_epinephrine","ACE_fieldDressing","ACE_morphine","ACE_packingBandage","ACE_personalAidKit","ACE_plasmaIV_250","ACE_plasmaIV_500","ACE_plasmaIV","ACE_quikclot","ACE_salineIV_250","ACE_salineIV_500","ACE_salineIV","ACE_splint","ACE_surgicalKit","ACE_tourniquet","FirstAidKit","SIXTYONE_Apap","sixtyone_defib_AED","SIXTYONE_epinephrine","SIXTYONE_fentanyl","SIXTYONE_ketamine","sixtyone_medbags_DrugKit","sixtyone_medbags_FirstAid","sixtyone_medbags_MedicKit","sixtyone_medbags_Trauma","sixtyone_medbags_Fluid"],
+//     "Sixtyone Medical",
 //     "\z\ace\addons\medical_gui\data\categories\medication.paa"
 // ] call ACEFUNC(arsenal,addRightPanelButton);
 
 [
-    ["ACE_SpraypaintYellow","ACE_SpraypaintWhite","ghost_vs17_vs17","ace_marker_flags_black","ace_marker_flags_blue","ace_marker_flags_green","ace_marker_flags_orange","ace_marker_flags_purple","ace_marker_flags_red","ace_marker_flags_white","ace_marker_flags_yellow","ACE_IR_Strobe_Item","ACE_Chemlight_Shield","KNB_PanelGreen","KNB_PanelRed","KNB_PanelYellow","ACE_SpraypaintBlack","ACE_SpraypaintBlue","ACE_SpraypaintGreen","ACE_SpraypaintRed","taro_vs17_panel"],
+    ["ACE_SpraypaintYellow","ACE_SpraypaintWhite","sixtyone_vs17_vs17","ace_marker_flags_black","ace_marker_flags_blue","ace_marker_flags_green","ace_marker_flags_orange","ace_marker_flags_purple","ace_marker_flags_red","ace_marker_flags_white","ace_marker_flags_yellow","ACE_IR_Strobe_Item","ACE_Chemlight_Shield","KNB_PanelGreen","KNB_PanelRed","KNB_PanelYellow","ACE_SpraypaintBlack","ACE_SpraypaintBlue","ACE_SpraypaintGreen","ACE_SpraypaintRed","taro_vs17_panel"],
     "Marking",
     "\z\ace\addons\arsenal\data\iconCustom.paa"
 ] call ACEFUNC(arsenal,addRightPanelButton);

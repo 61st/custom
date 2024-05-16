@@ -14,7 +14,7 @@
  * None
  *
  * Example:
- * ["range", controller, [controller1, controller2], [5, 10, 20], [target1, target2]] call ghost_shootingrange_fnc_addConfigDurations;
+ * ["range", controller, [controller1, controller2], [5, 10, 20], [target1, target2]] call sixtyone_shootingrange_fnc_addConfigDurations;
  *
  * Public: No
  */

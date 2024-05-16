@@ -11,7 +11,7 @@
  * Can Stop Range <BOOL>
  *
  * Example:
- * [controller, target] call ghost_shootingrange_fnc_canActivateTrigger;
+ * [controller, target] call sixtyone_shootingrange_fnc_canActivateTrigger;
  *
  * Public: No
  */

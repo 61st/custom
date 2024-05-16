@@ -10,7 +10,7 @@
  * friendly sides <ARRAY>
  *
  * Example:
- * [side] call ghost_bft_fnc_getFriendlySides
+ * [side] call sixtyone_bft_fnc_getFriendlySides
  *
  * Public: No
  */

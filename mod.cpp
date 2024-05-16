@@ -1,11 +1,11 @@
-name = "sixtyone";
+name = "61st Mechanized Infantry Battalion Custom Mod";
 picture = "logo_512.paa";
 description = "61st Mechanized Infantry Battalion Custom Mod";
 logo = "logo_512.paa";
-logoOver = "logo_512_g.paa";
+logoOver = "logo_512.paa";
 tooltip = "Here you will return, you will not die in war";
 tooltipOwned = "Project Template Weee";
-overview = "61st Mechanized Infantry Battalion Custom Mod - Here you will return, you will not die in war";
+overview = "61st Mechanized Infantry Battalion Custom Mod";
 author = "YonV";
 overviewPicture = "logo_512.paa";
-dir = "@ghost";
+dir = "@sixtyone";

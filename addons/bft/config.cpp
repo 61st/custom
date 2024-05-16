@@ -7,8 +7,8 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "ghost_main",
-            "ghost_common"
+            "sixtyone_main",
+            "sixtyone_common"
         };
         author = "NemesisRE";
         authors[] = {"baermitumlaut", "commy2"};

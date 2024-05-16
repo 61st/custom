@@ -1,6 +1,6 @@
 #include "\z\sixtyone\addons\common\script_component.hpp"
 /*
- * Name: ghost_common_fnc_getCfgEntryFromPath
+ * Name: sixtyone_common_fnc_getCfgEntryFromPath
  * Author: Snippers
  *
  * Arguments:

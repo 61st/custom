@@ -1,4 +1,4 @@
-#define COMPONENT safeBoating
+#define COMPONENT safeboating
 
 // #define DEBUG_MODE_FULL
 // #define DISABLE_COMPILE_CACHE

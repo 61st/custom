@@ -12,7 +12,7 @@
  * None
  *
  * Example:
- * [[target1, target2], [invalidTarget1, invalidTarget2], [marker1, marker2]] call ghost_shootingrange_fnc_setTargetGroups;
+ * [[target1, target2], [invalidTarget1, invalidTarget2], [marker1, marker2]] call sixtyone_shootingrange_fnc_setTargetGroups;
  *
  * Public: No
  */

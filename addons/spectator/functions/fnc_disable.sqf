@@ -10,7 +10,7 @@
  * 0: New spectator state <BOOL>
  *
  * Example:
- * [0] call ghost_spectator_fnc_disable
+ * [0] call sixtyone_spectator_fnc_disable
  *
  * Public: No
  */

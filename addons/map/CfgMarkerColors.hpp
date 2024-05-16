@@ -5,7 +5,7 @@ class CfgMarkerColors {
         scope = 2;
         color[] = {1, 0, 1, 1};
     };
-    class ColorGhost: Default {
+    class ColorSixtyone: Default {
         name = "sixtyone";
         scope = 2;
         color[] = {0.714,0.235,0.145,1};

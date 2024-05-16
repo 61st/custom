@@ -12,7 +12,7 @@
  * None
  *
  * Example:
- * [player, getPos leader group player, getUnitLoadout player] call ghost_back_to_game_fnc_teleportPlayer
+ * [player, getPos leader group player, getUnitLoadout player] call sixtyone_back_to_game_fnc_teleportPlayer
  *
  * Public: No
  */

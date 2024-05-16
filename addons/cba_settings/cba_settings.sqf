@@ -462,133 +462,133 @@ force force ctab_core_useArmaMarker = true;
 force force ctab_irl_connect_enabled = true;
 force force ctab_irl_connect_syncMap = true;
 
-// GHOST - adminMenu
-force force ghost_adminMenu_endLogToRPT = true;
-force force ghost_adminMenu_printToChat = 1;
+// SIXTYONE - adminMenu
+force force sixtyone_adminMenu_endLogToRPT = true;
+force force sixtyone_adminMenu_printToChat = 1;
 
-// GHOST - ai_disembark
-force force ghost_ai_disembark_enabled = true;
-force force ghost_ai_disembark_stayInImmobileChance = 0.2927;
+// SIXTYONE - ai_disembark
+force force sixtyone_ai_disembark_enabled = true;
+force force sixtyone_ai_disembark_stayInImmobileChance = 0.2927;
 
-// GHOST - back_to_game
-force force ghost_back_to_game_enableAddon = true;
-force force ghost_back_to_game_removeBody = false;
-force force ghost_back_to_game_teleportToLeader = true;
-force force ghost_back_to_game_teleportToVehicle = true;
+// SIXTYONE - back_to_game
+force force sixtyone_back_to_game_enableAddon = true;
+force force sixtyone_back_to_game_removeBody = false;
+force force sixtyone_back_to_game_teleportToLeader = true;
+force force sixtyone_back_to_game_teleportToVehicle = true;
 
-// GHOST - BluForce Tracker
-force force ghost_bft_friendlySides_CIVILIAN = [0,2];
-force force ghost_bft_friendlySides_EAST = [3];
-force force ghost_bft_friendlySides_RESISTANCE = [1,3];
-force force ghost_bft_friendlySides_WEST = [2];
-force force ghost_bft_friendlySidesDynamic = true;
-force force ghost_bft_groupIconsInteraction = "hover";
-force force ghost_bft_medicalSystem = "ACE";
-force force ghost_bft_requireItemGPS = true;
-force force ghost_bft_showAIGroups = true;
-force force ghost_bft_showAINames = true;
-force force ghost_bft_showCivilians = false;
-force force ghost_bft_showGroupIcons = true;
-force force ghost_bft_showGroupText = true;
-force force ghost_bft_showLifeState = true;
-force force ghost_bft_showOwnFactionOnly = true;
-force force ghost_bft_showOwnGroup = true;
-force force ghost_bft_showOwnGroupUnits = true;
-force force ghost_bft_showPlayerNames = true;
-force force ghost_bft_showUnitNames = true;
-force force ghost_bft_teamColors = "ACE";
-force force ghost_bft_updateInterval = 1.5;
+// SIXTYONE - BluForce Tracker
+force force sixtyone_bft_friendlySides_CIVILIAN = [0,2];
+force force sixtyone_bft_friendlySides_EAST = [3];
+force force sixtyone_bft_friendlySides_RESISTANCE = [1,3];
+force force sixtyone_bft_friendlySides_WEST = [2];
+force force sixtyone_bft_friendlySidesDynamic = true;
+force force sixtyone_bft_groupIconsInteraction = "hover";
+force force sixtyone_bft_medicalSystem = "ACE";
+force force sixtyone_bft_requireItemGPS = true;
+force force sixtyone_bft_showAIGroups = true;
+force force sixtyone_bft_showAINames = true;
+force force sixtyone_bft_showCivilians = false;
+force force sixtyone_bft_showGroupIcons = true;
+force force sixtyone_bft_showGroupText = true;
+force force sixtyone_bft_showLifeState = true;
+force force sixtyone_bft_showOwnFactionOnly = true;
+force force sixtyone_bft_showOwnGroup = true;
+force force sixtyone_bft_showOwnGroupUnits = true;
+force force sixtyone_bft_showPlayerNames = true;
+force force sixtyone_bft_showUnitNames = true;
+force force sixtyone_bft_teamColors = "ACE";
+force force sixtyone_bft_updateInterval = 1.5;
 
-// GHOST - Civilians
-force force GHOST_Civilians_enableFollowGestures = true;
-force force GHOST_Civilians_enableGestures = true;
-force force GHOST_Civilians_enableGetDownGestures = true;
-force force GHOST_Civilians_enableGoAwayGestures = true;
-force force GHOST_Civilians_enableGreetingGestures = true;
-force force GHOST_Civilians_enableStopGestures = true;
-force force GHOST_Civilians_successChance_armed = 0.7;
-force force GHOST_Civilians_successChance_unarmed = 0.5;
+// SIXTYONE - Civilians
+force force SIXTYONE_Civilians_enableFollowGestures = true;
+force force SIXTYONE_Civilians_enableGestures = true;
+force force SIXTYONE_Civilians_enableGetDownGestures = true;
+force force SIXTYONE_Civilians_enableGoAwayGestures = true;
+force force SIXTYONE_Civilians_enableGreetingGestures = true;
+force force SIXTYONE_Civilians_enableStopGestures = true;
+force force SIXTYONE_Civilians_successChance_armed = 0.7;
+force force SIXTYONE_Civilians_successChance_unarmed = 0.5;
 
-// GHOST - Channels
-force ghost_Channels_CommandDuration = 900;
-force ghost_Channels_CommandText = true;
-force ghost_Channels_CommandVoice = false;
-force ghost_Channels_DirectDuration = 0;
-force ghost_Channels_DirectText = true;
-force ghost_Channels_DirectVoice = false;
-force ghost_Channels_GlobalDuration = 300;
-force ghost_Channels_GlobalText = true;
-force ghost_Channels_GlobalVoice = false;
-force ghost_Channels_GroupDuration = 300;
-force ghost_Channels_GroupText = true;
-force ghost_Channels_GroupVoice = false;
-force ghost_Channels_SideDuration = 300;
-force ghost_Channels_SideText = true;
-force ghost_Channels_SideVoice = false;
-force ghost_Channels_VehicleDuration = 300;
-force ghost_Channels_VehicleText = true;
-force ghost_Channels_VehicleVoice = false;
+// SIXTYONE - Channels
+force sixtyone_Channels_CommandDuration = 900;
+force sixtyone_Channels_CommandText = true;
+force sixtyone_Channels_CommandVoice = false;
+force sixtyone_Channels_DirectDuration = 0;
+force sixtyone_Channels_DirectText = true;
+force sixtyone_Channels_DirectVoice = false;
+force sixtyone_Channels_GlobalDuration = 300;
+force sixtyone_Channels_GlobalText = true;
+force sixtyone_Channels_GlobalVoice = false;
+force sixtyone_Channels_GroupDuration = 300;
+force sixtyone_Channels_GroupText = true;
+force sixtyone_Channels_GroupVoice = false;
+force sixtyone_Channels_SideDuration = 300;
+force sixtyone_Channels_SideText = true;
+force sixtyone_Channels_SideVoice = false;
+force sixtyone_Channels_VehicleDuration = 300;
+force sixtyone_Channels_VehicleText = true;
+force sixtyone_Channels_VehicleVoice = false;
 
-// GHOST - Defib
-force force ghost_defib_Defib_Chance = 90;
+// SIXTYONE - Defib
+force force sixtyone_defib_Defib_Chance = 90;
 
-// GHOST - fatigue
-force force ghost_fatigue_highJogCoef = 0.8;
-force force ghost_fatigue_highJogCoefEnabled = true;
+// SIXTYONE - fatigue
+force force sixtyone_fatigue_highJogCoef = 0.8;
+force force sixtyone_fatigue_highJogCoefEnabled = true;
 
-// GHOST - friendly_fire
-force force ghost_friendly_fire_loggingEnabled = true;
+// SIXTYONE - friendly_fire
+force force sixtyone_friendly_fire_loggingEnabled = true;
 
-// GHOST - grass
-force force ghost_grass_enabled = true;
+// SIXTYONE - grass
+force force sixtyone_grass_enabled = true;
 
-// GHOST - insurgents
-force force ghost_insurgents_enabled_CUP = false;
-force force ghost_insurgents_enabled_Vanilla = true;
+// SIXTYONE - insurgents
+force force sixtyone_insurgents_enabled_CUP = false;
+force force sixtyone_insurgents_enabled_Vanilla = true;
 
 
-// GHOST - nvg
-force force ghost_nvg_Blacklist = "";
+// SIXTYONE - nvg
+force force sixtyone_nvg_Blacklist = "";
 
-// GHOST - pointing
-force force ghost_pointing_vehicleEnabled = true;
+// SIXTYONE - pointing
+force force sixtyone_pointing_vehicleEnabled = true;
 
-// GHOST - respawn
-force force ghost_respawn_enabled = true;
-force force ghost_respawn_time = 6;
+// SIXTYONE - respawn
+force force sixtyone_respawn_enabled = true;
+force force sixtyone_respawn_time = 6;
 
-// GHOST - safestart
-ghost_safestart_startLocked = true;
+// SIXTYONE - safestart
+sixtyone_safestart_startLocked = true;
 
-// GHOST - spectator
-force force ghost_spectator_allowAI = false;
-force force ghost_spectator_allowAIUnconscious = false;
-force force ghost_spectator_allowUnconscious = false;
-force force ghost_spectator_civilianSide = false;
-force force ghost_spectator_civilianSideUnconscious = false;
-force force ghost_spectator_enabled = false;
-force force ghost_spectator_freeCamera = false;
-force force ghost_spectator_freeCameraUnconscious = false;
-force force ghost_spectator_sides = 0;
-force force ghost_spectator_sidesUnconscious = 0;
-force force ghost_spectator_TPPCamera = false;
-force force ghost_spectator_TPPCameraUnconscious = false;
-force force ghost_spectator_unconsciousDelay = 30;
+// SIXTYONE - spectator
+force force sixtyone_spectator_allowAI = false;
+force force sixtyone_spectator_allowAIUnconscious = false;
+force force sixtyone_spectator_allowUnconscious = false;
+force force sixtyone_spectator_civilianSide = false;
+force force sixtyone_spectator_civilianSideUnconscious = false;
+force force sixtyone_spectator_enabled = false;
+force force sixtyone_spectator_freeCamera = false;
+force force sixtyone_spectator_freeCameraUnconscious = false;
+force force sixtyone_spectator_sides = 0;
+force force sixtyone_spectator_sidesUnconscious = 0;
+force force sixtyone_spectator_TPPCamera = false;
+force force sixtyone_spectator_TPPCameraUnconscious = false;
+force force sixtyone_spectator_unconsciousDelay = 30;
 
-// GHOST - Suppress
-force force ghost_suppress_checkLOS = true;
-force force ghost_suppress_overlayFadeoutTime = 10;
-force force ghost_suppress_overlayOpacity = 0.96;
-force force ghost_suppress_overlayTexture = 0;
-force force ghost_suppress_projectileMaxDistance = 9;
-force force ghost_suppress_shooterMinDistance = 0;
+// SIXTYONE - Suppress
+force force sixtyone_suppress_checkLOS = true;
+force force sixtyone_suppress_overlayFadeoutTime = 10;
+force force sixtyone_suppress_overlayOpacity = 0.96;
+force force sixtyone_suppress_overlayTexture = 0;
+force force sixtyone_suppress_projectileMaxDistance = 9;
+force force sixtyone_suppress_shooterMinDistance = 0;
 
-// GHOST - tagging
-force force ghost_tagging_enabled = true;
+// SIXTYONE - tagging
+force force sixtyone_tagging_enabled = true;
 
-// GHOST - towing
-force force ghost_towing_addToCars = true;
-force force ghost_towing_addToHeavyDutyVehicles = true;
+// SIXTYONE - towing
+force force sixtyone_towing_addToCars = true;
+force force sixtyone_towing_addToHeavyDutyVehicles = true;
 
 // HBQ General
 force force HBQSS_DefaultPlayerCount = 8;

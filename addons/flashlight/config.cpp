@@ -2,7 +2,7 @@
 
 class CfgPatches {
     class ADDON {
-        author = "$STR_ghost_Author";
+        author = "$STR_sixtyone_Author";
         name = COMPONENT_NAME;
         requiredVersion = 1.0;
         requiredAddons[] = {"A3_Data_F", "A3_Weapons_F", "cba_jr"};
@@ -77,7 +77,7 @@ class CfgWeapons {
                 };
             };
             inertia = 0.1;
-            displayName = "ghost Enhanced Flashlight";
+            displayName = "sixtyone Enhanced Flashlight";
         };
 };
 
@@ -104,6 +104,6 @@ class CfgVehicles {
             };
         };
 
-        displayName = "ghost Enhanced Flashlight";
+        displayName = "sixtyone Enhanced Flashlight";
     };
 };

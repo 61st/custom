@@ -3,7 +3,7 @@ class ScreenConfigDialog {
     idd = 21822;
 
     class controlsBackground {
-        class Backdrop: GHOST_CC_RscText
+        class Backdrop: SIXTYONE_CC_RscText
         {
             idc = 1001;
             x = "8 * GUI_GRID_CENTER_W + GUI_GRID_CENTER_X";
@@ -14,7 +14,7 @@ class ScreenConfigDialog {
         };
     };
     class controls {
-        class TitleText: GHOST_CC_RscText
+        class TitleText: SIXTYONE_CC_RscText
         {
             idc = 1000;
             style = "ST_TITLE_BAR";
@@ -25,7 +25,7 @@ class ScreenConfigDialog {
             h = "1 * GUI_GRID_CENTER_H";
             colorBackground[] = {0.2,0.4,0.2,1};
         };
-        class CamText: GHOST_CC_RscText
+        class CamText: SIXTYONE_CC_RscText
         {
             idc = 1002;
             text = "View Helmet Camera";
@@ -34,7 +34,7 @@ class ScreenConfigDialog {
             w = "10 * GUI_GRID_CENTER_W";
             h = "1 * GUI_GRID_CENTER_H";
         };
-        class DroneText: GHOST_CC_RscText
+        class DroneText: SIXTYONE_CC_RscText
         {
             idc = 1003;
             text = "View Drone Camera";
@@ -43,7 +43,7 @@ class ScreenConfigDialog {
             w = "10 * GUI_GRID_CENTER_W";
             h = "1 * GUI_GRID_CENTER_H";
         };
-        class SatText: GHOST_CC_RscText
+        class SatText: SIXTYONE_CC_RscText
         {
             idc = 1004;
             text = "View Satellite Imagery";
@@ -52,7 +52,7 @@ class ScreenConfigDialog {
             w = "10 * GUI_GRID_CENTER_W";
             h = "1 * GUI_GRID_CENTER_H";
         };
-        class ButtonCancel: GHOST_CC_RscButton
+        class ButtonCancel: SIXTYONE_CC_RscButton
         {
             idc = 1101;
             x = "27 * GUI_GRID_CENTER_W + GUI_GRID_CENTER_X";
@@ -61,7 +61,7 @@ class ScreenConfigDialog {
             h = "1 * GUI_GRID_CENTER_H";
             text = "Cancel";
         };
-        class CamSelectText: GHOST_CC_RscText
+        class CamSelectText: SIXTYONE_CC_RscText
         {
             idc = 1006;
             text = "Target:";
@@ -70,7 +70,7 @@ class ScreenConfigDialog {
             w = "4 * GUI_GRID_CENTER_W";
             h = "1 * GUI_GRID_CENTER_H";
         };
-        class DroneSelectText: GHOST_CC_RscText
+        class DroneSelectText: SIXTYONE_CC_RscText
         {
             idc = 1007;
             text = "Drone:";
@@ -79,7 +79,7 @@ class ScreenConfigDialog {
             w = "4 * GUI_GRID_CENTER_W";
             h = "1 * GUI_GRID_CENTER_H";
         };
-        class SatSelectText: GHOST_CC_RscText
+        class SatSelectText: SIXTYONE_CC_RscText
         {
             idc = 1008;
             text = "Center on:";
@@ -88,7 +88,7 @@ class ScreenConfigDialog {
             w = "4 * GUI_GRID_CENTER_W";
             h = "1 * GUI_GRID_CENTER_H";
         };
-        class CamSelectCombo: GHOST_CC_RscCombo
+        class CamSelectCombo: SIXTYONE_CC_RscCombo
         {
             idc = 2100;
             x = "15 * GUI_GRID_CENTER_W + GUI_GRID_CENTER_X";
@@ -96,7 +96,7 @@ class ScreenConfigDialog {
             w = "11 * GUI_GRID_CENTER_W";
             h = "1 * GUI_GRID_CENTER_H";
         };
-        class DroneSelectCombo: GHOST_CC_RscCombo
+        class DroneSelectCombo: SIXTYONE_CC_RscCombo
         {
             idc = 2101;
             x = "15 * GUI_GRID_CENTER_W + GUI_GRID_CENTER_X";
@@ -104,7 +104,7 @@ class ScreenConfigDialog {
             w = "11 * GUI_GRID_CENTER_W";
             h = "1 * GUI_GRID_CENTER_H";
         };
-        class SatSelectCombo: GHOST_CC_RscCombo
+        class SatSelectCombo: SIXTYONE_CC_RscCombo
         {
             idc = 2102;
             x = "15 * GUI_GRID_CENTER_W + GUI_GRID_CENTER_X";
@@ -112,7 +112,7 @@ class ScreenConfigDialog {
             w = "11 * GUI_GRID_CENTER_W";
             h = "1 * GUI_GRID_CENTER_H";
         };
-        class CamViewButton: GHOST_CC_RscButton
+        class CamViewButton: SIXTYONE_CC_RscButton
         {
             idc = 2400;
             text = "View";
@@ -121,7 +121,7 @@ class ScreenConfigDialog {
             w = "3.1 * GUI_GRID_CENTER_W";
             h = "1 * GUI_GRID_CENTER_H";
         };
-        class DroneViewPltButton: GHOST_CC_RscButton
+        class DroneViewPltButton: SIXTYONE_CC_RscButton
         {
             idc = 2401;
             text = "PLT";
@@ -130,7 +130,7 @@ class ScreenConfigDialog {
             w = "1.5 * GUI_GRID_CENTER_W";
             h = "1 * GUI_GRID_CENTER_H";
         };
-        class DroneViewGnrButton: GHOST_CC_RscButton
+        class DroneViewGnrButton: SIXTYONE_CC_RscButton
         {
             idc = 2403;
             text = "GNR";
@@ -139,7 +139,7 @@ class ScreenConfigDialog {
             w = "1.5 * GUI_GRID_CENTER_W";
             h = "1 * GUI_GRID_CENTER_H";
         };
-        class SatViewButton: GHOST_CC_RscButton
+        class SatViewButton: SIXTYONE_CC_RscButton
         {
             idc = 2402;
             text = "View";

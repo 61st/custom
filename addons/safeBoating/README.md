@@ -1,4 +1,4 @@
-### safeBoating
+### safeboating
 
 Prevents excessive damage when bumping your boat into thingies.
 

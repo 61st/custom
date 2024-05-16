@@ -1,10 +1,10 @@
-class GHOST_ModuleSingleScreen: Module_F
+class SIXTYONE_ModuleSingleScreen: Module_F
 {
 	scope = 2;
 	displayName = "Setup Single Screen";
 	icon = "\z\sixtyone\addons\media\images\icons\SingleScreen.paa";
 	category = QPREFIX;
-	function = "ghost_commandcenter_fnc_moduleSingleScreen";
+	function = "sixtyone_commandcenter_fnc_moduleSingleScreen";
 	functionPriority = 4;
 	isGlobal = 0;
 	isTriggerActivated = 0;

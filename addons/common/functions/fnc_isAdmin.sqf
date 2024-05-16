@@ -1,5 +1,5 @@
 /*
- * Name: ghost_common_fnc_isAdmin
+ * Name: sixtyone_common_fnc_isAdmin
  * Author: Snippers
  *
  * Arguments:

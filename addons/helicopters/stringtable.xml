@@ -2,19 +2,19 @@
 <Project name="Arma_Extended_Environment">
 
 	<!-- ####################################################################################### -->
-	<Package name="ghost_Helicopters">
+	<Package name="sixtyone_Helicopters">
 
 		<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 		<Container name="Helicopters">
 			<!-- =============================================================================== -->
-			<Key ID="STR_ghost_Helicopters_Title">
+			<Key ID="STR_sixtyone_Helicopters_Title">
 				<Original>Dropping Purple Smoke Helicopters</Original>
 			</Key>
-			<Key ID="STR_ghost_Helicopters__Author">
+			<Key ID="STR_sixtyone_Helicopters__Author">
 				<Original>Dropping Purple Smoke-Team</Original>
 			</Key>
-			<Key ID="STR_ghost_Helicopters__URL">
-				<Original>https://github.com/ghosts-of-battle/mods</Original>
+			<Key ID="STR_sixtyone_Helicopters__URL">
+				<Original>https://github.com/sixtyones-of-battle/mods</Original>
 			</Key>
 			<!-- =============================================================================== -->
 		</Container>

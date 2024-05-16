@@ -1,10 +1,10 @@
-class GHOST_ModuleStationaryRadio: Module_F
+class SIXTYONE_ModuleStationaryRadio: Module_F
 {
 	scope = 2;
 	displayName = "Setup Stationary Radio";
 	icon = "\z\sixtyone\addons\media\images\icons\StationaryRadio.paa"; //todo: proper icon
 	category = QPREFIX;
-	function = "ghost_commandcenter_fnc_moduleStationaryRadio";
+	function = "sixtyone_commandcenter_fnc_moduleStationaryRadio";
 	functionPriority = 4;
 	isGlobal = 0;
 	isTriggerActivated = 0;

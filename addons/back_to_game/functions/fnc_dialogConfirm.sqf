@@ -10,7 +10,7 @@
  * None
  *
  * Example:
- * call ghost_back_to_game_fnc_dialogConfirm
+ * call sixtyone_back_to_game_fnc_dialogConfirm
  *
  * Public: No
  */

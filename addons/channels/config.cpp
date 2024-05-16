@@ -1,7 +1,7 @@
 #include "script_component.hpp"
 
 class CfgPatches {
-    class ghostFundamentals_channels {
+    class sixtyoneFundamentals_channels {
 
         author = QAUTHOR;
         name = COMPONENT_NAME;
@@ -16,13 +16,13 @@ class CfgPatches {
 };
 
 class Extended_PreInit_EventHandlers {
-    class ghostFundamentals_channels_Event {
+    class sixtyoneFundamentals_channels_Event {
         init = "call compile preprocessFileLineNumbers 'z\sixtyone\addons\channels\XEH_preInit.sqf'";
     };
 };
 
 class Extended_PostInit_EventHandlers {
-    class ghost_AI_Event {
+    class sixtyone_AI_Event {
         init = "call compile preprocessFileLineNumbers 'z\sixtyone\addons\channels\XEH_postInit.sqf'";
     };
 };

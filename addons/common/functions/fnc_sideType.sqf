@@ -1,6 +1,6 @@
 #include "\z\sixtyone\addons\common\script_component.hpp"
 /*
- * Name: ghost_common_fnc_sideType
+ * Name: sixtyone_common_fnc_sideType
  * Author: Nick
  *
  * Arguments:Index of side

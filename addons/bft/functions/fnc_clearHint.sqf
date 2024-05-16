@@ -10,7 +10,7 @@
  * None
  *
  * Example:
- * call ghost_bft_fnc_clearHints
+ * call sixtyone_bft_fnc_clearHints
  *
  * Public: No
  */

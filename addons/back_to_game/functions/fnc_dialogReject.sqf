@@ -10,7 +10,7 @@
  * None
  *
  * Example:
- * call ghost_back_to_game_fnc_dialogReject
+ * call sixtyone_back_to_game_fnc_dialogReject
  *
  * Public: No
  */

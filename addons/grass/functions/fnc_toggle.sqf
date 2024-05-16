@@ -10,7 +10,7 @@
  * None
  *
  * Example:
- * [true] call ghost_grass_fnc_toggle
+ * [true] call sixtyone_grass_fnc_toggle
  *
  * Public: No
  */

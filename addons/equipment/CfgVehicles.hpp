@@ -1,17 +1,5 @@
 class CBA_Extended_EventHandlers_base;
-class CfgVehicles {
-    #include "ANPRC117\prc117.hpp"
-    #include "SatComAntenna\satcomAntenna.hpp"
-    #include "117RadioStation\117RadioStation.hpp"
-    
-    //fpgp
-    class B_AssaultPack_rgr;
-    class FPGP_Hydration1_Tan_1_Backpanel: B_AssaultPack_rgr {
-        maximumLoad = 180;
-    };
-    class FPGP_Hydration2_Tan_1_Backpanel: B_AssaultPack_rgr {
-        maximumLoad = 180;
-    };
+class CfgVehicles {    
     // Box
     class NATO_Box_Base;
     class GVAR(arsenal): NATO_Box_Base {
@@ -19,7 +7,7 @@ class CfgVehicles {
         scopeCurator = 2;
         author = QAUTHOR;
         editorCategory = QPREFIX;
-        displayName = "[GHOST] Arsenal";
+        displayName = "[61ST] Arsenal";
         model="A3\Weapons_F\Ammoboxes\AmmoVeh_F";
         icon="iconCrateVeh";
         ace_cargo_canLoad = 0;  // Enables the object to be loaded (1-yes, 0-no)
@@ -37,7 +25,7 @@ class CfgVehicles {
         _generalMacro="Box_NATO_AmmoVeh_F";
         hiddenSelectionsTextures[]= {
             "z\sixtyone\addons\Equipment\data\ammobox_signs_caA.paa",
-            "z\sixtyone\addons\Equipment\data\ammo_ghost_co.paa"
+            "z\sixtyone\addons\Equipment\data\ammo_sixtyone_co.paa"
         };
         class TransportMagazines {
         };
@@ -53,7 +41,7 @@ class CfgVehicles {
         scopeCurator = 2;
         author = QAUTHOR;
         editorCategory = QPREFIX;
-        displayName = "[GHOST] Arsenal Winter";
+        displayName = "[61ST] Arsenal Winter";
         model="A3\Weapons_F\Ammoboxes\AmmoVeh_F";
         icon="iconCrateVeh";
         ace_cargo_canLoad = 0;  // Enables the object to be loaded (1-yes, 0-no)
@@ -71,7 +59,7 @@ class CfgVehicles {
         _generalMacro="Box_NATO_AmmoVeh_F";
         hiddenSelectionsTextures[]= {
             "z\sixtyone\addons\Equipment\data\ammobox_signs_caA.paa",
-            "z\sixtyone\addons\Equipment\data\ammo_ghost_W_co.paa"
+            "z\sixtyone\addons\Equipment\data\ammo_sixtyone_W_co.paa"
         };
         class TransportMagazines {
         };
@@ -87,7 +75,7 @@ class CfgVehicles {
         scopeCurator = 2;
         author = QAUTHOR;
         editorCategory = QPREFIX;
-        displayName = "[GHOST] Arsenal Desert";
+        displayName = "[61ST] Arsenal Desert";
         model="A3\Weapons_F\Ammoboxes\AmmoVeh_F";
         icon="iconCrateVeh";
         ace_cargo_canLoad = 0;  // Enables the object to be loaded (1-yes, 0-no)
@@ -105,7 +93,7 @@ class CfgVehicles {
         _generalMacro="Box_NATO_AmmoVeh_F";
         hiddenSelectionsTextures[]= {
             "z\sixtyone\addons\Equipment\data\ammobox_signs_caA.paa",
-            "z\sixtyone\addons\Equipment\data\ammoghost_D_co.paa"
+            "z\sixtyone\addons\Equipment\data\ammosixtyone_D_co.paa"
         };
         class TransportMagazines {
         };
@@ -121,7 +109,7 @@ class CfgVehicles {
         scopeCurator = 2;
         author = QAUTHOR;
         editorCategory = QPREFIX;
-        displayName = "[GHOST] Arsenal Tropical";
+        displayName = "[61ST] Arsenal Tropical";
         model="A3\Weapons_F\Ammoboxes\AmmoVeh_F";
         icon="iconCrateVeh";
         ace_cargo_canLoad = 0;  // Enables the object to be loaded (1-yes, 0-no)
@@ -139,7 +127,7 @@ class CfgVehicles {
         _generalMacro="Box_NATO_AmmoVeh_F";
         hiddenSelectionsTextures[]= {
             "z\sixtyone\addons\Equipment\data\ammobox_signs_caA.paa",
-            "z\sixtyone\addons\Equipment\data\ammoghost_T_co.paa"
+            "z\sixtyone\addons\Equipment\data\ammosixtyone_T_co.paa"
         };
         class TransportMagazines {
         };
@@ -155,7 +143,7 @@ class CfgVehicles {
         scopeCurator = 2;
         author = QAUTHOR;
         editorCategory = QPREFIX;
-        displayName = "[GHOST] Arsenal Civllian";
+        displayName = "[61ST] Arsenal Civllian";
         model="A3\Weapons_F\Ammoboxes\AmmoVeh_F";
         icon="iconCrateVeh";
         ace_cargo_canLoad = 0;  // Enables the object to be loaded (1-yes, 0-no)
@@ -173,7 +161,7 @@ class CfgVehicles {
         _generalMacro="Box_NATO_AmmoVeh_F";
         hiddenSelectionsTextures[]= {
             "z\sixtyone\addons\Equipment\data\ammobox_signs_caA.paa",
-            "z\sixtyone\addons\Equipment\data\ammoghost_co_c_.paa"
+            "z\sixtyone\addons\Equipment\data\ammosixtyone_co_c_.paa"
         };
         class TransportMagazines {
         };
@@ -189,7 +177,7 @@ class CfgVehicles {
         scopeCurator = 2;
         author = QAUTHOR;
         editorCategory = QPREFIX;
-        displayName = "[GHOST] Arsenal Resupply";
+        displayName = "[61ST] Arsenal Resupply";
         model="A3\Weapons_F\Ammoboxes\AmmoVeh_F";
         icon="iconCrateVeh";
         ace_cargo_noRename = 1;  // Blocks renaming object (1-blocked, 0-allowed)
@@ -205,7 +193,7 @@ class CfgVehicles {
         _generalMacro="Box_NATO_AmmoVeh_F";
         hiddenSelectionsTextures[]= {
             "z\sixtyone\addons\Equipment\data\ammobox_signs_caA.paa",
-            "z\sixtyone\addons\Equipment\data\resupplyghost.paa"
+            "z\sixtyone\addons\Equipment\data\resupplysixtyone.paa"
         };
         class TransportMagazines {
         };
@@ -223,7 +211,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         author = QAUTHOR;
-        displayName = "[GHOST] Rebreather";
+        displayName = "[61ST] Rebreather";
         class TransportItems {
             class GVAR(rebreather) {
                 name = QGVAR(rebreather);
@@ -234,7 +222,7 @@ class CfgVehicles {
     class Item_U_B_Wetsuit;
     class GVAR(Item_Wetsuit): Item_U_B_Wetsuit {
         author = QAUTHOR;
-        displayName = "[GHOST] Wetsuit";
+        displayName = "[61ST] Wetsuit";
         class TransportItems {
             class GVAR(Wetsuit) {
                 name = QGVAR(Wetsuit);
@@ -245,7 +233,7 @@ class CfgVehicles {
     class ACE_Item_Vector;
     class GVAR(Item_Vector_Designator): ACE_Item_Vector {
         author = "NemessisRE";
-        displayName = "[GHOST] ACE Vector Designator (NVG/TI)";
+        displayName = "[61ST] ACE Vector Designator (NVG/TI)";
         class TransportItems {
             class GVAR(Vector_Designator) {
                 name=QGVAR(Vector_Designator);
@@ -254,7 +242,7 @@ class CfgVehicles {
         };
     };
     class GVAR(Item_Vector_Designator_NVG): GVAR(Item_Vector_Designator) {
-        displayName = "[GHOST] ACE Vector Designator (NVG)";
+        displayName = "[61ST] ACE Vector Designator (NVG)";
         class TransportItems {
             class GVAR(Vector_Designator) {
                 name=QGVAR(Vector_Designator);
@@ -264,7 +252,7 @@ class CfgVehicles {
     };
     class Item_optic_Nightstalker;
     class GVAR(Item_optic_Nightstalker): Item_optic_Nightstalker {
-        displayName="[GHOST] Nightstalker";
+        displayName="[61ST] Nightstalker";
         author="NemesisRE";
         vehicleClass="WeaponAccessories";
         class TransportItems {
@@ -276,7 +264,7 @@ class CfgVehicles {
     };
     class Item_optic_AMS;
     class GVAR(Item_optic_AMS): Item_optic_AMS {
-        displayName="[GHOST] AMS (Black)";
+        displayName="[61ST] AMS (Black)";
         author="NemesisRE";
         class TransportItems {
             class GVAR(optic_AMS) {
@@ -286,7 +274,7 @@ class CfgVehicles {
         };
     };
     class GVAR(Item_optic_AMS_khk): GVAR(Item_optic_AMS) {
-        displayName="[GHOST] AMS (Khaki)";
+        displayName="[61ST] AMS (Khaki)";
         class TransportItems {
             class GVAR(optic_AMS_khk) {
                 name=QGVAR(optic_AMS_khk);
@@ -295,7 +283,7 @@ class CfgVehicles {
         };
     };
     class GVAR(Item_optic_AMS_snd): GVAR(Item_optic_AMS) {
-        displayName="[GHOST] AMS (Sand)";
+        displayName="[61ST] AMS (Sand)";
         class TransportItems {
             class GVAR(optic_AMS_snd) {
                 name=QGVAR(optic_AMS_snd);
@@ -304,7 +292,7 @@ class CfgVehicles {
         };
     };
     class GVAR(Item_optic_AMSTI): Item_optic_AMS {
-        displayName="[GHOST] AMS-TI (Black)";
+        displayName="[61ST] AMS-TI (Black)";
         author="NemesisRE";
         class TransportItems {
             class GVAR(optic_AMS) {
@@ -314,7 +302,7 @@ class CfgVehicles {
         };
     };
     class GVAR(Item_optic_AMSTI_khk): GVAR(Item_optic_AMSTI) {
-        displayName="[GHOST] AMS-TI (Khaki)";
+        displayName="[61ST] AMS-TI (Khaki)";
         class TransportItems {
             class GVAR(optic_AMS_khk) {
                 name=QGVAR(optic_AMS_khk) ;
@@ -323,7 +311,7 @@ class CfgVehicles {
         };
     };
     class GVAR(Item_optic_AMSTI_snd): GVAR(Item_optic_AMSTI) {
-        displayName="[GHOST] AMS-TI (Sand)";
+        displayName="[61ST] AMS-TI (Sand)";
         class TransportItems {
             class GVAR(optic_AMS_snd) {
                 name=QGVAR(optic_AMS_snd);

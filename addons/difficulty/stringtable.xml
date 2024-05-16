@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="SIXTYONE">
     <Package name="Difficulty">
-        <Key ID="STR_GHOST_Difficulty_DifficultyName">
+        <Key ID="STR_SIXTYONE_Difficulty_DifficultyName">
             <English>61st Mechanized Infantry Battalion</English>
         </Key>
-        <Key ID="STR_GHOST_Difficulty_DifficultyDescription">
+        <Key ID="STR_SIXTYONE_Difficulty_DifficultyDescription">
             <English>Custom 61st Mechanized Infantry Battalion settings.</English>
             <Polish>Własne ustawienia 61st Mechanized Infantry Battalion.</Polish>
         </Key>

@@ -1,10 +1,10 @@
-class GHOST_ModuleCommsTower: Module_F
+class SIXTYONE_ModuleCommsTower: Module_F
 {
 	scope = 2;
 	displayName = "Comms Tower";
 	icon = "\z\sixtyone\addons\media\images\icons\RadioTower.paa";
 	category = QPREFIX;
-	function = "ghost_commandcenter_fnc_moduleCommsTower";
+	function = "sixtyone_commandcenter_fnc_moduleCommsTower";
 	functionPriority = 4;
 	isGlobal = 0;
 	isTriggerActivated = 0;

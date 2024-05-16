@@ -10,7 +10,7 @@
  * Check result <BOOL>
  *
  * Example:
- * [getPlayerUID player] call ghost_back_to_game_fnc_hasDisconnected
+ * [getPlayerUID player] call sixtyone_back_to_game_fnc_hasDisconnected
  *
  * Public: No
  */

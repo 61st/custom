@@ -1,6 +1,6 @@
 #include "\z\sixtyone\addons\common\script_component.hpp"
 /*
- * Name: ghost_common_fnc_edenDraw
+ * Name: sixtyone_common_fnc_edenDraw
  * Author: Snippers
  *
  * Arguments:

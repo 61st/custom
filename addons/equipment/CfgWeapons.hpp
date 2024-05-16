@@ -1,5 +1,4 @@
 class CfgWeapons {
-    #include "SatComAntenna\antennaInventoryItem.hpp"
     class CBA_MiscItem;
     class CBA_MiscItem_ItemInfo;
     class ace_xm157_prototype;
@@ -29,11 +28,11 @@ class CfgWeapons {
         scopeCurator=2;
         scopeArsenal=2;
         author = QAUTHOR;
-        displayName = "[GHOST] XM157 pre-Alpha";
+        displayName = "[61ST] XM157 pre-Alpha";
     };
     class GVAR(Vector_Designator): ACE_Vector {
         author = "NemesisRE";
-        displayName = "[GHOST] ACE Vector Designator (NVG/TI))";
+        displayName = "[61ST] ACE Vector Designator (NVG/TI))";
         descriptionShort = "Rangefinder/Designator";
         simulation = "weapon";
         magazines[] = {"Laserbatteries"};
@@ -41,7 +40,7 @@ class CfgWeapons {
         cursorAim = "EmptyCursor";
         cursorAimOn = "CursorAimOn";
         showSwitchAction = 1;
-        weaponInfoType = "GHOST_RscOptics_vector";
+        weaponInfoType = "SIXTYONE_RscOptics_vector";
         class WeaponSlotsInfo {
             mass = 20;
         };
@@ -59,7 +58,7 @@ class CfgWeapons {
     };
     class GVAR(rebreather): V_RebreatherB {
         author = QAUTHOR;
-        displayName = "[GHOST] Rebreather";
+        displayName = "[61ST] Rebreather";
         class ItemInfo: VestItem {
             uniformModel = "\A3\Characters_F\Common\equip_rebreather";
             vestType = "Rebreather";
@@ -97,7 +96,7 @@ class CfgWeapons {
     };
     class GVAR(Wetsuit): U_B_Wetsuit {
         author = QAUTHOR;
-        displayName = "[GHOST] Wetsuit";
+        displayName = "[61ST] Wetsuit";
         picture = "\A3\characters_f\data\ui\icon_U_B_Wetsuit_CA.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
         hiddenSelections[] = {"camo"};
@@ -111,13 +110,13 @@ class CfgWeapons {
         };
     };
     class GVAR(Vector_Designator_NVG): GVAR(Vector_Designator) {
-        displayName = "[GHOST] ACE Vector Designator (NVG)";
+        displayName = "[61ST] ACE Vector Designator (NVG)";
         visionMode[] = {"Normal","NVG"};
         thermalMode[] = {};
     };
     class GVAR(optic_Nightstalker): optic_Nightstalker {
         author = QAUTHOR;
-        displayName="[GHOST] Nightstalker";
+        displayName="[61ST] Nightstalker";
         descriptionShort = "Nightstalker Sight<br />Magnification: 1x-10x";
         class ItemInfo: InventoryOpticsItem_Base_F {
             mass=12;
@@ -168,8 +167,8 @@ class CfgWeapons {
     };
     class GVAR(optic_AMS_base): ItemCore {
         author = QAUTHOR;
-        displayName="[GHOST] AMS Base";
-        descriptionShort="[GHOST] AMS (NVG)";
+        displayName="[61ST] AMS Base";
+        descriptionShort="[61ST] AMS (NVG)";
         _generalMacro="optic_AMS_base";
         scope=0;
         scopeCurator=0;
@@ -243,8 +242,8 @@ class CfgWeapons {
     };
     class GVAR(optic_AMSTI_base): ItemCore {
         author = QAUTHOR;
-        displayName="[GHOST] AMS-TI Base";
-        descriptionShort="[GHOST] AMS (NVG/TI)";
+        displayName="[61ST] AMS-TI Base";
+        descriptionShort="[61ST] AMS (NVG/TI)";
         _generalMacro="optic_AMS_base";
         scope=0;
         scopeCurator=0;
@@ -323,20 +322,20 @@ class CfgWeapons {
         scope=2;
         scopeCurator=1;
         scopeArsenal=2;
-        displayName="[GHOST] AMS (Black)";
+        displayName="[61ST] AMS (Black)";
         picture="\a3\Weapons_F_Mark\Data\UI\icon_optic_AMS_ca.paa";
     };
     class GVAR(optic_AMS_khk): GVAR(optic_AMS) {
         author = QAUTHOR;
         _generalMacro="optic_AMS_khk";
-        displayName="[GHOST] AMS (Khaki)";
+        displayName="[61ST] AMS (Khaki)";
         picture="\a3\Weapons_F_Mark\Data\UI\icon_optic_AMS_khk_ca.paa";
         model="\A3\Weapons_F_Mark\Acc\acco_ams_khk_F.p3d";
     };
     class GVAR(optic_AMS_snd): GVAR(optic_AMS) {
         author = QAUTHOR;
         _generalMacro="optic_AMS_snd";
-        displayName="[GHOST] AMS (Sand)";
+        displayName="[61ST] AMS (Sand)";
         picture="\a3\Weapons_F_Mark\Data\UI\icon_optic_AMS_snd_ca.paa";
         model="\A3\Weapons_F_Mark\Acc\acco_ams_snd_F.p3d";
     };
@@ -346,20 +345,20 @@ class CfgWeapons {
         scope=2;
         scopeCurator=1;
         scopeArsenal=2;
-        displayName="[GHOST] AMS-TI (Black)";
+        displayName="[61ST] AMS-TI (Black)";
         picture="\a3\Weapons_F_Mark\Data\UI\icon_optic_AMS_ca.paa";
     };
     class GVAR(optic_AMSTI_khk):  GVAR(optic_AMSTI) {
         author = QAUTHOR;
         _generalMacro="optic_AMS_khk";
-        displayName="[GHOST] AMS-TI (Khaki)";
+        displayName="[61ST] AMS-TI (Khaki)";
         picture="\a3\Weapons_F_Mark\Data\UI\icon_optic_AMS_khk_ca.paa";
         model="\A3\Weapons_F_Mark\Acc\acco_ams_khk_F.p3d";
     };
     class GVAR(optic_AMSTI_snd):  GVAR(optic_AMSTI) {
         author = QAUTHOR;
         _generalMacro="optic_AMS_snd";
-        displayName="[GHOST] AMS-TI (Sand)";
+        displayName="[61ST] AMS-TI (Sand)";
         picture="\a3\Weapons_F_Mark\Data\UI\icon_optic_AMS_snd_ca.paa";
         model="\A3\Weapons_F_Mark\Acc\acco_ams_snd_F.p3d";
     };
@@ -368,8 +367,8 @@ class CfgWeapons {
         scope=2;
         scopeCurator=2;
         scopeArsenal=2;
-        displayName="[GHOST] XM157 - AMS Base";
-        descriptionShort="[GHOST] AMS (NVG)";
+        displayName="[61ST] XM157 - AMS Base";
+        descriptionShort="[61ST] AMS (NVG)";
         picture = "\a3\Weapons_F\acc\Data\UI\icon_optic_DMS_ca.paa";
         model = "\A3\Weapons_F_EPA\Acc\acco_marksman_F.p3d";
         _generalMacro="optic_AMS_base";

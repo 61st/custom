@@ -1,6 +1,6 @@
 #include "\z\sixtyone\addons\common\script_component.hpp"
 /*
- * Name: ghost_common_fnc_mouseOver
+ * Name: sixtyone_common_fnc_mouseOver
  * Author: Nick
  *
  * Arguments:
@@ -10,7 +10,7 @@
  * nil
  *
  * Description:
- * Set ghost_common_edenMouseObjects and fires mouseOver events?
+ * Set sixtyone_common_edenMouseObjects and fires mouseOver events?
  *
  */
 
