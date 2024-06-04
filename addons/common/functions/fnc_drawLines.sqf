@@ -1,5 +1,5 @@
 /*
- * Name: sixtyone_common_fnc_drawLines
+ * Name: lxim_common_fnc_drawLines
  * Author: Head
  *
  * Arguments:

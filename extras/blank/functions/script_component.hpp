@@ -1,1 +1,1 @@
-#include "\z\sixtyone\addons\blank\script_component.hpp"
+#include "\z\lxim\addons\blank\script_component.hpp"

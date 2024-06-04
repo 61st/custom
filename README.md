@@ -3,16 +3,16 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/sixtyones-of-battle/sixtyone/releases/latest">
+    <a href="https://github.com/lxims-of-battle/lxim/releases/latest">
         <img src="https://img.shields.io/badge/Version-0.1.0-blue.svg?style=flat-square" alt="ACE Project Template Version">
     </a>
-    <a href="https://github.com/sixtyones-of-battle/sixtyone/issues">
+    <a href="https://github.com/lxims-of-battle/lxim/issues">
         <img src="https://img.shields.io/github/issues-raw/YonVclaw/Mod_Template.svg?style=flat-square&label=Issues" alt="ACE Project Template Issues">
     </a>
-    <a href="https://github.com/sixtyones-of-battle/sixtyone/releases">
+    <a href="https://github.com/lxims-of-battle/lxim/releases">
         <img src="https://img.shields.io/github/downloads/YonVclaw/Mod_Template/total.svg?style=flat-square&label=Downloads" alt="ACE Project Template Downloads">
     </a>
-    <a href="https://github.com/sixtyones-of-battle/sixtyone/blob/master/LICENSE">
+    <a href="https://github.com/lxims-of-battle/lxim/blob/master/LICENSE">
         <img src="https://img.shields.io/badge/License-MIT-red.svg?style=flat-square" alt="ACE Project Template License">
     </a>
 </p>
@@ -21,7 +21,7 @@
     <sup><strong>Requires the latest version of <a href="https://github.com/CBATeam/CBA_A3/releases">CBA A3</a> and <a href="https://github.com/acemod/ACE3/releases">ACE3</a>.<br/></strong></sup>
 </p>
 
-# Sixtyone Custom Mod
+# LXIM Custom Mod
 
 This is the custom mod for 61st Mechanized Infantry Battalion
 Its based/inspired on/by the following projects;
@@ -30,15 +30,14 @@ Its based/inspired on/by the following projects;
 - https://github.com/61st Mechanized Infantry Battalion/Mods of 61st Mechanized Infantry Battalion/Mods  -  GNU GENERAL PUBLIC LICENSE
 - https://github.com/AXEmod/AXE - GNU General Public License (GPLv3)
 - https://github.com/Theseus-Aegis/Mods - GNU General Public License (GPLv2).
-- https://github.com/last-resort-gaming/sixtyone-Fundamentals - MIT License
+- https://github.com/last-resort-gaming/lxim-Fundamentals - MIT License
 - https://github.com/Theseus-Aegis/TheseusServices - Official license: Arma Public License Share-Alike (APL-SA)
-- https://www.sixtyonesofbattle.com/ - GNU General Public License (GPLv2).
 - https://github.com/quies-in-proelium/qipTPL - Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 - https://github.com/SzwedzikPL/SimpleSuppress/releases - MIT License
 - Ample Camo Pack Lite https://steamcommunity.com/sharedfiles/filedetails/?id=2869453820  - Arma Public License Share-Alike (APL-SA)
 
 All the code in this mod is available in the Github
-you can find the 61st Mechanized Infantry Battalion Version at https://github.com/sixtyones-of-battle/sixtyone
+you can find the 61st Mechanized Infantry Battalion Version at https://github.com/lxims-of-battle/lxim
 
 (I know I forgot a few, I will work on getting those mentions put in)
 # This mod includes :

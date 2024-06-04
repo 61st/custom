@@ -2,7 +2,7 @@
 
 class CfgPatches
 {
-    class SIXTYONE_Civilians
+    class LXIM_Civilians
     {
         name = COMPONENT_NAME;
         units[] = {};
@@ -18,7 +18,7 @@ class CfgPatches
             "cba_main",
             "cba_xeh"
         };
-        authorUrl = "https://www.sixtyonesofbattle.com/";
+        authorUrl = URL;
         author = QAUTHOR;
         VERSION_CONFIG;
         authors[] = {"MitchJC", "Mokka"};

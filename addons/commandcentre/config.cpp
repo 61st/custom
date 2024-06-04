@@ -7,9 +7,9 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "sixtyone_main"
+            "lxim_main"
         };
-        authorUrl = "https://www.sixtyonesofbattle.com/";
+        authorUrl = URL;
         author = QAUTHOR;
         authors[] = {""};
         VERSION_CONFIG;
@@ -17,28 +17,28 @@ class CfgPatches {
 };
 
 class CfgVehicles {
-	class Logic;
-	class Module_F: Logic {
-		class AttributesBase {
-			class Default;
-			class Edit;
-			class Combo;
-			class Checkbox;
-			class CheckboxNumber;
-			class ModuleDescription;
-			class Units;
-		};
+    class Logic;
+    class Module_F: Logic {
+        class AttributesBase {
+            class Default;
+            class Edit;
+            class Combo;
+            class Checkbox;
+            class CheckboxNumber;
+            class ModuleDescription;
+            class Units;
+        };
 
-		class ModuleDescription {
-			class AnyBrain;
-		};
-	};
+        class ModuleDescription {
+            class AnyBrain;
+        };
+    };
 
-	#include "ModuleCommsTower.hpp"
-	#include "ModuleSingleScreen.hpp"
-	#include "ModuleMultiScreen.hpp"
-	#include "ModuleStationaryRadio.hpp"
-	#include "ModuleVehicleCam.hpp"
+    #include "ModuleCommsTower.hpp"
+    #include "ModuleSingleScreen.hpp"
+    #include "ModuleMultiScreen.hpp"
+    #include "ModuleStationaryRadio.hpp"
+    #include "ModuleVehicleCam.hpp"
 };
 
 

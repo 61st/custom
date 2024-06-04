@@ -1,1 +1,1 @@
-#include "\z\sixtyone\addons\fatigue\script_component.hpp"
+#include "\z\lxim\addons\fatigue\script_component.hpp"

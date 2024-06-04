@@ -6,10 +6,10 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"sixtyone_main"};
+        requiredAddons[] = {"lxim_main"};
         author = QAUTHOR;
         authors[] = {"SzwedzikPL"};
-        authorUrl = "https://sixtyonesofbattle.com";
+        authorUrl = URL;
         VERSION_CONFIG;
     };
 };

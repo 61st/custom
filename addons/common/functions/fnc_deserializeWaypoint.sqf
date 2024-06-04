@@ -1,5 +1,5 @@
 /*
- * Name: sixtyone_common_fnc_deserializeWaypoint
+ * Name: lxim_common_fnc_deserializeWaypoint
  * Author: Head
  *
  * Arguments:

@@ -10,7 +10,7 @@
  * None
  *
  * Example:
- * [30] call sixtyone_respawn_fnc_adjustTime
+ * [30] call lxim_respawn_fnc_adjustTime
  *
  * Public: No
  */

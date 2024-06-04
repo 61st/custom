@@ -1,11 +1,11 @@
 #define MAINPREFIX z
-#define PREFIX sixtyone
-#define QPREFIX "sixtyone"
+#define PREFIX lxim
+#define QPREFIX "lxim"
 
-#define AUTHOR Sixtyone
+#define AUTHOR LXIM
 #define QAUTHOR QUOTE(AUTHOR)
-#define LOGO_PATH QUOTE(z\sixtyone\addons\media\images\logo_512.paa)
-#define URL "https://www.sixtyonesofbattle.com/"
+#define LOGO_PATH QUOTE(z\lxim\addons\media\images\logo_512.paa)
+#define URL "https://www.arma.wiki/"
 
 #include "script_version.hpp"
 

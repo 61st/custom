@@ -22,8 +22,8 @@ if (!isMultiplayer) exitWith {diag_log "Rev_TFAR_fnc_setDefaultScribbles: TFAR o
 
 params
 [
-	["_type",true,[false]],
-	["_scribbles",["Scribble 1","Scribble 2","Scribble 3"],[[]]]
+    ["_type",true,[false]],
+    ["_scribbles",["Scribble 1","Scribble 2","Scribble 3"],[[]]]
 ];
 
 //Safety check to turn all scribble array elements into strings
@@ -32,22 +32,22 @@ private _checked = _scribbles apply {if !(typeName _x isEqualTo "STRING") then {
 //Sw
 if (_type) exitWith {
 
-	if (call TFAR_fnc_haveSWRadio) then
-	{
-		private _radio = call TFAR_fnc_activeSwRadio;
-		Rev_TFAR_scribbleNamespace setVariable [_radio, _checked];
+    if (call TFAR_fnc_haveSWRadio) then
+    {
+        private _radio = call TFAR_fnc_activeSwRadio;
+        Rev_TFAR_scribbleNamespace setVariable [_radio, _checked];
         systemChat "Sw scribbles changed via function call";
-		diag_log "Rev_TFAR_fnc_setDefaultScribbles: Sw radio scribbles changed via function, EH ID44";
-	};
+        diag_log "Rev_TFAR_fnc_setDefaultScribbles: Sw radio scribbles changed via function, EH ID44";
+    };
 };
 
 //Lw
 if (call TFAR_fnc_haveLRRadio) then
 {
     private _LRradio = (call TFAR_fnc_activeLrRadio) # 0;
-	_LRradio setVariable ["Rev_radio_settings", _checked, Rev_TFAR_locality];
+    _LRradio setVariable ["Rev_radio_settings", _checked, Rev_TFAR_locality];
     systemChat "Lw scribbles changed via function call";
-	diag_log "Rev_TFAR_fnc_setDefaultScribbles: Lw radio scribbles changed via function, EH ID45";
+    diag_log "Rev_TFAR_fnc_setDefaultScribbles: Lw radio scribbles changed via function, EH ID45";
 };
 
 true;

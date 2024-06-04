@@ -28,7 +28,7 @@ uiNamespace setVariable ["EMM_multiplayerMenu_enabled", false];
 
 INFO("Auto joining to 61st Mechanized Infantry Battalion server");
 
-GVAR(serverAddress) = "server.sixtyonesofbattle.com";
+GVAR(serverAddress) = "game5001.ghostsofbattle.com";
 GVAR(serverPort) = "2302";
 GVAR(joinTimeout) = diag_tickTime + 5;
 

@@ -12,7 +12,7 @@
  * 0: Is task successfully finished? <BOOL>
  *
  * Example:
- * ["KnockHorse", "Canceled"] call sixtyone_tasks_fnc_finishTask
+ * ["KnockHorse", "Canceled"] call lxim_tasks_fnc_finishTask
  *
  * Public: Yes
  */

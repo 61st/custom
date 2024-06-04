@@ -9,15 +9,15 @@
  * Return Value: BOOLEAN
  *
  1.0.1
-	Fixed typo in header
+    Fixed typo in header
  */
 
 if (!isMultiplayer) exitWith {false};
 if (!hasInterface) exitWith {false};
 if (!isNil {Rev_TFAR_scribbleNamespace}) exitWith {
-	diag_log "Rev_TFAR_fnc_playerInit: Rev_TFAR_scribbleNamespace found, created by server";
-	Rev_TFAR_locality = true;
-	false
+    diag_log "Rev_TFAR_fnc_playerInit: Rev_TFAR_scribbleNamespace found, created by server";
+    Rev_TFAR_locality = true;
+    false
 };
 
 Rev_TFAR_scribbleNamespace = false call CBA_fnc_createNamespace;

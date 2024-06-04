@@ -18,12 +18,12 @@ class CfgVehicleClasses {
 };
 
 class CfgEditorCategories {
-	class PREFIX  {
-		displayName = CSTRING(Category);
-	};
+    class PREFIX  {
+        displayName = CSTRING(Category);
+    };
 };
 class CfgEditorSubcategories {
-	class PREFIX  {
-		displayName = CSTRING(Category);
-	};
+    class PREFIX  {
+        displayName = CSTRING(Category);
+    };
 };

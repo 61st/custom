@@ -1,6 +1,6 @@
 // Display faction icons in 3DEN unit/group asset lists
 
-#include "\z\sixtyone\addons\common\script_component.hpp"
+#include "\z\lxim\addons\common\script_component.hpp"
 
 disableSerialization;
 

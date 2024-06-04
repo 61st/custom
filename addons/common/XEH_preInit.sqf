@@ -1,8 +1,8 @@
 #include "script_component.hpp"
 ADDON = false;
 
-sixtyone_unit = objNull;
-uiNamespace setVariable ["sixtyone_unit", objNull];
+lxim_unit = objNull;
+uiNamespace setVariable ["lxim_unit", objNull];
 
 PREP_RECOMPILE_START;
 #include "XEH_PREP.hpp"
@@ -38,5 +38,7 @@ GVAR(runAfterSettingsInit) = [];
 
     GVAR(runAfterSettingsInit) = nil;
 }] call CBA_fnc_addEventHandler;
+
+#include "initSettings.inc.sqf"
 
 ADDON = true;

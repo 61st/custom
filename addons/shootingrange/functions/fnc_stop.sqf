@@ -18,7 +18,7 @@
  * None
  *
  * Example:
- * [controller, [controller1, controller2], "range", [target1, target2], [invalidTarget1, invalidTarget2]] call sixtyone_shootingrange_fnc_stop;
+ * [controller, [controller1, controller2], "range", [target1, target2], [invalidTarget1, invalidTarget2]] call lxim_shootingrange_fnc_stop;
  *
  * Public: No
  */
@@ -86,6 +86,9 @@ if (_success) then {
     [_texts, _size, true] call FUNC(notifyVicinity);
     GVAR(invalidTargetHit) = nil;
 };
+
+// Admin log
+[[QGVAR(stopped), [_controller, _name, _mode, _success, _scorePercentage, _timeElapsed]],false,"[Shooting Range]"] call LXIM_adminmenu_fnc_log;
 
 // Public API event
 [QGVAR(stopped), [_controller, _name, _mode, _success, _scorePercentage, _timeElapsed]] call CBA_fnc_localEvent;

@@ -1,34 +1,34 @@
 /*
-Function: sixtyone_commandcenter_fnc_initRadio
+Function: lxim_commandcenter_fnc_initRadio
 
 Description:
-	Initializes a Stationary Radio for use with the Command Centre.
+    Initializes a Stationary Radio for use with the Command Centre.
 
 Arguments:
-	_object - Radio object
-	_radioOn - Turn radio on by default?
-	_radioCh1 - Default frequency of Channel 1
-	_radioCh2 - Default frequency of Channel 2
-	_radioVol - Default Radio Volume
+    _object - Radio object
+    _radioOn - Turn radio on by default?
+    _radioCh1 - Default frequency of Channel 1
+    _radioCh2 - Default frequency of Channel 2
+    _radioVol - Default Radio Volume
 
 Return Values:
-	Nothing.
+    Nothing.
 
 Examples:
     Nothing to see here
 
 Author:
-	Mokka
+    Mokka
 */
 
 params [
-	"_object",
-	["_radioClass", "TFAR_anarc210"],
-	["_radioOn", true],
-	["_radioCh1", 30],
-	["_radioCh2", 40],
-	["_radioVol", 7],
-	["_radioCode", "_bluefor"]
+    "_object",
+    ["_radioClass", "TFAR_anarc210"],
+    ["_radioOn", true],
+    ["_radioCh1", 30],
+    ["_radioCh2", 40],
+    ["_radioVol", 7],
+    ["_radioCode", "_bluefor"]
 ];
 
 if !(isServer) exitWith {};
@@ -52,7 +52,7 @@ private _settings = [0,(_radioVol - 1),[(str _radioCh1),(str _radioCh2)],0,_radi
 
 (_radio select 0) setVariable ["TFAR_LRSpeakersEnabled", _radioOn, true];
 
-_object setVariable ["SIXTYONE_CC_radioObject", _radio, true];
+_object setVariable ["LXIM_CC_radioObject", _radio, true];
 
 // Done setting up, now add the actions for channel switching etc.
-[_object, _radio] remoteExec ["sixtyone_commandcenter_fnc_addRadioActions", 0, true];
+[_object, _radio] remoteExec ["lxim_commandcenter_fnc_addRadioActions", 0, true];

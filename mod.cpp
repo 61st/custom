@@ -8,4 +8,4 @@ tooltipOwned = "Project Template Weee";
 overview = "61st Mechanized Infantry Battalion Custom Mod";
 author = "YonV";
 overviewPicture = "logo_512.paa";
-dir = "@sixtyone";
+dir = "@lxim";

@@ -52,26 +52,26 @@ if (isNil QGVAR(respiratorMasks)) then {
         if (GVAR(lastSoundRan) + 3 < CBA_missionTime) then {
             GVAR(lastSoundRan) = CBA_missionTime;
 
-            // Optional disabling of mask sounds via: ace_player setVariable ["SIXTYONE_Mission_enableMaskSounds", false];
+            // Optional disabling of mask sounds via: ace_player setVariable ["LXIM_Mission_enableMaskSounds", false];
             if (ace_player getVariable [QGVAR(enableMaskSounds), true] && {alive ace_player}) then {
-                playSound "sixtyoner_gasmask_breath";
+                playSound "lximr_gasmask_breath";
             };
         };
         // Add Mask
         if (GVAR(oldGlasses) != _goggles) then {
-            playSound "sixtyoner_gasmask_on";
-            "sixtyoner_gasmask_overlay" cutRsc ["sixtyoner_gasmask", "PLAIN", 1, false, false]; // Main effect
+            playSound "lximr_gasmask_on";
+            "lximr_gasmask_overlay" cutRsc ["lximr_gasmask", "PLAIN", 1, false, false]; // Main effect
             if (_additionalEffect) then {
-                "sixtyoner_gasmask_overlayAdditional" cutRsc ["RscCBRN_Regulator", "PLAIN", 1, false, false]; // Additional effect
+                "lximr_gasmask_overlayAdditional" cutRsc ["RscCBRN_Regulator", "PLAIN", 1, false, false]; // Additional effect
             };
         };
     } else {
         // Mask Removal
         if (GVAR(oldGlasses) in GVAR(respiratorMasks)) then {
-            playSound "sixtyoner_gasmask_off";
-            "sixtyoner_gasmask_overlay" cutFadeOut 0;
+            playSound "lximr_gasmask_off";
+            "lximr_gasmask_overlay" cutFadeOut 0;
             if (_additionalEffect) then {
-                "sixtyoner_gasmask_overlayAdditional" cutFadeOut 0;
+                "lximr_gasmask_overlayAdditional" cutFadeOut 0;
             };
         };
 
@@ -88,9 +88,9 @@ if (isNil QGVAR(respiratorMasks)) then {
 
     // failsafe if player dies and mask overlay doesn't get removed.
     if (!alive ace_player) exitWith {
-        "sixtyoner_gasmask_overlay" cutFadeOut 0;
+        "lximr_gasmask_overlay" cutFadeOut 0;
         if (_additionalEffect) then {
-            "sixtyoner_gasmask_overlayAdditional" cutFadeOut 0;
+            "lximr_gasmask_overlayAdditional" cutFadeOut 0;
         };
     };
 

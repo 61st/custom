@@ -7,7 +7,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "sixtyone_main"
+            "lxim_main"
         };
         author = QAUTHOR;
         authors[] = {"veteran29"};
@@ -17,7 +17,7 @@ class CfgPatches {
 
 class CfgCommands {
     allowedHTMLLoadURIs[] += {
-        "https://sixtyonesofbattle.com"
+        URL
     };
 };
 

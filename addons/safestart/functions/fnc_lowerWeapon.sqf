@@ -10,7 +10,7 @@
  * None
  *
  * Example:
- * [player] call sixtyone_safestart_fnc_lowerWeapon
+ * [player] call lxim_safestart_fnc_lowerWeapon
  *
  * Public: Yes
  */

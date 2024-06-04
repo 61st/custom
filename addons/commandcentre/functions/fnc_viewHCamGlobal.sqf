@@ -7,43 +7,43 @@ private _isMan = false;
 call cTab_fnc_updateLists;
 
 {
-	if (_data isEqualTo (str _x)) exitWith {_host = _x;};
+    if (_data isEqualTo (str _x)) exitWith {_host = _x;};
 } forEach cTabHcamlist;
 
 if (isNull _host) then {
-	{
-		if (_data isEqualTo (str _x)) exitWith {_host = _x;};
-	} forEach SIXTYONE_CC_vehicleCamList;
+    {
+        if (_data isEqualTo (str _x)) exitWith {_host = _x;};
+    } forEach LXIM_CC_vehicleCamList;
 } else {
-	_isMan = true;
+    _isMan = true;
 };
 
 call {
 
-	if (_isMan) exitWith {
-		// should unit not be in a vehicle
-		if (vehicle _host isKindOf "CAManBase") exitWith {
-			_camOffSet = [0.12,0,0.15];
-			_targetOffSet = [0,8,1];
-		};
-		_host = vehicle _host;
-		_camOffSet = [0,-8,4];
-		_targetOffSet = [0,8,2];
-	};
+    if (_isMan) exitWith {
+        // should unit not be in a vehicle
+        if (vehicle _host isKindOf "CAManBase") exitWith {
+            _camOffSet = [0.12,0,0.15];
+            _targetOffSet = [0,8,1];
+        };
+        _host = vehicle _host;
+        _camOffSet = [0,-8,4];
+        _targetOffSet = [0,8,2];
+    };
 
-	// Might want to calculate offsets based on the actual vehicle dimensions in the future
-	_camOffSet = [0,-8,4];
-	_targetOffSet = [0,8,2];
+    // Might want to calculate offsets based on the actual vehicle dimensions in the future
+    _camOffSet = [0,-8,4];
+    _targetOffSet = [0,8,2];
 };
 
 if (isNull _host) exitWith {
-	// systemChat "Could not find camera host.";
+    // systemChat "Could not find camera host.";
 };
 
 private _cam = objNull;
 private _exit = false;
 
-[_object, _selection] call sixtyone_commandcenter_fnc_deleteCamera;
+[_object, _selection] call lxim_commandcenter_fnc_deleteCamera;
 
 private _target = "Sign_Sphere10cm_F" createVehicleLocal (position player);
 hideObject _target;
@@ -55,13 +55,13 @@ _cam camPrepareTarget _target;
 _cam camCommitPrepared 0;
 
 if (vehicle _host == _host) then {
-	_cam attachTo [_host, _camOffSet, "Head"];
+    _cam attachTo [_host, _camOffSet, "Head"];
 } else {
-	_cam attachTo [_host, _camOffSet];
+    _cam attachTo [_host, _camOffSet];
 };
 
 _cam cameraEffect ["INTERNAL", "BACK", _renderTarget];
 
 _object setObjectTexture [_selection, format ["#(argb,512,512,1)r2t(%1,1.3096153846)", _renderTarget]];
 
-_object setVariable [format ["SIXTYONE_CC_screen_%1_Cam", _selection], [_cam, _target, _host]];
+_object setVariable [format ["LXIM_CC_screen_%1_Cam", _selection], [_cam, _target, _host]];

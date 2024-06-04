@@ -49,7 +49,7 @@ if (isNil QGVAR(baseSpectatorAllowed)) then {
     GVAR(baseSpectatorScreens) = [_object];
 
     // Admin chat command to toggle spectator availability
-    ["sixtyone-spec", {
+    ["lxim-spec", {
         private _nearbyPlayersAll = [ACE_player];
         {
             private _nearbyPlayers = _x nearObjects ["CAManBase", NOTIFY_RANGE];

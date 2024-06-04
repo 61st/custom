@@ -1,9 +1,9 @@
-class SIXTYONE_Civilians {
+class LXIM_Civilians {
 
-    tag = "SIXTYONE";
+    tag = "LXIM";
     class Civilians {
 
-        file = "z\sixtyone\Addons\civilians\Functions";
+        file = "z\lxim\Addons\civilians\Functions";
         class initCivilianGestures {};
     };
 };

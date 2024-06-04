@@ -48,7 +48,7 @@
 #define RGB_FORESTGREEN             "'#228B22'"
 #define RGB_FUCHSIA                 "'#FF00FF'"
 #define RGB_GAINSBORO               "'#DCDCDC'"
-#define RGB_SIXTYONEWHITE              "'#F8F8FF'"
+#define RGB_LXIMWHITE              "'#F8F8FF'"
 #define RGB_GOLD                    "'#FFD700'"
 #define RGB_GOLDENROD               "'#DAA520'"
 #define RGB_GRAY                    "'#808080'"
@@ -196,7 +196,7 @@
 #define HTMLCOLOR_FORESTGREEN       '#228B22'
 #define HTMLCOLOR_FUCHSIA           '#FF00FF'
 #define HTMLCOLOR_GAINSBORO         '#DCDCDC'
-#define HTMLCOLOR_SIXTYONEWHITE        '#F8F8FF'
+#define HTMLCOLOR_LXIMWHITE        '#F8F8FF'
 #define HTMLCOLOR_GOLD              '#FFD700'
 #define HTMLCOLOR_GOLDENROD         '#DAA520'
 #define HTMLCOLOR_GRAY              '#808080'
@@ -344,7 +344,7 @@
 #define COLOR_FORESTGREEN       {0.13,0.55,0.13,1}
 #define COLOR_FUCHSIA           {1,0,1,1}
 #define COLOR_GAINSBORO         {0.86,0.86,0.86,1}
-#define COLOR_SIXTYONEWHITE        {0.97,0.97,1,1}
+#define COLOR_LXIMWHITE        {0.97,0.97,1,1}
 #define COLOR_GOLD              {1,0.84,0,1}
 #define COLOR_GOLDENROD         {0.85,0.65,0.13,1}
 #define COLOR_GRAY              {0.5,0.5,0.5,1}

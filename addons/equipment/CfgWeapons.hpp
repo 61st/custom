@@ -40,7 +40,7 @@ class CfgWeapons {
         cursorAim = "EmptyCursor";
         cursorAimOn = "CursorAimOn";
         showSwitchAction = 1;
-        weaponInfoType = "SIXTYONE_RscOptics_vector";
+        weaponInfoType = "LXIM_RscOptics_vector";
         class WeaponSlotsInfo {
             mass = 20;
         };
@@ -428,13 +428,13 @@ class CfgWeapons {
             };
         };
     };
-    class tsp_paperclip: CBA_MiscItem {
-        ACE_isTool = 1;
-        scope = 2;
-    };
-    class tsp_lockpick: tsp_paperclip {
-        ACE_isTool = 1;
-    };
+    // class tsp_paperclip: CBA_MiscItem {
+    //     ACE_isTool = 1;
+    //     scope = 2;
+    // };
+    // class tsp_lockpick: tsp_paperclip {
+    //     ACE_isTool = 1;
+    // };
     class sps_black_hornet_01_Static_F {
         ACE_isTool = 1;
     };

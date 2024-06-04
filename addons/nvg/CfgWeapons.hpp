@@ -1,7 +1,7 @@
 #define BROKEN_GOGGLES(ORIGINAL_NVG) class ORIGINAL_NVG; \
 class GVAR(DOUBLES(ORIGINAL_NVG,Broken)): ORIGINAL_NVG { \
         scope=1; \
-        modelOptics=QPATHTOF(data\sixtyone_nvg_defunct.p3d); \
+        modelOptics=QPATHTOF(data\lxim_nvg_defunct.p3d); \
 }
 
 class CfgWeapons {
@@ -24,21 +24,21 @@ class CfgWeapons {
     BROKEN_GOGGLES(O_NVGoggles_urb_F);
 
     ///////////////////////
-    class rhsusf_ANPVS_14: NVGoggles {
-        modelOptics="";
-        ace_nightvision_bluRadius=-1;
-        ace_nightvision_border=QPATHTOF(data\single.paa);
-    };
-    class rhsusf_ANPVS_15: rhsusf_ANPVS_14 {
-        modelOptics="";
-        ace_nightvision_bluRadius=-1;
-        ace_nightvision_border=QPATHTOF(data\bi.paa);
-    };
-    class rhs_1PN138: NVGoggles {
-        modelOptics="";
-        ace_nightvision_bluRadius=-1;
-        ace_nightvision_border=QPATHTOF(data\single.paa);
-    };
+    // class rhsusf_ANPVS_14: NVGoggles {
+    //     modelOptics="";
+    //     ace_nightvision_bluRadius=-1;
+    //     ace_nightvision_border=QPATHTOF(data\single.paa);
+    // };
+    // class rhsusf_ANPVS_15: rhsusf_ANPVS_14 {
+    //     modelOptics="";
+    //     ace_nightvision_bluRadius=-1;
+    //     ace_nightvision_border=QPATHTOF(data\bi.paa);
+    // };
+    // class rhs_1PN138: NVGoggles {
+    //     modelOptics="";
+    //     ace_nightvision_bluRadius=-1;
+    //     ace_nightvision_border=QPATHTOF(data\single.paa);
+    // };
     class O_NVGoggles_hex_F: NVGoggles {
         modelOptics="";
         ace_nightvision_bluRadius=-1;

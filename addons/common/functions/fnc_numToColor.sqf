@@ -1,5 +1,5 @@
 /*
- * Name: sixtyone_common_fnc_numToColor
+ * Name: lxim_common_fnc_numToColor
  * Author: Snippers
  *
  * Arguments:

@@ -8,12 +8,12 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "ace_common",
-            "sixtyone_main",
-            "sixtyone_common"
+            "lxim_main",
+            "lxim_common"
         };
         author = ECSTRING(Main,ModTeam);
         authors[] = {"PiZZADOX"};
-        url = ECSTRING(Main,Url);
+        url = URL;
         VERSION_CONFIG;
 
     };

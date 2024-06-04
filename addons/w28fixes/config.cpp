@@ -7,11 +7,11 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "sixtyone_main",
+            "lxim_main",
             "tweed_uaf_21_cfg",
             "tweed_uaf_21_cfg"
         };
-        authorUrl = "https://www.sixtyonesofbattle.com/";
+        authorUrl = URL;
         author = QAUTHOR;
         authors[] = {""};
         VERSION_CONFIG;

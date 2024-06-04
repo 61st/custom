@@ -10,7 +10,7 @@
  * Localized String <STRING>
  *
  * Example:
- * [["text", "STR_text"]] call sixtyone_shootingrange_fnc_textsIntoLocalizedString;
+ * [["text", "STR_text"]] call lxim_shootingrange_fnc_textsIntoLocalizedString;
  *
  * Public: No
  */

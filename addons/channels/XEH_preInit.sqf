@@ -1,7 +1,7 @@
 #include "script_component.hpp"
 // Global Text
 [
-    "sixtyone_channels_GlobalText",
+    "lxim_channels_GlobalText",
     "CHECKBOX",
     ["Global Text", "Allow players to use Global Text Channel and draw on map."],
     COMPONENT_NAME,
@@ -14,7 +14,7 @@
 
 // Global Voice
 [
-    "sixtyone_channels_GlobalVoice",
+    "lxim_channels_GlobalVoice",
     "CHECKBOX",
     ["Global Voice", "Allow players to speak in Global Voice Channel."],
     COMPONENT_NAME,
@@ -27,7 +27,7 @@
 
 // Global Duration
 [
-    "sixtyone_channels_GlobalDuration",
+    "lxim_channels_GlobalDuration",
     "SLIDER",
     ["Global Duration", "If enabled, how long till selected channels are disabled. 0 is permanent."],
     COMPONENT_NAME,
@@ -40,7 +40,7 @@
 
 // Side Text
 [
-    "sixtyone_channels_SideText",
+    "lxim_channels_SideText",
     "CHECKBOX",
     ["Side Text", "Allow players to use Side Text Channel and draw on map."],
     COMPONENT_NAME,
@@ -53,7 +53,7 @@
 
 // Side Voice
 [
-    "sixtyone_channels_SideVoice",
+    "lxim_channels_SideVoice",
     "CHECKBOX",
     ["Side Voice", "Allow players to speak in Side Voice Channel."],
     COMPONENT_NAME,
@@ -66,7 +66,7 @@
 
 // Side Duration
 [
-    "sixtyone_channels_SideDuration",
+    "lxim_channels_SideDuration",
     "SLIDER",
     ["Side Duration", "If enabled, how long till selected channels are disabled. 0 is permanent."],
     COMPONENT_NAME,
@@ -79,7 +79,7 @@
 
 // Command Text
 [
-    "sixtyone_channels_CommandText",
+    "lxim_channels_CommandText",
     "CHECKBOX",
     ["Command Text", "Allow players to use Command Text Channel and draw on map."],
     COMPONENT_NAME,
@@ -92,7 +92,7 @@
 
 // Command Voice
 [
-    "sixtyone_channels_CommandVoice",
+    "lxim_channels_CommandVoice",
     "CHECKBOX",
     ["Command Voice", "Allow players to speak in Command Voice Channel."],
     COMPONENT_NAME,
@@ -105,7 +105,7 @@
 
 // Command Duration
 [
-    "sixtyone_channels_CommandDuration",
+    "lxim_channels_CommandDuration",
     "SLIDER",
     ["Command Duration", "If enabled, how long till selected channels are disabled. 0 is permanent."],
     COMPONENT_NAME,
@@ -118,7 +118,7 @@
 
 // Group Text
 [
-    "sixtyone_channels_GroupText",
+    "lxim_channels_GroupText",
     "CHECKBOX",
     ["Group Text", "Allow players to use Group Text Channel and draw on map."],
     COMPONENT_NAME,
@@ -131,7 +131,7 @@
 
 // Group Voice
 [
-    "sixtyone_channels_GroupVoice",
+    "lxim_channels_GroupVoice",
     "CHECKBOX",
     ["Group Voice", "Allow players to speak in Group Voice Channel."],
     COMPONENT_NAME,
@@ -144,7 +144,7 @@
 
 // Group Duration
 [
-    "sixtyone_channels_GroupDuration",
+    "lxim_channels_GroupDuration",
     "SLIDER",
     ["Group Duration", "If enabled, how long till selected channels are disabled. 0 is permanent."],
     COMPONENT_NAME,
@@ -157,7 +157,7 @@
 
 // Vehicle Text
 [
-    "sixtyone_channels_VehicleText",
+    "lxim_channels_VehicleText",
     "CHECKBOX",
     ["Vehicle Text", "Allow players to use Vehicle Text Channel and draw on map."],
     COMPONENT_NAME,
@@ -170,7 +170,7 @@
 
 // Vehicle Voice
 [
-    "sixtyone_channels_VehicleVoice",
+    "lxim_channels_VehicleVoice",
     "CHECKBOX",
     ["Vehicle Voice", "Allow players to speak in Vehicle Voice Channel."],
     COMPONENT_NAME,
@@ -183,7 +183,7 @@
 
 // Vehicle Duration
 [
-    "sixtyone_channels_VehicleDuration",
+    "lxim_channels_VehicleDuration",
     "SLIDER",
     ["Vehicle Duration", "If enabled, how long till selected channels are disabled. 0 is permanent."],
     COMPONENT_NAME,
@@ -196,7 +196,7 @@
 
 // Direct Text
 [
-    "sixtyone_channels_DirectText",
+    "lxim_channels_DirectText",
     "CHECKBOX",
     ["Direct Text", "Allow players to use Direct Text Channel and draw on map."],
     COMPONENT_NAME,
@@ -209,7 +209,7 @@
 
 // Direct Voice
 [
-    "sixtyone_channels_DirectVoice",
+    "lxim_channels_DirectVoice",
     "CHECKBOX",
     ["Direct Voice", "Allow players to speak in Direct Voice Channel."],
     COMPONENT_NAME,
@@ -222,7 +222,7 @@
 
 // Direct Duration
 [
-    "sixtyone_channels_DirectDuration",
+    "lxim_channels_DirectDuration",
     "SLIDER",
     ["Direct Duration", "If enabled, how long till selected channels are disabled. 0 is permanent."],
     COMPONENT_NAME,

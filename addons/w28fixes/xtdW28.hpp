@@ -8,7 +8,7 @@ class XtdGearModels {
                 alwaysSelectable = 1;
                 values[] = {"None","US"};
                 class None {image = "";};
-                class US {image = "z\sixtyone\addons\media\images\patches\usflag.paa";};
+                class US {image = "z\lxim\addons\media\images\patches\usflag.paa";};
             };
             class sleeve {
                 label = "Sleeves";
@@ -47,13 +47,13 @@ class XtdGearModels {
                     texture = "";
                 };
                 class MED {
-                    texture = "z\sixtyone\addons\media\images\patches\pmed.paa";
+                    texture = "z\lxim\addons\media\images\patches\pmed.paa";
                 };
                 class EOD {
-                    texture = "z\sixtyone\addons\media\images\patches\peod.paa";
+                    texture = "z\lxim\addons\media\images\patches\peod.paa";
                 };
                 class JFIRE {
-                    texture = "z\sixtyone\addons\media\images\patches\pjfire.paa";
+                    texture = "z\lxim\addons\media\images\patches\pjfire.paa";
                 };
             };
         };

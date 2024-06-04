@@ -10,7 +10,7 @@
  * None
  *
  * Example:
- * [true] call sixtyone_fatigue_fnc_toggleHighJogFactor
+ * [true] call lxim_fatigue_fnc_toggleHighJogFactor
  *
  * Public: No
  */

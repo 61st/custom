@@ -1,6 +1,6 @@
 #define COMPONENT shootingrange
 #define COMPONENT_BEAUTIFIED Shooting Range
-#include "\z\sixtyone\addons\main\script_mod.hpp"
+#include "\z\lxim\addons\main\script_mod.hpp"
 
 #define DEBUG_MODE_FULL
 // #define DISABLE_COMPILE_CACHE
@@ -14,7 +14,7 @@
     #define DEBUG_SETTINGS DEBUG_SETTINGS_SHOOTINGRANGE
 #endif
 
-#include "\z\sixtyone\addons\main\script_macros.hpp"
+#include "\z\lxim\addons\main\script_macros.hpp"
 
 
 #define MODE_DEFAULT 1
@@ -35,7 +35,7 @@
 #define POPONTRIGGEREXIT_DEFAULT true
 
 
-#define NOTIFY_DISTANCE 10
+#define NOTIFY_DISTANCE 20
 
 #define TIME_ROUND_CHARS 4
 

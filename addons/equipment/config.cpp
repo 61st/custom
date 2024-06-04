@@ -46,9 +46,7 @@ class CfgPatches {
             "ace_vector",
             "A3_Weapons_F",
             "cba_jr",
-            "ace_xm157",
-            "tsp_breach",
-            "cTab"
+            "ace_xm157"
         };
         VERSION_CONFIG;
         authors[] = {"YonV"};
@@ -66,5 +64,5 @@ class CfgFunctions {
 #include "RscInGameUI.hpp"
 #include "CfgMagazines.hpp"
 // #include "tfar.hpp"
-#include "rhsCFGWeapons.hpp"
-#include "XtdRHS.hpp"
+// #include "rhsCFGWeapons.hpp"
+// #include "XtdRHS.hpp"

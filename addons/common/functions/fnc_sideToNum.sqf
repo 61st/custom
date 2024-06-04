@@ -1,5 +1,5 @@
 /*
- * Name: sixtyone_common_fnc_sideToNum
+ * Name: lxim_common_fnc_sideToNum
  * Author: Snippers
  *
  * Arguments:

@@ -1,6 +1,6 @@
 #define COMPONENT mission
 #define COMPONENT_BEAUTIFIED Mission
-#include "\z\sixtyone\addons\main\script_mod.hpp"
+#include "\z\lxim\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL
 // #define DISABLE_COMPILE_CACHE
@@ -14,7 +14,7 @@
     #define DEBUG_SETTINGS DEBUG_SETTINGS_MISSION
 #endif
 
-#include "\z\sixtyone\addons\main\script_macros.hpp"
+#include "\z\lxim\addons\main\script_macros.hpp"
 #include "script_macros_mission.hpp"
 
 

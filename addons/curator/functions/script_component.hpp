@@ -1,1 +1,1 @@
-#include "\z\sixtyone\addons\curator\script_component.hpp"
+#include "\z\lxim\addons\curator\script_component.hpp"

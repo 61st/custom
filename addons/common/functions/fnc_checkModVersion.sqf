@@ -1,6 +1,6 @@
-#include "\z\sixtyone\addons\common\script_component.hpp"
+#include "\z\lxim\addons\common\script_component.hpp"
 /*
- * Name: sixtyone_common_fnc_checkModVersion
+ * Name: lxim_common_fnc_checkModVersion
  * Author: Snippers
  *
  * Arguments:
@@ -10,14 +10,14 @@
  * Boolean
  *
  * Description:
- * Checks if sixtyone Mission version is larger than the input version;
+ * Checks if lxim Mission version is larger than the input version;
  */
 
 params [
     ["_input",[0,0,0]]
 ];
 
-private _sixtyoneersion = getMissionConfigValue ["sixtyone_version",[0,0,0]];
+private _lximersion = getMissionConfigValue ["lxim_version",[0,0,0]];
 
-([_sixtyoneersion,_input] call EFUNC(common,checkVersionArray));
+([_lximersion,_input] call EFUNC(common,checkVersionArray));
 

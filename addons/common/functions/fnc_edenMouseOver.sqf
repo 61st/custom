@@ -1,6 +1,6 @@
-#include "\z\sixtyone\addons\common\script_component.hpp"
+#include "\z\lxim\addons\common\script_component.hpp"
 /*
- * Name: sixtyone_common_fnc_mouseOver
+ * Name: lxim_common_fnc_mouseOver
  * Author: Nick
  *
  * Arguments:
@@ -10,7 +10,7 @@
  * nil
  *
  * Description:
- * Set sixtyone_common_edenMouseObjects and fires mouseOver events?
+ * Set lxim_common_edenMouseObjects and fires mouseOver events?
  *
  */
 

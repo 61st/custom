@@ -1,6 +1,6 @@
-#include "\z\sixtyone\addons\common\script_component.hpp"
+#include "\z\lxim\addons\common\script_component.hpp"
 /*
- * Name: sixtyone_common_fnc_evaluateCondArray
+ * Name: lxim_common_fnc_evaluateCondArray
  * Author: Snippers
  *
  * Arguments:

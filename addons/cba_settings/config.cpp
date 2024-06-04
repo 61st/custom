@@ -7,9 +7,9 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"cba_settings"};
-        author = "sixtyone";
+        author = "lxim";
         authors[] = {"commy2"};
-        authorUrl = "https://sixtyonesofbattle.com";
+        authorUrl = URL;
         VERSION_CONFIG;
     };
 };

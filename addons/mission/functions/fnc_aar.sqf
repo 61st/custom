@@ -32,7 +32,7 @@ FUNC(startAAR) = {
     [QACEGVAR(common,systemChatGlobal), "AAR Started"] call CBA_fnc_globalEvent;
 };
 FUNC(stopAAR) = {
-    private _missionType = getMissionConfigValue ["sixtyone_type", -1];
+    private _missionType = getMissionConfigValue ["lxim_type", -1];
     private _missionTypePretty = MISSION_TYPES select _missionType;
     ["ocap_exportData", [sideAmbientLife, "", _missionTypePretty]] call CBA_fnc_serverEvent; // side must be given
     INFO_2("AAR stopped with type %1 '%2'",_missionType,_missionTypePretty);
@@ -41,7 +41,7 @@ FUNC(stopAAR) = {
 
 // Auto-AAR (only non-Gimmick)
 GVAR(disableAutoAAR) = false;
-private _missionType = getMissionConfigValue ["sixtyone_type", -1];
+private _missionType = getMissionConfigValue ["lxim_type", -1];
 if (_missionType in AUTOAAR_TYPES) then {
     INFO_1("Auto-AAR waiting for start [type: %1]",_missionType);
     [{

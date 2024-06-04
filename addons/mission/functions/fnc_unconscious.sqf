@@ -42,7 +42,7 @@ if (!hasInterface) exitWith {};
 ["unit", {
     params ["_newUnit", "_oldUnit"];
 
-    if (call CBA_fnc_gesixtyonetiveFeatureCamera != "") exitWith {}; // Ignore if feature camera active (eg. Zeus)
+    if (call CBA_fnc_gelximtiveFeatureCamera != "") exitWith {}; // Ignore if feature camera active (eg. Zeus)
 
     if (_newUnit getVariable ["ACE_isUnconscious", false]) then {
         ["un"] call acre_api_fnc_babelSetSpokenLanguages;

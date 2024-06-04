@@ -17,13 +17,13 @@
  *
  * Example:
  * [tpObj, tpPos, "Teleport"] call MFUNC(teleport)
- * [tpObj, tpPos, "Teleport", {SIXTYONE_Example}] call MFUNC(teleport)
+ * [tpObj, tpPos, "Teleport", {LXIM_Example}] call MFUNC(teleport)
  */
 
 params ["_controller", "_teleportObject", "_text", ["_condition", {true}], ["_iconPath", ""]];
 
 private _action = [
-    format ["SIXTYONE_Scripts_teleport_%1", _teleportObject],
+    format ["LXIM_Scripts_teleport_%1", _teleportObject],
     _text,
     _iconPath,
     {

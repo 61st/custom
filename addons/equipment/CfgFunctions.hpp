@@ -1,9 +1,9 @@
-class SIXTYONE_Equipment {
+class LXIM_Equipment {
 
-    tag = "SIXTYONE";
+    tag = "LXIM";
     class Equipment {
 
-        file = "z\sixtyone\addons\equipment\Functions";
+        file = "z\lxim\addons\equipment\Functions";
         class arsenal {preInit = 1;};
     };
 };

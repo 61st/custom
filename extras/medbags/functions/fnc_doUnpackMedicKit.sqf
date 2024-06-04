@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 /*
 
- * \sixtyone_medical\supplies\functions\fn_doUnpackMedicKit.sqf
+ * \lxim_medical\supplies\functions\fn_doUnpackMedicKit.sqf
  * by YonV
  *
  * unpack medical supplies
@@ -13,7 +13,7 @@
  * nothing
  *
  * Example:
- * [player] call sixtyone_medical_supplies_fnc_doUnpackMedicKit;
+ * [player] call lxim_medical_supplies_fnc_doUnpackMedicKit;
  *
  */
 
@@ -39,25 +39,25 @@ if (isNull _unit) exitWith {};
         playSound QGVAR(Medical_MedicKit_Open_1);
     } else {
         private _pitch = random [0.6, 1, 1.4];
-        playSound3D ["z\sixtyone\addons\medbags\data\sounds\medickit_open_1.ogg", _unit]
+        playSound3D ["z\lxim\addons\medbags\data\sounds\medickit_open_1.ogg", _unit]
     };
 
-    sixtyone_MEDICAL_SUPPLIES_UNPACK_SUCCESS = false;
-    sixtyone_MEDICAL_SUPPLIES_UNPACK_FAILURE = false;
+    lxim_MEDICAL_SUPPLIES_UNPACK_SUCCESS = false;
+    lxim_MEDICAL_SUPPLIES_UNPACK_FAILURE = false;
 
     [
         2,
-        [], { sixtyone_MEDICAL_SUPPLIES_UNPACK_SUCCESS = true; }, { sixtyone_MEDICAL_SUPPLIES_UNPACK_FAILURE = true; },
+        [], { lxim_MEDICAL_SUPPLIES_UNPACK_SUCCESS = true; }, { lxim_MEDICAL_SUPPLIES_UNPACK_FAILURE = true; },
         Hint "Unpacking Medical Kit....",
         {true},
         ["isNotInside", "isNotSitting", "isNotSwimming"]
     ] call ACE_common_fnc_progressBar;
 
-    waitUntil {if ((sixtyone_MEDICAL_SUPPLIES_UNPACK_SUCCESS) || (sixtyone_MEDICAL_SUPPLIES_UNPACK_FAILURE)) exitWith {true}; false};
+    waitUntil {if ((lxim_MEDICAL_SUPPLIES_UNPACK_SUCCESS) || (lxim_MEDICAL_SUPPLIES_UNPACK_FAILURE)) exitWith {true}; false};
 
-    if (sixtyone_MEDICAL_SUPPLIES_UNPACK_SUCCESS) exitWith {
+    if (lxim_MEDICAL_SUPPLIES_UNPACK_SUCCESS) exitWith {
 
-        _unit removeItem "sixtyone_medbags_MedicKit";
+        _unit removeItem "lxim_medbags_MedicKit";
 
         private _order = [3,2,1];
         private _overflow = true;
@@ -86,12 +86,12 @@ if (isNull _unit) exitWith {};
         sleep 0.3;
         [_unit, "ACE_tourniquet", 04, _order, _overflow] call EFUNC(common,addItem);
         sleep 0.3;
-        [_unit, "SIXTYONE_Apap", 04, _order, _overflow] call EFUNC(common,addItem);
+        [_unit, "ACE_painkillers", 04, _order, _overflow] call EFUNC(common,addItem);
         sleep 0.3;
         [_unit, "ACE_suture", 12, _order, _overflow] call EFUNC(common,addItem);
         sleep 0.3;
     };
-    if (sixtyone_MEDICAL_SUPPLIES_UNPACK_FAILURE) exitWith {
+    if (lxim_MEDICAL_SUPPLIES_UNPACK_FAILURE) exitWith {
         [_unit, QGVAR(Medical_MedicKit_Open_1)] call EFUNC(common,stop3dSound);
     };
 };

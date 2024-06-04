@@ -13,7 +13,7 @@ class Display3DEN {
                 class GVAR(Wiki) {
                     text = CSTRING(ToolbarWiki);
                     picture = "\a3\3DEN\Data\Controls\ctrlMenu\link_ca.paa";
-                    weblink = "https://www.sixtyonesofbattle.com/";
+                    weblink = URL;
                     opensNewWindow = 1;
                 };
             };

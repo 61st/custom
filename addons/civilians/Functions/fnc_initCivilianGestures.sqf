@@ -1,9 +1,9 @@
 /*
-Function: SIXTYONE_fnc_initCivilianGestures
+Function: LXIM_fnc_initCivilianGestures
 
 Description:
     Initializes the Civilian Interactions through Gestures System (CIGS).
-	Called through the CBA setting, should not be called directly!
+    Called through the CBA setting, should not be called directly!
 
 Arguments:
     None
@@ -13,19 +13,19 @@ Return Value:
 
 Example:
     (begin example)
-        call SIXTYONE_fnc_initCivilianGestures;
+        call LXIM_fnc_initCivilianGestures;
     (end)
 
 Author:
-	Mokka
+    Mokka
 */
 
 // do not re-add the EH if the system was disabled temporarily
-if !(isNil "SIXTYONE_Civilians_CIGSInitialized") exitWith {};
+if !(isNil "LXIM_Civilians_CIGSInitialized") exitWith {};
 
-SIXTYONE_Civilians_CIGSInitialized = true;
+LXIM_Civilians_CIGSInitialized = true;
 
-//["SIXTYONE_Civilians_"] call CBA_settings_fnc_get;
+//["LXIM_Civilians_"] call CBA_settings_fnc_get;
 
 // adapted from https://github.com/2bnb/2bnb-essentials/blob/master/addons/core/XEH_postInit.sqf
 
@@ -54,167 +54,167 @@ SIXTYONE_Civilians_CIGSInitialized = true;
  * lowered weapon, or without one!
  */
 ["ace_common_playActionNow", {
-	params ["_player", "_gesture"];
+    params ["_player", "_gesture"];
 
-	// If it's not a player, don't do anything
-	if !(isPlayer _player) exitWith {};
+    // If it's not a player, don't do anything
+    if !(isPlayer _player) exitWith {};
 
-	// If the system's been disabled in the mean-time, ignore
-	if !(SIXTYONE_Civilians_enableGestures) exitWith {};
+    // If the system's been disabled in the mean-time, ignore
+    if !(LXIM_Civilians_enableGestures) exitWith {};
 
-	// The percentage chance a civilian will listen
-	private _chance = [SIXTYONE_Civilians_successChance_armed, SIXTYONE_Civilians_successChance_unarmed] select (count weapons _player > 0);
-	private _acceptedGestures = [];
+    // The percentage chance a civilian will listen
+    private _chance = [LXIM_Civilians_successChance_armed, LXIM_Civilians_successChance_unarmed] select (count weapons _player > 0);
+    private _acceptedGestures = [];
 
 // Commands affecting units within angle sector
 
-	// Stop!
-	_acceptedGestures = [
-		"gestureFreeze",
-		"ace_gestures_Hold",
-		"ace_gestures_HoldStandLowered",
-		"ace_gestures_Freeze",
-		"ace_gestures_FreezeStandLowered"
-	];
+    // Stop!
+    _acceptedGestures = [
+        "gestureFreeze",
+        "ace_gestures_Hold",
+        "ace_gestures_HoldStandLowered",
+        "ace_gestures_Freeze",
+        "ace_gestures_FreezeStandLowered"
+    ];
 
-	if ((SIXTYONE_Civilians_enableStopGestures) && ({_x == _gesture} count _acceptedGestures > 0)) then {
-		{
-			if !(_x isEqualTo _player) then {
-				if (count weapons _x == 0 && {random 1 < _chance}) then {
-					if ([position _player, getDir _player, 30, position _x] call BIS_fnc_inAngleSector) then {
-						if (vehicle _x == _x) then {
-							// In case unit is following someone
-							_x setVariable ["sixtyone_is_following", nil, true];
+    if ((LXIM_Civilians_enableStopGestures) && ({_x == _gesture} count _acceptedGestures > 0)) then {
+        {
+            if !(_x isEqualTo _player) then {
+                if (count weapons _x == 0 && {random 1 < _chance}) then {
+                    if ([position _player, getDir _player, 30, position _x] call BIS_fnc_inAngleSector) then {
+                        if (vehicle _x == _x) then {
+                            // In case unit is following someone
+                            _x setVariable ["lxim_is_following", nil, true];
 
-							[format["%1 told %2 to stop with a %3 gesture", _player, _x, _gesture]] call YAINA_F_fnc_log;
-							doStop _x;
-							false;
-						} else {
-							[format["%1 detected %2 in a vehicle for stop gesture", _player, _x, _gesture]] call YAINA_F_fnc_log;
-							if (effectiveCommander (vehicle _x) isEqualTo _x) then {
-								// In case unit is following someone
-								_x setVariable ["sixtyone_is_following", nil, true];
+                            [format["%1 told %2 to stop with a %3 gesture", _player, _x, _gesture]] call YAINA_F_fnc_log;
+                            doStop _x;
+                            false;
+                        } else {
+                            [format["%1 detected %2 in a vehicle for stop gesture", _player, _x, _gesture]] call YAINA_F_fnc_log;
+                            if (effectiveCommander (vehicle _x) isEqualTo _x) then {
+                                // In case unit is following someone
+                                _x setVariable ["lxim_is_following", nil, true];
 
-								[format["%1 told %2 to stop with a %3 gesture", _player, _x, _gesture]] call YAINA_F_fnc_log;
-								doStop _x;
-								false;
-							};
-						};
-					};
-				};
-			};
-		} count ((entities [["Man"], [], true, true]) inAreaArray [position _player, 50, 50]);
-	};
+                                [format["%1 told %2 to stop with a %3 gesture", _player, _x, _gesture]] call YAINA_F_fnc_log;
+                                doStop _x;
+                                false;
+                            };
+                        };
+                    };
+                };
+            };
+        } count ((entities [["Man"], [], true, true]) inAreaArray [position _player, 50, 50]);
+    };
 
-	// Go away!
-	_acceptedGestures = [
-		"gestureGo",
-		"gestureAdvance",
-		"ace_gestures_Forward",
-		"ace_gestures_ForwardStandLowered",
-		"ace_gestures_Engage",
-		"ace_gestures_EngageStandLowered"
-	];
+    // Go away!
+    _acceptedGestures = [
+        "gestureGo",
+        "gestureAdvance",
+        "ace_gestures_Forward",
+        "ace_gestures_ForwardStandLowered",
+        "ace_gestures_Engage",
+        "ace_gestures_EngageStandLowered"
+    ];
 
-	if ((SIXTYONE_Civilians_enableGoAwayGestures) && ({_x == _gesture} count _acceptedGestures > 0)) then {
-		// Source: https://github.com/acemod/ACE3/blob/master/addons/interaction/functions/fnc_sendAway.sqf
-		// Extracted from source to avoid an infinite loop caused by line 23 in source
-		{
-			if (count weapons _x == 0 && {random 1 < _chance}) then {
-				if ([position _player, getDir _player, 40, position _x] call BIS_fnc_inAngleSector) then {
-					[format["%1 told %2 to go away with a %3 gesture", _player, _x, _gesture]] call YAINA_F_fnc_log;
-					// In case unit is following someone
-					_x setVariable ["sixtyone_is_following", nil, true];
+    if ((LXIM_Civilians_enableGoAwayGestures) && ({_x == _gesture} count _acceptedGestures > 0)) then {
+        // Source: https://github.com/acemod/ACE3/blob/master/addons/interaction/functions/fnc_sendAway.sqf
+        // Extracted from source to avoid an infinite loop caused by line 23 in source
+        {
+            if (count weapons _x == 0 && {random 1 < _chance}) then {
+                if ([position _player, getDir _player, 40, position _x] call BIS_fnc_inAngleSector) then {
+                    [format["%1 told %2 to go away with a %3 gesture", _player, _x, _gesture]] call YAINA_F_fnc_log;
+                    // In case unit is following someone
+                    _x setVariable ["lxim_is_following", nil, true];
 
-					private _position = getPosASL _player vectorAdd (eyeDirection _player vectorMultiply 50);
-					_position set [2, 0];
+                    private _position = getPosASL _player vectorAdd (eyeDirection _player vectorMultiply 50);
+                    _position set [2, 0];
 
-					["ace_interaction_sendAway", [_x, _position], [_x]] call CBA_fnc_targetEvent;
-				};
-			};
-			false;
-		} count (_player nearEntities ["Man", 10]);
-	};
+                    ["ace_interaction_sendAway", [_x, _position], [_x]] call CBA_fnc_targetEvent;
+                };
+            };
+            false;
+        } count (_player nearEntities ["Man", 10]);
+    };
 
-	// Get down!
-	_acceptedGestures = [
-		"ace_gestures_Cover",
-		"ace_gestures_CoverStandLowered"
-	];
+    // Get down!
+    _acceptedGestures = [
+        "ace_gestures_Cover",
+        "ace_gestures_CoverStandLowered"
+    ];
 
-	if ((SIXTYONE_Civilians_enableGetDownGestures) && ({_x == _gesture} count _acceptedGestures > 0)) then {
-		// Source: https://github.com/acemod/ACE3/blob/master/addons/interaction/functions/fnc_sendAway.sqf
-		// Extracted from source to avoid an infinite loop caused by line 23 in source
-		{
-			if (count weapons _x == 0 && {random 1 < _chance}) then {
-				if ([position _player, getDir _player, 40, position _x] call BIS_fnc_inAngleSector) then {
-					[format["%1 told %2 to get down with a %3 gesture", _player, _x, _gesture]] call YAINA_F_fnc_log;
-					// In case unit is following someone
-					_x setVariable ["sixtyone_is_following", nil, true];
+    if ((LXIM_Civilians_enableGetDownGestures) && ({_x == _gesture} count _acceptedGestures > 0)) then {
+        // Source: https://github.com/acemod/ACE3/blob/master/addons/interaction/functions/fnc_sendAway.sqf
+        // Extracted from source to avoid an infinite loop caused by line 23 in source
+        {
+            if (count weapons _x == 0 && {random 1 < _chance}) then {
+                if ([position _player, getDir _player, 40, position _x] call BIS_fnc_inAngleSector) then {
+                    [format["%1 told %2 to get down with a %3 gesture", _player, _x, _gesture]] call YAINA_F_fnc_log;
+                    // In case unit is following someone
+                    _x setVariable ["lxim_is_following", nil, true];
 
-					["ace_interaction_getDown", [_x], [_x]] call CBA_fnc_targetEvent;
-				};
-			};
-			false;
-		} count (_player nearEntities ["Man", 10]);
-	};
+                    ["ace_interaction_getDown", [_x], [_x]] call CBA_fnc_targetEvent;
+                };
+            };
+            false;
+        } count (_player nearEntities ["Man", 10]);
+    };
 
 // Commands affecting units only under cursor
-	private _target = cursorTarget;
-	if !(_target isKindOf "Man") exitWith {};
+    private _target = cursorTarget;
+    if !(_target isKindOf "Man") exitWith {};
 
-	// Follow!
-	_acceptedGestures = ["gestureFollow"];
+    // Follow!
+    _acceptedGestures = ["gestureFollow"];
 
-	if ((SIXTYONE_Civilians_enableFollowGestures) && ({_x == _gesture} count _acceptedGestures > 0) && (_player distance _target < 10)) then {
+    if ((LXIM_Civilians_enableFollowGestures) && ({_x == _gesture} count _acceptedGestures > 0) && (_player distance _target < 10)) then {
 
-		if (count weapons _target == 0 && {random 1 < _chance}) then {
-		[format["%1 told %2 to follow using a %3 gesture", _player, _target, _gesture]] call YAINA_F_fnc_log;
+        if (count weapons _target == 0 && {random 1 < _chance}) then {
+        [format["%1 told %2 to follow using a %3 gesture", _player, _target, _gesture]] call YAINA_F_fnc_log;
 
-			private _following = [_target, _player] spawn {
-				params ["_target", "_player"];
-				_target setVariable ["sixtyone_is_following", _player, true];
+            private _following = [_target, _player] spawn {
+                params ["_target", "_player"];
+                _target setVariable ["lxim_is_following", _player, true];
 
-				[format["%1 about to move to %2 (%3)", _target, _player, _target getVariable ["sixtyone_is_following", "nothing"]]] call YAINA_F_fnc_log;
-				private _playerPosition = [];
-				private _index = 0;
+                [format["%1 about to move to %2 (%3)", _target, _player, _target getVariable ["lxim_is_following", "nothing"]]] call YAINA_F_fnc_log;
+                private _playerPosition = [];
+                private _index = 0;
 
-				while {(_target getVariable ["sixtyone_is_following", false]) isEqualTo _player} do {
-					if (_index > 30) exitWith {
-						_target setVariable ["sixtyone_is_following", nil, true];
-					};
+                while {(_target getVariable ["lxim_is_following", false]) isEqualTo _player} do {
+                    if (_index > 30) exitWith {
+                        _target setVariable ["lxim_is_following", nil, true];
+                    };
 
-					if !(_playerPosition isEqualTo (getPosASL _player)) then {
-						[format["%1 moving", _target]] call YAINA_F_fnc_log;
-						_target doMove (getPosASL _player vectorDiff (vectorDir _player vectorMultiply 4));
-						_playerPosition = getPosASL _player;
-					};
+                    if !(_playerPosition isEqualTo (getPosASL _player)) then {
+                        [format["%1 moving", _target]] call YAINA_F_fnc_log;
+                        _target doMove (getPosASL _player vectorDiff (vectorDir _player vectorMultiply 4));
+                        _playerPosition = getPosASL _player;
+                    };
 
-					sleep 2;
-					_index = 1 + _index;
-				};
-			};
-		};
-	};
+                    sleep 2;
+                    _index = 1 + _index;
+                };
+            };
+        };
+    };
 
 
-	// Hi there!
-	_acceptedGestures = [
-		"ace_gestures_Warning",
-		"ace_gestures_WarningStandLowered"
-	];
+    // Hi there!
+    _acceptedGestures = [
+        "ace_gestures_Warning",
+        "ace_gestures_WarningStandLowered"
+    ];
 
-	if ((SIXTYONE_Civilians_enableGreetingGestures) && ({_x == _gesture} count _acceptedGestures > 0)) then {
-		if (
-			[position _target, getDir _target, 120, position _player] call BIS_fnc_inAngleSector
-			&& ((side group _target) getFriend (side group _player)) > 0.6 // Is friendly-ish?
-		) then {
-			[format["%1 waved at %2 with a %3 gesture", _player, _target, _gesture]] call YAINA_F_fnc_log;
-			[_target, _player] spawn {
-				_target = _this select 0;
-				sleep 1;
-				[_target, "ace_gestures_WarningStandLowered"] call ace_common_fnc_doGesture;
-			};
-		};
-	};
+    if ((LXIM_Civilians_enableGreetingGestures) && ({_x == _gesture} count _acceptedGestures > 0)) then {
+        if (
+            [position _target, getDir _target, 120, position _player] call BIS_fnc_inAngleSector
+            && ((side group _target) getFriend (side group _player)) > 0.6 // Is friendly-ish?
+        ) then {
+            [format["%1 waved at %2 with a %3 gesture", _player, _target, _gesture]] call YAINA_F_fnc_log;
+            [_target, _player] spawn {
+                _target = _this select 0;
+                sleep 1;
+                [_target, "ace_gestures_WarningStandLowered"] call ace_common_fnc_doGesture;
+            };
+        };
+    };
 }] call CBA_fnc_addEventHandler;

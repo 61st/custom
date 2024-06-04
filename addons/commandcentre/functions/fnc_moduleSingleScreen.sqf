@@ -15,5 +15,5 @@ private _screenSelection = _logic getVariable ["SingleScreenSelection", 0];
 
 private _objects = synchronizedObjects _logic;
 {
-    [_x, "Screen", _allowCam, _allowDrone, _allowSat, _allowMap, _screenSelection] call sixtyone_commandcenter_fnc_initScreen;
+    [_x, "Screen", _allowCam, _allowDrone, _allowSat, _allowMap, _screenSelection] call lxim_commandcenter_fnc_initScreen;
 } foreach _objects;
