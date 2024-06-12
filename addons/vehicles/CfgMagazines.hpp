@@ -70,6 +70,5 @@ class CfgMagazines {
         displayName="480Rnd 40mm HE Tracer (Red)";
         displayNameShort="40mm HE";
         count=480;
-
     };
 };

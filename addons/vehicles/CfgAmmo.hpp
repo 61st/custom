@@ -72,7 +72,7 @@ class CfgAmmo {
     };
 
     class B_35mm_AA;
-    class lxim_40mm_AA_shells: B_40mm_GPR {
+    class lxim_40mm_AA_shells: B_35mm_AA {
         displayName = "40MM AA Flak";
         ace_frag_enabled = 1;  // Enable fragmentation (0-disabled, 1-enabled)
         ace_frag_metal = 363;  // Amount of metal being fragmented (grams) - information below
@@ -82,17 +82,12 @@ class CfgAmmo {
         ace_frag_classes[] = {"ACE_frag_medium"};  // Type of fragments - information below
         ace_frag_skip = 0;  // (Optional) Skip fragmentation for this ammo type (0-disabled, 1-enabled) - information below
         ace_frag_force = 0;  // (Optional) Force fragmentation system (0-disabled, 1-enabled) - information below
-        hit = 60;
-        explosive = 0.4;
-        indirectHit = 25;
-        deflecting = 0;
-        indirectHitRange = 2.5;
-        airbursting = 1;
-        ABSubmun = "lxim_B_30mm_HEAB_Helper";
+        hit = 80;
+        weaponType = "cannon"; 
     };
 
     class B_35mm_AA_Tracer_Red;
-    class lxim_40mm_AA_shells_Tracer_Red: B_40mm_GPR_Tracer_Red {
+    class lxim_40mm_AA_shells_Tracer_Red: B_35mm_AA_Tracer_Red {
         displayName = "40MM AA Flak Red Tracer";
         ace_frag_enabled = 1;  // Enable fragmentation (0-disabled, 1-enabled)
         ace_frag_metal = 363;  // Amount of metal being fragmented (grams) - information below
@@ -102,17 +97,9 @@ class CfgAmmo {
         ace_frag_classes[] = {"ACE_frag_medium"};  // Type of fragments - information below
         ace_frag_skip = 0;  // (Optional) Skip fragmentation for this ammo type (0-disabled, 1-enabled) - information below
         ace_frag_force = 0;  // (Optional) Force fragmentation system (0-disabled, 1-enabled) - information below
-        hit = 60;
-        explosive = 0.4;
-        indirectHit = 25;
-        deflecting = 0;
-        indirectHitRange = 2.5;
-        airbursting = 1;
-        ABSubmun = "lxim_B_30mm_HEAB_Helper";
+        hit = 80;
+        weaponType = "cannon"; 
     };
-
-
-
 
     class G_40mm_HEDP;
     class lxim_B_30mm_HEAB_Helper: G_40mm_HEDP {

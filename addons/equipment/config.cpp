@@ -18,7 +18,6 @@ class CfgPatches {
             QGVAR(Item_Wetsuit),
             QGVAR(diver_base_F),
             QGVAR(vs17_item)
-        
         };
         weapons[] = {
             QGVAR(xm157_prototype),
@@ -36,7 +35,11 @@ class CfgPatches {
             QGVAR(xm157_ace),
             QGVAR(rebreather),
             QGVAR(Wetsuit),
-            QGVAR(vs17)
+            QGVAR(vs17),
+            QGVAR(optic_ISM1400A7),
+            QGVAR(optic_ISM1400A7_tan),
+            QGVAR(optic_ISM1400A7_od),
+            QGVAR(optic_ISM1400A7_green)
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {

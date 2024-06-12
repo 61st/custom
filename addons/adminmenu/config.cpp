@@ -23,7 +23,28 @@ class GVAR(authorized_players) {
     };
     class CURY {
         uid = "76561198068010293";
-        };
+    };
+    class MUFFINS {
+        uid = "76561198311674523";
+    };
+    class MONEY {
+        uid = "76561199004329880";
+    };
+    class SIERRA {
+        uid = "76561198989999596";
+    };
+    class DELTA {
+        uid = "76561198420345263";
+    };
+    class INVALID {
+        uid = "76561199164737010";
+    };
+    class BIGFOOT {
+        uid = "76561198309279053";
+    };
+    class MENDEZ {
+        uid = "76561198332977952";
+    };
 };
 
 #include "CfgFunctions.hpp"

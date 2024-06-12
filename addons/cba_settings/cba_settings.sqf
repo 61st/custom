@@ -171,10 +171,10 @@ force ace_common_allowFadeMusic = true;
 force force ace_common_checkPBOsAction = 2;
 force ace_common_checkPBOsCheckAll = false;
 force ace_common_checkPBOsWhitelist = "[]";
-force ace_common_deployedSwayFactor = 1;
+force ace_common_deployedSwayFactor = .1;
 force ace_common_enableSway = true;
-force ace_common_restedSwayFactor = 1;
-force ace_common_swayFactor = 1;
+force ace_common_restedSwayFactor = .4;
+force ace_common_swayFactor = .8;
 
 // ACE Cook off
 force force ace_cookoff_ammoCookoffDuration = 0.5;
@@ -1032,7 +1032,7 @@ force TFAR_SameLRFrequenciesForSide = true;
 force TFAR_SameSRFrequenciesForSide = true;
 force TFAR_setting_defaultFrequencies_lr_east = "";
 force TFAR_setting_defaultFrequencies_lr_independent = "";
-force TFAR_setting_defaultFrequencies_lr_west = "50,51,52,53,54,55,56,69";
+force TFAR_setting_defaultFrequencies_lr_west = "30,30.1,30.2,30.3,30.4,30.5,30.6,69";
 force TFAR_setting_defaultFrequencies_sr_east = "";
 force TFAR_setting_defaultFrequencies_sr_independent = "";
 force TFAR_setting_defaultFrequencies_sr_west = "";
@@ -1052,8 +1052,6 @@ force force TFAR_setting_externalIntercomWirelessHeadgear = "";
 force TFAR_spectatorCanHearEnemyUnits = true;
 force TFAR_spectatorCanHearFriendlies = true;
 force TFAR_takingRadio = 2;
-force TFAR_Teamspeak_Channel_Name = "TaskForceRadio";
-force TFAR_Teamspeak_Channel_Password = "1234";
 force tfar_terrain_interception_coefficient = 7;
 force TFAR_voiceCone = true;
 
@@ -1076,6 +1074,9 @@ force force Rev_TFAR_settings_LR_O = "";
 force force Rev_TFAR_settings_SR_B = "Detachmnet,Squad,Team_A,Team_B, Team_C,Vehicle,SPARE,A2G";
 force force Rev_TFAR_settings_SR_I = "";
 force force Rev_TFAR_settings_SR_O = "";
+
+// Tun Utilities - Uncon Info
+force tuncon_unconinfo_noFriendliesNearbyText = "Your current situation is not looking very good, feel free to grab a drink";
 
 // Turret Enhanced
 force force Fat_Lurch_Grid = true;

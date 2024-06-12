@@ -88,7 +88,7 @@ if (_success) then {
 };
 
 // Admin log
-[[QGVAR(stopped), [_controller, _name, _mode, _success, _scorePercentage, _timeElapsed]],false,"[Shooting Range]"] call LXIM_adminmenu_fnc_log;
+["[QGVAR(stopped), [_controller, _name, _mode, _success, _scorePercentage, _timeElapsed]]",false,"[Shooting Range]"] call LXIM_adminmenu_fnc_log;
 
 // Public API event
 [QGVAR(stopped), [_controller, _name, _mode, _success, _scorePercentage, _timeElapsed]] call CBA_fnc_localEvent;

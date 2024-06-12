@@ -4,7 +4,9 @@ class CfgWeapons {
         class player;
     };
     class autocannon_40mm_CTWS: autocannon_Base_F {
-        class HE: autocannon_Base_F {};
+        class HE: autocannon_Base_F {
+            class StandardSound {};
+        };
         class AP: autocannon_Base_F {};
     };
     class lxim_autocannon_40mm_CTWS: autocannon_40mm_CTWS {
@@ -19,22 +21,61 @@ class CfgWeapons {
         };
     };
 
-    class autocannon_35mm: autocannon_Base_F {
-    };
+    class autocannon_35mm: autocannon_Base_F {};
 
-    class lxim_autocannon_40mm_GDF: autocannon_40mm_CTWS {
+    // class lxim_autocannon_40mm_GDF: autocannon_35mm {
+    //     displayName = "Bushmaster IV-A";
+    //     aiRateOfFire = 2;
+    //     reloadTime = 0.0545455;
+    //     burst = 18;
+    //     class HE: HE {
+    //         displayName = "Bushmaster IV AA";
+    //         magazines[] = {"lxim_280Rnd_40mm_AA_shells","lxim_280Rnd_40mm_AA_shells_Tracer_Red"};
+    //         maxRange = 1500;
+    //         reloadTime = 0.0545455;
+    //         aiRateOfFire = 2;
+    //         aiRateOfFireDispersion = 3;
+    //         artilleryCharge = 1;
+    //         burst = 18;
+    //         burstRangeMax = 42;
+    //         canLock = 2;
+    //         lockedTargetSound [] = {"",0.000316228,6};
+    //         lockingTargetSound []= {"",0.000316228,2};
+    //         textureType = "fullAuto";
+    //         class StandardSound {
+    //             begin1 [] = {"A3\Sounds_F\arsenal\weapons_vehicles\autocannon_35mm\autocannon_35mm_01",1.77828,1,2000};
+    //             begin2 [] = {"A3\Sounds_F\arsenal\weapons_vehicles\autocannon_35mm\autocannon_35mm_02",1.77828,1,2000};
+    //             begin3 [] = {"A3\Sounds_F\arsenal\weapons_vehicles\autocannon_35mm\autocannon_35mm_03",1.77828,1,2000};
+    //             soundBegin [] = {"begin1",33,"begin2",33,"begin3",33};
+    //             soundsetshot [] = {"Autocannon35mm_Shot_SoundSet","Autocannon35mm_Tail_SoundSet"};
+    //         };
+    //     };
+    // };
+    class lxim_autocannon_40mm_GDF: autocannon_35mm {
         displayName = "Bushmaster IV-A";
-        aiRateOfFire = .5;
-        reloadTime = 1;
-        class HE: HE {
-            displayName = "Bushmaster IV AA";
-            magazines[] = {"lxim_280Rnd_40mm_AA_shells","lxim_280Rnd_40mm_AA_shells_Tracer_Red"};
-            maxRange = 1500;
-            aiRateOfFire = .5;
-            reloadTime = 0.0545455;
+        magazines[] = {"lxim_280Rnd_40mm_AA_shells","lxim_280Rnd_40mm_AA_shells_Tracer_Red"};
+        cursorAim = "cannon";
+        shotFromTurret = 1;
+        class GunParticles {
+            class FirstEffect {
+                directionName = "Konec hlavne";
+                effectName = "AutoCannonFired";
+                positionName = "Usti hlavne";
+            };
+            class SecondEffect {
+                directionName = "Konec hlavne";
+                effectName = "AutoCannonFired";
+                positionName = "Usti hlavne";
+            };
+            class Shell {
+                directionName = "shell_eject_dir";
+                effectName = "HeavyGunCartridge1";
+                positionName = "shell_eject_pos";
+            };
         };
-
     };
+
+
     class GMG_40mm;
     class lxim_autocannon_40mm_ENG: GMG_40mm {
         displayName = "Bushmaster IV-G";
