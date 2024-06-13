@@ -1,5 +1,7 @@
 class CfgMagazines {
+    class 60Rnd_40mm_GPR_shells;
     class 60Rnd_40mm_GPR_Tracer_Red_shells;
+    class 40Rnd_40mm_APFSDS_shells;
     class 40Rnd_40mm_APFSDS_Tracer_Red_shells;
     class lxim_60Rnd_40mm_MP_shells_Tracer_Red: 60Rnd_40mm_GPR_Tracer_Red_shells  {
         displayName = "60Rnd MP Tracer (Red)";
@@ -7,9 +9,22 @@ class CfgMagazines {
         displayNameMFDFormat = "MP-T";
         count=60;
     };
-    class 40Rnd_40mm_APFSDS_Tracer_Red_shells ;
-    class lxim_60Rnd_40mm_APFSDS_shells_Tracer_Red: 40Rnd_40mm_APFSDS_Tracer_Red_shells  {
+    class lxim_60Rnd_40mm_APFSDS_shells_Tracer_Red: 40Rnd_40mm_APFSDS_Tracer_Red_shells {
+        ammo = "lxim_B_40mm_APFSDS_Tracer_Red";
         displayName = "60Rnd APFSDS Tracer (Red)";
+        displayNameShort = "APFSDS-T";
+        displayNameMFDFormat = "APFSDS-T";
+        count=60;
+    };
+    class lxim_60Rnd_40mm_MP_shells: 60Rnd_40mm_GPR_shells  {
+        displayName = "60Rnd MP)";
+        displayNameShort = "MP-T";
+        displayNameMFDFormat = "MP-T";
+        count=60;
+    };
+    class lxim_60Rnd_40mm_APFSDS_shells: 40Rnd_40mm_APFSDS_shells  {
+        ammo = "lxim_B_40mm_APFSDS";
+        displayName = "60Rnd APFSDS";
         displayNameShort = "APFSDS-T";
         displayNameMFDFormat = "APFSDS-T";
         count=60;
@@ -22,6 +37,15 @@ class CfgMagazines {
         count=60;
         initSpeed=1100;
     };
+    class lxim_60Rnd_40mm_HEI_shells: lxim_60Rnd_40mm_MP_shells {
+        ammo = "lxim_B_40mm_HEI";
+        displayNameMFDFormat = "HEI-T";
+        displayName = "60Rnd HEI Tracer (Red)";
+        displayNameShort = "HEI-T";
+        count=60;
+        initSpeed=1100;
+    };
+    
     class 4Rnd_Titan_long_missiles;
     class 2Rnd_Titan_long_missiles_AA: 4Rnd_Titan_long_missiles {
         author="$STR_A3_Bohemia_Interactive";
