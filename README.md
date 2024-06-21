@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="newlogo.png" width="480">
+    <img src="art\Spade Yellow_512.png" width="480">
 </p>
 
 <p align="center">
