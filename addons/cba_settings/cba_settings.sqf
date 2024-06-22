@@ -219,7 +219,7 @@ force acex_field_rations_waterSourceActions = 2;
 
 // ACE Fire
 force force ace_fire_dropWeapon = 2;
-force force ace_fire_enabled = true;
+force force ace_fire_enabled = false;
 force force ace_fire_enableFlare = true;
 force force ace_fire_enableScreams = true;
 
@@ -403,7 +403,7 @@ force force ace_medical_treatment_treatmentTimeSplint = 7;
 force force ace_medical_treatment_treatmentTimeTourniquet = 3;
 force force ace_medical_treatment_woundReopenChance = 1;
 force force ace_medical_treatment_woundStitchTime = 3;
-force force ace_medical_vitals_simulateSpO2 = true;
+force force ace_medical_vitals_simulateSpO2 = false;
 
 // ACE Medical Interface
 force force ace_medical_feedback_bloodVolumeEffectType = 0;
@@ -929,7 +929,7 @@ kat_misc_AFAK_Slot_Color = [1,0.96,0.32];
 force force kat_misc_AFAKFifthSlotItem = "[['kat_guedel', 4], ['kat_suction', 4]]";
 force force kat_misc_AFAKFirstSlotItem = "[['ACE_tourniquet', 8], ['ACE_splint', 4], ['kat_iv_16', 8]]";
 force force kat_misc_AFAKFourthSlotItem = "[['kat_chestSeal', 4]]";
-force force kat_misc_AFAKSecondSlotItem = "[['ACE_packingBandage', 15], ['ACE_elasticBandage', 15]]";
+force force kat_misc_AFAKSecondSlotItem = "[['ACE_fieldDressing', 8],['ACE_packingBandage', 15], ['ACE_elasticBandage', 15]]";
 force force kat_misc_AFAKSixthSlotItem = "[['ACE_epinephrine', 4], ['ACE_adenosine', 2], ['ACE_salineIV', 4]]";
 force force kat_misc_AFAKThirdSlotItem = "[['kat_Painkiller', 1], ['kat_PenthroxItem', 4], ['kat_Carbonate', 1]]";
 force force kat_misc_allowSharedVehicleEquipment = 4;
@@ -949,20 +949,20 @@ force kat_misc_IFAK_RemoveWhenEmpty = true;
 kat_misc_IFAK_Slot_Color = [1,0.3,0.3];
 force force kat_misc_IFAKFirstSlotItem = "[['ACE_tourniquet', 4], ['ACE_Splint', 2]]";
 force force kat_misc_IFAKFourthSlotItem = "[['kat_chestSeal', 1], ['kat_IV_16', 1], ['ACE_salineIV', 1], ['kat_guedel', 1]]";
-force force kat_misc_IFAKSecondSlotItem = "[['ACE_packingBandage', 15], ['ACE_elasticBandage', 15]]";
+force force kat_misc_IFAKSecondSlotItem = "[['ACE_fieldDressing', 8],['ACE_packingBandage', 6], ['ACE_elasticBandage', 6]]";
 force force kat_misc_IFAKThirdSlotItem = "[['kat_Painkiller', 1], ['ACE_epinephrine', 1]]";
 force kat_misc_incompatibilityWarning = true;
 kat_misc_MFAK_Container = 0;
 kat_misc_MFAK_Item_Color = [0.67,0.84,0.9];
 force kat_misc_MFAK_RemoveWhenEmpty = true;
 kat_misc_MFAK_Slot_Color = [0.56,0.93,0.56];
-force force kat_misc_MFAKEighthSlotItem = "[['kat_Pulseoximeter', 4], ['ACE_surgicalKit', 1], ['kat_X_AED', 1]]";
+force force kat_misc_MFAKEighthSlotItem = "[['kat_Pulseoximeter', 4],['ACE_suture', 12], ['ACE_surgicalKit', 1], ['kat_X_AED', 1]]";
 force force kat_misc_MFAKFifthSlotItem = "[['kat_larynx', 12], ['kat_accuvac', 1], ['kat_pocketBVM', 1]]";
 force force kat_misc_MFAKFirstSlotItem = "[['ACE_tourniquet', 8], ['ACE_splint', 6]]";
 force force kat_misc_MFAKFourthSlotItem = "[['kat_chestSeal', 6], ['kat_aatKit', 4], ['kat_ncdKit', 6], ['kat_stethoscope', 1]]";
-force force kat_misc_MFAKSecondSlotItem = "[['ACE_packingBandage', 25], ['ACE_elasticBandage', 30]]";
+force force kat_misc_MFAKSecondSlotItem = "[['ACE_fieldDressing', 16],['ACE_packingBandage', 16], ['ACE_elasticBandage', 16]]";
 force force kat_misc_MFAKSeventhSlotItem = "[['kat_IV_16', 15], ['kat_IO_FAST', 6], ['ACE_salineIV_500', 16]]";
-force force kat_misc_MFAKSixthSlotItem = "[['ACE_epinephrine', 12], ['kat_atropine', 4], ['kat_lidocane', 6], ['kat_nitroglycerin', 4], ['kat_phenylephrine', 4], ['kat_CarbonateItem', 1], ['ACE_adenosine', 4]]";
+force force kat_misc_MFAKSixthSlotItem = "[['kat_naloxone', 6], ['kat_atropine', 4], ['kat_lidocane', 6], ['kat_nitroglycerin', 4], ['kat_phenylephrine', 4], ['kat_CarbonateItem', 1], ['ACE_adenosine', 4]]";
 force force kat_misc_MFAKThirdSlotItem = "[['kat_PainkillerItem', 1], ['kat_nalbuphine', 6], ['kat_PenthroxItem', 3], ['naloxone', 4]]";
 force kat_misc_neckTourniquet = false;
 force kat_misc_tourniquetEffects_Enable = true;

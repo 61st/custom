@@ -3,38 +3,7 @@
 class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
-        units[] = {
-            "O_FictionArmy_OPFOR_Teamlead_Woodland_01",
-            "O_FictionArmy_OPFOR_Squad_Leader_Woodland_01",
-            "O_FictionArmy_OPFOR_Sniper_Woodland_01",
-            "O_FictionArmy_OPFOR_Rifleman_M4_Woodland_01",
-            "O_FictionArmy_OPFOR_Rifleman_M14_Woodland_01",
-            "O_FictionArmy_OPFOR_Pilot_Woodland_01",
-            "O_FictionArmy_OPFOR_Officer_Woodland_01",
-            "O_FictionArmy_OPFOR_Marksman_Woodland_01",
-            "O_FictionArmy_OPFOR_Light_AT_Woodland_01",
-            "O_FictionArmy_OPFOR_Heavy_AT_Woodland_01",
-            "O_FictionArmy_OPFOR_Grenadier_Woodland_01",
-            "O_FictionArmy_OPFOR_Crewman_Woodland_01",
-            "O_FictionArmy_OPFOR_Autorifleman_Woodland_01",
-            "O_FictionArmy_OPFOR_ANTI_AIR_Infantry_Woodland_01",
-            "O_FictionArmy_OPFOR_HUMVEE_M2_Woodland_01",
-            "O_FictionArmy_OPFOR_HUMVEE_Mk19_Woodland_02",
-            "O_FictionArmy_OPFOR_APC_Woodland_01",
-            "O_FictionArmy_OPFOR_M113A3_Woodland_01",
-            "O_FictionArmy_OPFOR_Huey_Transport_Woodland_01",
-            "O_FictionArmy_OPFOR_Huey_Gunship_Woodland_01",
-            "O_FictionArmy_OPFOR_Anotov_AN_2_Woodland_01",
-            "O_FictionArmy_OPFOR_SU_25_Frogfoot_Woodland_01",
-            "O_FictionArmy_OPFOR_L39ZA_Woodland_01",
-            "O_FictionArmy_OPFOR_Scout_Plane_Woodland_01",
-            "O_FictionArmy_OPFOR_Turret_M2_Woodland_01",
-            "O_FictionArmy_OPFOR_M2_Mini_Woodland_01",
-            "O_FictionArmy_OPFOR_M27_Mortar_Woodland_01",
-            "O_FictionArmy_OPFOR_Artillery_Gun_Woodland_01",
-            "O_FictionArmy_OPFOR_Rocket_Artillery_Woodland_01",
-            "O_FictionArmy_OPFOR_MLRS_Woodland_01"
-        };
+        units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
