@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="newlogo.png" width="480">
+    <img src="art\Spade Yellow_512.png" width="480">
 </p>
 
 <p align="center">
@@ -37,7 +37,7 @@ Its based/inspired on/by the following projects;
 - Ample Camo Pack Lite https://steamcommunity.com/sharedfiles/filedetails/?id=2869453820  - Arma Public License Share-Alike (APL-SA)
 
 All the code in this mod is available in the Github
-you can find the 61st Mechanized Infantry Battalion Version at https://github.com/lxims-of-battle/lxim
+you can find the 61st Mechanized Infantry Battalion Version at https://github.com/61st/custom
 
 (I know I forgot a few, I will work on getting those mentions put in)
 # This mod includes :

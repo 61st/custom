@@ -77,6 +77,7 @@ class CfgVehicles {
         side = 1;
         armor = 500;
         maxSpeed = 125;
+        enginePower = 390;
         terrainCoef = 1;
         vehicleClass = "APCs""";
         textureList[] = {"Blu",1};
@@ -916,55 +917,45 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_01_ext_d.paa),QPATHTOF(data\outlaw_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d_aa.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
     };
 
-    class lxim_outlaw_g_V11a: lxim_outlaw_g {
-        displayName = "AMPF 1/1/A";
+    class lxim_outlaw_g_V11: lxim_outlaw_g {
+        displayName = "AMPF 1/1";
         author = QAUTHOR;
-        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_1_1_a_01_ext_g.paa),QPATHTOF(data\outlaw_1_1_a_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
-        forceInGarage = 0;
-    };
-    class lxim_outlaw_g_V11b: lxim_outlaw_g {
-        displayName = "AMPF 1/1/B";
-        author = QAUTHOR;
-        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_1_1_b_01_ext_g.paa),QPATHTOF(data\outlaw_1_1_b_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_1_1_01_ext_g.paa),QPATHTOF(data\outlaw_1_1_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
         forceInGarage = 0;
     };
 
-    class lxim_outlaw_g_V12a: lxim_outlaw_g {
-        displayName = "AMPF 1/2/A";
+
+    class lxim_outlaw_g_V12: lxim_outlaw_g {
+        displayName = "AMPF 1/2";
         author = QAUTHOR;
-        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_1_2_a_01_ext_g.paa),QPATHTOF(data\outlaw_1_2_a_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
-        forceInGarage = 0;
-    };
-    class lxim_outlaw_g_V12b: lxim_outlaw_g {
-        displayName = "AMPF 1/2/B";
-        author = QAUTHOR;
-        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_1_2_b_01_ext_g.paa),QPATHTOF(data\outlaw_1_2_b_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_1_2_01_ext_g.paa),QPATHTOF(data\outlaw_1_2_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
         forceInGarage = 0;
     };
 
-    class lxim_outlaw_AA_g_V11a: lxim_outlaw_AA_g {
-        displayName = "AMPF-AA 1/1/A";
+    class lxim_outlaw_g_Vhq: lxim_outlaw_g {
+        displayName = "AMPF HQ";
         author = QAUTHOR;
-        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_1_1_a_01_ext_g.paa),QPATHTOF(data\outlaw_1_1_a_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g_aa.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
-        forceInGarage = 0;
-    };
-    class lxim_outlaw_AA_g_V11b: lxim_outlaw_AA_g {
-        displayName = "AMPF-AA 1/1/B";
-        author = QAUTHOR;
-        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_1_1_b_01_ext_g.paa),QPATHTOF(data\outlaw_1_1_b_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g_aa.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_hq_01_ext_g.paa),QPATHTOF(data\outlaw_hq_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
         forceInGarage = 0;
     };
 
-    class lxim_outlaw_AA_g_V12a: lxim_outlaw_AA_g {
-        displayName = "AMPF-AA 1/2/A";
+    class lxim_outlaw_AA_g_V11: lxim_outlaw_AA_g {
+        displayName = "AMPF-AA 1/1";
         author = QAUTHOR;
-        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_1_2_a_01_ext_g.paa),QPATHTOF(data\outlaw_1_2_a_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g_aa.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_1_1_01_ext_g.paa),QPATHTOF(data\outlaw_1_1_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g_aa.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
         forceInGarage = 0;
     };
-    class lxim_outlaw_AA_g_V12b: lxim_outlaw_AA_g {
-        displayName = "AMPF-AA 1/2/B";
+
+    class lxim_outlaw_AA_g_V12: lxim_outlaw_AA_g {
+        displayName = "AMPF-AA 1/2";
         author = QAUTHOR;
-        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_1_2_b_01_ext_g.paa),QPATHTOF(data\outlaw_1_2_b_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g_aa.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_1_2_01_ext_g.paa),QPATHTOF(data\outlaw_1_2_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g_aa.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
+        forceInGarage = 0;
+    };
+    class lxim_outlaw_AA_g_Vhq: lxim_outlaw_AA_g {
+        displayName = "AMPF-AA HQ";
+        author = QAUTHOR;
+        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_hq_01_ext_g.paa),QPATHTOF(data\outlaw_hq_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g_aa.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
         forceInGarage = 0;
     };
 
@@ -981,55 +972,43 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(data\rino_01_ext_g.paa),QPATHTOF(data\rino_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g_eng.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};        
     };
 
-    class lxim_outlaw_d_V11a: lxim_outlaw_d {
-        displayName = "AMPF Desert 1/1/A";
+    class lxim_outlaw_d_V11: lxim_outlaw_d {
+        displayName = "AMPF Desert 1/1";
         author = QAUTHOR;
-        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_1_1_a_01_ext_d.paa),QPATHTOF(data\outlaw_1_1_a_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
-        forceInGarage = 0;
-    };
-    class lxim_outlaw_d_V11b: lxim_outlaw_d {
-        displayName = "AMPF Desert 1/1/B";
-        author = QAUTHOR;
-        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_1_1_b_01_ext_d.paa),QPATHTOF(data\outlaw_1_1_b_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_1_1_01_ext_d.paa),QPATHTOF(data\outlaw_1_1_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
         forceInGarage = 0;
     };
 
-    class lxim_outlaw_d_V12a: lxim_outlaw_d {
-        displayName = "AMPF Desert 1/2/A";
+    class lxim_outlaw_d_V12: lxim_outlaw_d {
+        displayName = "AMPF Desert 1/2";
         author = QAUTHOR;
-        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_1_2_a_01_ext_d.paa),QPATHTOF(data\outlaw_1_2_a_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_1_2_01_ext_d.paa),QPATHTOF(data\outlaw_1_2_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
         forceInGarage = 0;
     };
-    class lxim_outlaw_d_V12b: lxim_outlaw_d {
-        displayName = "AMPF Desert 1/2/B";
+    class lxim_outlaw_d_Vhq: lxim_outlaw_d {
+        displayName = "AMPF Desert HQ";
         author = QAUTHOR;
-        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_1_2_b_01_ext_d.paa),QPATHTOF(data\outlaw_1_2_b_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
-        forceInGarage = 0;
-    };
-
-    class lxim_outlaw_AA_d_V11a: lxim_outlaw_AA_d {
-        displayName = "AMPF-AA Desert 1/1/A";
-        author = QAUTHOR;
-        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_1_1_a_01_ext_d.paa),QPATHTOF(data\outlaw_1_1_a_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d_aa.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
-        forceInGarage = 0;
-    };
-    class lxim_outlaw_AA_d_V11b: lxim_outlaw_AA_d {
-        displayName = "AMPF-AA Desert 1/1/B";
-        author = QAUTHOR;
-        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_1_1_b_01_ext_d.paa),QPATHTOF(data\outlaw_1_1_b_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d_aa.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_hq_01_ext_d.paa),QPATHTOF(data\outlaw_hq_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
         forceInGarage = 0;
     };
 
-    class lxim_outlaw_AA_d_V12a: lxim_outlaw_AA_d {
-        displayName = "AMPF-AA Desert 1/2/A";
+    class lxim_outlaw_AA_d_V11: lxim_outlaw_AA_d {
+        displayName = "AMPF-AA Desert 1/1";
         author = QAUTHOR;
-        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_1_2_a_01_ext_d.paa),QPATHTOF(data\outlaw_1_2_a_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d_aa.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_1_1_01_ext_d.paa),QPATHTOF(data\outlaw_1_1_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d_aa.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
         forceInGarage = 0;
     };
-    class lxim_outlaw_AA_d_V12b: lxim_outlaw_AA_d {
-        displayName = "AMPF-AA Desert 1/2/B";
+
+    class lxim_outlaw_AA_d_V12: lxim_outlaw_AA_d {
+        displayName = "AMPF-AA Desert 1/2";
         author = QAUTHOR;
-        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_1_2_b_01_ext_d.paa),QPATHTOF(data\outlaw_1_2_b_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d_aa.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_1_2_01_ext_d.paa),QPATHTOF(data\outlaw_1_2_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d_aa.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
+        forceInGarage = 0;
+    };
+    class lxim_outlaw_AA_d_Vhq: lxim_outlaw_AA_d {
+        displayName = "AMPF-AA Desert HQ";
+        author = QAUTHOR;
+        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_hq_01_ext_d.paa),QPATHTOF(data\outlaw_hq_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d_aa.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
         forceInGarage = 0;
     };
 
@@ -1047,7 +1026,6 @@ class CfgVehicles {
     };
 
     //matv
-    
     class B_MRAP_01_F;
 	class B_T_MRAP_01_F;
 	class B_MRAP_01_gmg_F;
