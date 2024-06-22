@@ -1061,18 +1061,18 @@ force kat_surgery_surgicalLocation = 0;
 
 // Simplex Support Services
 force force sss_artillery_autoTerminals = true;
-force force sss_artillery_manualInput = false;
+force force sss_artillery_manualInput = true;
 force force sss_artillery_rangeIndicators = true;
 force force sss_artillery_relocateCooldown = true;
 force force sss_artillery_taskMarkers = true;
 force force sss_artillery_visualAids = true;
-force force sss_cas_manualInput = false;
+force force sss_cas_manualInput = true;
 force force sss_cas_taskMarkers = true;
 force force sss_cas_visualAids = true;
 force force sss_cas_visualAidsLive = true;
 force force sss_logistics_clearAreaRestriction = true;
 force force sss_logistics_cooldownTrigger = "END";
-force force sss_logistics_manualInput = false;
+force force sss_logistics_manualInput = true;
 force force sss_logistics_taskMarkers = true;
 force force sss_logistics_visualAids = true;
 force force sss_logistics_visualAidsLive = true;
