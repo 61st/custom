@@ -48,5 +48,5 @@ jobs:
     - name: Upload Artifact
       uses: actions/upload-artifact@v4
       with:
-        name: ace3-${{ github.sha }}-nobin
+        name: lxim-${{ github.sha }}-nobin
         path: .hemttout/@*
