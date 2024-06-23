@@ -6,14 +6,14 @@ class CfgWeapons {
     };
     class U_tweed_21_BasicBody : U_BasicBody {
         class ItemInfo : ItemInfo {
-            containerClass="Supply30";
+            containerClass="Supply60";
             mass=20;
         };
     };
     class U_tweed_acu_summer_ocp : U_tweed_21_BasicBody {
         displayName="[US] OCP Summer";
         class ItemInfo : ItemInfo {
-            containerClass="Supply50";
+            containerClass="Supply80";
             mass=30;
         };
     };
@@ -177,7 +177,7 @@ class CfgWeapons {
     class V_tweed_iotv_mk4_base : Vest_Camo_Base {
         displayName="[US] IOTV";
         class ItemInfo : VestItem {
-            containerClass="Supply60";
+            containerClass="Supply80";
             mass=75;
             class HitpointsProtectionInfo
             {
@@ -210,13 +210,13 @@ class CfgWeapons {
     class V_tweed_iotv_mk4_e_1 : V_tweed_iotv_mk4_base {
         displayName="[US] IOTV";
         class ItemInfo : ItemInfo {
-            containerClass="Supply40";
+            containerClass="Supply60";
             mass=75;
         };
     };
     class V_tweed_iotv_mk4_e_2 : V_tweed_iotv_mk4_e_1 {
         class ItemInfo : ItemInfo {
-            containerClass="Supply40";
+            containerClass="Supply60";
             mass=75;
         };
     };
@@ -318,7 +318,7 @@ class CfgWeapons {
     class V_tweed_msv_mk2_e_1 : V_tweed_iotv_mk4_base {
         displayName="[US] IOTV";
         class ItemInfo : ItemInfo {
-            containerClass="Supply40";
+            containerClass="Supply60";
             mass=65;
         };
     };

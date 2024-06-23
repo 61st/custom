@@ -34,3 +34,8 @@ jobs:
       uses: arma-actions/sqflint@master
       continue-on-error: true # No failure due to many false-positives
 
+      build:
+        runs-on: ubuntu-latest
+        steps:
+        continue-on-error: true # No failure due to many false-positives
+
