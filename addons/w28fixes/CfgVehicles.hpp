@@ -48,7 +48,7 @@ class CfgVehicles {
     };
     class B_simc_US_Molle_sturm_OCP : B_tweed_pack_wasser_molle_od3 {
         displayName="[US] MOLLE Sturmgepak";
-        maximumLoad=240;
+        maximumLoad=280;
         mass=80;
     };
     class B_simc_US_Molle_sturm_OCP_etool : B_simc_US_Molle_sturm_OCP {
