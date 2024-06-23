@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="LXIM">
-    <Package name="safestart">
+    <Package name="Safestart">
         <Key ID="STR_LXIM_safestart_DisplayName">
             <English>61st Mechanized Infantry Battalion - safestart</English>
             <Polish>61st Mechanized Infantry Battalion - Bezpieczny start</Polish>
