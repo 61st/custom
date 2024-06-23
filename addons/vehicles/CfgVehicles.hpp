@@ -297,7 +297,7 @@ class CfgVehicles {
         class Turrets: Turrets {
             class MainTurret: MainTurret {
                 weapons[] = {"lxim_autocannon_40mm_CTWS","ACE_LMG_coax_ext_MAG58","missiles_titan"};
-                magazines[] = {"lxim_60Rnd_40mm_MP_shells_Tracer_Red","lxim_60Rnd_40mm_MP_shells_Tracer_Red","lxim_60Rnd_40mm_HEI_shells_Tracer_Red","lxim_60Rnd_40mm_HEI_shells_Tracer_Red","lxim_60Rnd_40mm_APFSDS_shells_Tracer_Red","lxim_60Rnd_40mm_APFSDS_shells_Tracer_Red","200Rnd_762x51_Belt_Red","200Rnd_762x51_Belt_Red","200Rnd_762x51_Belt_Red","2Rnd_GAT_missiles","2Rnd_GAT_missiles"};
+                magazines[] = {"lxim_60Rnd_40mm_MP_shells_Tracer_Red","lxim_60Rnd_40mm_MP_shells_Tracer_Red","lxim_60Rnd_40mm_HEI_shells_Tracer_Red","lxim_60Rnd_40mm_HEI_shells_Tracer_Red","lxim_60Rnd_40mm_APFSDS_shells_Tracer_Red","lxim_60Rnd_40mm_APFSDS_shells_Tracer_Red","200Rnd_762x51_Belt_Red","200Rnd_762x51_Belt_Red","200Rnd_762x51_Belt_Red","2Rnd_GAT_missiles","2Rnd_GAT_missiles","2Rnd_GAT_missiles"};
                 class Turrets: Turrets {
                     class CommanderOptics: CommanderOptics {
                         weapons[] = {"SmokeLauncher"};
@@ -772,7 +772,7 @@ class CfgVehicles {
         class Turrets: Turrets {
             class MainTurret: MainTurret {
                 weapons[] = {"lxim_autocannon_40mm_GDF","ACE_LMG_coax_ext_MAG58","missiles_titan_aa_2Rnd"};
-                magazines[] = {"lxim_280Rnd_40mm_AA_shells_Tracer_Red","lxim_280Rnd_40mm_AA_shells_Tracer_Red","lxim_280Rnd_40mm_AA_shells_Tracer_Red","200Rnd_762x51_Belt_Red","200Rnd_762x51_Belt_Red","200Rnd_762x51_Belt_Red","2Rnd_Titan_long_missiles_AA","2Rnd_Titan_long_missiles_AA"};
+                magazines[] = {"lxim_280Rnd_40mm_AA_shells_Tracer_Red","lxim_280Rnd_40mm_AA_shells_Tracer_Red","lxim_280Rnd_40mm_AA_shells_Tracer_Red","200Rnd_762x51_Belt_Red","200Rnd_762x51_Belt_Red","200Rnd_762x51_Belt_Red","2Rnd_Titan_long_missiles_AA","2Rnd_Titan_long_missiles_AA","2Rnd_Titan_long_missiles_AA"};
                 class Turrets: Turrets {
                     class CommanderOptics: CommanderOptics {
                         weapons[] = {"SmokeLauncher"};
