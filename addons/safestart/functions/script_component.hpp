@@ -1,1 +1,0 @@
-#include "\z\lxim\addons\safestart\script_component.hpp"
