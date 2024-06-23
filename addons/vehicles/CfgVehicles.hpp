@@ -297,7 +297,7 @@ class CfgVehicles {
         class Turrets: Turrets {
             class MainTurret: MainTurret {
                 weapons[] = {"lxim_autocannon_40mm_CTWS","ACE_LMG_coax_ext_MAG58","missiles_titan"};
-                magazines[] = {"lxim_60Rnd_40mm_MP_shells_Tracer_Red","lxim_60Rnd_40mm_MP_shells_Tracer_Red","lxim_60Rnd_40mm_HEI_shells_Tracer_Red","lxim_60Rnd_40mm_HEI_shells_Tracer_Red","lxim_60Rnd_40mm_APFSDS_shells_Tracer_Red","lxim_60Rnd_40mm_APFSDS_shells_Tracer_Red","200Rnd_762x51_Belt_Red","200Rnd_762x51_Belt_Red","200Rnd_762x51_Belt_Red","2Rnd_GAT_missiles","2Rnd_GAT_missiles"};
+                magazines[] = {"lxim_60Rnd_40mm_MP_shells_Tracer_Red","lxim_60Rnd_40mm_MP_shells_Tracer_Red","lxim_60Rnd_40mm_HEI_shells_Tracer_Red","lxim_60Rnd_40mm_HEI_shells_Tracer_Red","lxim_60Rnd_40mm_APFSDS_shells_Tracer_Red","lxim_60Rnd_40mm_APFSDS_shells_Tracer_Red","200Rnd_762x51_Belt_Red","200Rnd_762x51_Belt_Red","200Rnd_762x51_Belt_Red","2Rnd_GAT_missiles","2Rnd_GAT_missiles","2Rnd_GAT_missiles"};
                 class Turrets: Turrets {
                     class CommanderOptics: CommanderOptics {
                         weapons[] = {"SmokeLauncher"};
@@ -772,7 +772,7 @@ class CfgVehicles {
         class Turrets: Turrets {
             class MainTurret: MainTurret {
                 weapons[] = {"lxim_autocannon_40mm_GDF","ACE_LMG_coax_ext_MAG58","missiles_titan_aa_2Rnd"};
-                magazines[] = {"lxim_280Rnd_40mm_AA_shells_Tracer_Red","lxim_280Rnd_40mm_AA_shells_Tracer_Red","lxim_280Rnd_40mm_AA_shells_Tracer_Red","200Rnd_762x51_Belt_Red","200Rnd_762x51_Belt_Red","200Rnd_762x51_Belt_Red","2Rnd_Titan_long_missiles_AA","2Rnd_Titan_long_missiles_AA"};
+                magazines[] = {"lxim_280Rnd_40mm_AA_shells_Tracer_Red","lxim_280Rnd_40mm_AA_shells_Tracer_Red","lxim_280Rnd_40mm_AA_shells_Tracer_Red","200Rnd_762x51_Belt_Red","200Rnd_762x51_Belt_Red","200Rnd_762x51_Belt_Red","2Rnd_Titan_long_missiles_AA","2Rnd_Titan_long_missiles_AA","2Rnd_Titan_long_missiles_AA"};
                 class Turrets: Turrets {
                     class CommanderOptics: CommanderOptics {
                         weapons[] = {"SmokeLauncher"};
@@ -1027,98 +1027,98 @@ class CfgVehicles {
 
     //matv
     class B_MRAP_01_F;
-	class B_T_MRAP_01_F;
-	class B_MRAP_01_gmg_F;
-	class B_MRAP_01_hmg_F;
-	class B_T_MRAP_01_gmg_F;
-	class B_T_MRAP_01_hmg_F;
+    class B_T_MRAP_01_F;
+    class B_MRAP_01_gmg_F;
+    class B_MRAP_01_hmg_F;
+    class B_T_MRAP_01_gmg_F;
+    class B_T_MRAP_01_hmg_F;
     /// sand
-	class lxim_B_MRAP_D: B_MRAP_01_F {
+    class lxim_B_MRAP_D: B_MRAP_01_F {
         displayName = "M-ATV [Sand]";
         author = QAUTHOR;
         faction=QUOTE(PREFIX);
-		crewCrashProtection = 0.8;
-		crewExplosionProtection = .5;
-		armor = 275;
-		threat[]={0,0,0};
-		hiddenSelectionsTextures[]=
-		{
-			QPATHTOF(data\MRAP_01_base_61D_CO.paa),
-			QUOTE(\A3\soft_F\MRAP_01\data\MRAP_01_adds_CO.paa)
-		};
-	};
+        crewCrashProtection = 0.8;
+        crewExplosionProtection = .5;
+        armor = 275;
+        threat[]={0,0,0};
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\MRAP_01_base_61D_CO.paa),
+            QUOTE(\A3\soft_F\MRAP_01\data\MRAP_01_adds_CO.paa)
+        };
+    };
     class lxim_B_MRAP_D_gmg: B_MRAP_01_gmg_F {
         displayName = "M-ATV GMG [Sand]";
         author = QAUTHOR;
         faction=QUOTE(PREFIX);
-		crewCrashProtection = 0.8;
-		crewExplosionProtection = .5;
-		armor = 275;
-		threat[]={0,0,0};
-		hiddenSelectionsTextures[]=
-		{
-			QPATHTOF(data\MRAP_01_base_61D_CO.paa),
-			QUOTE(\A3\soft_F\MRAP_01\data\MRAP_01_adds_CO.paa),
+        crewCrashProtection = 0.8;
+        crewExplosionProtection = .5;
+        armor = 275;
+        threat[]={0,0,0};
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\MRAP_01_base_61D_CO.paa),
+            QUOTE(\A3\soft_F\MRAP_01\data\MRAP_01_adds_CO.paa),
             QPATHTOF(data\Turret_CO_D.paa),
-		};
-	};
+        };
+    };
     class lxim_B_MRAP_D_hmg: B_MRAP_01_hmg_F {
         displayName = "M-ATV HMG [Sand]";
         author = QAUTHOR;
         faction=QUOTE(PREFIX);
-		crewCrashProtection = 0.8;
-		crewExplosionProtection = .5;
-		armor = 275;
-		threat[]={0,0,0};
-		hiddenSelectionsTextures[]=
-		{
-			QPATHTOF(data\MRAP_01_base_61D_CO.paa),
-			QUOTE(\A3\soft_F\MRAP_01\data\MRAP_01_adds_CO.paa),
+        crewCrashProtection = 0.8;
+        crewExplosionProtection = .5;
+        armor = 275;
+        threat[]={0,0,0};
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\MRAP_01_base_61D_CO.paa),
+            QUOTE(\A3\soft_F\MRAP_01\data\MRAP_01_adds_CO.paa),
             QPATHTOF(data\Turret_CO_D.paa),
-		};
-	};
+        };
+    };
     class lxim_B_MRAP_G: B_T_MRAP_01_F {
         displayName = "M-ATV [Green]";
         author = QAUTHOR;
         faction=QUOTE(PREFIX);
-		crewCrashProtection = 0.8;
-		crewExplosionProtection = .5;
-		armor = 275;
-		threat[]={0,0,0};
-		hiddenSelectionsTextures[]=
-		{
-			QPATHTOF(data\MRAP_01_base_61G_CO.paa),
-			QUOTE(\A3\soft_F_Exp\MRAP_01\data\MRAP_01_adds_olive_CO.paa)
-		};
-	};
+        crewCrashProtection = 0.8;
+        crewExplosionProtection = .5;
+        armor = 275;
+        threat[]={0,0,0};
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\MRAP_01_base_61G_CO.paa),
+            QUOTE(\A3\soft_F_Exp\MRAP_01\data\MRAP_01_adds_olive_CO.paa)
+        };
+    };
     class lxim_B_MRAP_G_gmg: B_T_MRAP_01_gmg_F {
         displayName = "M-ATV GMG [Green]";
         author = QAUTHOR;
         faction=QUOTE(PREFIX);
-		crewCrashProtection = 0.8;
-		crewExplosionProtection = .5;
-		armor = 275;
-		threat[]={0,0,0};
-		hiddenSelectionsTextures[]=
-		{
-			QPATHTOF(data\MRAP_01_base_61G_CO.paa),
-			QUOTE(\A3\soft_F_Exp\MRAP_01\data\MRAP_01_adds_olive_CO.paa),
+        crewCrashProtection = 0.8;
+        crewExplosionProtection = .5;
+        armor = 275;
+        threat[]={0,0,0};
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\MRAP_01_base_61G_CO.paa),
+            QUOTE(\A3\soft_F_Exp\MRAP_01\data\MRAP_01_adds_olive_CO.paa),
             QPATHTOF(data\Turret_CO_G.paa),
-		};
-	};
+        };
+    };
     class lxim_B_MRAP_G_hmg: B_T_MRAP_01_hmg_F {
         displayName = "M-ATV HMG [Green]";
         author = QAUTHOR;
         faction=QUOTE(PREFIX);
-		crewCrashProtection = 0.8;
-		crewExplosionProtection = .5;
-		armor = 275;
-		threat[]={0,0,0};
-		hiddenSelectionsTextures[]=
-		{
-			QPATHTOF(data\MRAP_01_base_61G_CO.paa),
-			QUOTE(\A3\soft_F_Exp\MRAP_01\data\MRAP_01_adds_olive_CO.paa),
+        crewCrashProtection = 0.8;
+        crewExplosionProtection = .5;
+        armor = 275;
+        threat[]={0,0,0};
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\MRAP_01_base_61G_CO.paa),
+            QUOTE(\A3\soft_F_Exp\MRAP_01\data\MRAP_01_adds_olive_CO.paa),
             QPATHTOF(data\Turret_CO_G.paa),
-		};
-	};
+        };
+    };
 };
