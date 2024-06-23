@@ -25,9 +25,5 @@
             <English>Pink</English>
             <Polish>Różowy</Polish>
         </Key>
-        <Key ID="STR_LXIM_Map_ColorPink">
-            <English>Yellow (Support)</English>
-            <Polish>Różowy (Wsparcie)</Polish>
-        </Key>
     </Package>
 </Project>
