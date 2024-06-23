@@ -7,6 +7,4 @@ assignees: ''
 
 ---
 
-### Do not post feature requests here!
 
-Learn how to make a feature request [here](https://ace3.acemod.org/wiki/user/how-to-make-a-feature-request.html).
