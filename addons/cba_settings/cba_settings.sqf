@@ -332,7 +332,6 @@ force force ace_map_gestures_onlyShowFriendlys = false;
 force force ace_maptools_drawStraightLines = true;
 force force ace_maptools_plottingBoardAllowChannelDrawing = 1;
 
-
 // ACE Medical
 force force ace_medical_ai_enabledFor = 2;
 force ace_medical_ai_requireItems = 0;
@@ -922,7 +921,7 @@ force kat_gui_ColoredLogs = true;
 kat_gui_showPatientSideLabels = false;
 
 // KAT - ADV Medical: Misc
-kat_misc_AFAK_Container = 1;
+kat_misc_AFAK_Container = 0;
 kat_misc_AFAK_Item_Color = [0.67,0.84,0.9];
 force kat_misc_AFAK_RemoveWhenEmpty = true;
 kat_misc_AFAK_Slot_Color = [1,0.96,0.32];
@@ -943,7 +942,7 @@ kat_misc_armbandSlingRightLeg = "[-0.32, -0.29, -0.42]";
 kat_misc_armbandSlingRightLegRotation = "[-30, -5, 38]";
 force kat_misc_enable = true;
 force kat_misc_enableStitchFullBody = false;
-kat_misc_IFAK_Container = 1;
+kat_misc_IFAK_Container = 0;
 kat_misc_IFAK_Item_Color = [0.67,0.84,0.9];
 force kat_misc_IFAK_RemoveWhenEmpty = true;
 kat_misc_IFAK_Slot_Color = [1,0.3,0.3];
