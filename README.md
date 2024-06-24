@@ -3,16 +3,16 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/lxims-of-battle/lxim/releases/latest">
-        <img src="https://img.shields.io/badge/Version-0.1.0-blue.svg?style=flat-square" alt="ACE Project Template Version">
+    <a href="https://github.com/61st/custom/issues/releases/latest">
+        <img src="https://img.shields.io/badge/Version-0.1.0-blue.svg?style=flat-square" alt="Project Template Version">
     </a>
-    <a href="https://github.com/lxims-of-battle/lxim/issues">
-        <img src="https://img.shields.io/github/issues-raw/YonVclaw/Mod_Template.svg?style=flat-square&label=Issues" alt="ACE Project Template Issues">
+    <a href="https://github.com/61st/custom/issues/issues">
+        <img src="https://img.shields.io/github/issues-raw/YonVclaw/Mod_Template.svg?style=flat-square&label=Issues" alt="Project Template Issues">
     </a>
-    <a href="https://github.com/lxims-of-battle/lxim/releases">
-        <img src="https://img.shields.io/github/downloads/YonVclaw/Mod_Template/total.svg?style=flat-square&label=Downloads" alt="ACE Project Template Downloads">
+    <a href="https://github.com/61st/custom/issues/releases">
+        <img src="https://img.shields.io/github/downloads/YonVclaw/Mod_Template/total.svg?style=flat-square&label=Downloads" alt="Project Template Downloads">
     </a>
-    <a href="https://github.com/lxims-of-battle/lxim/blob/master/LICENSE">
+    <a href="https://github.com/61st/custom/issues/blob/master/LICENSE">
         <img src="https://img.shields.io/badge/License-MIT-red.svg?style=flat-square" alt="ACE Project Template License">
     </a>
 </p>
