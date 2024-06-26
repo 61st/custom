@@ -8,5 +8,11 @@
             <English>Custom 61st Mechanized Infantry Battalion settings.</English>
             <Polish>Własne ustawienia 61st Mechanized Infantry Battalion.</Polish>
         </Key>
+        <Key ID="STR_LXIM_Difficulty_armorAccuracyFactor_DisplayName">
+            <English>Armor Accuracy Factor</English>
+        </Key>
+        <Key ID="STR_LXIM_Difficulty_armorAccuracyFactor_Description">
+            <English>Influences the accuracy of gunners in armored vehicles such as APCs and Tanks.</English>
+        </Key>
     </Package>
 </Project>
