@@ -876,6 +876,7 @@ class CfgVehicles {
     };
 
     class lxim_outlaw_g: lxim_outlaw_base_F {
+        displayName = "AMPF";
         scope = 2;
         scopeCurator = 2;
         faction = QUOTE(PREFIX);
@@ -897,6 +898,7 @@ class CfgVehicles {
     };
 
     class lxim_outlaw_AA_g: lxim_outlaw_AA_base_F {
+        displayName = "AMPF-AA";
         scope = 2;
         scopeCurator = 2;
         faction = QUOTE(PREFIX);
