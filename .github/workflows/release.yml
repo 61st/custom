@@ -2,7 +2,7 @@ name: Release
 
 on:
   release:
-    types: created
+    types: [published]
 
 permissions:
   contents: write
@@ -20,14 +20,13 @@ jobs:
         - name: Move release to releases folder
           run:
             version="${{ github.event.release.tag_name }}"
-            mv .hemttout/release "@lxim-${{ VERSION }}"
+            mv .hemttout/release "@lxim-${{ env.VERSION }}"
         - name: Zip release
-          run: zip -r "@lxim-${{ VERSION }}.zip" ./@lxim-${{ VERSION }}
+          run: zip -r "@lxim-${{ env.VERSION }}.zip" ./@lxim-${{ env.VERSION }}
         - name: Update Release with Files
           uses: softprops/action-gh-release@v1
           with:
-            files: ./@lxim-${{ VERSION }}.zip
-            draft: true
+            files: ./@lxim-${{ env.VERSION }}.zip
           env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
