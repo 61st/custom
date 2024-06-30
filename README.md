@@ -2,18 +2,22 @@
     <img src="art\Spade Yellow_512.png" width="480">
 </p>
 
+
 <p align="center">
-    <a href="https://github.com/61st/custom/issues/releases/latest">
-        <img src="https://img.shields.io/badge/Version-0.1.0-blue.svg?style=flat-square" alt="Project Template Version">
+    <a href="https://github.com/61st/custom/releases/latest">
+        <img src="https://img.shields.io/github/release/61st/custom.svg?style=flat-square&label=Version" alt="custom Version">
     </a>
-    <a href="https://github.com/61st/custom/issues/issues">
-        <img src="https://img.shields.io/github/issues-raw/YonVclaw/Mod_Template.svg?style=flat-square&label=Issues" alt="Project Template Issues">
+    <a href="https://github.com/61st/custom/issues">
+        <img src="https://img.shields.io/github/issues-raw/61st/custom.svg?style=flat-square&label=Issues" alt="custom Issues">
     </a>
-    <a href="https://github.com/61st/custom/issues/releases">
-        <img src="https://img.shields.io/github/downloads/YonVclaw/Mod_Template/total.svg?style=flat-square&label=Downloads" alt="Project Template Downloads">
+    <a href="https://github.com/61st/custom/releases">
+        <img src="https://img.shields.io/github/downloads/61st/custom/total.svg?style=flat-square&label=Downloads" alt="custom Downloads">
     </a>
-    <a href="https://github.com/61st/custom/issues/blob/master/LICENSE">
-        <img src="https://img.shields.io/badge/License-MIT-red.svg?style=flat-square" alt="ACE Project Template License">
+    <a href="https://github.com/61st/custom/blob/master/LICENSE">
+        <img src="https://img.shields.io/badge/License-GPLv2-red.svg?style=flat-square" alt="custom License">
+    </a>
+    <a href="https://discord.gg/61st-mechanized">
+        <img src="https://img.shields.io/badge/Discord-Join-darkviolet.svg?style=flat-square" alt="custom Discord">
     </a>
 </p>
 
