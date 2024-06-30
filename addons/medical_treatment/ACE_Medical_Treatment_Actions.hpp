@@ -17,6 +17,13 @@ class ACEGVAR(medical_treatment,actions) {
     class Morphine {
         medicRequired = 2;
     };
+    class Naloxone: Morphine {
+        displayName = "Inject Naloxone";
+        displayNameProgress = "Injecting Naloxone";
+        condition = "ace_medical_treatment_advancedMedication";
+        items[] = {"lxim_naloxone"};
+        litter[] = {{"ACE_MedicalLitter_atropine"}};
+    };
 
     class BloodIV: BasicBandage {
         treatmentTime = 5;
