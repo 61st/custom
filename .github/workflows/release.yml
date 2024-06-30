@@ -2,7 +2,7 @@ name: Release
 
 on:
   release:
-    types: prereleased
+    types: released
 
 permissions:
   contents: write
@@ -11,8 +11,6 @@ jobs:
   release-addon:
     runs-on: ubuntu-latest
     steps:
-        - name: Set VERSION env
-          run: echo VERSION=${GITHUB_REF:11} >> $GITHUB_ENV
         - name: Checkout the source code
           uses: actions/checkout@v2
         - name: Setup HEMTT
@@ -22,13 +20,13 @@ jobs:
         - name: Move release to releases folder
           run:
             version="${{ github.event.release.tag_name }}"
-            mv .hemttout/release "@lxim"
+            mv .hemttout/release "@lxim-${{ VERSION }}"
         - name: Zip release
-          run: zip -r "@lxim.zip" ./@lxim
+          run: zip -r "@lxim-${{ VERSION }}.zip" ./@lxim-${{ VERSION }}
         - name: Update Release with Files
           uses: softprops/action-gh-release@v1
           with:
-            files: ./@lxim.zip
+            files: ./@lxim-${{ VERSION }}.zip
             draft: true
           env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
