@@ -497,6 +497,18 @@ class ACE_ADDON(medical_treatment) {
             incompatibleMedication[] = {};
             viscosityChange = 5;
         };
+        class Naloxone {
+            painReduce = 0;
+            hrIncreaseLow[] = {0, 0};
+            hrIncreaseNormal[] = {0, 0};
+            hrIncreaseHigh[] = {0, 0};
+            timeInSystem = 180;
+            timeTillMaxEffect = 1;
+            maxDose = 0.1;
+            onOverDose = QFUNC(Naloxone);
+            incompatibleMedication[] = {};
+            viscosityChange = 0;
+        };
     };
 
     class IV {

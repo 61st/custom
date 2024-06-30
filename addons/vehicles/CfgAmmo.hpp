@@ -136,7 +136,6 @@ class CfgAmmo {
         simulation = "shotRocket";
         timeToLive = 0;
     };
-    class G_40mm_HEDP;
     class lxim_40mm_G_belt: G_40mm_HEDP {
         displayName = "40MM HE";
         ace_frag_enabled = 1;  // Enable fragmentation (0-disabled, 1-enabled)

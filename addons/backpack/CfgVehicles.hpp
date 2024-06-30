@@ -7,8 +7,6 @@ class CfgVehicles {
     class B_Kitbag_rgr;
     class B_TacticalPack_blk;
     class B_Kitbag_Base;
-    class B_RadioBag_01_base_F;
-    class GVAR(RadioBag_01_Base);
     class TFAR_rt1523g;
 
     // External class reference  END
