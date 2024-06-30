@@ -12,7 +12,6 @@ class CfgWeapons {
     class InventoryItem_Base_F;
     class ItemCore;
     class UniformItem;
-    class Uniform_Base;
     class U_B_CTRG_Soldier_F: Uniform_Base {
         class ItemInfo;
     };
@@ -683,9 +682,6 @@ class CfgWeapons {
     class optic_MRD : ItemCore {
         class ItemInfo;
     };
-    class CBA_MiscItem;
-    class CBA_MiscItem_ItemInfo;
-
     class SPS_Optic_SnB_HP_1_8_RAL8000 : ItemCore {
         class ItemInfo : InventoryOpticsItem_Base_F {
             class OpticsModes {
