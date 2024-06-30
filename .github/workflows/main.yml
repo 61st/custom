@@ -38,14 +38,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the source code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Setup HEMTT
         uses: arma-actions/hemtt@v1
-      - name: Run HEMTT Release
-        run: hemtt release
-      - name: Upload Release
+      - name: Run HEMTT Build
+        run: hemtt build
+      - name: Rename build folder
+        run: mv .hemttout/build .hemttout/@lxim
+      - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
-            name: lxim-latest
-            path: release/lxim-latest.zip
+          name: lxim-${{ github.sha }}-nobin
+          path: .hemttout/@*
 
