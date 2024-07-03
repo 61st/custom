@@ -174,7 +174,7 @@ force ace_common_checkPBOsWhitelist = "[]";
 force ace_common_deployedSwayFactor = .1;
 force ace_common_enableSway = true;
 force ace_common_restedSwayFactor = .4;
-force ace_common_swayFactor = .8;
+force ace_common_swayFactor = .1;
 
 // ACE Cook off
 force force ace_cookoff_ammoCookoffDuration = 0.5;
@@ -254,7 +254,6 @@ force acex_headless_enabled = true;
 force acex_headless_endMission = 0;
 force acex_headless_log = true;
 force acex_headless_transferLoadout = 1;
-
 
 // ACE Hearing
 force force ace_hearing_autoAddEarplugsToUnits = 1;
@@ -1034,7 +1033,7 @@ force kat_pharma_treatmentTime_Pervitin = 5;
 force kat_pharma_treatmentTime_Phenylephrine = 7;
 force kat_pharma_treatmentTime_Reorientation = 2;
 force kat_pharma_treatmentTime_TXA = 7;
-force kat_pharma_weapon_sway_pervitin = true;
+force kat_pharma_weapon_sway_pervitin = false;
 
 // KAT - ADV Medical: Surgery
 force kat_surgery_closedLocation = 0;
