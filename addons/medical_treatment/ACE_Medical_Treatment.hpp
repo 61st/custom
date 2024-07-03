@@ -328,7 +328,7 @@ class ACE_ADDON(medical_treatment) {
                 INCREASED_EFF_MEDIUM;
             };
             class PunctureWoundLarge: PunctureWound {
-                 INCREASED_EFF_LARGE;
+                INCREASED_EFF_LARGE;
             };
         };
 
@@ -433,7 +433,7 @@ class ACE_ADDON(medical_treatment) {
                 SUPER_EFF_MEDIUM;
             };
             class PunctureWoundLarge: PunctureWound {
-                 SUPER_EFF_LARGE;
+                SUPER_EFF_LARGE;
             };
         };
     };
@@ -488,14 +488,6 @@ class ACE_ADDON(medical_treatment) {
             timeTillMaxEffect = 15;
             maxDose = 6;
             incompatibleMedication[] = {};
-        };
-        class PainKillers {
-            painReduce = 0.35;
-            timeInSystem = 600;
-            timeTillMaxEffect = 60;
-            maxDose = 10;
-            incompatibleMedication[] = {};
-            viscosityChange = 5;
         };
         class Naloxone {
             painReduce = 0;

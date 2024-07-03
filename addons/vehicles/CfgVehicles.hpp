@@ -71,7 +71,7 @@ class CfgVehicles {
     class lxim_outlaw_base_F: I_APC_Wheeled_03_cannon_F {
         scope = 1;
         scopeCurator = 1;
-        displayName = "AMPF";
+        displayName = "M20";
         author = QAUTHOR;
         picture = "\A3\armor_f_gamma\APC_Wheeled_03\Data\UI\APC_Wheeled_03_CA.paa";
         side = 1;
@@ -85,78 +85,78 @@ class CfgVehicles {
         class EventHandlers;
         class TextureSources {
             class Blu_green {
-                displayName = "AMPF";
+                displayName = "M20";
                 author = QAUTHOR;
                 textures[] = {QPATHTOF(data\outlaw_01_ext_g.paa),QPATHTOF(data\outlaw_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
                 factions[] = {QUOTE(PREFIX)};
             };
             class Blu_Desert {
-                displayName = "AMPF Desert";
+                displayName = "M20 Desert";
                 author = QAUTHOR;
                 textures[] = {QPATHTOF(data\outlaw_01_ext_d.paa),QPATHTOF(data\outlaw_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
                 factions[] = {QUOTE(PREFIX)};
             };
             class Blu_green_v11a {
-                displayName = "AMPF 1/1/A";
+                displayName = "M20 1/1/A";
                 author = QAUTHOR;
                 textures[] = {QPATHTOF(data\outlaw_1_1_a_01_ext_g.paa),QPATHTOF(data\outlaw_1_1_a_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
                 factions[] = {QUOTE(PREFIX)};
             };
             class Blu_green_v11b {
-                displayName = "AMPF 1/1/A";
+                displayName = "M20 1/1/A";
                 author = QAUTHOR;
                 textures[] = {QPATHTOF(data\outlaw_1_1_b_01_ext_g.paa),QPATHTOF(data\outlaw_1_1_b_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
                 factions[] = {QUOTE(PREFIX)};
             };
 
             class Blu_green_v12a {
-                displayName = "AMPF 1/2/A";
+                displayName = "M20 1/2/A";
                 author = QAUTHOR;
                 textures[] = {QPATHTOF(data\outlaw_1_2_a_01_ext_g.paa),QPATHTOF(data\outlaw_1_2_a_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
                 factions[] = {QUOTE(PREFIX)};
             };
             class Blu_green_v12b {
-                displayName = "AMPF 1/2/B";
+                displayName = "M20 1/2/B";
                 author = QAUTHOR;
                 textures[] = {QPATHTOF(data\outlaw_1_2_b_01_ext_g.paa),QPATHTOF(data\outlaw_1_2_b_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
                 factions[] = {QUOTE(PREFIX)};
             };
 
             class Blu_Desert_v11a {
-                displayName = "AMPF Desert 1/1/A";
+                displayName = "M20 Desert 1/1/A";
                 author = QAUTHOR;
                 textures[] = {QPATHTOF(data\outlaw_1_1_a_01_ext_d.paa),QPATHTOF(data\outlaw_1_1_a_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
                 factions[] = {QUOTE(PREFIX)};
             };
             class Blu_Desert_v11b {
-                displayName = "AMPF Desert 1/1/B";
+                displayName = "M20 Desert 1/1/B";
                 author = QAUTHOR;
                 textures[] = {QPATHTOF(data\outlaw_1_1_b_01_ext_d.paa),QPATHTOF(data\outlaw_1_1_b_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
                 factions[] = {QUOTE(PREFIX)};
             };
 
             class Blu_Desert_v12a {
-                displayName = "AMPF Desert 1/2/A";
+                displayName = "M20 Desert 1/2/A";
                 author = QAUTHOR;
                 textures[] = {QPATHTOF(data\outlaw_1_2_a_01_ext_d.paa),QPATHTOF(data\outlaw_1_2_a_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
                 factions[] = {QUOTE(PREFIX)};
             };
             class Blu_Desert_v12b {
-                displayName = "AMPF Desert 1/2/B";
+                displayName = "M20 Desert 1/2/B";
                 author = QAUTHOR;
                 textures[] = {QPATHTOF(data\outlaw_1_2_b_01_ext_d.paa),QPATHTOF(data\outlaw_1_2_b_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
                 factions[] = {QUOTE(PREFIX)};
             };
 
             class Blu_green_rino {
-                displayName = "AMPF 1/2/B";
+                displayName = "M20 1/2/B";
                 author = QAUTHOR;
                 textures[] = {QPATHTOF(data\rino_ext_g.paa),QPATHTOF(data\rino_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
                 factions[] = {QUOTE(PREFIX)};
             };
 
             class Blu_Desert_rino {
-                displayName = "AMPF Desert 1/1/A";
+                displayName = "M20 Desert 1/1/A";
                 author = QAUTHOR;
                 textures[] = {QPATHTOF(data\rino_01_ext_d.paa),QPATHTOF(data\rino_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
             factions[] = {QUOTE(PREFIX)};
@@ -311,7 +311,7 @@ class CfgVehicles {
     class lxim_outlaw_eng_base_F: I_APC_Wheeled_03_cannon_F {
         scope = 1;
         scopeCurator = 1;
-        displayName = "AMPF";
+        displayName = "M20";
         author = QAUTHOR;
         picture = "\A3\armor_f_gamma\APC_Wheeled_03\Data\UI\APC_Wheeled_03_CA.paa";
         side = 1;
@@ -322,78 +322,78 @@ class CfgVehicles {
         hiddenSelections[] = {"camo1","camo2","camo3","camo4","CamoNet","CamoSlat"};
         class TextureSources {
             class Blu_green {
-                displayName = "AMPF";
+                displayName = "M20";
                 author = QAUTHOR;
                 textures[] = {QPATHTOF(data\outlaw_01_ext_g.paa),QPATHTOF(data\outlaw_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
                 factions[] = {QUOTE(PREFIX)};
             };
             class Blu_Desert {
-                displayName = "AMPF Desert";
+                displayName = "M20 Desert";
                 author = QAUTHOR;
                 textures[] = {QPATHTOF(data\outlaw_01_ext_d.paa),QPATHTOF(data\outlaw_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
                 factions[] = {QUOTE(PREFIX)};
             };
             class Blu_green_v11a {
-                displayName = "AMPF 1/1/A";
+                displayName = "M20 1/1/A";
                 author = QAUTHOR;
                 textures[] = {QPATHTOF(data\outlaw_1_1_a_01_ext_g.paa),QPATHTOF(data\outlaw_1_1_a_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
                 factions[] = {QUOTE(PREFIX)};
             };
             class Blu_green_v11b {
-                displayName = "AMPF 1/1/A";
+                displayName = "M20 1/1/A";
                 author = QAUTHOR;
                 textures[] = {QPATHTOF(data\outlaw_1_1_b_01_ext_g.paa),QPATHTOF(data\outlaw_1_1_b_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
                 factions[] = {QUOTE(PREFIX)};
             };
 
             class Blu_green_v12a {
-                displayName = "AMPF 1/2/A";
+                displayName = "M20 1/2/A";
                 author = QAUTHOR;
                 textures[] = {QPATHTOF(data\outlaw_1_2_a_01_ext_g.paa),QPATHTOF(data\outlaw_1_2_a_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
                 factions[] = {QUOTE(PREFIX)};
             };
             class Blu_green_v12b {
-                displayName = "AMPF 1/2/B";
+                displayName = "M20 1/2/B";
                 author = QAUTHOR;
                 textures[] = {QPATHTOF(data\outlaw_1_2_b_01_ext_g.paa),QPATHTOF(data\outlaw_1_2_b_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
                 factions[] = {QUOTE(PREFIX)};
             };
 
             class Blu_Desert_v11a {
-                displayName = "AMPF Desert 1/1/A";
+                displayName = "M20 Desert 1/1/A";
                 author = QAUTHOR;
                 textures[] = {QPATHTOF(data\outlaw_1_1_a_01_ext_d.paa),QPATHTOF(data\outlaw_1_1_a_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
                 factions[] = {QUOTE(PREFIX)};
             };
             class Blu_Desert_v11b {
-                displayName = "AMPF Desert 1/1/B";
+                displayName = "M20 Desert 1/1/B";
                 author = QAUTHOR;
                 textures[] = {QPATHTOF(data\outlaw_1_1_b_01_ext_d.paa),QPATHTOF(data\outlaw_1_1_b_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
                 factions[] = {QUOTE(PREFIX)};
             };
 
             class Blu_Desert_v12a {
-                displayName = "AMPF Desert 1/2/A";
+                displayName = "M20 Desert 1/2/A";
                 author = QAUTHOR;
                 textures[] = {QPATHTOF(data\outlaw_1_2_a_01_ext_d.paa),QPATHTOF(data\outlaw_1_2_a_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
                 factions[] = {QUOTE(PREFIX)};
             };
             class Blu_Desert_v12b {
-                displayName = "AMPF Desert 1/2/B";
+                displayName = "M20 Desert 1/2/B";
                 author = QAUTHOR;
                 textures[] = {QPATHTOF(data\outlaw_1_2_b_01_ext_d.paa),QPATHTOF(data\outlaw_1_2_b_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
                 factions[] = {QUOTE(PREFIX)};
             };
 
             class Blu_green_rino {
-                displayName = "AMPF 1/2/B";
+                displayName = "M20 1/2/B";
                 author = QAUTHOR;
                 textures[] = {QPATHTOF(data\rino_ext_g.paa),QPATHTOF(data\rino_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
                 factions[] = {QUOTE(PREFIX)};
             };
 
             class Blu_Desert_rino {
-                displayName = "AMPF Desert 1/1/A";
+                displayName = "M20 Desert 1/1/A";
                 author = QAUTHOR;
                 textures[] = {QPATHTOF(data\rino_01_ext_d.paa),QPATHTOF(data\rino_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
                 factions[] = {QUOTE(PREFIX)};
@@ -548,7 +548,7 @@ class CfgVehicles {
     class lxim_outlaw_AA_base_F: I_APC_Wheeled_03_cannon_F {
         scope = 1;
         scopeCurator = 1;
-        displayName = "AMPF";
+        displayName = "M20";
         author = QAUTHOR;
         picture = "\A3\armor_f_gamma\APC_Wheeled_03\Data\UI\APC_Wheeled_03_CA.paa";
         side = 1;
@@ -560,78 +560,78 @@ class CfgVehicles {
         class EventHandlers;
         class TextureSources {
             class Blu_green {
-                displayName = "AMPF";
+                displayName = "M20";
                 author = QAUTHOR;
                 textures[] = {QPATHTOF(data\outlaw_01_ext_g.paa),QPATHTOF(data\outlaw_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
                 factions[] = {QUOTE(PREFIX)};
             };
             class Blu_Desert {
-                displayName = "AMPF Desert";
+                displayName = "M20 Desert";
                 author = QAUTHOR;
                 textures[] = {QPATHTOF(data\outlaw_01_ext_d.paa),QPATHTOF(data\outlaw_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
                 factions[] = {QUOTE(PREFIX)};
             };
             class Blu_green_v11a {
-                displayName = "AMPF 1/1/A";
+                displayName = "M20 1/1/A";
                 author = QAUTHOR;
                 textures[] = {QPATHTOF(data\outlaw_1_1_a_01_ext_g.paa),QPATHTOF(data\outlaw_1_1_a_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
                 factions[] = {QUOTE(PREFIX)};
             };
             class Blu_green_v11b {
-                displayName = "AMPF 1/1/A";
+                displayName = "M20 1/1/A";
                 author = QAUTHOR;
                 textures[] = {QPATHTOF(data\outlaw_1_1_b_01_ext_g.paa),QPATHTOF(data\outlaw_1_1_b_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
                 factions[] = {QUOTE(PREFIX)};
             };
 
             class Blu_green_v12a {
-                displayName = "AMPF 1/2/A";
+                displayName = "M20 1/2/A";
                 author = QAUTHOR;
                 textures[] = {QPATHTOF(data\outlaw_1_2_a_01_ext_g.paa),QPATHTOF(data\outlaw_1_2_a_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
                 factions[] = {QUOTE(PREFIX)};
             };
             class Blu_green_v12b {
-                displayName = "AMPF 1/2/B";
+                displayName = "M20 1/2/B";
                 author = QAUTHOR;
                 textures[] = {QPATHTOF(data\outlaw_1_2_b_01_ext_g.paa),QPATHTOF(data\outlaw_1_2_b_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
                 factions[] = {QUOTE(PREFIX)};
             };
 
             class Blu_Desert_v11a {
-                displayName = "AMPF Desert 1/1/A";
+                displayName = "M20 Desert 1/1/A";
                 author = QAUTHOR;
                 textures[] = {QPATHTOF(data\outlaw_1_1_a_01_ext_d.paa),QPATHTOF(data\outlaw_1_1_a_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
                 factions[] = {QUOTE(PREFIX)};
             };
             class Blu_Desert_v11b {
-                displayName = "AMPF Desert 1/1/B";
+                displayName = "M20 Desert 1/1/B";
                 author = QAUTHOR;
                 textures[] = {QPATHTOF(data\outlaw_1_1_b_01_ext_d.paa),QPATHTOF(data\outlaw_1_1_b_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
                 factions[] = {QUOTE(PREFIX)};
             };
 
             class Blu_Desert_v12a {
-                displayName = "AMPF Desert 1/2/A";
+                displayName = "M20 Desert 1/2/A";
                 author = QAUTHOR;
                 textures[] = {QPATHTOF(data\outlaw_1_2_a_01_ext_d.paa),QPATHTOF(data\outlaw_1_2_a_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
                 factions[] = {QUOTE(PREFIX)};
             };
             class Blu_Desert_v12b {
-                displayName = "AMPF Desert 1/2/B";
+                displayName = "M20 Desert 1/2/B";
                 author = QAUTHOR;
                 textures[] = {QPATHTOF(data\outlaw_1_2_b_01_ext_d.paa),QPATHTOF(data\outlaw_1_2_b_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
                 factions[] = {QUOTE(PREFIX)};
             };
 
             class Blu_green_rino {
-                displayName = "AMPF 1/2/B";
+                displayName = "M20 1/2/B";
                 author = QAUTHOR;
                 textures[] = {QPATHTOF(data\rino_ext_g.paa),QPATHTOF(data\rino_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
                 factions[] = {QUOTE(PREFIX)};
             };
 
             class Blu_Desert_rino {
-                displayName = "AMPF Desert 1/1/A";
+                displayName = "M20 Desert 1/1/A";
                 author = QAUTHOR;
                 textures[] = {QPATHTOF(data\rino_01_ext_d.paa),QPATHTOF(data\rino_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
                 factions[] = {QUOTE(PREFIX)};
@@ -795,13 +795,13 @@ class CfgVehicles {
         textureList[] = {"Blu",1};
         class TextureSources {
             class Blu_Woodland {
-                displayName = "AMPF MEV Green";
+                displayName = "M20 MEV Green";
                 author = QAUTHOR;
                 textures[] = {QPATHTOF(data\med_01_ext_g.paa),QPATHTOF(data\med_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
                 factions[] = {QUOTE(PREFIX)};
             };
             class Blu_Desert {
-                displayName = "AMPF MEV Desert";
+                displayName = "M20 MEV Desert";
                 author = QAUTHOR;
                 textures[] = {QPATHTOF(data\med_01_ext_d.paa),QPATHTOF(data\med_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
                 factions[] = {QUOTE(PREFIX)};
@@ -816,7 +816,7 @@ class CfgVehicles {
     };
 
     class lxim_outlaw_Unarmed_g: lxim_outlaw_unarmed_base_F {
-        displayName = "AMPF-MEV Green";
+        displayName = "M20-MEV Green";
         author = QAUTHOR;
         scope = 2;
         scopeCurator = 2;
@@ -828,7 +828,7 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(data\med_01_ext_g.paa),QPATHTOF(data\med_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
     };
     class lxim_outlaw_Unarmed_d: lxim_outlaw_unarmed_base_F {
-        displayName = "AMPF-MEV Desert";
+        displayName = "M20-MEV Desert";
         author = QAUTHOR;
         scope = 2;
         scopeCurator = 2;
@@ -841,7 +841,7 @@ class CfgVehicles {
     };
 
     class lxim_outlaw_repair_g: lxim_outlaw_unarmed_base_F {
-        displayName = "AMPF-SUP Green";
+        displayName = "M20-SUP Green";
         author = QAUTHOR;
         scope = 2;
         scopeCurator = 2;
@@ -858,7 +858,7 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_01_ext_g.paa),QPATHTOF(data\outlaw_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
     };
     class lxim_outlaw_repair_d: lxim_outlaw_unarmed_base_F {
-        displayName = "AMPF-SUP Desert";
+        displayName = "M20-SUP Desert";
         author = QAUTHOR;
         scope = 2;
         scopeCurator = 2;
@@ -876,7 +876,7 @@ class CfgVehicles {
     };
 
     class lxim_outlaw_g: lxim_outlaw_base_F {
-        displayName = "AMPF";
+        displayName = "M20";
         scope = 2;
         scopeCurator = 2;
         faction = QUOTE(PREFIX);
@@ -898,7 +898,7 @@ class CfgVehicles {
     };
 
     class lxim_outlaw_AA_g: lxim_outlaw_AA_base_F {
-        displayName = "AMPF-AA";
+        displayName = "M20-AA";
         scope = 2;
         scopeCurator = 2;
         faction = QUOTE(PREFIX);
@@ -920,49 +920,49 @@ class CfgVehicles {
     };
 
     class lxim_outlaw_g_V11: lxim_outlaw_g {
-        displayName = "AMPF 1/1";
+        displayName = "M20 1/1";
         author = QAUTHOR;
-        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_1_1_01_ext_g.paa),QPATHTOF(data\outlaw_1_1_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_wd_01_ext_g.paa),QPATHTOF(data\outlaw_wd_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
         forceInGarage = 0;
     };
 
 
     class lxim_outlaw_g_V12: lxim_outlaw_g {
-        displayName = "AMPF 1/2";
+        displayName = "M20 1/2";
         author = QAUTHOR;
-        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_1_2_01_ext_g.paa),QPATHTOF(data\outlaw_1_2_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_wm_01_ext_g.paa),QPATHTOF(data\outlaw_wm_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
         forceInGarage = 0;
     };
 
     class lxim_outlaw_g_Vhq: lxim_outlaw_g {
-        displayName = "AMPF HQ";
+        displayName = "M20 HQ";
         author = QAUTHOR;
         hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_hq_01_ext_g.paa),QPATHTOF(data\outlaw_hq_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
         forceInGarage = 0;
     };
 
     class lxim_outlaw_AA_g_V11: lxim_outlaw_AA_g {
-        displayName = "AMPF-AA 1/1";
+        displayName = "M20-AA 1/1";
         author = QAUTHOR;
-        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_1_1_01_ext_g.paa),QPATHTOF(data\outlaw_1_1_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g_aa.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_wd_01_ext_g.paa),QPATHTOF(data\outlaw_wd_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
         forceInGarage = 0;
     };
 
     class lxim_outlaw_AA_g_V12: lxim_outlaw_AA_g {
-        displayName = "AMPF-AA 1/2";
+        displayName = "M20-AA 1/2";
         author = QAUTHOR;
-        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_1_2_01_ext_g.paa),QPATHTOF(data\outlaw_1_2_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g_aa.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_wm_01_ext_g.paa),QPATHTOF(data\outlaw_wm_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
         forceInGarage = 0;
     };
     class lxim_outlaw_AA_g_Vhq: lxim_outlaw_AA_g {
-        displayName = "AMPF-AA HQ";
+        displayName = "M20-AA HQ";
         author = QAUTHOR;
         hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_hq_01_ext_g.paa),QPATHTOF(data\outlaw_hq_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g_aa.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
         forceInGarage = 0;
     };
 
     class lxim_outlaw_g_rino: lxim_outlaw_eng_base_F {
-        displayName = "AMPF-ENG Rino";
+        displayName = "M20-ENG Rino";
         scope = 2;
         scopeCurator = 2;
         faction = QUOTE(PREFIX);
@@ -975,47 +975,47 @@ class CfgVehicles {
     };
 
     class lxim_outlaw_d_V11: lxim_outlaw_d {
-        displayName = "AMPF Desert 1/1";
+        displayName = "M20 Desert 1/1";
         author = QAUTHOR;
-        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_1_1_01_ext_d.paa),QPATHTOF(data\outlaw_1_1_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_wd_01_ext_d.paa),QPATHTOF(data\outlaw_wd_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
         forceInGarage = 0;
     };
 
     class lxim_outlaw_d_V12: lxim_outlaw_d {
-        displayName = "AMPF Desert 1/2";
+        displayName = "M20 Desert 1/2";
         author = QAUTHOR;
-        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_1_2_01_ext_d.paa),QPATHTOF(data\outlaw_1_2_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_wm_01_ext_d.paa),QPATHTOF(data\outlaw_wm_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
         forceInGarage = 0;
     };
     class lxim_outlaw_d_Vhq: lxim_outlaw_d {
-        displayName = "AMPF Desert HQ";
+        displayName = "M20 Desert HQ";
         author = QAUTHOR;
         hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_hq_01_ext_d.paa),QPATHTOF(data\outlaw_hq_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
         forceInGarage = 0;
     };
 
     class lxim_outlaw_AA_d_V11: lxim_outlaw_AA_d {
-        displayName = "AMPF-AA Desert 1/1";
+        displayName = "M20-AA Desert 1/1";
         author = QAUTHOR;
-        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_1_1_01_ext_d.paa),QPATHTOF(data\outlaw_1_1_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d_aa.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_wd_01_ext_d.paa),QPATHTOF(data\outlaw_wd_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
         forceInGarage = 0;
     };
 
     class lxim_outlaw_AA_d_V12: lxim_outlaw_AA_d {
-        displayName = "AMPF-AA Desert 1/2";
+        displayName = "M20-AA Desert 1/2";
         author = QAUTHOR;
-        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_1_2_01_ext_d.paa),QPATHTOF(data\outlaw_1_2_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d_aa.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_wm_01_ext_d.paa),QPATHTOF(data\outlaw_wm_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
         forceInGarage = 0;
     };
     class lxim_outlaw_AA_d_Vhq: lxim_outlaw_AA_d {
-        displayName = "AMPF-AA Desert HQ";
+        displayName = "M20-AA Desert HQ";
         author = QAUTHOR;
         hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_hq_01_ext_d.paa),QPATHTOF(data\outlaw_hq_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d_aa.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
         forceInGarage = 0;
     };
 
     class lxim_outlaw_d_rino: lxim_outlaw_eng_base_F {
-        displayName = "AMPF-ENG Desert Rino";
+        displayName = "M20-ENG Desert Rino";
         scope = 2;
         scopeCurator = 2;
         faction = QUOTE(PREFIX);
