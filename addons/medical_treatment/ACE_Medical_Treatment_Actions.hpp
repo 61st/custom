@@ -12,11 +12,9 @@ class ACEGVAR(medical_treatment,actions) {
 
     class Splint: BasicBandage {
         treatmentTime = 5;
-        medicRequired = 0;
     };
-    class Morphine {
-        medicRequired = 2;
-    };
+
+    class Morphine;
     class Naloxone: Morphine {
         displayName = "Inject Naloxone";
         displayNameProgress = "Injecting Naloxone";
@@ -27,8 +25,5 @@ class ACEGVAR(medical_treatment,actions) {
 
     class BloodIV: BasicBandage {
         treatmentTime = 5;
-    };
-    class CheckBloodPressure {
-        medicRequired = 1;
     };
 };

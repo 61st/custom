@@ -22,11 +22,11 @@ jobs:
             version="${{ github.event.release.tag_name }}"
             mv .hemttout/release "@lxim-${{ env.VERSION }}"
         - name: Zip release
-          run: zip -r "@lxim-${{ env.VERSION }}.zip" ./@lxim-${{ env.VERSION }}
+          run: zip -r "@lxim.zip" ./@lxim-${{ env.VERSION }}
         - name: Update Release with Files
           uses: softprops/action-gh-release@v1
           with:
-            files: ./@lxim-${{ env.VERSION }}.zip
+            files: ./@lxim.zip
           env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
