@@ -44,5 +44,46 @@ class CfgWeapons {
         ace_nightvision_bluRadius=-1;
         ace_nightvision_border=QPATHTOF(data\quad.paa);
     };
+    class psq42_blk : NVGoggles {
+        modelOptics="";
+        ace_nightvision_bluRadius=-1;
+        ace_nightvision_border=QPATHTOF(data\bi.paa);
+    };
+    class psq42_blk_icup : psq42_blk {
+        modelOptics="";
+        ace_nightvision_bluRadius=-1;
+        ace_nightvision_border=QPATHTOF(data\bi.paa);
+    };
+    class psq42_blk_lenscap : psq42_blk {
+        modelOptics="";
+        ace_nightvision_bluRadius=-1;
+        ace_nightvision_border=QPATHTOF(data\bi.paa);
+    };
+    class psq42_blk_mount : psq42_blk {
+        modelOptics="";
+        ace_nightvision_bluRadius=-1;
+        ace_nightvision_border=QPATHTOF(data\bi.paa);
+    };
+    class psq42_od3 : psq42_blk {
+        modelOptics="";
+        ace_nightvision_bluRadius=-1;
+        ace_nightvision_border=QPATHTOF(data\bi.paa);
+    };
+    class psq42_od3_icup : psq42_od3 {
+        modelOptics="";
+        ace_nightvision_bluRadius=-1;
+        ace_nightvision_border=QPATHTOF(data\bi.paa);
+    };
+    class psq42_od3_lenscap : psq42_od3 {
+        modelOptics="";
+        ace_nightvision_bluRadius=-1;
+        ace_nightvision_border=QPATHTOF(data\bi.paa);
+    };
+    class psq42_od3_mount : psq42_od3 {
+        modelOptics="";
+        ace_nightvision_bluRadius=-1;
+        ace_nightvision_border=QPATHTOF(data\bi.paa);
+    };
 };
+
 

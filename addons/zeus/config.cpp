@@ -7,19 +7,15 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "lxim_common",
-            "cba_main",
-            "ace_nightvision",
-            "tweed_uaf_21_cfg"
+            "lxim_main"
         };
-        author = "lxim";
-        authors[] = {"YONV"};
+        authorUrl = URL;
+        author = QAUTHOR;
+        authors[] = {""};
         VERSION_CONFIG;
     };
 };
 
-
 #include "CfgEventHandlers.hpp"
-#include "CfgEffects.hpp"
+#include "CfgVehicles.hpp"
 #include "CfgWeapons.hpp"
-#include "XtdGear.hpp"
