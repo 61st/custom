@@ -39,6 +39,16 @@ class CfgWeapons {
         cursorAim = "EmptyCursor";
         cursorAimOn = "CursorAimOn";
         showSwitchAction = 1;
+        class CBA_ScriptedOptic {
+            reticleTexture = "z\ace\addons\vector\data\reticles\ace_vector_reticle_ca.paa";
+            reticleTextureSize = 1.026;
+            bodyTexture = "";
+            bodyTextureSize = 1.25;
+            reticleSafezoneSize = 1;
+            hidePeripheralVision = 1;
+            opticsPPEffects[] = {"QACEGVAR(vector,OpticsRadBlur1)"};
+            disableTilt = 1;
+        };
         weaponInfoType = "LXIM_RscOptics_vector";
         class WeaponSlotsInfo {
             mass = 20;

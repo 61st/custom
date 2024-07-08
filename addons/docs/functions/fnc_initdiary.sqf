@@ -28,19 +28,19 @@ if !(player diarySubjectExists "Chklists") then {
     // Load diary records (NOTE! The load order is reversed. So the top will be at the bottom after load.)
     player createDiaryRecord["Chklists",
     ["ACE & DEFREF",
-        "<img image='z\lxim\addons\media\images\diary\veh_ace.paa' width='367' />"
+        "<img image='z\lxim\addons\media\images\61\defrep.paa' width='760' />"
     ]
 ];
 
 player createDiaryRecord["Chklists",
     ["SALUTE",
-        "<img image='z\lxim\addons\media\images\diary\salute_react.paa' width='367' />"
+        "<img image='z\lxim\addons\media\images\61\salute.paa' width='760' />"
     ]
 ];
 
 player createDiaryRecord["Chklists",
     ["CONTACT",
-        "<img image='z\lxim\addons\media\images\diary\contact.paa' width='367' />"
+        "<img image='z\lxim\addons\media\images\61\contact.paa' width='760' />"
     ]
 ];
 
@@ -53,13 +53,13 @@ if !(player diarySubjectExists "radioReportsm") then {
     // Load diary records (NOTE! The load order is reversed. So the top will be at the bottom after load.)
     player createDiaryRecord["radioReportsm",
     ["CASEVAC REQUEST",
-        "<img image='z\lxim\addons\media\images\diary\casevac.paa' width='367' />"
+        "<img image='z\lxim\addons\media\images\61\casevac.paa' width='760' />"
     ]
 ];
 
 player createDiaryRecord["radioReportsm",
     ["MIST REPORT",
-        "<img image='z\lxim\addons\media\images\diary\mist.paa' width='367' />"
+        "<img image='z\lxim\addons\media\images\61\mist.paa' width='760' />"
     ]
 ];
 };
@@ -71,31 +71,25 @@ if !(player diarySubjectExists "radioReportsc") then {
     // Load diary records (NOTE! The load order is reversed. So the top will be at the bottom after load.)
 player createDiaryRecord["radioReportsc",
     ["AirFrame Check-in",
-        "<img image='z\lxim\addons\media\images\diary\airframe.paa' width='367' />"
+        "<img image='z\lxim\addons\media\images\61\airframe.paa' width='760' />"
     ]
 ];
 
 player createDiaryRecord["radioReportsc",
-    ["Fixed Wing 9-line",
-        "<img image='z\lxim\addons\media\images\diary\fixwing.paa' width='367' />"
+    ["6-line CAS",
+        "<img image='z\lxim\addons\media\images\61\cas.paa' width='760' />"
     ]
 ];
 
 player createDiaryRecord["radioReportsc",
-    ["Gunship Call for Fire",
-        "<img image='z\lxim\addons\media\images\diary\gunship.paa' width='367' />"
-    ]
-];
-
-player createDiaryRecord["radioReportsc",
-    ["Rotary 5-line",
-        "<img image='z\lxim\addons\media\images\diary\gunship.paa' width='367' />"
+    ["HLZ",
+        "<img image='z\lxim\addons\media\images\61\lz.paa' width='760' />"
     ]
 ];
 
 player createDiaryRecord["radioReportsc",
     ["Air Drop",
-        "<img image='z\lxim\addons\media\images\diary\airdrop.paa' width='367' />"
+        "<img image='z\lxim\addons\media\images\61\airdrop.paa' width='760' />"
     ]
 ];
 };
@@ -105,32 +99,32 @@ if !(player diarySubjectExists "medguide") then {
 
 player createDiaryRecord["medguide",
     ["Cardiac Arrest",
-        "<img image='z\lxim\addons\media\images\diary\med_card.paa' width='367' />"
+        "<img image='z\lxim\addons\media\images\61\cardarr.paa' width='760' />"
     ]
 ];
 player createDiaryRecord["medguide",
     ["Bandages",
-        "<img image='z\lxim\addons\media\images\diary\med_band.paa' width='367' />"
+        "<img image='z\lxim\addons\media\images\61\bandage.paa' width='760' />"
     ]
 ];
 player createDiaryRecord["medguide",
     ["Wounds",
-        "<img image='z\lxim\addons\media\images\diary\med_wounds.paa' width='367' />"
+        "<img image='z\lxim\addons\media\images\61\wounds.paa' width='760' />"
     ]
 ];
 player createDiaryRecord["medguide",
-    ["Blood",
-        "<img image='z\lxim\addons\media\images\diary\med_blood.paa' width='367' />"
+    ["Blood Loss",
+        "<img image='z\lxim\addons\media\images\61\bloodloss.paa' width='760' />"
     ]
 ];
 player createDiaryRecord["medguide",
     ["Drugs 1",
-        "<img image='z\lxim\addons\media\images\diary\med_drug_1.paa' width='367' />"
+        "<img image='z\lxim\addons\media\images\61\drug1.paa' width='760' />"
     ]
 ];
 player createDiaryRecord["medguide",
     ["Drugs 2",
-        "<img image='z\lxim\addons\media\images\diary\med_drug_2.paa' width='367' />"
+        "<img image='z\lxim\addons\media\images\61\drug2.paa' width='760' />"
     ]
 ];
 };
@@ -140,17 +134,33 @@ if !(player diarySubjectExists "jfireguide") then {
 
 player createDiaryRecord["jfireguide",
     ["LZ Formations",
-        "<img image='z\lxim\addons\media\images\diary\lz_formation.paa' width='367' />"
+        "<img image='z\lxim\addons\media\images\61\lzformation.paa' width='760' />"
     ]
 ];
 player createDiaryRecord["jfireguide",
     ["LZ Landing Points",
-        "<img image='z\lxim\addons\media\images\diary\lz_landing.paa' width='367' />"
+        "<img image='z\lxim\addons\media\images\61\landpoint.paa' width='760' />"
     ]
 ];
 player createDiaryRecord["jfireguide",
     ["LZ Landing Marking",
-        "<img image='z\lxim\addons\media\images\diary\lz_marking.paa' width='367' />"
+        "<img image='z\lxim\addons\media\images\61\lzmark.paa' width='760' />"
+    ]
+];
+};
+
+// Add New Topic (sqd orbat)
+if !(player diarySubjectExists "sqdorbat") then {
+    player createDiarySubject ["sqdorbat","Orbat"];
+
+player createDiaryRecord["sqdorbat",
+    ["1/1 and 1/2",
+        "<img image='z\lxim\addons\media\images\61\squad1-2.paa' width='760' />"
+    ]
+];
+player createDiaryRecord["sqdorbat",
+    ["Radio",
+        "<img image='z\lxim\addons\media\images\61\radio.paa' width='760' />"
     ]
 ];
 };
