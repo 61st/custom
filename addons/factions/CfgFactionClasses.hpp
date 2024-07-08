@@ -1,4 +1,3 @@
-#include "script_component.hpp"
 /*
  * Author: AUTHOR
  * Function description
@@ -16,4 +15,20 @@
  * Public: No
  */
 
-class CfgFactionClasses {};
+class CfgFactionClasses {
+    class NO_CATEGORY;
+    class I_CebuArmy_Woodland: NO_CATEGORY {
+        displayName = "Cebu Armed Forces";
+        side = 2;
+        flag = "\A3\ui_f\data\map\markers\flags\Altis_ca.paa";
+        icon = "\A3\ui_f\data\map\markers\flags\Altis_ca.paa";
+        priority = 0;
+    };
+    class B_PhilippinesArmy_Woodland: NO_CATEGORY {
+        displayName = "Philippines Armed Forces ";
+        side = 1;
+        flag = "ca\Ca_E\data\flag_blufor_co.paa";
+        icon = "ca\Ca_E\data\flag_blufor_co.paa";
+        priority = 0;
+    };
+};
