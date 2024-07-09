@@ -100,7 +100,6 @@ class CfgPatches {
             "ace_thermals",
             "ace_vehicle_damage",
             "ace_vehicles",
-            "ADDONs",
             "cba_xeh",
             "CFP_B_AFARMY",
             "CFP_B_ILIDF",
