@@ -1,3 +1,4 @@
+#include "\z\lxim\addons\civilians\script_component.hpp"
 /*
 Function: LXIM_fnc_initCivilianGestures
 
@@ -86,16 +87,16 @@ LXIM_Civilians_CIGSInitialized = true;
                             // In case unit is following someone
                             _x setVariable ["lxim_is_following", nil, true];
 
-                            [format["%1 told %2 to stop with a %3 gesture", _player, _x, _gesture]] call YAINA_F_fnc_log;
+                            [format["%1 told %2 to stop with a %3 gesture", _player, _x, _gesture]] call EFUNC(common,log);
                             doStop _x;
                             false;
                         } else {
-                            [format["%1 detected %2 in a vehicle for stop gesture", _player, _x, _gesture]] call YAINA_F_fnc_log;
+                            [format["%1 detected %2 in a vehicle for stop gesture", _player, _x, _gesture]] call EFUNC(common,log);
                             if (effectiveCommander (vehicle _x) isEqualTo _x) then {
                                 // In case unit is following someone
                                 _x setVariable ["lxim_is_following", nil, true];
 
-                                [format["%1 told %2 to stop with a %3 gesture", _player, _x, _gesture]] call YAINA_F_fnc_log;
+                                [format["%1 told %2 to stop with a %3 gesture", _player, _x, _gesture]] call EFUNC(common,log);
                                 doStop _x;
                                 false;
                             };
@@ -122,7 +123,7 @@ LXIM_Civilians_CIGSInitialized = true;
         {
             if (count weapons _x == 0 && {random 1 < _chance}) then {
                 if ([position _player, getDir _player, 40, position _x] call BIS_fnc_inAngleSector) then {
-                    [format["%1 told %2 to go away with a %3 gesture", _player, _x, _gesture]] call YAINA_F_fnc_log;
+                    [format["%1 told %2 to go away with a %3 gesture", _player, _x, _gesture]] call EFUNC(common,log);
                     // In case unit is following someone
                     _x setVariable ["lxim_is_following", nil, true];
 
@@ -148,7 +149,7 @@ LXIM_Civilians_CIGSInitialized = true;
         {
             if (count weapons _x == 0 && {random 1 < _chance}) then {
                 if ([position _player, getDir _player, 40, position _x] call BIS_fnc_inAngleSector) then {
-                    [format["%1 told %2 to get down with a %3 gesture", _player, _x, _gesture]] call YAINA_F_fnc_log;
+                    [format["%1 told %2 to get down with a %3 gesture", _player, _x, _gesture]] call EFUNC(common,log);
                     // In case unit is following someone
                     _x setVariable ["lxim_is_following", nil, true];
 
@@ -169,13 +170,13 @@ LXIM_Civilians_CIGSInitialized = true;
     if ((LXIM_Civilians_enableFollowGestures) && ({_x == _gesture} count _acceptedGestures > 0) && (_player distance _target < 10)) then {
 
         if (count weapons _target == 0 && {random 1 < _chance}) then {
-        [format["%1 told %2 to follow using a %3 gesture", _player, _target, _gesture]] call YAINA_F_fnc_log;
+        [format["%1 told %2 to follow using a %3 gesture", _player, _target, _gesture]] call EFUNC(common,log);
 
             private _following = [_target, _player] spawn {
                 params ["_target", "_player"];
                 _target setVariable ["lxim_is_following", _player, true];
 
-                [format["%1 about to move to %2 (%3)", _target, _player, _target getVariable ["lxim_is_following", "nothing"]]] call YAINA_F_fnc_log;
+                [format["%1 about to move to %2 (%3)", _target, _player, _target getVariable ["lxim_is_following", "nothing"]]] call EFUNC(common,log);
                 private _playerPosition = [];
                 private _index = 0;
 
@@ -185,7 +186,7 @@ LXIM_Civilians_CIGSInitialized = true;
                     };
 
                     if !(_playerPosition isEqualTo (getPosASL _player)) then {
-                        [format["%1 moving", _target]] call YAINA_F_fnc_log;
+                        [format["%1 moving", _target]] call EFUNC(common,log);
                         _target doMove (getPosASL _player vectorDiff (vectorDir _player vectorMultiply 4));
                         _playerPosition = getPosASL _player;
                     };
@@ -209,7 +210,7 @@ LXIM_Civilians_CIGSInitialized = true;
             [position _target, getDir _target, 120, position _player] call BIS_fnc_inAngleSector
             && ((side group _target) getFriend (side group _player)) > 0.6 // Is friendly-ish?
         ) then {
-            [format["%1 waved at %2 with a %3 gesture", _player, _target, _gesture]] call YAINA_F_fnc_log;
+            [format["%1 waved at %2 with a %3 gesture", _player, _target, _gesture]] call EFUNC(common,log);
             [_target, _player] spawn {
                 _target = _this select 0;
                 sleep 1;
