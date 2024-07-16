@@ -21,9 +21,9 @@ Author:
 */
 
 params [
-	"_group",
-	"_waypoints",
-	["_patrolLength", [4, 8]]
+    "_group",
+    "_waypoints",
+    ["_patrolLength", [4, 8]]
 ];
 
 _patrolLength params ["_patrolLengthMin", "_patrolLengthMax"];
@@ -34,11 +34,11 @@ _group setBehaviour (["AWARE", "SAFE"] select (random 1 > 0.5));
 _group setSpeedMode (["limited", "normal"] select (random 1 > 0.5));
 
 for "_i" from 0 to _findWps do {
-	_wp = selectRandom _waypoints;
-	_wp = _group addWaypoint [_wp, 0];
-	_wp setWaypointType "MOVE";
-	_wp setWaypointCompletionRadius 5;
-	[_group, _i] setWaypointTimeout [0, 4, 10];
+    _wp = selectRandom _waypoints;
+    _wp = _group addWaypoint [_wp, 0];
+    _wp setWaypointType "MOVE";
+    _wp setWaypointCompletionRadius 5;
+    [_group, _i] setWaypointTimeout [0, 4, 10];
 };
 
 _wpc = _group addWaypoint [selectRandom _wayPoints, 0];
