@@ -1,5 +1,5 @@
 /*
-Function: YAINA_F_fnc_log
+Function: EFUNC(common,log)
 
 Description:
 	General purpose logging function, that logs the message either to

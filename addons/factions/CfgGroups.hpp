@@ -19,34 +19,263 @@ class CfgGroups {
         class I_CebuArmy_Woodland {
             name = "Cebu Armed Forces";
             class Infantry {
-                name = "Infantry";
-            };
-            class SpecOps {
-                name = "Special Forces";
+                name="Infantry";
+
+                class I_CebuArmy_Woodland_R_Squad {
+                    name="Squad";
+                    faction="I_CebuArmy_Woodland";
+                    side=2;
+                    class Unit0 {
+                        side=2;
+                        vehicle="I_CebuArmy_Team_Leader_woodland_01";
+                        rank="PRIVATE";
+                        position[]={0,-0,0};
+                    };
+                    class Unit1 {
+                        side=2;
+                        vehicle="I_CebuArmy_Team_Leader_woodland_01";
+                        rank="PRIVATE";
+                        position[]={0,-5,0};
+                    };
+                    class Unit2 {
+                        side=2;
+                        vehicle="I_CebuArmy_Squad_Leader_woodland_01";
+                        rank="PRIVATE";
+                        position[]={0,-10,0};
+                    };
+                    class Unit3 {
+                        side=2;
+                        vehicle="I_CebuArmy_Grenadier_woodland_01";
+                        rank="PRIVATE";
+                        position[]={0,-15,0};
+                    };
+                    class Unit4 {
+                        side=2;
+                        vehicle="I_CebuArmy_Grenadier_woodland_01";
+                        rank="PRIVATE";
+                        position[]={0,-20,0};
+                    };
+                    class Unit5 {
+                        side=2;
+                        vehicle="I_CebuArmy_Autorifleman_woodland_01";
+                        rank="PRIVATE";
+                        position[]={0,-25,0};
+                    };
+                    class Unit6 {
+                        side=2;
+                        vehicle="I_CebuArmy_Autorifleman_woodland_01";
+                        rank="PRIVATE";
+                        position[]={0,-30,0};
+                    };
+                    class Unit7 {
+                        side=2;
+                        vehicle="I_CebuArmy_Rifleman_M4_woodland_01";
+                        rank="PRIVATE";
+                        position[]={0,-35,0};
+                    };
+                    class Unit8 {
+                        side=2;
+                        vehicle="I_CebuArmy_Rifleman_M4_woodland_01";
+                        rank="PRIVATE";
+                        position[]={0,-40,0};
+                    };
+                };
+                class I_CebuArmy_Woodland_R_Support_Team {
+                    name="Support Team";
+                    faction="I_CebuArmy_Woodland";
+                    side=2;
+                    class Unit0 {
+                        side=2;
+                        vehicle="I_CebuArmy_Squad_Leader_woodland_01";
+                        rank="PRIVATE";
+                        position[]={0,-0,0};
+                    };
+                    class Unit1 {
+                        side=2;
+                        vehicle="I_CebuArmy_Light_AT_woodland_01";
+                        rank="PRIVATE";
+                        position[]={0,-5,0};
+                    };
+                    class Unit2 {
+                        side=2;
+                        vehicle="I_CebuArmy_Heavy_AT_woodland_01";
+                        rank="PRIVATE";
+                        position[]={0,-10,0};
+                    };
+                    class Unit3 {
+                        side=2;
+                        vehicle="I_CebuArmy_Team_Leader_woodland_01";
+                        rank="PRIVATE";
+                        position[]={0,-15,0};
+                    };
+                    class Unit4 {
+                        side=2;
+                        vehicle="I_CebuArmy_Team_Leader_woodland_01";
+                        rank="PRIVATE";
+                        position[]={0,-20,0};
+                    };
+                    class Unit5 {
+                        side=2;
+                        vehicle="I_CebuArmy_Light_AT_woodland_01";
+                        rank="PRIVATE";
+                        position[]={0,-25,0};
+                    };
+                    class Unit6 {
+                        side=2;
+                        vehicle="I_CebuArmy_Heavy_AT_woodland_01";
+                        rank="PRIVATE";
+                        position[]={0,-30,0};
+                    };
+                };
+                class I_CebuArmy_Woodland_R_Sniper_Team {
+                    name="Sniper Team";
+                    faction="I_CebuArmy_Woodland";
+                    side=2;
+                    class Unit0 {
+                        side=2;
+                        vehicle="I_CebuArmy_Sniper_woodland_01";
+                        rank="PRIVATE";
+                        position[]={0,-0,0};
+                    };
+                    class Unit1 {
+                        side=2;
+                        vehicle="I_CebuArmy_Sniper_woodland_01";
+                        rank="PRIVATE";
+                        position[]={0,-5,0};
+                    };
+                };
+                class I_CebuArmy_Woodland_R_AA_Team {
+                    name="AA Team";
+                    faction="I_CebuArmy_Woodland_I_CebuArmy_Woodland";
+                    side=2;
+                    class Unit0
+                    {
+                        side=2;
+                        vehicle="I_CebuArmy_Rifleman_M4_woodland_01";
+                        rank="PRIVATE";
+                        position[]={0,-0,0};
+                    };
+                    class Unit1
+                    {
+                        side=2;
+                        vehicle="I_CebuArmy_Heavy_AA_woodland_01";
+                        rank="PRIVATE";
+                        position[]={0,-5,0};
+                    };
+                };
             };
             class Motorized {
-                name = "Motorized Infantry";
-            };
-            class Motorized_MTP {
-                name = "Motorized Infantry (MTP)";
-            };
-            class Support {
-                name = "Support Infantry";
+                name="Motorized";
+
+                class I_CebuArmy_Woodland_R_AA_Team {
+                name="AA Team";
+                faction="I_CebuArmy_Woodland";
+                side=2;
+                class Unit0 {
+                    side=2;
+                    vehicle="I_CebuArmy_AA_Missle_woodland_01";
+                    rank="PRIVATE";
+                    position[]={0,-0,0};
+                };
+                class Unit1 {
+                    side=2;
+                    vehicle="I_CebuArmy_AA_Missle_woodland_01";
+                    rank="MAJOR";
+                    position[]={0,-15,0};
+                };
+                };
+                class I_CebuArmy_Woodland_R_Jeep_Patrol {
+                name="Jeep Patrol";
+                faction="I_CebuArmy_Woodland";
+                side=2;
+                class Unit0 {
+                    side=2;
+                    vehicle="I_CebuArmy_M2_Landrover_woodland_01";
+                    rank="SERGEANT";
+                    position[]={0,-0,0};
+                };
+                class Unit1 {
+                    side=2;
+                    vehicle="I_CebuArmy_M2_Landrover_woodland_01";
+                    rank="SERGEANT";
+                    position[]={0,-15,0};
+                };
+                };
             };
             class Mechanized {
-                name = "Mechanized Infantry";
+                name="Mechanized";
+
+                class I_CebuArmy_Woodland_R_AA_Vic_Team {
+                    name="AA Vic Team";
+                    faction="I_CebuArmy_Woodland";
+                    side=2;
+                    class Unit0 {
+                        side=2;
+                        vehicle="I_CebuArmy_M163A1_Vad_woodland_01";
+                        rank="MAJOR";
+                        position[]={0,-0,0};
+                    };
+                    class Unit1 {
+                        side=2;
+                        vehicle="I_CebuArmy_M163A1_Vad_woodland_01";
+                        rank="PRIVATE";
+                        position[]={0,-15,0};
+                    };
+                };
             };
             class Armored {
-                name = "Armor";
+                name="Armored";
+
+                class I_CebuArmy_Woodland_R_M60_Tank_Team {
+                name="M60 Tank Team";
+                faction="I_CebuArmy_Woodland";
+                side=2;
+                class Unit0 {
+                    side=2;
+                    vehicle="I_CebuArmy_Tank_woodland_01";
+                    rank="COLONEL";
+                    position[]={0,-0,0};
+                };
+                class Unit1 {
+                    side=2;
+                    vehicle="I_CebuArmy_Tank_woodland_01";
+                    rank="SERGEANT";
+                    position[]={0,-15,0};
+                };
+                };
+                class I_CebuArmy_Woodland_R_Mixed_Tank_Team {
+                name="Mixed Tank Team";
+                faction="I_CebuArmy_Woodland";
+                side=2;
+                class Unit0 {
+                    side=2;
+                    vehicle="I_CebuArmy_M1A1_Abrams_woodland_01";
+                    rank="COLONEL";
+                    position[]={0,-0,0};
+                };
+                class Unit1 {
+                    side=2;
+                    vehicle="I_CebuArmy_Tank_woodland_01";
+                    rank="PRIVATE";
+                    position[]={0,-15,0};
+                };
+                };
             };
-            class Artillery {
-                name = "Artillery";
+            class SpecOps {
+                name="Special Forces";
+
             };
-            class Naval {
-                name = "Naval";
+            class Support {
+                name="Support Infantry";
+
+            };
+            class Airborne {
+                name="Airborne";
+
             };
             class Air {
-                name = "Air";
+                name="Air";
+
             };
         };
     };
@@ -208,6 +437,25 @@ class CfgGroups {
                         rank = "PRIVATE";
                         side = 1;
                         vehicle = "B_PhilippinesArmy_Marksman_Woodland_01";
+                    };
+                };
+                class B_PhilippinesArmy_Woodland_B_AA_Team{
+                    name="AA Team";
+                    faction="B_PhilippinesArmy_Woodland_B_PhilippinesArmy_Woodland";
+                    side=1;
+                    class Unit0
+                    {
+                    side=1;
+                    vehicle="B_PhilippinesArmy_Light_AA_Woodland_01";
+                    rank="PRIVATE";
+                    position[]={0,-0,0};
+                    };
+                    class Unit1
+                    {
+                    side=1;
+                    vehicle="B_PhilippinesArmy_Light_AA_Woodland_01";
+                    rank="PRIVATE";
+                    position[]={0,-5,0};
                     };
                 };
             };
