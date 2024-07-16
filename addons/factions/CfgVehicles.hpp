@@ -293,6 +293,31 @@ class CfgVehicles {
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
     };
+    class I_CebuArmy_Heavy_AA_woodland_01 : I_CebuArmy_Light_AT_woodland_01 {
+        author = "CPT Cury";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "AA";
+        side = 2;
+        faction = "I_CebuArmy_Woodland";
+        identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
+        uniformClass = "U_I_L_Uniform_01_camo_F";
+        linkedItems[] = {"V_CarrierRigKBT_01_light_EAF_F","H_HelmetB_snakeskin","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        respawnlinkedItems[] = {"V_CarrierRigKBT_01_light_EAF_F","H_HelmetB_snakeskin","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        weapons[] = {"CUP_arifle_M16A4_Base","CUP_launch_FIM92Stinger","CUP_hgun_M9A1"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_Base","CUP_launch_FIM92Stinger","CUP_hgun_M9A1"};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag_Mk16_black","CUP_PG7V_M","CUP_15Rnd_9x19_M9","CUP_30Rnd_556x45_Stanag_Mk16_black","CUP_15Rnd_9x19_M9"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag_Mk16_black","CUP_PG7V_M","CUP_15Rnd_9x19_M9","CUP_30Rnd_556x45_Stanag_Mk16_black","CUP_15Rnd_9x19_M9"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","CUP_acc_Flashlight","CUP_optic_ACOG2",{"CUP_30Rnd_556x45_Stanag_Mk16_black",30},{},""},{"CUP_launch_RPG7V","","","",{"CUP_PG7V_M",1},{},""},{"CUP_hgun_M9A1","","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"U_I_L_Uniform_01_camo_F",{}},{"V_CarrierRigKBT_01_light_EAF_F",{{"CUP_15Rnd_9x19_M9",4,15},{"CUP_HandGrenade_M67",2,1},{"CUP_30Rnd_556x45_Stanag_Mk16_black",8,30}}},{},"H_HelmetB_snakeskin","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+        };
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+    };
     class I_CebuArmy_Sniper_woodland_01 : I_CebuArmy_Heavy_AT_woodland_01 {
         author = "CPT Cury";
         scope = 2;
@@ -896,6 +921,31 @@ class CfgVehicles {
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
     };
+    class B_PhilippinesArmy_Light_AA_Woodland_01 : B_PhilippinesArmy_Rifleman_Woodland_01 {
+        author = "CPT Cury";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "AA";
+        side = 1;
+        faction = "B_PhilippinesArmy_Woodland";
+        identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
+        uniformClass = "U_I_CombatUniform";
+        linkedItems[] = {"V_CarrierRigKBT_01_light_Olive_F","H_HelmetIA","ItemMap","ItemRadio","ItemCompass","ItemWatch","ACE_NVG_Gen4_Black"};
+        respawnlinkedItems[] = {"V_CarrierRigKBT_01_light_Olive_F","H_HelmetIA","ItemMap","ItemRadio","ItemCompass","ItemWatch","ACE_NVG_Gen4_Black"};
+        weapons[] = {"CUP_arifle_M4A3_black","CUP_launch_FIM92Stinger","CUP_hgun_M9A1"};
+        respawnWeapons[] = {"CUP_arifle_M4A3_black","CUP_launch_FIM92Stinger","CUP_hgun_M9A1"};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9","CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9","CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A3_black","","CUP_acc_Flashlight","CUP_optic_ACOG2_PIP",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_RPG18","","","",{},{},""},{"CUP_hgun_M9A1","","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"U_I_CombatUniform",{}},{"V_CarrierRigKBT_01_light_Olive_F",{{"CUP_15Rnd_9x19_M9",4,15},{"CUP_HandGrenade_M67",2,1},{"CUP_30Rnd_556x45_Stanag",8,30}}},{},"H_HelmetIA","CUP_G_ESS_BLK",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","ACE_NVG_Gen4_Black"}};
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+        };
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+    };
     class B_PhilippinesArmy_Heavy_AT_Woodland_01 : B_PhilippinesArmy_Rifleman_Woodland_01 {
         author = "CPT Cury";
         scope = 2;
@@ -1204,5 +1254,121 @@ class CfgVehicles {
         };
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
+    };
+    class B_LegStrapBag_black_F;
+    class CUP_B_M113A1_olive_USA;
+    class CUP_B_M113A3_Med_olive_USA;
+    class CUP_B_M113A3_HQ_olive_USA;
+    class I_APC_Wheeled_03_cannon_F;
+    class CUP_I_C130J_AAF;
+    class CUP_I_L39_AAF;
+    class I_Truck_02_covered_F;
+    class I_Truck_02_medical_F;
+    class I_Truck_02_fuel_F;
+    class I_Truck_02_ammo_F;
+    class CFP_B_USARMY_1991_HMMWV_Avenger_Des_01;
+
+    class B_PhilippinesArmy_Woodland_Jet_Pilot: B_PhilippinesArmy_Pilot_Woodland_01 {
+        faction = "B_PhilippinesArmy_Woodland";
+        side=1;
+        displayName="Jet Pilot";
+        uniformClass="U_I_pilotCoveralls";
+        weapons[]={"B_PhilippinesArmy_Woodland_CUP_hgun_M9A1","Put","Throw"};
+        respawnWeapons[]={"B_PhilippinesArmy_Woodland_CUP_hgun_M9A1","Put","Throw"};
+        items[]={"ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_tourniquet","ACE_tourniquet"};
+        respawnItems[]={"ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_tourniquet","ACE_tourniquet"};
+        magazines[]={"CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
+        respawnMagazines[]={"CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
+        linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","H_PilotHelmetFighter_I","V_CarrierRigKBT_01_light_Olive_F"};
+        respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","H_PilotHelmetFighter_I","V_CarrierRigKBT_01_light_Olive_F"};
+        backpack="";
+    };
+    class B_PhilippinesArmy_Woodland_M113A3: CUP_B_M113A1_olive_USA {
+        faction = "B_PhilippinesArmy_Woodland";
+        side=1;
+        displayName="M113A3";
+        hiddenSelectionsTextures[]={"cup\trackedvehicles\cup_trackedvehicles_newm113\data\camo\aaf\main_co.paa","cup\trackedvehicles\cup_trackedvehicles_newm113\data\camo\aaf\unique_co.paa","cup\trackedvehicles\cup_trackedvehicles_newm113\data\camo\aaf\accessories_co.paa","","cup\trackedvehicles\cup_trackedvehicles_m1abrams\data\usarmy_marks\w_front_ca.paa","cup\vehicles\cup_vehicles_core\data\fonts\stencilfont\1_ca.paa","cup\vehicles\cup_vehicles_core\data\fonts\stencilfont\4_ca.paa"};
+        crew="B_PhilippinesArmy_Woodland_Crewman";
+        typicalCargo[]={"B_PhilippinesArmy_Woodland_Crewman"};
+    };
+    class B_PhilippinesArmy_Woodland_M113A3_MEV: CUP_B_M113A3_Med_olive_USA {
+        faction = "B_PhilippinesArmy_Woodland";
+        side=1;
+        displayName="M113A3 MEV";
+        hiddenSelectionsTextures[]={"cup\trackedvehicles\cup_trackedvehicles_newm113\data\camo\aaf\main_co.paa","cup\trackedvehicles\cup_trackedvehicles_newm113\data\camo\aaf\unique_co.paa","cup\trackedvehicles\cup_trackedvehicles_newm113\data\camo\aaf\accessories_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_newhmmwv\data\decals\red_crystal_co.paa","cup\trackedvehicles\cup_trackedvehicles_m1abrams\data\usarmy_marks\w_front_ca.paa","cup\vehicles\cup_vehicles_core\data\fonts\stencilfont\6_ca.paa","cup\vehicles\cup_vehicles_core\data\fonts\stencilfont\4_ca.paa"};
+        crew="B_PhilippinesArmy_Woodland_Crewman";
+        typicalCargo[]={"B_PhilippinesArmy_Woodland_Crewman"};
+    };
+    class B_PhilippinesArmy_Woodland_M113A3_HQ: CUP_B_M113A3_HQ_olive_USA {
+        faction = "B_PhilippinesArmy_Woodland";
+        side=1;
+        displayName="M113A3 HQ";
+        hiddenSelectionsTextures[]={"cup\trackedvehicles\cup_trackedvehicles_newm113\data\camo\olive\main_co.paa","cup\trackedvehicles\cup_trackedvehicles_newm113\data\camo\olive\unique_co.paa","cup\trackedvehicles\cup_trackedvehicles_newm113\data\camo\olive\accessories_co.paa","","cup\trackedvehicles\cup_trackedvehicles_m1abrams\data\usarmy_marks\w_front_ca.paa","cup\vehicles\cup_vehicles_core\data\fonts\stencilfont\2_ca.paa","cup\vehicles\cup_vehicles_core\data\fonts\stencilfont\4_ca.paa"};
+        crew="B_PhilippinesArmy_Woodland_Crewman";
+        typicalCargo[]={"B_PhilippinesArmy_Woodland_Crewman"};
+    };
+    class B_PhilippinesArmy_Woodland_Pandur: I_APC_Wheeled_03_cannon_F {
+        faction = "B_PhilippinesArmy_Woodland";
+        side=1;
+        displayName="Pandur";
+        hiddenSelectionsTextures[]={"a3\armor_f_gamma\apc_wheeled_03\data\apc_wheeled_03_ext_indp_co.paa","a3\armor_f_gamma\apc_wheeled_03\data\apc_wheeled_03_ext2_indp_co.paa","a3\armor_f_gamma\apc_wheeled_03\data\rcws30_indp_co.paa","a3\armor_f_gamma\apc_wheeled_03\data\apc_wheeled_03_ext_alpha_indp_co.paa","a3\armor_f\data\camonet_aaf_digi_green_co.paa","a3\armor_f\data\cage_aaf_co.paa"};
+        crew="B_PhilippinesArmy_Crewman_Woodland_01";
+        typicalCargo[]={"B_PhilippinesArmy_Crewman_Woodland_01"};
+    };
+    class B_PhilippinesArmy_Woodland_C130: CUP_I_C130J_AAF {
+        faction = "B_PhilippinesArmy_Woodland";
+        side=1;
+        displayName="C130";
+        hiddenSelectionsTextures[]={"cup\airvehicles\cup_airvehicles_c130j\data\textures\c130j_body_aaf_co.paa","cup\airvehicles\cup_airvehicles_c130j\data\textures\c130j_wings_aaf_co.paa"};
+        crew="B_PhilippinesArmy_Woodland_Jet_Pilot";
+        typicalCargo[]={"B_PhilippinesArmy_Woodland_Jet_Pilot"};
+    };
+    class B_PhilippinesArmy_Woodland_L_39ZA: CUP_I_L39_AAF {
+        faction = "B_PhilippinesArmy_Woodland";
+        side=1;
+        displayName="L 39ZA";
+        hiddenSelectionsTextures[]={"a3\air_f_gamma\plane_fighter_03\data\plane_fighter_03_body_1_indp_co.paa","a3\air_f_gamma\plane_fighter_03\data\plane_fighter_03_body_2_indp_co.paa"};
+        crew="B_PhilippinesArmy_Woodland_Jet_Pilot";
+        typicalCargo[]={"B_PhilippinesArmy_Woodland_Jet_Pilot"};
+    };
+    class B_PhilippinesArmy_Woodland_KamAZ: I_Truck_02_covered_F {
+        faction = "B_PhilippinesArmy_Woodland";
+        side=1;
+        displayName="KamAZ";
+        hiddenSelectionsTextures[]={"a3\soft_f_beta\truck_02\data\truck_02_kab_indp_co.paa","a3\soft_f_beta\truck_02\data\truck_02_kuz_indp_co.paa","a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
+        crew="B_PhilippinesArmy_Rifleman_Woodland_01";
+        typicalCargo[]={"B_PhilippinesArmy_Rifleman_Woodland_01"};
+    };
+    class B_PhilippinesArmy_Woodland_KamAZ_MEV: I_Truck_02_medical_F {
+        faction = "B_PhilippinesArmy_Woodland";
+        side=1;
+        displayName="KamAZ MEV";
+        hiddenSelectionsTextures[]={"a3\soft_f_beta\truck_02\data\truck_02_kab_indp_co.paa","a3\soft_f_beta\truck_02\data\truck_02_kuz_indp_co.paa","a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
+        crew="B_PhilippinesArmy_Rifleman_Woodland_01";
+        typicalCargo[]={"B_PhilippinesArmy_Rifleman_Woodland_01"};
+    };
+    class B_PhilippinesArmy_Woodland_KamAZ_Fuel: I_Truck_02_fuel_F {
+        faction = "B_PhilippinesArmy_Woodland";
+        side=1;
+        displayName="KamAZ Fuel";
+        hiddenSelectionsTextures[]={"a3\soft_f_beta\truck_02\data\truck_02_kab_indp_co.paa","a3\soft_f_beta\truck_02\data\truck_02_fuel_indp_co.paa","a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
+        crew="B_PhilippinesArmy_Rifleman_Woodland_01";
+        typicalCargo[]={"B_PhilippinesArmy_Rifleman_Woodland_01"};
+    };
+    class B_PhilippinesArmy_Woodland_KamAZ_Ammo: I_Truck_02_ammo_F {
+        faction = "B_PhilippinesArmy_Woodland";
+        side=1;
+        displayName="KamAZ Ammo";
+        hiddenSelectionsTextures[]={"a3\soft_f_beta\truck_02\data\truck_02_kab_indp_co.paa","a3\soft_f_beta\truck_02\data\truck_02_repair_indp_co.paa","a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
+        crew="B_PhilippinesArmy_Rifleman_Woodland_01";
+        typicalCargo[]={"B_PhilippinesArmy_Rifleman_Woodland_01"};
+    };
+    class B_PhilippinesArmy_Woodland_Avenger: CFP_B_USARMY_1991_HMMWV_Avenger_Des_01 {
+        faction = "B_PhilippinesArmy_Woodland";
+        side=1;
+        displayName="Avenger";
+        hiddenSelectionsTextures[]={"cup\wheeledvehicles\cup_wheeledvehicles_hmmwv\data\textures\nato_t_hmmwv_body_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_hmmwv\data\textures\nato_t_m998a2_avenger_1_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_hmmwv\data\textures\nato_t_m998a2_avenger_3_co.paa"};
+        crew="B_PhilippinesArmy_Crewman_Woodland_01";
+        typicalCargo[]={"B_PhilippinesArmy_Crewman_Woodland_01"};
     };
 };

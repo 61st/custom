@@ -9,12 +9,6 @@ force force lxim_back_to_game_teleportToLeader = true;
 force force lxim_back_to_game_teleportToVehicle = true;
 
 // 61st - Bluforce force Tracker
-force force lxim_bft_bftEnabled = false;
-force force lxim_bft_friendlySides_CIVILIAN = [0,2];
-force force lxim_bft_friendlySides_EAST = [3];
-force force lxim_bft_friendlySides_RESISTANCE = [1,3];
-force force lxim_bft_friendlySides_WEST = [2];
-force force lxim_bft_friendlySidesDynamic = true;
 force force lxim_bft_groupIconsInteraction = "hover";
 force force lxim_bft_medicalSystem = "ACE";
 force force lxim_bft_requireItemGPS = true;
@@ -30,7 +24,6 @@ force force lxim_bft_showOwnGroupUnits = true;
 force force lxim_bft_showPlayerNames = true;
 force force lxim_bft_showUnitNames = true;
 force force lxim_bft_teamColors = "ACE";
-force force lxim_bft_updateInterval = 1.5;
 
 // 61st - channels
 force force lxim_channels_CommandDuration = 0;
