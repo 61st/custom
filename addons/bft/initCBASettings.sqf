@@ -4,7 +4,7 @@
     "CHECKBOX",
     "Enable Icons",
     [COMPONENT_NAME,"General"],
-    true,
+    false,
     1
 ] call CBA_fnc_addSetting;
 

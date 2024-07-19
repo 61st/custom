@@ -40,6 +40,7 @@ Its based/inspired on/by the following projects;
 - https://github.com/SzwedzikPL/SimpleSuppress/releases - MIT License
 - Ample Camo Pack Lite https://steamcommunity.com/sharedfiles/filedetails/?id=2869453820  - Arma Public License Share-Alike (APL-SA)
 
+
 All the code in this mod is available in the Github
 you can find the 61st Mechanized Infantry Battalion Version at https://github.com/61st/custom
 
@@ -58,9 +59,9 @@ ACE MOD https://steamcommunity.com/workshop/filedetails/?id=463939057
   - Realistic Dispersion
   - Tracers (ball)
 
-# This mod includes retextures for: (per expressed permission on each mods steam page)
-exer's
-- Foxtrot Paramilitary Gear Pack v2 https://steamcommunity.com/sharedfiles/filedetails/?id=2955586129
+# This mod includes retextures for: (per expressed permission in licenses  - GPL 3.0 )
+A rewrite of katalam KAM, (removed chemical and few other tweaks)
+https://github.com/KAT-Advanced-Medical/KAM 
 
 
 # This mod also includes : (per expressed permission on each mods steam page)
@@ -78,7 +79,6 @@ BettIR (Legacy v0.2.1) https://steamcommunity.com/sharedfiles/filedetails/?id=22
 
 mjc4wilton's
 BackpackOnChest - Redux https://steamcommunity.com/sharedfiles/filedetails/?id=2372036642
-
 
 Huge appreciation and thanks to [ACE3 Team](http://ace3mod.com/team.html) for their open-source nature and permission to use their systems.
 
