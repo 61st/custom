@@ -1,0 +1,1 @@
+#include "\z\lxim\addons\tasks\script_component.hpp"
