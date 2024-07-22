@@ -2,8 +2,8 @@
  * Author: Reeveli
  * Part of Reeveli's TFAR Scribbles.
  * UI for ANARC 164.
- 
- 1.1
+
+    1.1
     Increased nigh time threshold to <1
 */
 
