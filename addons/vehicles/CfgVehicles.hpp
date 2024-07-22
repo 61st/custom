@@ -75,7 +75,8 @@ class CfgVehicles {
         author = QAUTHOR;
         picture = "\A3\armor_f_gamma\APC_Wheeled_03\Data\UI\APC_Wheeled_03_CA.paa";
         side = 1;
-        armor = 500;
+        armorStructural = 5.5;
+        armor = 550;
         maxSpeed = 125;
         enginePower = 390;
         terrainCoef = 1;
@@ -315,7 +316,8 @@ class CfgVehicles {
         author = QAUTHOR;
         picture = "\A3\armor_f_gamma\APC_Wheeled_03\Data\UI\APC_Wheeled_03_CA.paa";
         side = 1;
-        armor = 500;
+        armorStructural = 5.5;
+        armor = 550;
         maxSpeed = 125;
         vehicleClass = "APCs""";
         textureList[] = {"Blu",1};
@@ -552,7 +554,8 @@ class CfgVehicles {
         author = QAUTHOR;
         picture = "\A3\armor_f_gamma\APC_Wheeled_03\Data\UI\APC_Wheeled_03_CA.paa";
         side = 1;
-        armor = 500;
+        armorStructural = 5.5;
+        armor = 550;
         maxSpeed = 125;
         vehicleClass = "APCs""";
         textureList[] = {"Blu",1};
