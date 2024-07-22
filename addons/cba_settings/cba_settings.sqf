@@ -24,26 +24,7 @@ force force lxim_bft_showOwnGroupUnits = true;
 force force lxim_bft_showPlayerNames = true;
 force force lxim_bft_showUnitNames = true;
 force force lxim_bft_teamColors = "ACE";
-
-// 61st - channels
-force force lxim_channels_CommandDuration = 0;
-force force lxim_channels_CommandText = false;
-force force lxim_channels_CommandVoice = false;
-force force lxim_channels_DirectDuration = 0;
-force force lxim_channels_DirectText = false;
-force force lxim_channels_DirectVoice = false;
-force force lxim_channels_GlobalDuration = 0;
-force force lxim_channels_GlobalText = false;
-force force lxim_channels_GlobalVoice = false;
-force force lxim_channels_GroupDuration = 0;
-force force lxim_channels_GroupText = false;
-force force lxim_channels_GroupVoice = false;
-force force lxim_channels_SideDuration = 0;
-force force lxim_channels_SideText = false;
-force force lxim_channels_SideVoice = false;
-force force lxim_channels_VehicleDuration = 0;
-force force lxim_channels_VehicleText = false;
-force force lxim_channels_VehicleVoice = false;
+force lxim_bft_bftEnabled = false;
 
 // 61st - Civilians
 force force LXIM_Civilians_enableFollowGestures = true;
@@ -88,9 +69,8 @@ force force lxim_spectator_allowAIUnconscious = false;
 force force lxim_spectator_allowUnconscious = true;
 force force lxim_spectator_civilianSide = false;
 force force lxim_spectator_civilianSideUnconscious = false;
-force force lxim_spectator_enabled = true;
 force force lxim_spectator_freeCamera = false;
-force force lxim_spectator_freeCameraUnconscious = false;
+force force lxim_spectator_freeCameraUnconscious = true;
 force force lxim_spectator_sides = 0;
 force force lxim_spectator_sidesUnconscious = 0;
 force force lxim_spectator_TPPCamera = false;
@@ -143,7 +123,7 @@ force force ace_arsenal_allowDefaultLoadouts = true;
 force force ace_arsenal_allowSharedLoadouts = true;
 force force ace_arsenal_enableIdentityTabs = false;
 force force ace_arsenal_enableModIcons = true;
-force force ace_arsenal_EnableRPTLog = true;
+force ace_arsenal_EnableRPTLog = false;
 
 // ACE Artillery
 force force ace_artillerytables_advancedCorrections = true;
@@ -251,10 +231,8 @@ force force acex_headless_transferLoadout = 1;
 // ACE Hearing
 force force ace_hearing_autoAddEarplugsToUnits = 1;
 force force ace_hearing_disableEarRinging = false;
-force force ace_hearing_earplugsVolume = 0.5;
 force force ace_hearing_enableCombatDeafness = true;
 force force ace_hearing_enabledForZeusUnits = true;
-force force ace_hearing_unconsciousnessVolume = 0.4;
 
 // ACE Interaction
 force force ace_interaction_disableNegativeRating = true;
@@ -398,41 +376,12 @@ force force ace_medical_vitals_simulateSpO2 = false;
 
 // ACE Medical Interface
 force force ace_medical_feedback_bloodVolumeEffectType = 0;
-//ace_medical_feedback_enableHUDIndicators = true;
 force force ace_medical_feedback_painEffectType = 0;
-//ace_medical_gui_bloodLossColor_0 = [1,1,1,1];
-//ace_medical_gui_bloodLossColor_1 = [1,0.94,0.48,1];
-//ace_medical_gui_bloodLossColor_2 = [1,0.87,0.25,1];
-//ace_medical_gui_bloodLossColor_3 = [1,0.79,0.17,1];
-//ace_medical_gui_bloodLossColor_4 = [1,0.71,0.11,1];
-//ace_medical_gui_bloodLossColor_5 = [1,0.62,0.05,1];
-//ace_medical_gui_bloodLossColor_6 = [1,0.53,0.01,1];
-//ace_medical_gui_bloodLossColor_7 = [1,0.42,0,1];
-//ace_medical_gui_bloodLossColor_8 = [1,0.29,0,1];
-//ace_medical_gui_bloodLossColor_9 = [1,0,0,1];
-//ace_medical_gui_bodyPartOutlineColor = [1,1,1,1];
-//ace_medical_gui_damageColor_0 = [1,1,1,1];
-//ace_medical_gui_damageColor_1 = [0.52,0.73,1,1];
-//ace_medical_gui_damageColor_2 = [0.38,0.68,1,1];
-//ace_medical_gui_damageColor_3 = [0.37,0.6,1,1];
-//ace_medical_gui_damageColor_4 = [0.35,0.53,1,1];
-//ace_medical_gui_damageColor_5 = [0.33,0.45,1,1];
-//ace_medical_gui_damageColor_6 = [0.3,0.37,1,1];
-//ace_medical_gui_damageColor_7 = [0.25,0.29,1,1];
-//ace_medical_gui_damageColor_8 = [0.18,0.18,1,1];
-//ace_medical_gui_damageColor_9 = [0,0,1,1];
-//ace_medical_gui_enableActions = 0;
-//ace_medical_gui_enableMedicalMenu = 1;
 force force ace_medical_gui_enableSelfActions = true;
 force force ace_medical_gui_interactionMenuShowTriage = 1;
 force force ace_medical_gui_maxDistance = 3.4;
 force force ace_medical_gui_openAfterTreatment = true;
-//ace_medical_gui_peekMedicalInfoReleaseDelay = 1;
-//ace_medical_gui_peekMedicalOnHit = false;
-//ace_medical_gui_peekMedicalOnHitDuration = 1;
 force force ace_medical_gui_showBleeding = 2;
-//ace_medical_gui_showBloodlossEntry = true;
-//ace_medical_gui_showDamageEntry = false;
 force force ace_medical_gui_tourniquetWarning = true;
 
 // ACE Vehicle Medical
@@ -600,7 +549,7 @@ force force ace_trenches_smallEnvelopeDigDuration = 20;
 force force ace_trenches_smallEnvelopeRemoveDuration = 12;
 
 // ACE Uncategorized
-force force ace_fastroping_autoAddFRIES = false;
+force force ace_fastroping_autoAddFRIES = true;
 force force ace_fastroping_requireRopeItems = true;
 force force ace_gunbag_swapGunbagEnabled = true;
 force force ace_hitreactions_minDamageToTrigger = 0.1;
@@ -692,7 +641,7 @@ force force cba_disposable_replaceDisposableLauncher = false;
 force force cba_network_loadoutValidation = 1;
 
 // CUP
-force force CUP_CheckCfgPatches = true;
+force force CUP_CheckCfgPatches = false;
 force force CUP_Vehicles_PreventBarrelClip = true;
 
 // CUP Static Weapons
@@ -725,10 +674,10 @@ force force emr_main_jumpingLoadCoefficient = 1;
 force force emr_main_jumpVelocity = 2;
 force force emr_main_maxClimbHeight = 2;
 force force emr_main_maxDropHeight = 5;
-force force emr_main_maxWeightClimb1 = 100;
-force force emr_main_maxWeightClimb2 = 40;
-force force emr_main_maxWeightClimb3 = 10;
-force force emr_main_maxWeightJump = 100;
+force force emr_main_maxWeightClimb1 = 120;
+force force emr_main_maxWeightClimb2 = 60;
+force force emr_main_maxWeightClimb3 = 20;
+force force emr_main_maxWeightJump = 120;
 force force emr_main_preventHighVaulting = false;
 force force emr_main_staminaCoefficient = 1.5;
 force force emr_main_whitelistStr = "";
@@ -847,7 +796,6 @@ force force kat_breathing_SpO2_unconscious = 75;
 force force kat_breathing_Stable_spo2 = 85;
 force force kat_breathing_staminaLossAtLowSPO2 = true;
 force force kat_breathing_stethoscopeListeningTime = 15;
-kat_breathing_stethoscopeSoundVolume = 2;
 force force kat_breathing_TensionHemothoraxAlwaysVisible = false;
 
 // KAT - ADV Medical: Chemical
@@ -914,9 +862,7 @@ kat_gui_showPatientSideLabels = false;
 
 // KAT - ADV Medical: Misc
 kat_misc_AFAK_Container = 0;
-kat_misc_AFAK_Item_Color = [0.67,0.84,0.9];
 force force kat_misc_AFAK_RemoveWhenEmpty = true;
-kat_misc_AFAK_Slot_Color = [1,0.96,0.32];
 force force kat_misc_AFAKFifthSlotItem = "[['kat_guedel', 4], ['kat_suction', 4]]";
 force force kat_misc_AFAKFirstSlotItem = "[['ACE_tourniquet', 8], ['ACE_splint', 4], ['kat_iv_16', 8]]";
 force force kat_misc_AFAKFourthSlotItem = "[['kat_chestSeal', 4]]";
@@ -935,18 +881,14 @@ kat_misc_armbandSlingRightLegRotation = "[-30, -5, 38]";
 force force kat_misc_enable = true;
 force force kat_misc_enableStitchFullBody = false;
 kat_misc_IFAK_Container = 0;
-kat_misc_IFAK_Item_Color = [0.67,0.84,0.9];
 force force kat_misc_IFAK_RemoveWhenEmpty = true;
-kat_misc_IFAK_Slot_Color = [1,0.3,0.3];
 force force kat_misc_IFAKFirstSlotItem = "[['ACE_tourniquet', 4], ['ACE_Splint', 2]]";
 force force kat_misc_IFAKFourthSlotItem = "[['kat_chestSeal', 1], ['kat_IV_16', 1], ['ACE_salineIV', 1], ['kat_guedel', 1]]";
 force force kat_misc_IFAKSecondSlotItem = "[['ACE_fieldDressing', 8],['ACE_packingBandage', 6], ['ACE_elasticBandage', 6]]";
 force force kat_misc_IFAKThirdSlotItem = "[['kat_Painkiller', 1], ['ACE_epinephrine', 1]]";
 force force kat_misc_incompatibilityWarning = true;
 kat_misc_MFAK_Container = 0;
-kat_misc_MFAK_Item_Color = [0.67,0.84,0.9];
 force force kat_misc_MFAK_RemoveWhenEmpty = true;
-kat_misc_MFAK_Slot_Color = [0.56,0.93,0.56];
 force force kat_misc_MFAKEighthSlotItem = "[['kat_Pulseoximeter', 4],['ACE_suture', 12], ['ACE_surgicalKit', 1], ['kat_X_AED', 1]]";
 force force kat_misc_MFAKFifthSlotItem = "[['kat_larynx', 12], ['kat_accuvac', 1], ['kat_pocketBVM', 1]]";
 force force kat_misc_MFAKFirstSlotItem = "[['ACE_tourniquet', 8], ['ACE_splint', 6]]";
