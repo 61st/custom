@@ -49,7 +49,8 @@ class CfgPatches {
             "ace_vector",
             "A3_Weapons_F",
             "cba_jr",
-            "ace_xm157"
+            "ace_xm157"/* ,
+            "tfar_handhelds" */
         };
         VERSION_CONFIG;
         authors[] = {"YonV"};

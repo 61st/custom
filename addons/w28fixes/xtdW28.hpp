@@ -41,7 +41,7 @@ class XtdGearModels {
             textureOptions[] = { "patch" };
             class patch {
                 label = "Skill Tab";
-                values[] = {"None","MED", "EOD", "JFIRE"};
+                values[] = {"None","MED", "EOD", "JTAC"};
                 hiddenselection = "insignia";
                 class None {
                     texture = "";
@@ -53,7 +53,7 @@ class XtdGearModels {
                     texture = "z\lxim\addons\media\images\patches\peod.paa";
                 };
                 class JFIRE {
-                    texture = "z\lxim\addons\media\images\patches\pjfire.paa";
+                    texture = "z\lxim\addons\media\images\patches\jtac.paa";
                 };
             };
         };
