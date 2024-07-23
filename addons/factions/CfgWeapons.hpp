@@ -1,3 +1,1 @@
-class CfgWeapons {
-    
-};
+class CfgWeapons {};
