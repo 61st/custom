@@ -14,18 +14,18 @@
  * [_drone, 'Item_Rev_Darter'] call Rev_uav_fnc_pick_up
  *
  2.0
-	Function rewritten with new parameter
+    Function rewritten with new parameter
     Animation stance is now based on player stance
  1.1
     All vehicle classes renamed with mod rewrite
-	Fixed wrong info in header
+    Fixed wrong info in header
  */
 
 if !(hasInterface) exitWith {};
 
 params [
-	["_drone",objNull,[objNull]],
-	["_type","Item_Rev_Darter",[""]]
+    ["_drone",objNull,[objNull]],
+    ["_type","Item_Rev_Darter",[""]]
 ];
 
 if (isNull _drone) exitWith {}; 
@@ -35,6 +35,6 @@ private _pos = getPosATL _drone;
 private _dir = getDir _drone;
 deleteVehicle _drone;
 private _anim = if (stance player == "STAND") then {"AinvPercMstpSrasWrflDnon_Putdown_AmovPercMstpSrasWrflDnon"} else {"AinvPknlMstpSrasWrflDnon_Putdown_AmovPknlMstpSrasWrflDnon"};
-[player, _anim] remoteExec ["switchMove", 0];	
+[player, _anim] remoteExec ["switchMove", 0];
 private _new = createVehicle [_type, _pos, [], 0, "CAN_COLLIDE"];
 _new setDir _dir;

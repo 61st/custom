@@ -13,9 +13,9 @@
  *
  1.1
     Weapon classes renamed with mod rewrite
-	Function rewritten to be more modular
-	Added interface check
-	Added return value to exits
+    Function rewritten to be more modular
+    Added interface check
+    Added return value to exits
  */
 
 if !(hasInterface) exitWith {-1};
@@ -23,9 +23,9 @@ if !(isClass (configFile >> "CfgPatches" >> "ace_arsenal")) exitWith {-1};
 
 
 private _drones = [
-	"Rev_Darter",
-	"Rev_Pelican",
-	"Rev_Demine"
+    "Rev_Darter",
+    "Rev_Pelican",
+    "Rev_Demine"
 ];
 
 if (isClass (configFile >> "CfgPatches" >> "Rev_deployable_designator")) then {_drones pushBackUnique "Rev_Designator"};
