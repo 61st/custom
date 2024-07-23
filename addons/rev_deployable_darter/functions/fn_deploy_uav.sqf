@@ -29,9 +29,9 @@
 if !(hasInterface) exitWith {false;};
 
 params [
-	["_unit",objNull,[objNull]],
-	["_item","",[""]],
-	["_object",objNull,[objNull]]
+    ["_unit",objNull,[objNull]],
+    ["_item","",[""]],
+    ["_object",objNull,[objNull]]
 ];
 
 if (_item isEqualTo "") exitWith {false}; 
@@ -110,7 +110,7 @@ if !(isNull _object) then {deleteVehicle _object};
 private _uav = createVehicle [_vehicletype, _unit getRelPos [1,0]];
 createVehicleCrew _uav;
 private _dir = _unit getDir _uav;
-_unit setDir _dir;	
+_unit setDir _dir;
 private _anim = if (stance _unit == "STAND") then {"AinvPercMstpSrasWrflDnon_Putdown_AmovPercMstpSrasWrflDnon"} else {"AinvPknlMstpSrasWrflDnon_Putdown_AmovPknlMstpSrasWrflDnon"};
 [_unit, _anim] remoteExec ["switchMove", 0];
 
