@@ -77,6 +77,7 @@ class CfgVehicles {
         side = 1;
         armorStructural = 5.5;
         armor = 550;
+        ace_vehicle_damage_hullFireProb = 0.5;
         maxSpeed = 125;
         enginePower = 390;
         terrainCoef = 1;
@@ -318,6 +319,7 @@ class CfgVehicles {
         side = 1;
         armorStructural = 5.5;
         armor = 550;
+        ace_vehicle_damage_hullFireProb = 0.5;
         maxSpeed = 125;
         vehicleClass = "APCs""";
         textureList[] = {"Blu",1};
@@ -556,6 +558,7 @@ class CfgVehicles {
         side = 1;
         armorStructural = 5.5;
         armor = 550;
+        ace_vehicle_damage_hullFireProb = 0.5;
         maxSpeed = 125;
         vehicleClass = "APCs""";
         textureList[] = {"Blu",1};
