@@ -13,7 +13,6 @@ waitUntil {!isNull player};
 waitUntil {player == player};
 waitUntil {profileName != ""};
 
-
 // Add New Topic (LXIM)
 if !(player diarySubjectExists "mission") then {
     player createDiarySubject ["mission","Mission"];
