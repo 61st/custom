@@ -9,7 +9,9 @@
  * Public: No
  */
 
-waitUntil {!isNull player && player == player};
+waitUntil {!isNull player};
+waitUntil {player == player};
+waitUntil {profileName != ""};
 
 
 // Add New Topic (LXIM)

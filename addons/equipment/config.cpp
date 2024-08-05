@@ -41,6 +41,14 @@ class CfgPatches {
             QGVAR(optic_ISM1400A7_od),
             QGVAR(optic_ISM1400A7_green)
         };
+        magazines[]= {
+            QGVAR(30Rnd_762x51mm_M80A1_EPR),
+            QGVAR(30Rnd_762x51mm_M80A1_EPR_IR),
+            QGVAR(30Rnd_762x51mm_M80A1_EPR_Tracer),
+            QGVAR(50Rnd_762x51mm_M80A1_EPR),
+            QGVAR(50Rnd_762x51mm_M80A1_EPR_IR),
+            QGVAR(50Rnd_762x51mm_M80A1_EPR_Tracer)
+        };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "A3_UI_F",
@@ -49,8 +57,8 @@ class CfgPatches {
             "ace_vector",
             "A3_Weapons_F",
             "cba_jr",
-            "ace_xm157"/* ,
-            "tfar_handhelds" */
+            "ace_xm157",
+            "SPS_weapons_hk417"
         };
         VERSION_CONFIG;
         authors[] = {"YonV"};

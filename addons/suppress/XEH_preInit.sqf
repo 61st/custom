@@ -7,7 +7,7 @@ ADDON = false;
 if (hasInterface) then {
   GVAR(suppressedEH) = -1;
   GVAR(interruptingDisplays) = [];
-  GVAR(displayInterrupt) = "False";
+  GVAR(displayInterrupt) = False;
 };
 
 addMissionEventHandler ["Loaded", {

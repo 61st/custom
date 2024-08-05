@@ -45,3 +45,4 @@ _overlayCtrl spawn {
   _this ctrlSetFade 1;
   _this ctrlCommit GVAR(overlayFadeoutTime);
 };
+

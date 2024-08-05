@@ -924,4 +924,29 @@ class CfgWeapons {
             };
         };
     };
+
+    //SPS
+    // class EBR_base_F;
+    // class SPS_hk417_base_f : EBR_base_F {
+    //     magazines[]={
+    //         "20Rnd_762x51_Mag",
+    //         "ACE_20Rnd_762x51_Mag_Tracer",
+    //         "ACE_20Rnd_762x51_Mag_Tracer_Dim",
+    //         "ACE_20Rnd_762x51_Mk316_Mod_0_Mag",
+    //         "ACE_20Rnd_762x51_M118LR_Mag",
+    //         "ACE_20Rnd_762x51_Mk319_Mod_0_Mag",
+    //         "ACE_20Rnd_762x51_M993_AP_Mag",
+    //         "ACE_20Rnd_762x51_Mag_SD",
+    //         "SPS_20Rnd_762x51mm_M80A1_EPR",
+    //         "SPS_20Rnd_762x51mm_M80A1_EPR_Tracer",
+    //         "SPS_20Rnd_762x51mm_M80A1_EPR_IR",
+    //         QGVAR(30Rnd_762x51mm_M80A1_EPR),
+    //         QGVAR(30Rnd_762x51mm_M80A1_EPR_IR),
+    //         QGVAR(30Rnd_762x51mm_M80A1_EPR_Tracer),
+    //         QGVAR(50Rnd_762x51mm_M80A1_EPR),
+    //         QGVAR(50Rnd_762x51mm_M80A1_EPR_IR),
+    //         QGVAR(50Rnd_762x51mm_M80A1_EPR_Tracer)
+    //     };
+    //     magazineWell[]={"CBA_762x51_SCAR"};
+    // };
 };

@@ -631,6 +631,14 @@ force force cfp_autoEquipNVG = true;
 force force bocr_main_disabled = false;
 force force bocr_main_walk = true;
 
+// Better CAS Environment (Server)
+force force BCE_AI_CAS_Support_fn = true;
+force force BCE_AIAir_IR_fn = true;
+force force BCE_inf_IR_Lig_S_fn = true;
+force force BCE_LandVeh_Laser_fn = false;
+force force BCE_LandVeh_Light_fn = false;
+force force BCE_veh_IR_S_fn = true;
+
 // BettIR
 force force BettIR_ViewDistance = 300;
 
@@ -643,6 +651,16 @@ force force cba_network_loadoutValidation = 1;
 // CUP
 force force CUP_CheckCfgPatches = false;
 force force CUP_Vehicles_PreventBarrelClip = true;
+
+// cTab
+force force ctab_compass_enable = true;
+force force ctab_core_bft_mode = 1;
+force force ctab_core_gridPrecision = 2;
+force force ctab_core_helmetcam_mode = 1;
+force force ctab_core_sync_time = 30;
+force force ctab_core_uav_mode = 1;
+force force ctab_core_useAceMicroDagr = true;
+force force ctab_core_useArmaMarker = true;
 
 // CUP Static Weapons
 CUP_staticWeapons_allowMovement = false;
@@ -1025,7 +1043,7 @@ force force sss_optionterminalRequireAuth = true;
 force force sss_optionterminalRequireItems = false;
 force force sss_transport_autoTerminals = true;
 force force sss_transport_holdTimeoutStr = "-1";
-force force sss_transport_manualInput = false;
+force force sss_transport_manualInput = true;
 force force sss_transport_maxSearchRadiusStr = "1000";
 force force sss_transport_RTBReset = true;
 force force sss_transport_RTBRestoreCrew = true;
