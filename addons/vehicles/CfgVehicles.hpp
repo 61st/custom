@@ -75,8 +75,10 @@ class CfgVehicles {
         author = QAUTHOR;
         picture = "\A3\armor_f_gamma\APC_Wheeled_03\Data\UI\APC_Wheeled_03_CA.paa";
         side = 1;
-        armorStructural = 5.5;
+        armorStructural = 7;
         armor = 550;
+        ace_vehicle_damage_hullFireProb = 0.5;
+        ace_hunterkiller = 1;
         maxSpeed = 125;
         enginePower = 390;
         terrainCoef = 1;
@@ -307,6 +309,49 @@ class CfgVehicles {
                 };
             };
         };
+        class HitPoints: HitPoints {
+            class HitBody {
+                armor = 1.8;  // Increased body armor
+                explosionShielding = 1.9;  // Increased explosion shielding
+                material = -1;
+                name = "karoserie";
+                passThrough = 0.6;  // Reduced passthrough
+                visual = "zbytek";
+            };
+            class HitEngine: HitEngine {
+                armor = 1.8;  // Increased engine armor
+                armorComponent = "hit_engine";
+                explosionShielding = 0.6;  // Increased explosion shielding
+                material = -1;
+                minimalHit = 0.1;
+                name = "hit_engine_point";
+                passThrough = 0.05;  // Reduced passthrough
+                radius = 0.2;
+                visual = "-";
+            };
+            class HitFuel: HitFuel {
+                armor = 1.2;  // Increased fuel tank armor
+                armorComponent = "hit_fuel";
+                explosionShielding = 0.6;  // Increased explosion shielding
+                material = -1;
+                minimalHit = 0.1;
+                name = "hit_fuel_point";
+                passThrough = 0.3;  // Reduced passthrough
+                radius = 0.2;
+                visual = "-";
+            };
+            class HitHull: HitHull {
+                armor = 3.0;  // Increased hull armor
+                armorComponent = "hit_hull";
+                explosionShielding = 0.2;
+                material = -1;
+                minimalHit = 0.1;
+                name = "hit_hull_point";
+                passThrough = 0.6;  // Reduced passthrough
+                radius = 0.2;
+                visual = "zbytek";
+            };
+        };
     };
 
     class lxim_outlaw_eng_base_F: I_APC_Wheeled_03_cannon_F {
@@ -316,8 +361,10 @@ class CfgVehicles {
         author = QAUTHOR;
         picture = "\A3\armor_f_gamma\APC_Wheeled_03\Data\UI\APC_Wheeled_03_CA.paa";
         side = 1;
-        armorStructural = 5.5;
+        armorStructural = 7;
         armor = 550;
+        ace_vehicle_damage_hullFireProb = 0.5;
+        ace_hunterkiller = 1;
         maxSpeed = 125;
         vehicleClass = "APCs""";
         textureList[] = {"Blu",1};
@@ -545,6 +592,49 @@ class CfgVehicles {
                 };
             };
         };
+        class HitPoints: HitPoints {
+            class HitBody {
+                armor = 1.8;  // Increased body armor
+                explosionShielding = 1.9;  // Increased explosion shielding
+                material = -1;
+                name = "karoserie";
+                passThrough = 0.6;  // Reduced passthrough
+                visual = "zbytek";
+            };
+            class HitEngine: HitEngine {
+                armor = 1.8;  // Increased engine armor
+                armorComponent = "hit_engine";
+                explosionShielding = 0.6;  // Increased explosion shielding
+                material = -1;
+                minimalHit = 0.1;
+                name = "hit_engine_point";
+                passThrough = 0.05;  // Reduced passthrough
+                radius = 0.2;
+                visual = "-";
+            };
+            class HitFuel: HitFuel {
+                armor = 1.2;  // Increased fuel tank armor
+                armorComponent = "hit_fuel";
+                explosionShielding = 0.6;  // Increased explosion shielding
+                material = -1;
+                minimalHit = 0.1;
+                name = "hit_fuel_point";
+                passThrough = 0.3;  // Reduced passthrough
+                radius = 0.2;
+                visual = "-";
+            };
+            class HitHull: HitHull {
+                armor = 3.0;  // Increased hull armor
+                armorComponent = "hit_hull";
+                explosionShielding = 0.2;
+                material = -1;
+                minimalHit = 0.1;
+                name = "hit_hull_point";
+                passThrough = 0.6;  // Reduced passthrough
+                radius = 0.2;
+                visual = "zbytek";
+            };
+        };
     };
 
     class lxim_outlaw_AA_base_F: I_APC_Wheeled_03_cannon_F {
@@ -554,8 +644,10 @@ class CfgVehicles {
         author = QAUTHOR;
         picture = "\A3\armor_f_gamma\APC_Wheeled_03\Data\UI\APC_Wheeled_03_CA.paa";
         side = 1;
-        armorStructural = 5.5;
+        armorStructural = 7;
         armor = 550;
+        ace_vehicle_damage_hullFireProb = 0.5;
+        ace_hunterkiller = 1;
         maxSpeed = 125;
         vehicleClass = "APCs""";
         textureList[] = {"Blu",1};
@@ -782,6 +874,49 @@ class CfgVehicles {
                         magazines[] = {"SmokeLauncherMag","SmokeLauncherMag"};
                     };
                 };
+            };
+        };
+        class HitPoints: HitPoints {
+            class HitBody {
+                armor = 1.8;  // Increased body armor
+                explosionShielding = 1.9;  // Increased explosion shielding
+                material = -1;
+                name = "karoserie";
+                passThrough = 0.6;  // Reduced passthrough
+                visual = "zbytek";
+            };
+            class HitEngine: HitEngine {
+                armor = 1.8;  // Increased engine armor
+                armorComponent = "hit_engine";
+                explosionShielding = 0.6;  // Increased explosion shielding
+                material = -1;
+                minimalHit = 0.1;
+                name = "hit_engine_point";
+                passThrough = 0.05;  // Reduced passthrough
+                radius = 0.2;
+                visual = "-";
+            };
+            class HitFuel: HitFuel {
+                armor = 1.2;  // Increased fuel tank armor
+                armorComponent = "hit_fuel";
+                explosionShielding = 0.6;  // Increased explosion shielding
+                material = -1;
+                minimalHit = 0.1;
+                name = "hit_fuel_point";
+                passThrough = 0.3;  // Reduced passthrough
+                radius = 0.2;
+                visual = "-";
+            };
+            class HitHull: HitHull {
+                armor = 3.0;  // Increased hull armor
+                armorComponent = "hit_hull";
+                explosionShielding = 0.2;
+                material = -1;
+                minimalHit = 0.1;
+                name = "hit_hull_point";
+                passThrough = 0.6;  // Reduced passthrough
+                radius = 0.2;
+                visual = "zbytek";
             };
         };
     };
