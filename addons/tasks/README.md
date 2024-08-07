@@ -50,8 +50,8 @@ class CfgTasks {
 
         initialState = "CREATED"; // Default value
         priority = -1; // Default value
-        createdShowNotification = "false"; // Default value
-        visibleIn3D = "false"; // Default value
+        createdShowNotification = false; // Default value
+        visibleIn3D = false; // Default value
 
         parentTask = ""; // Config entry name of parent task
 
