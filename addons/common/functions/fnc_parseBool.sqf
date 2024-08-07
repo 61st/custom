@@ -10,7 +10,7 @@
  *
  * Examples:
  * ["tRuE"] call lxim_common_fnc_parseBool; // returns true
- * ["falSe"] call lxim_common_fnc_parseBool; // returns false
+ * [false] call lxim_common_fnc_parseBool; // returns false
  * ["1"] call lxim_common_fnc_parseBool; // returns true
  * [1] call lxim_common_fnc_parseBool; // returns true
  * [nil] call lxim_common_fnc_parseBool; // returns false

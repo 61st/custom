@@ -16,7 +16,7 @@ if (_activated) then {
     private _moveMarker1 = _logic getVariable ["moveMarker1", ""];
     private _moveMarker2 = _logic getVariable ["moveMarker2", ""];
     private _waves = _logic getVariable ["waves", -1];
-    private _huntCondition =_logic getVariable ["huntCondition", "false"];
+    private _huntCondition =_logic getVariable ["huntCondition", false];
     private _huntTrigger = _logic getVariable ["huntTrigger", "lxim_huntTrigger"];
     private _sadTrigger = _logic getVariable ["sadTrigger", ""];
 
