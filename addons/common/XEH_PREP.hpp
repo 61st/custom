@@ -12,7 +12,6 @@ PREP(deserializeWaypoint);
 PREP(drawLines);
 PREP(dummy);
 PREP(DynamicGroups);
-// PREP(DynamicSim);
 PREP(easterDate);
 PREP(endMission);
 PREP(ensureBoundedMinMax);
