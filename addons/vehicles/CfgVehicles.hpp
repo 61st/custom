@@ -75,9 +75,10 @@ class CfgVehicles {
         author = QAUTHOR;
         picture = "\A3\armor_f_gamma\APC_Wheeled_03\Data\UI\APC_Wheeled_03_CA.paa";
         side = 1;
-        armorStructural = 5.5;
+        armorStructural = 7;
         armor = 550;
         ace_vehicle_damage_hullFireProb = 0.5;
+        ace_hunterkiller = 1;
         maxSpeed = 125;
         enginePower = 390;
         terrainCoef = 1;
@@ -308,6 +309,49 @@ class CfgVehicles {
                 };
             };
         };
+        class HitPoints: HitPoints {
+            class HitBody {
+                armor = 1.8;  // Increased body armor
+                explosionShielding = 1.9;  // Increased explosion shielding
+                material = -1;
+                name = "karoserie";
+                passThrough = 0.6;  // Reduced passthrough
+                visual = "zbytek";
+            };
+            class HitEngine: HitEngine {
+                armor = 1.8;  // Increased engine armor
+                armorComponent = "hit_engine";
+                explosionShielding = 0.6;  // Increased explosion shielding
+                material = -1;
+                minimalHit = 0.1;
+                name = "hit_engine_point";
+                passThrough = 0.05;  // Reduced passthrough
+                radius = 0.2;
+                visual = "-";
+            };
+            class HitFuel: HitFuel {
+                armor = 1.2;  // Increased fuel tank armor
+                armorComponent = "hit_fuel";
+                explosionShielding = 0.6;  // Increased explosion shielding
+                material = -1;
+                minimalHit = 0.1;
+                name = "hit_fuel_point";
+                passThrough = 0.3;  // Reduced passthrough
+                radius = 0.2;
+                visual = "-";
+            };
+            class HitHull: HitHull {
+                armor = 3.0;  // Increased hull armor
+                armorComponent = "hit_hull";
+                explosionShielding = 0.2;
+                material = -1;
+                minimalHit = 0.1;
+                name = "hit_hull_point";
+                passThrough = 0.6;  // Reduced passthrough
+                radius = 0.2;
+                visual = "zbytek";
+            };
+        };
     };
 
     class lxim_outlaw_eng_base_F: I_APC_Wheeled_03_cannon_F {
@@ -317,9 +361,10 @@ class CfgVehicles {
         author = QAUTHOR;
         picture = "\A3\armor_f_gamma\APC_Wheeled_03\Data\UI\APC_Wheeled_03_CA.paa";
         side = 1;
-        armorStructural = 5.5;
+        armorStructural = 7;
         armor = 550;
         ace_vehicle_damage_hullFireProb = 0.5;
+        ace_hunterkiller = 1;
         maxSpeed = 125;
         vehicleClass = "APCs""";
         textureList[] = {"Blu",1};
@@ -547,6 +592,49 @@ class CfgVehicles {
                 };
             };
         };
+        class HitPoints: HitPoints {
+            class HitBody {
+                armor = 1.8;  // Increased body armor
+                explosionShielding = 1.9;  // Increased explosion shielding
+                material = -1;
+                name = "karoserie";
+                passThrough = 0.6;  // Reduced passthrough
+                visual = "zbytek";
+            };
+            class HitEngine: HitEngine {
+                armor = 1.8;  // Increased engine armor
+                armorComponent = "hit_engine";
+                explosionShielding = 0.6;  // Increased explosion shielding
+                material = -1;
+                minimalHit = 0.1;
+                name = "hit_engine_point";
+                passThrough = 0.05;  // Reduced passthrough
+                radius = 0.2;
+                visual = "-";
+            };
+            class HitFuel: HitFuel {
+                armor = 1.2;  // Increased fuel tank armor
+                armorComponent = "hit_fuel";
+                explosionShielding = 0.6;  // Increased explosion shielding
+                material = -1;
+                minimalHit = 0.1;
+                name = "hit_fuel_point";
+                passThrough = 0.3;  // Reduced passthrough
+                radius = 0.2;
+                visual = "-";
+            };
+            class HitHull: HitHull {
+                armor = 3.0;  // Increased hull armor
+                armorComponent = "hit_hull";
+                explosionShielding = 0.2;
+                material = -1;
+                minimalHit = 0.1;
+                name = "hit_hull_point";
+                passThrough = 0.6;  // Reduced passthrough
+                radius = 0.2;
+                visual = "zbytek";
+            };
+        };
     };
 
     class lxim_outlaw_AA_base_F: I_APC_Wheeled_03_cannon_F {
@@ -556,9 +644,10 @@ class CfgVehicles {
         author = QAUTHOR;
         picture = "\A3\armor_f_gamma\APC_Wheeled_03\Data\UI\APC_Wheeled_03_CA.paa";
         side = 1;
-        armorStructural = 5.5;
+        armorStructural = 7;
         armor = 550;
         ace_vehicle_damage_hullFireProb = 0.5;
+        ace_hunterkiller = 1;
         maxSpeed = 125;
         vehicleClass = "APCs""";
         textureList[] = {"Blu",1};
@@ -787,6 +876,49 @@ class CfgVehicles {
                 };
             };
         };
+        class HitPoints: HitPoints {
+            class HitBody {
+                armor = 1.8;  // Increased body armor
+                explosionShielding = 1.9;  // Increased explosion shielding
+                material = -1;
+                name = "karoserie";
+                passThrough = 0.6;  // Reduced passthrough
+                visual = "zbytek";
+            };
+            class HitEngine: HitEngine {
+                armor = 1.8;  // Increased engine armor
+                armorComponent = "hit_engine";
+                explosionShielding = 0.6;  // Increased explosion shielding
+                material = -1;
+                minimalHit = 0.1;
+                name = "hit_engine_point";
+                passThrough = 0.05;  // Reduced passthrough
+                radius = 0.2;
+                visual = "-";
+            };
+            class HitFuel: HitFuel {
+                armor = 1.2;  // Increased fuel tank armor
+                armorComponent = "hit_fuel";
+                explosionShielding = 0.6;  // Increased explosion shielding
+                material = -1;
+                minimalHit = 0.1;
+                name = "hit_fuel_point";
+                passThrough = 0.3;  // Reduced passthrough
+                radius = 0.2;
+                visual = "-";
+            };
+            class HitHull: HitHull {
+                armor = 3.0;  // Increased hull armor
+                armorComponent = "hit_hull";
+                explosionShielding = 0.2;
+                material = -1;
+                minimalHit = 0.1;
+                name = "hit_hull_point";
+                passThrough = 0.6;  // Reduced passthrough
+                radius = 0.2;
+                visual = "zbytek";
+            };
+        };
     };
 
     class lxim_outlaw_unarmed_base_F: lxim_outlaw_base_F {
@@ -833,6 +965,7 @@ class CfgVehicles {
         editorSubcategory = "LXIM_EdSubcat_vehicles_green";
         hiddenSelectionsTextures[] = {QPATHTOF(data\med_01_ext_g.paa),QPATHTOF(data\med_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
     };
+
     class lxim_outlaw_Unarmed_d: lxim_outlaw_unarmed_base_F {
         displayName = "M20-MEV Desert";
         author = QAUTHOR;
@@ -1067,7 +1200,7 @@ class CfgVehicles {
         {
             QPATHTOF(data\MRAP_01_base_61D_CO.paa),
             QUOTE(\A3\soft_F\MRAP_01\data\MRAP_01_adds_CO.paa),
-            QPATHTOF(data\Turret_CO_D.paa),
+            QPATHTOF(data\Turret_Co_D.paa),
         };
     };
     class lxim_B_MRAP_D_hmg: B_MRAP_01_hmg_F {
@@ -1082,7 +1215,7 @@ class CfgVehicles {
         {
             QPATHTOF(data\MRAP_01_base_61D_CO.paa),
             QUOTE(\A3\soft_F\MRAP_01\data\MRAP_01_adds_CO.paa),
-            QPATHTOF(data\Turret_CO_D.paa),
+            QPATHTOF(data\Turret_Co_D.paa),
         };
     };
     class lxim_B_MRAP_G: B_T_MRAP_01_F {
@@ -1111,7 +1244,7 @@ class CfgVehicles {
         {
             QPATHTOF(data\MRAP_01_base_61G_CO.paa),
             QUOTE(\A3\soft_F_Exp\MRAP_01\data\MRAP_01_adds_olive_CO.paa),
-            QPATHTOF(data\Turret_CO_G.paa),
+            QPATHTOF(data\Turret_Co_G.paa),
         };
     };
     class lxim_B_MRAP_G_hmg: B_T_MRAP_01_hmg_F {
@@ -1126,7 +1259,85 @@ class CfgVehicles {
         {
             QPATHTOF(data\MRAP_01_base_61G_CO.paa),
             QUOTE(\A3\soft_F_Exp\MRAP_01\data\MRAP_01_adds_olive_CO.paa),
-            QPATHTOF(data\Turret_CO_G.paa),
+            QPATHTOF(data\Turret_Co_G.paa),
         };
     };
+
+    //booker
+    class usarmy_LT_M10_WD;
+    class lxim_LT_M10_WD_O: usarmy_LT_M10_WD {
+        author = QAUTHOR;
+        displayName = "M-10 WarDaddy";
+        faction=QUOTE(PREFIX);
+		crew="rhsusf_army_ucp_combatcrewman";
+		vehicleClass="rhs_vehclass_tank";
+        ace_hunterkiller = 1;
+		hiddenSelectionsTextures[]= {
+            QPATHTOF(data\hull_o_co.paa),
+			QPATHTOF(data\turret_o_co.paa),
+			QPATHTOF(data\aditional_sides_wardaddy_o_co.paa),
+			QPATHTOF(data\sides2_o_co.paa),
+			QPATHTOF(data\gun_wardaddy_o_co.paa),
+			QPATHTOF(data\mantlet_o_co.paa),
+			QPATHTOF(data\wheels_o_co.paa),
+			QPATHTOF(data\plate_o_co.paa)
+		};
+	};
+    class lxim_LT_M10_WM_O: usarmy_LT_M10_WD {
+        displayName = "M-10 WarMommy";
+        author = QAUTHOR;
+        faction=QUOTE(PREFIX);
+		crew="rhsusf_army_ucp_combatcrewman";
+		vehicleClass="rhs_vehclass_tank";
+        ace_hunterkiller = 1;
+		hiddenSelectionsTextures[]= {
+            QPATHTOF(data\hull_o_co.paa),
+			QPATHTOF(data\turret_o_co.paa),
+			QPATHTOF(data\aditional_sides_warmommy_o_co.paa),
+			QPATHTOF(data\sides2_o_co.paa),
+			QPATHTOF(data\gun_warmommy_o_co.paa),
+			QPATHTOF(data\mantlet_o_co.paa),
+			QPATHTOF(data\wheels_o_co.paa),
+			QPATHTOF(data\plate_o_co.paa)
+		};
+	};
+
+
+    class lxim_LT_M10_WD: usarmy_LT_M10_WD {
+        displayName = "M-10 Sand WarDaddy";
+        author = QAUTHOR;
+        faction=QUOTE(PREFIX);
+		crew="rhsusf_army_ucp_combatcrewman";
+		vehicleClass="rhs_vehclass_tank";
+        ace_hunterkiller = 1;
+		hiddenSelectionsTextures[]= {
+            QPATHTOF(data\hull_co.paa),
+			QPATHTOF(data\turret_co.paa),
+			QPATHTOF(data\aditional_sides_wardaddy_co.paa),
+			QPATHTOF(data\sides2_co.paa),
+			QPATHTOF(data\gun_wardaddy_co.paa),
+			QPATHTOF(data\mantlet_co.paa),
+			QPATHTOF(data\wheels_co.paa),
+			QPATHTOF(data\plate_co.paa)
+		};
+	};
+    class lxim_LT_M10_WM: usarmy_LT_M10_WD {
+        displayName = "M-10 Sand WarMommy";
+        author = QAUTHOR;
+        faction=QUOTE(PREFIX);
+		crew="rhsusf_army_ucp_combatcrewman";
+		vehicleClass="rhs_vehclass_tank";
+        ace_hunterkiller = 1;
+		hiddenSelectionsTextures[]= {
+            QPATHTOF(data\hull_co.paa),
+			QPATHTOF(data\turret_co.paa),
+			QPATHTOF(data\aditional_sides_warmommy_co.paa),
+			QPATHTOF(data\sides2_co.paa),
+			QPATHTOF(data\gun_warmommy_co.paa),
+			QPATHTOF(data\mantlet_co.paa),
+			QPATHTOF(data\wheels_co.paa),
+			QPATHTOF(data\plate_co.paa)
+		};
+	};
+
 };
