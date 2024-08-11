@@ -15,6 +15,48 @@
  * Public: No
  */
 
+class SensorTemplatePassiveRadar;
+class SensorTemplateAntiRadiation;
+class SensorTemplateActiveRadar;
+class SensorTemplateIR;
+class SensorTemplateVisual;
+class SensorTemplateMan;
+class SensorTemplateLaser;
+class SensorTemplateNV;
+class SensorTemplateDataLink;
+class DefaultVehicleSystemsDisplayManagerLeft {
+	class components;
+};
+class DefaultVehicleSystemsDisplayManagerRight {
+	class components;
+};
+class VehicleSystemsTemplateLeftDriver: DefaultVehicleSystemsDisplayManagerLeft {
+	class components;
+};
+class VehicleSystemsTemplateRightDriver: DefaultVehicleSystemsDisplayManagerRight {
+	class components;
+};
+class VehicleSystemsTemplateLeftCommander: DefaultVehicleSystemsDisplayManagerLeft {
+	class components;
+};
+class VehicleSystemsTemplateRightCommander: DefaultVehicleSystemsDisplayManagerRight {
+	class components;
+};
+class VehicleSystemsTemplateLeftGunner: DefaultVehicleSystemsDisplayManagerLeft {
+	class components;
+};
+class VehicleSystemsTemplateRightGunner: DefaultVehicleSystemsDisplayManagerRight {
+	class components;
+};
+
+class DefaultEventHandlers;
+class WeaponFireGun;
+class WeaponCloudsGun;
+class WeaponFireMGun;
+class WeaponCloudsMGun;
+class RCWSOptics;
+class Optics_Armored;
+
 class CBA_Extended_EventHandlers;
 class CfgVehicles {
     class All {
@@ -35,12 +77,37 @@ class CfgVehicles {
 
     class Car: LandVehicle {};
     class Car_F: Car {
+        class HitPoints {
+			class HitBody;
+			class HitEngine;
+			class HitFuel;
+			class HitHull;
+			class HitLFWheel;
+			class HitLBWheel;
+			class HitLMWheel;
+			class HitLF2Wheel;
+			class HitRFWheel;
+			class HitRBWheel;
+			class HitRMWheel;
+			class HitRF2Wheel;
+			class HitGlass1;
+			class HitGlass2;
+			class HitGlass3;
+			class HitGlass4;
+			class HitGlass5;
+			class HitGlass6;
+		};
         class Turrets {
             class MainTurret: NewTurret {};
         };
     };
 
     class Wheeled_APC_F: Car_F {
+        class ViewPilot;
+		class ViewOptics;
+		class ViewCargo;
+        class AnimationSources;
+		class EventHandlers;
         class Turrets {
             class MainTurret: NewTurret {
                 class Turrets {
@@ -51,14 +118,1907 @@ class CfgVehicles {
     };
 
     class APC_Wheeled_03_base_F: Wheeled_APC_F {
+        editorSubcategory = "EdSubcat_APCs";
+        class MFD {
+			class MFD_Driver_Heading {
+				topLeft = "MFD_1_TL";
+				topRight = "MFD_1_TR";
+				bottomLeft = "MFD_1_BL";
+				borderLeft = 0;
+				borderRight = 0;
+				borderTop = 0;
+				borderBottom = 0;
+				color[] = {0.84,0.86,0.84};
+				alpha = 0.5;
+				enableParallax = 0;
+				font = "LCD14";
+				class material {
+					ambient[] = {1,1,1,1};
+					diffuse[] = {1,1,1,1};
+					emissive[] = {1000,1000,1000,1};
+				};
+				class Bones{};
+				class Draw {
+					color[] = {0.61,0.62,0};
+					alpha = 1;
+					condition = "on";
+					class Driver_Heading {
+						type = "text";
+						source = "heading";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.5,0},1};
+						right[] = {{1,0},1};
+						down[] = {{0.5,0.81},1};
+					};
+				};
+			};
+			class MFD_Commander_Display_Damage {
+				topLeft = "mfd_com_TL";
+				topRight = "mfd_com_TR";
+				bottomLeft = "mfd_com_BL";
+				borderLeft = 0;
+				borderRight = 0;
+				borderTop = 0;
+				borderBottom = 0;
+				color[] = {1,1,1};
+				alpha = 0.5;
+				enableParallax = 0;
+				turret[] = {0,0};
+				font = "EtelkaMonospaceProBold";
+				class material {
+					ambient[] = {1,1,1,1};
+					diffuse[] = {1,1,1,1};
+					emissive[] = {1000,1000,1000,1};
+				};
+				class Bones{};
+				class Draw {
+					color[] = {1,1,1};
+					alpha = 1;
+					condition = "1";
+					class Damage_Hull {
+						type = "text";
+						source = "static";
+						text = "HULL";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.04,0.18},1};
+						right[] = {{0.065,0.18},1};
+						down[] = {{0.04,0.44},1};
+					};
+					class Damage_Engine {
+						type = "text";
+						source = "static";
+						text = "ENG";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.11,0.18},1};
+						right[] = {{0.135,0.18},1};
+						down[] = {{0.11,0.44},1};
+					};
+					class Damage_Fuel {
+						type = "text";
+						source = "static";
+						text = "FUEL";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.178,0.18},1};
+						right[] = {{0.203,0.18},1};
+						down[] = {{0.178,0.44},1};
+					};
+					class Damage_Wheels {
+						type = "text";
+						source = "static";
+						text = "WHL";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.04,0.55},1};
+						right[] = {{0.065,0.55},1};
+						down[] = {{0.04,0.81},1};
+					};
+					class Damage_Gun {
+						type = "text";
+						source = "static";
+						text = "GUN";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.11,0.55},1};
+						right[] = {{0.135,0.55},1};
+						down[] = {{0.11,0.81},1};
+					};
+					class Damage_Turret {
+						type = "text";
+						source = "static";
+						text = "TRT";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.178,0.55},1};
+						right[] = {{0.203,0.55},1};
+						down[] = {{0.178,0.81},1};
+					};
+				};
+			};
+			class MFD_Commander_Display {
+				topLeft = "mfd_com_TL";
+				topRight = "mfd_com_TR";
+				bottomLeft = "mfd_com_BL";
+				borderLeft = 0;
+				borderRight = 0;
+				borderTop = 0;
+				borderBottom = 0;
+				color[] = {1,1,1};
+				alpha = 0.5;
+				enableParallax = 0;
+				turret[] = {0};
+				font = "EtelkaMonospaceProBold";
+				class material {
+					ambient[] = {1,1,1,1};
+					diffuse[] = {1,1,1,1};
+					emissive[] = {1000,1000,1000,1};
+				};
+				class Bones {
+					class FuelScale {
+						type = "linear";
+						source = "fuel";
+						sourceIndex = 1;
+						sourceScale = 1.0;
+						min = 0;
+						max = 1;
+						minPos[] = {0,0};
+						maxPos[] = {-0.09,0};
+					};
+				};
+				class Draw {
+					color[] = {1,1,1};
+					alpha = 1;
+					condition = "1";
+					class Main_Gun {
+						type = "text";
+						source = "static";
+						text = "MAIN GUN";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.273,0.18},1};
+						right[] = {{0.298,0.18},1};
+						down[] = {{0.273,0.44},1};
+					};
+					class Main_Gun_Ammo_count {
+						type = "text";
+						source = "ammo";
+						sourceScale = 1;
+						sourceLength = 2;
+						sourceIndex = 0;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.273,0.55},1};
+						right[] = {{0.298,0.55},1};
+						down[] = {{0.273,0.81},1};
+					};
+					class Main_Gun_Ammo_Type_text {
+						type = "text";
+						source = "static";
+						text = "TYPE";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.385,0.18},1};
+						right[] = {{0.41,0.18},1};
+						down[] = {{0.385,0.44},1};
+					};
+					class Main_Gun_Ammo_Type {
+						type = "text";
+						source = "ammoFormat";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.385,0.55},1};
+						right[] = {{0.41,0.55},1};
+						down[] = {{0.385,0.81},1};
+					};
+					class Coax {
+						type = "text";
+						source = "static";
+						text = "COAX";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.498,0.18},1};
+						right[] = {{0.523,0.18},1};
+						down[] = {{0.498,0.44},1};
+					};
+					class Coax_Ammo_count {
+						type = "text";
+						source = "ammo";
+						sourceScale = 1;
+						sourceLength = 2;
+						sourceIndex = 1;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.498,0.55},1};
+						right[] = {{0.523,0.55},1};
+						down[] = {{0.498,0.81},1};
+					};
+					class Azimuth {
+						type = "text";
+						source = "static";
+						text = "GUN AZIM";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.605,0.18},1};
+						right[] = {{0.63,0.18},1};
+						down[] = {{0.605,0.44},1};
+					};
+					class Azimuth_number {
+						type = "text";
+						source = "[x]turretworld";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.61,0.55},1};
+						right[] = {{0.635,0.55},1};
+						down[] = {{0.61,0.81},1};
+					};
+					class Smoke {
+						type = "text";
+						source = "static";
+						text = "SMOKE";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.717,0.18},1};
+						right[] = {{0.742,0.18},1};
+						down[] = {{0.717,0.44},1};
+					};
+					class Fuel_background_white {
+						color[] = {0.2,0.2,0.2};
+						alpha = 0.1;
+						condition = "1";
+						class Background {
+							type = "polygon";
+							points[] = {{{{0.787,0.7},1},{{0.877,0.7},1},{{0.877,0.9},1},{{0.787,0.9},1}}};
+						};
+					};
+					class Fuel_background_green {
+						color[] = {0,0.7,0};
+						condition = "fuel>=0.5";
+						class Background {
+							type = "polygon";
+							points[] = {{{{0.787,0.7},1},{"FuelScale",{0.877,0.7},1},{"FuelScale",{0.877,0.9},1},{{0.787,0.9},1}}};
+						};
+					};
+					class Fuel_background_yellow {
+						color[] = {0.9,0.7,0};
+						condition = "fuel<0.5";
+						class Background {
+							type = "polygon";
+							points[] = {{{{0.787,0.7},1},{"FuelScale",{0.877,0.7},1},{"FuelScale",{0.877,0.9},1},{{0.787,0.9},1}}};
+						};
+					};
+					class Fuel_background_red {
+						color[] = {0.7,0,0};
+						condition = "fuel<0.3";
+						class Background {
+							type = "polygon";
+							points[] = {{{{0.787,0.7},1},{"FuelScale",{0.877,0.7},1},{"FuelScale",{0.877,0.9},1},{{0.787,0.9},1}}};
+						};
+					};
+					class Fuel {
+						type = "text";
+						source = "static";
+						text = "FUEL";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.83,0.18},1};
+						right[] = {{0.855,0.18},1};
+						down[] = {{0.83,0.44},1};
+					};
+					class Fuel_number {
+						type = "text";
+						source = "fuel";
+						sourceScale = 100;
+						sourceLength = 1;
+						scale = 1;
+						align = "left";
+						refreshRate = 0.1;
+						pos[] = {{0.835,0.4},1};
+						right[] = {{0.86,0.4},1};
+						down[] = {{0.835,0.66},1};
+					};
+					class Fuel_percent_sign {
+						type = "text";
+						source = "static";
+						text = "%";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "right";
+						refreshRate = 0.1;
+						pos[] = {{0.845,0.4},1};
+						right[] = {{0.87,0.4},1};
+						down[] = {{0.845,0.66},1};
+					};
+				};
+			};
+			class MFD_Commander_OnScreen {
+				topLeft = "PIP_COM_TL";
+				topRight = "PIP_COM_TR";
+				bottomLeft = "PIP_COM_BL";
+				borderLeft = 0;
+				borderRight = 0;
+				borderTop = 0;
+				borderBottom = 0;
+				color[] = {1,1,1};
+				alpha = 0.5;
+				enableParallax = 0;
+				turret[] = {0,0};
+				font = "EtelkaMonospaceProBold";
+				class material {
+					ambient[] = {1,1,1,1};
+					diffuse[] = {1,1,1,1};
+					emissive[] = {1000,1000,1000,1};
+				};
+				class Bones{};
+				class Draw {
+					color[] = {1,1,1};
+					alpha = 1;
+					condition = "1";
+					class Azimuth_number {
+						type = "text";
+						source = "[x]turretworld";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.22,0.435},1};
+						right[] = {{0.245,0.435},1};
+						down[] = {{0.22,0.472},1};
+					};
+					class Elevation_Text {
+						type = "text";
+						source = "static";
+						text = "E: ";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.2,0.28},1};
+						right[] = {{0.225,0.28},1};
+						down[] = {{0.2,0.317},1};
+					};
+					class Elevation_Number {
+						type = "text";
+						source = "[y]turretworld";
+						sourceScale = 1;
+						sourceLength = 4;
+						sourcePrecision = 1;
+						refreshRate = 0;
+						align = "center";
+						scale = 1;
+						pos[] = {{0.23,0.28},1};
+						right[] = {{0.255,0.28},1};
+						down[] = {{0.23,0.317},1};
+					};
+					class Lased_Range {
+						type = "text";
+						source = "laserDist";
+						sourceScale = 1;
+						sourceLength = 4;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.75,0.28},1};
+						right[] = {{0.775,0.28},1};
+						down[] = {{0.75,0.317},1};
+					};
+					class VisionMode_Text {
+						type = "text";
+						source = "static";
+						text = "WFOV";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.75,0.65},1};
+						right[] = {{0.775,0.65},1};
+						down[] = {{0.75,0.687},1};
+					};
+					class VisionMode_String {
+						type = "text";
+						source = "visionMode";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.825,0.65},1};
+						right[] = {{0.85,0.65},1};
+						down[] = {{0.825,0.687},1};
+					};
+				};
+			};
+			class MFD_Commander_Display_MainTurret {
+				topLeft = "mfd_com_TL";
+				topRight = "mfd_com_TR";
+				bottomLeft = "mfd_com_BL";
+				borderLeft = 0;
+				borderRight = 0;
+				borderTop = 0;
+				borderBottom = 0;
+				color[] = {1,1,1};
+				alpha = 0.5;
+				enableParallax = 0;
+				turret[] = {0,0};
+				font = "EtelkaMonospaceProBold";
+				class material {
+					ambient[] = {1,1,1,1};
+					diffuse[] = {1,1,1,1};
+					emissive[] = {1000,1000,1000,1};
+				};
+				class Bones{};
+				class Draw {
+					color[] = {1,1,1};
+					alpha = 1;
+					condition = "1";
+					class Smoke_ammo {
+						type = "text";
+						source = "ammo";
+						sourceScale = 1;
+						sourceLength = 3;
+						sourceIndex = 0;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.72,0.55},1};
+						right[] = {{0.745,0.55},1};
+						down[] = {{0.72,0.81},1};
+					};
+				};
+			};
+			class MFD_Gunner_Ready_To_Fire {
+				topLeft = "mfd_gun_cli_TL";
+				topRight = "mfd_gun_cli_TR";
+				bottomLeft = "mfd_gun_cli_BL";
+				borderLeft = 0;
+				borderRight = 0;
+				borderTop = 0;
+				borderBottom = 0;
+				color[] = {0,0,0};
+				alpha = 0.5;
+				enableParallax = 0;
+				font = "EtelkaMonospaceProBold";
+				class material {
+					ambient[] = {1,1,1,1};
+					diffuse[] = {1,1,1,1};
+					emissive[] = {1000,1000,1000,1};
+				};
+				class Bones{};
+				class Draw {
+					color[] = {0,0,0};
+					alpha = 1;
+					condition = "1";
+					class Top_text {
+						type = "text";
+						source = "static";
+						text = "READY TO";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.45,0.05},1};
+						right[] = {{0.67,0.05},1};
+						down[] = {{0.45,0.55},1};
+					};
+					class Bottom_text {
+						type = "text";
+						source = "static";
+						text = "FIRE";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.465,0.45},1};
+						right[] = {{0.685,0.45},1};
+						down[] = {{0.465,0.95},1};
+					};
+				};
+			};
+			class MFD_Gunner_Display {
+				topLeft = "mfd_gun_TL";
+				topRight = "mfd_gun_TR";
+				bottomLeft = "mfd_gun_BL";
+				borderLeft = 0;
+				borderRight = 0;
+				borderTop = 0;
+				borderBottom = 0;
+				color[] = {1,1,1};
+				alpha = 0.5;
+				enableParallax = 0;
+				turret[] = {0};
+				font = "EtelkaMonospaceProBold";
+				class material {
+					ambient[] = {1,1,1,1};
+					diffuse[] = {1,1,1,1};
+					emissive[] = {1000,1000,1000,1};
+				};
+				class Bones{};
+				class Draw {
+					color[] = {1,1,1};
+					alpha = 1;
+					condition = "1";
+					class Main_armament {
+						type = "text";
+						source = "static";
+						text = "MAIN ARMAMENT";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "right";
+						refreshRate = 0.1;
+						pos[] = {{0.015,-0.003},1};
+						right[] = {{0.075,-0.003},1};
+						down[] = {{0.015,0.075},1};
+					};
+					class Machinegun {
+						type = "text";
+						source = "static";
+						text = "COAX MG";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "right";
+						refreshRate = 0.1;
+						pos[] = {{0.015,0.31},1};
+						right[] = {{0.075,0.31},1};
+						down[] = {{0.015,0.388},1};
+					};
+					class Main_armament_ammo_type {
+						type = "text";
+						source = "static";
+						text = "AMMO TYPE";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.545,-0.003},1};
+						right[] = {{0.605,-0.003},1};
+						down[] = {{0.545,0.075},1};
+					};
+					class Lased_distance_elevation {
+						type = "text";
+						source = "static";
+						text = "LASED DIST";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "right";
+						refreshRate = 0.1;
+						pos[] = {{0.015,0.84},1};
+						right[] = {{0.069,0.84},1};
+						down[] = {{0.015,0.918},1};
+					};
+					class Azimut {
+						type = "text";
+						source = "static";
+						text = "AZIMUTH";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "right";
+						refreshRate = 0.1;
+						pos[] = {{0.015,0.915},1};
+						right[] = {{0.075,0.915},1};
+						down[] = {{0.015,0.993},1};
+					};
+					class Damage {
+						type = "text";
+						source = "static";
+						text = "DAMAGE";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "right";
+						refreshRate = 0.1;
+						pos[] = {{0.015,0.39},1};
+						right[] = {{0.075,0.39},1};
+						down[] = {{0.015,0.468},1};
+					};
+					class Heading {
+						type = "text";
+						source = "[x]turretworld";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 0.2;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.34,0.915},1};
+						right[] = {{0.4,0.915},1};
+						down[] = {{0.34,0.993},1};
+					};
+					class Lased_Range {
+						type = "text";
+						source = "laserDist";
+						sourceScale = 1;
+						sourceLength = 4;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.335,0.84},1};
+						right[] = {{0.395,0.84},1};
+						down[] = {{0.335,0.918},1};
+					};
+				};
+			};
+			class MFD_Gunner_Main_Armament_Ammo_Type {
+				topLeft = "mfd_gun_TL";
+				topRight = "mfd_gun_TR";
+				bottomLeft = "mfd_gun_BL";
+				borderLeft = 0;
+				borderRight = 0;
+				borderTop = 0;
+				borderBottom = 0;
+				color[] = {0.84,0.86,0.84};
+				alpha = 0.5;
+				turret[] = {0};
+				enableParallax = 0;
+				font = "EtelkaMonospaceProBold";
+				class material {
+					ambient[] = {1,1,1,1};
+					diffuse[] = {1,1,1,1};
+					emissive[] = {1000,1000,1000,1};
+				};
+				class Bones{};
+				class Draw {
+					color[] = {1,1,1};
+					alpha = 1;
+					condition = "1";
+					class Gunner_AmmoType {
+						type = "text";
+						source = "ammoFormat";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.56,0.09},1};
+						right[] = {{0.62,0.09},1};
+						down[] = {{0.56,0.168},1};
+					};
+				};
+			};
+			class MFD_Gunner_Coax_Ammo {
+				topLeft = "mfd_gun_TL";
+				topRight = "mfd_gun_TR";
+				bottomLeft = "mfd_gun_BL";
+				borderLeft = 0;
+				borderRight = 0;
+				borderTop = 0;
+				borderBottom = 0;
+				color[] = {0.84,0.86,0.84};
+				alpha = 0.5;
+				enableParallax = 0;
+				turret[] = {0};
+				font = "EtelkaMonospaceProBold";
+				class material {
+					ambient[] = {1,1,1,1};
+					diffuse[] = {1,1,1,1};
+					emissive[] = {1000,1000,1000,1};
+				};
+				class Bones{};
+				class Draw {
+					color[] = {1,1,1};
+					alpha = 1;
+					condition = "1";
+					class Gunner_Text_1 {
+						type = "text";
+						source = "ammo";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						sourceIndex = 1;
+						align = "left";
+						refreshRate = 0.1;
+						pos[] = {{0.38,0.31},1};
+						right[] = {{0.43,0.31},1};
+						down[] = {{0.38,0.388},1};
+					};
+				};
+			};
+			class MFD_Gunner_AmmoIndicator_Main_Armament {
+				topLeft = "mfd_gun_TL";
+				topRight = "mfd_gun_TR";
+				bottomLeft = "mfd_gun_BL";
+				borderLeft = 0;
+				borderRight = 0;
+				borderTop = 0;
+				borderBottom = 0;
+				color[] = {0.84,0.86,0.84};
+				alpha = 0.5;
+				enableParallax = 0;
+				turret[] = {0};
+				font = "EtelkaMonospacePro";
+				class material {
+					ambient[] = {1,1,1,1};
+					diffuse[] = {1,1,1,1};
+					emissive[] = {1000,1000,1000,1};
+				};
+				class Bones{};
+				class Draw {
+					color[] = {1,1,1};
+					alpha = 1;
+					condition = "1";
+					class Main_Armament_Ammo_Type_1 {
+						type = "text";
+						source = "static";
+						text = "MP-T";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "right";
+						refreshRate = 0.1;
+						pos[] = {{0.015,0.065},1};
+						right[] = {{0.075,0.065},1};
+						down[] = {{0.015,0.143},1};
+					};
+					class Gunner_Text_1 {
+						type = "text";
+						source = "ammo";
+						sourceScale = 1;
+						sourceLength = 2;
+						sourceIndex = 0;
+						scale = 1;
+						align = "left";
+						refreshRate = 0.1;
+						pos[] = {{0.38,0.065},1};
+						right[] = {{0.44,0.065},1};
+						down[] = {{0.38,0.143},1};
+					};
+					class Main_Armament_Ammo_Type_2 {
+						type = "text";
+						source = "static";
+						text = "APFSDS-T";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "right";
+						refreshRate = 0.1;
+						pos[] = {{0.015,0.125},1};
+						right[] = {{0.065,0.125},1};
+						down[] = {{0.015,0.203},1};
+					};
+					class Gunner_Text_2 {
+						type = "text";
+						source = "ammo";
+						sourceScale = 1;
+						sourceLength = 2;
+						sourceIndex = 0;
+						sourcePrecision = 1;
+						scale = 1;
+						align = "left";
+						refreshRate = 0.1;
+						pos[] = {{0.38,0.125},1};
+						right[] = {{0.44,0.125},1};
+						down[] = {{0.38,0.203},1};
+					};
+					class Main_Armament_Ammo_Type_3 {
+						type = "text";
+						source = "static";
+						text = "AT MISSILE";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "right";
+						refreshRate = 0.1;
+						pos[] = {{0.015,0.185},1};
+						right[] = {{0.065,0.185},1};
+						down[] = {{0.015,0.263},1};
+					};
+					class Gunner_Text_3 {
+						type = "text";
+						source = "ammo";
+						sourceScale = 1;
+						sourceLength = 2;
+						sourceIndex = 2;
+						scale = 1;
+						align = "left";
+						refreshRate = 0.1;
+						pos[] = {{0.38,0.185},1};
+						right[] = {{0.43,0.185},1};
+						down[] = {{0.38,0.263},1};
+					};
+				};
+			};
+		};
+        unitInfoType = "RscUnitInfoTank";
         class Turrets: Turrets {
             class MainTurret: MainTurret {};
         };
+        class compartmentsLights {
+			class Comp1 {
+				class Light1 {
+					color[] = {21,20,13};
+					ambient[] = {5,0,0};
+					intensity = 0.13;
+					size = 0;
+					useFlare = 0;
+					flareSize = 0;
+					flareMaxDistance = 0;
+					dayLight = 0;
+					blinking = 0;
+					class Attenuation
+					{
+						start = 0;
+						constant = 0;
+						linear = 1;
+						quadratic = 70;
+						hardLimitStart = 0.15;
+						hardLimitEnd = 1.15;
+					};
+					point = "light_interior1";
+				};
+				class Light2: Light1 {
+					point = "light_interior2";
+					color[] = {18,20,13};
+					ambient[] = {5,0,0};
+					intensity = 0.8;
+				};
+				class Light3: Light1 {
+					point = "light_interior3";
+					color[] = {18,20,18};
+					ambient[] = {5,0,0};
+					intensity = 0.4;
+				};
+				class Light4: Light1 {
+					point = "light_interior4";
+					color[] = {18,20,18};
+					ambient[] = {5,0,0};
+					intensity = 2;
+				};
+				class Light5: Light1 {
+					point = "light_interior5";
+					color[] = {18,20,18};
+					ambient[] = {5,0,0};
+					intensity = 2;
+				};
+				class Light6: Light1 {
+					point = "light_interior6";
+					color[] = {18,20,18};
+					ambient[] = {5,0,0};
+					intensity = 2;
+				};
+				class Light7: Light1 {
+					point = "light_interior7";
+					color[] = {18,20,18};
+					ambient[] = {5,0,0};
+					intensity = 2;
+				};
+				class Light8: Light1 {
+					point = "light_interior8";
+					color[] = {18,20,18};
+					ambient[] = {5,0,0};
+					intensity = 2;
+				};
+				class Light9: Light1 {
+					point = "light_interior9";
+					color[] = {18,20,18};
+					ambient[] = {5,0,0};
+					intensity = 2;
+				};
+				class Light10: Light1 {
+					point = "light_interior10";
+					color[] = {22,22,22};
+					ambient[] = {5,0,0};
+					intensity = 0.7;
+				};
+				class Light11: Light1 {
+					point = "light_interior11";
+					color[] = {22,22,22};
+					ambient[] = {5,0,0};
+					intensity = 0.7;
+				};
+				class Light12: Light1 {
+					point = "light_interior12";
+					color[] = {22,22,22};
+					ambient[] = {5,0,0};
+					intensity = 0.7;
+				};
+				class Light13: Light1 {
+					point = "light_interior13";
+					color[] = {22,22,22};
+					ambient[] = {5,0,0};
+					intensity = 0.7;
+				};
+			};
+		};
+		class RenderTargets {
+			class commander_display {
+				renderTarget = "rendertarget3";
+				class CameraView1 {
+					pointPosition = "commanderview";
+					pointDirection = "commanderview_dir";
+					renderVisionMode = 0;
+					renderQuality = 2;
+					fov = 0.305731;
+					turret[] = {0,0};
+				};
+				BBoxes[] = {"PIP_COM_TL","PIP_COM_TR","PIP_COM_BL","PIP_COM_BR"};
+			};
+			class driver_display {
+				renderTarget = "rendertarget5";
+				class CameraView1 {
+					pointPosition = "PIP2_pos";
+					pointDirection = "PIP2_dir";
+					renderVisionMode = 0;
+					renderQuality = 2;
+					fov = 0.6;
+					turret[] = {-1};
+				};
+				BBoxes[] = {"PIP_DRV_TL","PIP_DRV_TR","PIP_DRV_BL","PIP_DRV_BR"};
+			};
+			class mirror_l {
+				renderTarget = "mirror_l";
+				class Camera {
+					pointPosition = "PIP0_pos";
+					pointDirection = "PIP0_dir";
+					renderVisionMode = 4;
+					renderQuality = 2;
+					fov = 0.7;
+				};
+				BBoxes[] = {"Mirror_L_TL","Mirror_L_TR","Mirror_L_BL","Mirror_L_BR"};
+			};
+			class mirror_r {
+				renderTarget = "mirror_r";
+				class Camera {
+					pointPosition = "PIP1_pos";
+					pointDirection = "PIP1_dir";
+					renderVisionMode = 4;
+					renderQuality = 2;
+					fov = 0.7;
+				};
+				BBoxes[] = {"Mirror_R_TL","Mirror_R_TR","Mirror_R_BL","Mirror_R_BR"};
+			};
+		};
+        class Components;
     };
     class I_APC_Wheeled_03_base_F: APC_Wheeled_03_base_F {};
 
     class I_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_base_F {
         class AnimationSources: AnimationSources {};
+        editorSubcategory = "EdSubcat_APCs";
+        class MFD {
+			class MFD_Driver_Heading {
+				topLeft = "MFD_1_TL";
+				topRight = "MFD_1_TR";
+				bottomLeft = "MFD_1_BL";
+				borderLeft = 0;
+				borderRight = 0;
+				borderTop = 0;
+				borderBottom = 0;
+				color[] = {0.84,0.86,0.84};
+				alpha = 0.5;
+				enableParallax = 0;
+				font = "LCD14";
+				class material {
+					ambient[] = {1,1,1,1};
+					diffuse[] = {1,1,1,1};
+					emissive[] = {1000,1000,1000,1};
+				};
+				class Bones{};
+				class Draw {
+					color[] = {0.61,0.62,0};
+					alpha = 1;
+					condition = "on";
+					class Driver_Heading {
+						type = "text";
+						source = "heading";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.5,0},1};
+						right[] = {{1,0},1};
+						down[] = {{0.5,0.81},1};
+					};
+				};
+			};
+			class MFD_Commander_Display_Damage {
+				topLeft = "mfd_com_TL";
+				topRight = "mfd_com_TR";
+				bottomLeft = "mfd_com_BL";
+				borderLeft = 0;
+				borderRight = 0;
+				borderTop = 0;
+				borderBottom = 0;
+				color[] = {1,1,1};
+				alpha = 0.5;
+				enableParallax = 0;
+				turret[] = {0,0};
+				font = "EtelkaMonospaceProBold";
+				class material {
+					ambient[] = {1,1,1,1};
+					diffuse[] = {1,1,1,1};
+					emissive[] = {1000,1000,1000,1};
+				};
+				class Bones{};
+				class Draw {
+					color[] = {1,1,1};
+					alpha = 1;
+					condition = "1";
+					class Damage_Hull {
+						type = "text";
+						source = "static";
+						text = "HULL";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.04,0.18},1};
+						right[] = {{0.065,0.18},1};
+						down[] = {{0.04,0.44},1};
+					};
+					class Damage_Engine {
+						type = "text";
+						source = "static";
+						text = "ENG";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.11,0.18},1};
+						right[] = {{0.135,0.18},1};
+						down[] = {{0.11,0.44},1};
+					};
+					class Damage_Fuel {
+						type = "text";
+						source = "static";
+						text = "FUEL";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.178,0.18},1};
+						right[] = {{0.203,0.18},1};
+						down[] = {{0.178,0.44},1};
+					};
+					class Damage_Wheels {
+						type = "text";
+						source = "static";
+						text = "WHL";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.04,0.55},1};
+						right[] = {{0.065,0.55},1};
+						down[] = {{0.04,0.81},1};
+					};
+					class Damage_Gun {
+						type = "text";
+						source = "static";
+						text = "GUN";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.11,0.55},1};
+						right[] = {{0.135,0.55},1};
+						down[] = {{0.11,0.81},1};
+					};
+					class Damage_Turret {
+						type = "text";
+						source = "static";
+						text = "TRT";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.178,0.55},1};
+						right[] = {{0.203,0.55},1};
+						down[] = {{0.178,0.81},1};
+					};
+				};
+			};
+			class MFD_Commander_Display {
+				topLeft = "mfd_com_TL";
+				topRight = "mfd_com_TR";
+				bottomLeft = "mfd_com_BL";
+				borderLeft = 0;
+				borderRight = 0;
+				borderTop = 0;
+				borderBottom = 0;
+				color[] = {1,1,1};
+				alpha = 0.5;
+				enableParallax = 0;
+				turret[] = {0};
+				font = "EtelkaMonospaceProBold";
+				class material {
+					ambient[] = {1,1,1,1};
+					diffuse[] = {1,1,1,1};
+					emissive[] = {1000,1000,1000,1};
+				};
+				class Bones {
+					class FuelScale {
+						type = "linear";
+						source = "fuel";
+						sourceIndex = 1;
+						sourceScale = 1.0;
+						min = 0;
+						max = 1;
+						minPos[] = {0,0};
+						maxPos[] = {-0.09,0};
+					};
+				};
+				class Draw {
+					color[] = {1,1,1};
+					alpha = 1;
+					condition = "1";
+					class Main_Gun {
+						type = "text";
+						source = "static";
+						text = "MAIN GUN";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.273,0.18},1};
+						right[] = {{0.298,0.18},1};
+						down[] = {{0.273,0.44},1};
+					};
+					class Main_Gun_Ammo_count {
+						type = "text";
+						source = "ammo";
+						sourceScale = 1;
+						sourceLength = 2;
+						sourceIndex = 0;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.273,0.55},1};
+						right[] = {{0.298,0.55},1};
+						down[] = {{0.273,0.81},1};
+					};
+					class Main_Gun_Ammo_Type_text {
+						type = "text";
+						source = "static";
+						text = "TYPE";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.385,0.18},1};
+						right[] = {{0.41,0.18},1};
+						down[] = {{0.385,0.44},1};
+					};
+					class Main_Gun_Ammo_Type {
+						type = "text";
+						source = "ammoFormat";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.385,0.55},1};
+						right[] = {{0.41,0.55},1};
+						down[] = {{0.385,0.81},1};
+					};
+					class Coax {
+						type = "text";
+						source = "static";
+						text = "COAX";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.498,0.18},1};
+						right[] = {{0.523,0.18},1};
+						down[] = {{0.498,0.44},1};
+					};
+					class Coax_Ammo_count {
+						type = "text";
+						source = "ammo";
+						sourceScale = 1;
+						sourceLength = 2;
+						sourceIndex = 1;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.498,0.55},1};
+						right[] = {{0.523,0.55},1};
+						down[] = {{0.498,0.81},1};
+					};
+					class Azimuth {
+						type = "text";
+						source = "static";
+						text = "GUN AZIM";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.605,0.18},1};
+						right[] = {{0.63,0.18},1};
+						down[] = {{0.605,0.44},1};
+					};
+					class Azimuth_number {
+						type = "text";
+						source = "[x]turretworld";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.61,0.55},1};
+						right[] = {{0.635,0.55},1};
+						down[] = {{0.61,0.81},1};
+					};
+					class Smoke {
+						type = "text";
+						source = "static";
+						text = "SMOKE";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.717,0.18},1};
+						right[] = {{0.742,0.18},1};
+						down[] = {{0.717,0.44},1};
+					};
+					class Fuel_background_white {
+						color[] = {0.2,0.2,0.2};
+						alpha = 0.1;
+						condition = "1";
+						class Background {
+							type = "polygon";
+							points[] = {{{{0.787,0.7},1},{{0.877,0.7},1},{{0.877,0.9},1},{{0.787,0.9},1}}};
+						};
+					};
+					class Fuel_background_green {
+						color[] = {0,0.7,0};
+						condition = "fuel>=0.5";
+						class Background {
+							type = "polygon";
+							points[] = {{{{0.787,0.7},1},{"FuelScale",{0.877,0.7},1},{"FuelScale",{0.877,0.9},1},{{0.787,0.9},1}}};
+						};
+					};
+					class Fuel_background_yellow {
+						color[] = {0.9,0.7,0};
+						condition = "fuel<0.5";
+						class Background {
+							type = "polygon";
+							points[] = {{{{0.787,0.7},1},{"FuelScale",{0.877,0.7},1},{"FuelScale",{0.877,0.9},1},{{0.787,0.9},1}}};
+						};
+					};
+					class Fuel_background_red {
+						color[] = {0.7,0,0};
+						condition = "fuel<0.3";
+						class Background {
+							type = "polygon";
+							points[] = {{{{0.787,0.7},1},{"FuelScale",{0.877,0.7},1},{"FuelScale",{0.877,0.9},1},{{0.787,0.9},1}}};
+						};
+					};
+					class Fuel {
+						type = "text";
+						source = "static";
+						text = "FUEL";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.83,0.18},1};
+						right[] = {{0.855,0.18},1};
+						down[] = {{0.83,0.44},1};
+					};
+					class Fuel_number {
+						type = "text";
+						source = "fuel";
+						sourceScale = 100;
+						sourceLength = 1;
+						scale = 1;
+						align = "left";
+						refreshRate = 0.1;
+						pos[] = {{0.835,0.4},1};
+						right[] = {{0.86,0.4},1};
+						down[] = {{0.835,0.66},1};
+					};
+					class Fuel_percent_sign {
+						type = "text";
+						source = "static";
+						text = "%";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "right";
+						refreshRate = 0.1;
+						pos[] = {{0.845,0.4},1};
+						right[] = {{0.87,0.4},1};
+						down[] = {{0.845,0.66},1};
+					};
+				};
+			};
+			class MFD_Commander_OnScreen {
+				topLeft = "PIP_COM_TL";
+				topRight = "PIP_COM_TR";
+				bottomLeft = "PIP_COM_BL";
+				borderLeft = 0;
+				borderRight = 0;
+				borderTop = 0;
+				borderBottom = 0;
+				color[] = {1,1,1};
+				alpha = 0.5;
+				enableParallax = 0;
+				turret[] = {0,0};
+				font = "EtelkaMonospaceProBold";
+				class material {
+					ambient[] = {1,1,1,1};
+					diffuse[] = {1,1,1,1};
+					emissive[] = {1000,1000,1000,1};
+				};
+				class Bones{};
+				class Draw {
+					color[] = {1,1,1};
+					alpha = 1;
+					condition = "1";
+					class Azimuth_number {
+						type = "text";
+						source = "[x]turretworld";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.22,0.435},1};
+						right[] = {{0.245,0.435},1};
+						down[] = {{0.22,0.472},1};
+					};
+					class Elevation_Text {
+						type = "text";
+						source = "static";
+						text = "E: ";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.2,0.28},1};
+						right[] = {{0.225,0.28},1};
+						down[] = {{0.2,0.317},1};
+					};
+					class Elevation_Number {
+						type = "text";
+						source = "[y]turretworld";
+						sourceScale = 1;
+						sourceLength = 4;
+						sourcePrecision = 1;
+						refreshRate = 0;
+						align = "center";
+						scale = 1;
+						pos[] = {{0.23,0.28},1};
+						right[] = {{0.255,0.28},1};
+						down[] = {{0.23,0.317},1};
+					};
+					class Lased_Range {
+						type = "text";
+						source = "laserDist";
+						sourceScale = 1;
+						sourceLength = 4;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.75,0.28},1};
+						right[] = {{0.775,0.28},1};
+						down[] = {{0.75,0.317},1};
+					};
+					class VisionMode_Text {
+						type = "text";
+						source = "static";
+						text = "WFOV";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.75,0.65},1};
+						right[] = {{0.775,0.65},1};
+						down[] = {{0.75,0.687},1};
+					};
+					class VisionMode_String {
+						type = "text";
+						source = "visionMode";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.825,0.65},1};
+						right[] = {{0.85,0.65},1};
+						down[] = {{0.825,0.687},1};
+					};
+				};
+			};
+			class MFD_Commander_Display_MainTurret {
+				topLeft = "mfd_com_TL";
+				topRight = "mfd_com_TR";
+				bottomLeft = "mfd_com_BL";
+				borderLeft = 0;
+				borderRight = 0;
+				borderTop = 0;
+				borderBottom = 0;
+				color[] = {1,1,1};
+				alpha = 0.5;
+				enableParallax = 0;
+				turret[] = {0,0};
+				font = "EtelkaMonospaceProBold";
+				class material {
+					ambient[] = {1,1,1,1};
+					diffuse[] = {1,1,1,1};
+					emissive[] = {1000,1000,1000,1};
+				};
+				class Bones{};
+				class Draw {
+					color[] = {1,1,1};
+					alpha = 1;
+					condition = "1";
+					class Smoke_ammo {
+						type = "text";
+						source = "ammo";
+						sourceScale = 1;
+						sourceLength = 3;
+						sourceIndex = 0;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.72,0.55},1};
+						right[] = {{0.745,0.55},1};
+						down[] = {{0.72,0.81},1};
+					};
+				};
+			};
+			class MFD_Gunner_Ready_To_Fire {
+				topLeft = "mfd_gun_cli_TL";
+				topRight = "mfd_gun_cli_TR";
+				bottomLeft = "mfd_gun_cli_BL";
+				borderLeft = 0;
+				borderRight = 0;
+				borderTop = 0;
+				borderBottom = 0;
+				color[] = {0,0,0};
+				alpha = 0.5;
+				enableParallax = 0;
+				font = "EtelkaMonospaceProBold";
+				class material {
+					ambient[] = {1,1,1,1};
+					diffuse[] = {1,1,1,1};
+					emissive[] = {1000,1000,1000,1};
+				};
+				class Bones{};
+				class Draw {
+					color[] = {0,0,0};
+					alpha = 1;
+					condition = "1";
+					class Top_text {
+						type = "text";
+						source = "static";
+						text = "READY TO";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.45,0.05},1};
+						right[] = {{0.67,0.05},1};
+						down[] = {{0.45,0.55},1};
+					};
+					class Bottom_text {
+						type = "text";
+						source = "static";
+						text = "FIRE";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.465,0.45},1};
+						right[] = {{0.685,0.45},1};
+						down[] = {{0.465,0.95},1};
+					};
+				};
+			};
+			class MFD_Gunner_Display {
+				topLeft = "mfd_gun_TL";
+				topRight = "mfd_gun_TR";
+				bottomLeft = "mfd_gun_BL";
+				borderLeft = 0;
+				borderRight = 0;
+				borderTop = 0;
+				borderBottom = 0;
+				color[] = {1,1,1};
+				alpha = 0.5;
+				enableParallax = 0;
+				turret[] = {0};
+				font = "EtelkaMonospaceProBold";
+				class material {
+					ambient[] = {1,1,1,1};
+					diffuse[] = {1,1,1,1};
+					emissive[] = {1000,1000,1000,1};
+				};
+				class Bones{};
+				class Draw {
+					color[] = {1,1,1};
+					alpha = 1;
+					condition = "1";
+					class Main_armament {
+						type = "text";
+						source = "static";
+						text = "MAIN ARMAMENT";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "right";
+						refreshRate = 0.1;
+						pos[] = {{0.015,-0.003},1};
+						right[] = {{0.075,-0.003},1};
+						down[] = {{0.015,0.075},1};
+					};
+					class Machinegun {
+						type = "text";
+						source = "static";
+						text = "COAX MG";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "right";
+						refreshRate = 0.1;
+						pos[] = {{0.015,0.31},1};
+						right[] = {{0.075,0.31},1};
+						down[] = {{0.015,0.388},1};
+					};
+					class Main_armament_ammo_type {
+						type = "text";
+						source = "static";
+						text = "AMMO TYPE";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.545,-0.003},1};
+						right[] = {{0.605,-0.003},1};
+						down[] = {{0.545,0.075},1};
+					};
+					class Lased_distance_elevation {
+						type = "text";
+						source = "static";
+						text = "LASED DIST";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "right";
+						refreshRate = 0.1;
+						pos[] = {{0.015,0.84},1};
+						right[] = {{0.069,0.84},1};
+						down[] = {{0.015,0.918},1};
+					};
+					class Azimut {
+						type = "text";
+						source = "static";
+						text = "AZIMUTH";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "right";
+						refreshRate = 0.1;
+						pos[] = {{0.015,0.915},1};
+						right[] = {{0.075,0.915},1};
+						down[] = {{0.015,0.993},1};
+					};
+					class Damage {
+						type = "text";
+						source = "static";
+						text = "DAMAGE";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "right";
+						refreshRate = 0.1;
+						pos[] = {{0.015,0.39},1};
+						right[] = {{0.075,0.39},1};
+						down[] = {{0.015,0.468},1};
+					};
+					class Heading {
+						type = "text";
+						source = "[x]turretworld";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 0.2;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.34,0.915},1};
+						right[] = {{0.4,0.915},1};
+						down[] = {{0.34,0.993},1};
+					};
+					class Lased_Range {
+						type = "text";
+						source = "laserDist";
+						sourceScale = 1;
+						sourceLength = 4;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.335,0.84},1};
+						right[] = {{0.395,0.84},1};
+						down[] = {{0.335,0.918},1};
+					};
+				};
+			};
+			class MFD_Gunner_Main_Armament_Ammo_Type {
+				topLeft = "mfd_gun_TL";
+				topRight = "mfd_gun_TR";
+				bottomLeft = "mfd_gun_BL";
+				borderLeft = 0;
+				borderRight = 0;
+				borderTop = 0;
+				borderBottom = 0;
+				color[] = {0.84,0.86,0.84};
+				alpha = 0.5;
+				turret[] = {0};
+				enableParallax = 0;
+				font = "EtelkaMonospaceProBold";
+				class material {
+					ambient[] = {1,1,1,1};
+					diffuse[] = {1,1,1,1};
+					emissive[] = {1000,1000,1000,1};
+				};
+				class Bones{};
+				class Draw {
+					color[] = {1,1,1};
+					alpha = 1;
+					condition = "1";
+					class Gunner_AmmoType {
+						type = "text";
+						source = "ammoFormat";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "center";
+						refreshRate = 0.1;
+						pos[] = {{0.56,0.09},1};
+						right[] = {{0.62,0.09},1};
+						down[] = {{0.56,0.168},1};
+					};
+				};
+			};
+			class MFD_Gunner_Coax_Ammo {
+				topLeft = "mfd_gun_TL";
+				topRight = "mfd_gun_TR";
+				bottomLeft = "mfd_gun_BL";
+				borderLeft = 0;
+				borderRight = 0;
+				borderTop = 0;
+				borderBottom = 0;
+				color[] = {0.84,0.86,0.84};
+				alpha = 0.5;
+				enableParallax = 0;
+				turret[] = {0};
+				font = "EtelkaMonospaceProBold";
+				class material {
+					ambient[] = {1,1,1,1};
+					diffuse[] = {1,1,1,1};
+					emissive[] = {1000,1000,1000,1};
+				};
+				class Bones{};
+				class Draw {
+					color[] = {1,1,1};
+					alpha = 1;
+					condition = "1";
+					class Gunner_Text_1 {
+						type = "text";
+						source = "ammo";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						sourceIndex = 1;
+						align = "left";
+						refreshRate = 0.1;
+						pos[] = {{0.38,0.31},1};
+						right[] = {{0.43,0.31},1};
+						down[] = {{0.38,0.388},1};
+					};
+				};
+			};
+			class MFD_Gunner_AmmoIndicator_Main_Armament {
+				topLeft = "mfd_gun_TL";
+				topRight = "mfd_gun_TR";
+				bottomLeft = "mfd_gun_BL";
+				borderLeft = 0;
+				borderRight = 0;
+				borderTop = 0;
+				borderBottom = 0;
+				color[] = {0.84,0.86,0.84};
+				alpha = 0.5;
+				enableParallax = 0;
+				turret[] = {0};
+				font = "EtelkaMonospacePro";
+				class material {
+					ambient[] = {1,1,1,1};
+					diffuse[] = {1,1,1,1};
+					emissive[] = {1000,1000,1000,1};
+				};
+				class Bones{};
+				class Draw {
+					color[] = {1,1,1};
+					alpha = 1;
+					condition = "1";
+					class Main_Armament_Ammo_Type_1 {
+						type = "text";
+						source = "static";
+						text = "MP-T";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "right";
+						refreshRate = 0.1;
+						pos[] = {{0.015,0.065},1};
+						right[] = {{0.075,0.065},1};
+						down[] = {{0.015,0.143},1};
+					};
+					class Gunner_Text_1 {
+						type = "text";
+						source = "ammo";
+						sourceScale = 1;
+						sourceLength = 2;
+						sourceIndex = 0;
+						scale = 1;
+						align = "left";
+						refreshRate = 0.1;
+						pos[] = {{0.38,0.065},1};
+						right[] = {{0.44,0.065},1};
+						down[] = {{0.38,0.143},1};
+					};
+					class Main_Armament_Ammo_Type_2 {
+						type = "text";
+						source = "static";
+						text = "APFSDS-T";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "right";
+						refreshRate = 0.1;
+						pos[] = {{0.015,0.125},1};
+						right[] = {{0.065,0.125},1};
+						down[] = {{0.015,0.203},1};
+					};
+					class Gunner_Text_2 {
+						type = "text";
+						source = "ammo";
+						sourceScale = 1;
+						sourceLength = 2;
+						sourceIndex = 0;
+						sourcePrecision = 1;
+						scale = 1;
+						align = "left";
+						refreshRate = 0.1;
+						pos[] = {{0.38,0.125},1};
+						right[] = {{0.44,0.125},1};
+						down[] = {{0.38,0.203},1};
+					};
+					class Main_Armament_Ammo_Type_3 {
+						type = "text";
+						source = "static";
+						text = "AT MISSILE";
+						sourceScale = 1;
+						sourceLength = 3;
+						scale = 1;
+						align = "right";
+						refreshRate = 0.1;
+						pos[] = {{0.015,0.185},1};
+						right[] = {{0.065,0.185},1};
+						down[] = {{0.015,0.263},1};
+					};
+					class Gunner_Text_3 {
+						type = "text";
+						source = "ammo";
+						sourceScale = 1;
+						sourceLength = 2;
+						sourceIndex = 2;
+						scale = 1;
+						align = "left";
+						refreshRate = 0.1;
+						pos[] = {{0.38,0.185},1};
+						right[] = {{0.43,0.185},1};
+						down[] = {{0.38,0.263},1};
+					};
+				};
+			};
+		};
+        radarType = 2;
+		reportRemoteTargets = 1;
+		reportOwnPosition = 1;
+		receiveRemoteTargets = 1;
+		class Components: Components {
+			class SensorsManagerComponent {
+				class Components {
+					class ActiveRadarSensorComponent: SensorTemplateActiveRadar {
+						class AirTarget {
+							minRange = 9000;
+							maxRange = 9000;
+							objectDistanceLimitCoef = -1;
+							viewDistanceLimitCoef = -1;
+						};
+						class GroundTarget {
+							minRange = 6000;
+							maxRange = 6000;
+							objectDistanceLimitCoef = -1;
+							viewDistanceLimitCoef = -1;
+						};
+						typeRecognitionDistance = 6000;
+						angleRangeHorizontal = 360;
+						angleRangeVertical = 100;
+						aimDown = -45;
+						maxTrackableSpeed = 694.444;
+					};
+					class DataLinkSensorComponent: SensorTemplateDataLink{};
+				};
+			};
+		};
         class Turrets: Turrets {
             class MainTurret: MainTurret {
                 class Turrets: Turrets {
@@ -66,6 +2026,151 @@ class CfgVehicles {
                 };
             };
         };
+        class compartmentsLights {
+			class Comp1 {
+				class Light1 {
+					color[] = {21,20,13};
+					ambient[] = {5,0,0};
+					intensity = 0.13;
+					size = 0;
+					useFlare = 0;
+					flareSize = 0;
+					flareMaxDistance = 0;
+					dayLight = 0;
+					blinking = 0;
+					class Attenuation
+					{
+						start = 0;
+						constant = 0;
+						linear = 1;
+						quadratic = 70;
+						hardLimitStart = 0.15;
+						hardLimitEnd = 1.15;
+					};
+					point = "light_interior1";
+				};
+				class Light2: Light1 {
+					point = "light_interior2";
+					color[] = {18,20,13};
+					ambient[] = {5,0,0};
+					intensity = 0.8;
+				};
+				class Light3: Light1 {
+					point = "light_interior3";
+					color[] = {18,20,18};
+					ambient[] = {5,0,0};
+					intensity = 0.4;
+				};
+				class Light4: Light1 {
+					point = "light_interior4";
+					color[] = {18,20,18};
+					ambient[] = {5,0,0};
+					intensity = 2;
+				};
+				class Light5: Light1 {
+					point = "light_interior5";
+					color[] = {18,20,18};
+					ambient[] = {5,0,0};
+					intensity = 2;
+				};
+				class Light6: Light1 {
+					point = "light_interior6";
+					color[] = {18,20,18};
+					ambient[] = {5,0,0};
+					intensity = 2;
+				};
+				class Light7: Light1 {
+					point = "light_interior7";
+					color[] = {18,20,18};
+					ambient[] = {5,0,0};
+					intensity = 2;
+				};
+				class Light8: Light1 {
+					point = "light_interior8";
+					color[] = {18,20,18};
+					ambient[] = {5,0,0};
+					intensity = 2;
+				};
+				class Light9: Light1 {
+					point = "light_interior9";
+					color[] = {18,20,18};
+					ambient[] = {5,0,0};
+					intensity = 2;
+				};
+				class Light10: Light1 {
+					point = "light_interior10";
+					color[] = {22,22,22};
+					ambient[] = {5,0,0};
+					intensity = 0.7;
+				};
+				class Light11: Light1 {
+					point = "light_interior11";
+					color[] = {22,22,22};
+					ambient[] = {5,0,0};
+					intensity = 0.7;
+				};
+				class Light12: Light1 {
+					point = "light_interior12";
+					color[] = {22,22,22};
+					ambient[] = {5,0,0};
+					intensity = 0.7;
+				};
+				class Light13: Light1 {
+					point = "light_interior13";
+					color[] = {22,22,22};
+					ambient[] = {5,0,0};
+					intensity = 0.7;
+				};
+			};
+		};
+		class RenderTargets {
+			class commander_display {
+				renderTarget = "rendertarget3";
+				class CameraView1 {
+					pointPosition = "commanderview";
+					pointDirection = "commanderview_dir";
+					renderVisionMode = 0;
+					renderQuality = 2;
+					fov = 0.305731;
+					turret[] = {0,0};
+				};
+				BBoxes[] = {"PIP_COM_TL","PIP_COM_TR","PIP_COM_BL","PIP_COM_BR"};
+			};
+			class driver_display {
+				renderTarget = "rendertarget5";
+				class CameraView1 {
+					pointPosition = "PIP2_pos";
+					pointDirection = "PIP2_dir";
+					renderVisionMode = 0;
+					renderQuality = 2;
+					fov = 0.6;
+					turret[] = {-1};
+				};
+				BBoxes[] = {"PIP_DRV_TL","PIP_DRV_TR","PIP_DRV_BL","PIP_DRV_BR"};
+			};
+			class mirror_l {
+				renderTarget = "mirror_l";
+				class Camera {
+					pointPosition = "PIP0_pos";
+					pointDirection = "PIP0_dir";
+					renderVisionMode = 4;
+					renderQuality = 2;
+					fov = 0.7;
+				};
+				BBoxes[] = {"Mirror_L_TL","Mirror_L_TR","Mirror_L_BL","Mirror_L_BR"};
+			};
+			class mirror_r {
+				renderTarget = "mirror_r";
+				class Camera {
+					pointPosition = "PIP1_pos";
+					pointDirection = "PIP1_dir";
+					renderVisionMode = 4;
+					renderQuality = 2;
+					fov = 0.7;
+				};
+				BBoxes[] = {"Mirror_R_TL","Mirror_R_TR","Mirror_R_BL","Mirror_R_BR"};
+			};
+		};
     };
 
     class lxim_outlaw_base_F: I_APC_Wheeled_03_cannon_F {
@@ -85,8 +2190,12 @@ class CfgVehicles {
         terrainCoef = 1;
         vehicleClass = "APCs""";
         textureList[] = {"Blu",1};
+        class Library {
+			libTextDesc = "$STR_A3_CfgVehicles_APC_Wheeled_03_WAPC_Library0";
+		};
         hiddenSelections[] = {"camo1","camo2","camo3","camo4","CamoNet","CamoSlat"};
         class EventHandlers;
+        memoryPointTaskMarker = "TaskMarker_1_pos";
         class TextureSources {
             class Blu_green {
                 displayName = "M20";
@@ -298,6 +2407,38 @@ class CfgVehicles {
                 mass = -50;
             };
         };
+        class Components: Components {
+			class SensorsManagerComponent {
+				class Components {
+					class ActiveRadarSensorComponent: SensorTemplateActiveRadar {
+						class AirTarget {
+							minRange = 9000;
+							maxRange = 9000;
+							objectDistanceLimitCoef = -1;
+							viewDistanceLimitCoef = -1;
+						};
+						class GroundTarget {
+							minRange = 6000;
+							maxRange = 6000;
+							objectDistanceLimitCoef = -1;
+							viewDistanceLimitCoef = -1;
+						};
+						typeRecognitionDistance = 6000;
+						angleRangeHorizontal = 360;
+						angleRangeVertical = 100;
+						aimDown = -45;
+						maxTrackableSpeed = 694.444;
+					};
+					class DataLinkSensorComponent: SensorTemplateDataLink{};
+                    class PassiveRadarSensorComponent: SensorTemplatePassiveRadar {
+                        // Similar settings as ActiveRadar, adjusted for passive use
+                    };
+                    class VisualSensorComponent: SensorTemplateVisual {
+                        // For IR and visual sensors
+                    };
+				};
+			};
+		};
         class Turrets: Turrets {
             class MainTurret: MainTurret {
                 weapons[] = {"lxim_autocannon_40mm_CTWS","ACE_LMG_coax_ext_MAG58","missiles_titan"};
@@ -353,6 +2494,7 @@ class CfgVehicles {
                 visual = "zbytek";
             };
         };
+
     };
 
     class lxim_outlaw_eng_base_F: I_APC_Wheeled_03_cannon_F {
@@ -370,6 +2512,9 @@ class CfgVehicles {
         maxSpeed = 125;
         vehicleClass = "APCs""";
         textureList[] = {"Blu",1};
+        class Library {
+			libTextDesc = "$STR_A3_CfgVehicles_APC_Wheeled_03_WAPC_Library0";
+		};
         hiddenSelections[] = {"camo1","camo2","camo3","camo4","CamoNet","CamoSlat"};
         class TextureSources {
             class Blu_green {
@@ -637,6 +2782,38 @@ class CfgVehicles {
                 visual = "zbytek";
             };
         };
+        class Components: Components {
+			class SensorsManagerComponent {
+				class Components {
+					class ActiveRadarSensorComponent: SensorTemplateActiveRadar {
+						class AirTarget {
+							minRange = 9000;
+							maxRange = 9000;
+							objectDistanceLimitCoef = -1;
+							viewDistanceLimitCoef = -1;
+						};
+						class GroundTarget {
+							minRange = 6000;
+							maxRange = 6000;
+							objectDistanceLimitCoef = -1;
+							viewDistanceLimitCoef = -1;
+						};
+						typeRecognitionDistance = 6000;
+						angleRangeHorizontal = 360;
+						angleRangeVertical = 100;
+						aimDown = -45;
+						maxTrackableSpeed = 694.444;
+					};
+					class DataLinkSensorComponent: SensorTemplateDataLink{};
+                    class PassiveRadarSensorComponent: SensorTemplatePassiveRadar {
+                        // Similar settings as ActiveRadar, adjusted for passive use
+                    };
+                    class VisualSensorComponent: SensorTemplateVisual {
+                        // For IR and visual sensors
+                    };
+				};
+			};
+		};
     };
 
     class lxim_outlaw_AA_base_F: I_APC_Wheeled_03_cannon_F {
@@ -654,6 +2831,9 @@ class CfgVehicles {
         maxSpeed = 125;
         vehicleClass = "APCs""";
         textureList[] = {"Blu",1};
+        class Library {
+			libTextDesc = "$STR_A3_CfgVehicles_APC_Wheeled_03_WAPC_Library0";
+		};
         hiddenSelections[] = {"camo1","camo2","camo3","camo4","CamoNet","CamoSlat"};
         class EventHandlers;
         class TextureSources {
@@ -922,6 +3102,38 @@ class CfgVehicles {
                 visual = "zbytek";
             };
         };
+        class Components: Components {
+			class SensorsManagerComponent {
+				class Components {
+					class ActiveRadarSensorComponent: SensorTemplateActiveRadar {
+						class AirTarget {
+							minRange = 9000;
+							maxRange = 9000;
+							objectDistanceLimitCoef = -1;
+							viewDistanceLimitCoef = -1;
+						};
+						class GroundTarget {
+							minRange = 6000;
+							maxRange = 6000;
+							objectDistanceLimitCoef = -1;
+							viewDistanceLimitCoef = -1;
+						};
+						typeRecognitionDistance = 6000;
+						angleRangeHorizontal = 360;
+						angleRangeVertical = 100;
+						aimDown = -45;
+						maxTrackableSpeed = 694.444;
+					};
+					class DataLinkSensorComponent: SensorTemplateDataLink{};
+                    class PassiveRadarSensorComponent: SensorTemplatePassiveRadar {
+                        // Similar settings as ActiveRadar, adjusted for passive use
+                    };
+                    class VisualSensorComponent: SensorTemplateVisual {
+                        // For IR and visual sensors
+                    };
+				};
+			};
+		};
     };
 
     class lxim_outlaw_unarmed_base_F: lxim_outlaw_base_F {

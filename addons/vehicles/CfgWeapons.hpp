@@ -63,3 +63,27 @@ class CfgWeapons {
         };
     };
 };
+
+class CfgMineTriggers {
+	class RangeTrigger;
+	class WireTrigger;
+	
+	class lxim_RangeTriggerShort: RangeTrigger {
+		mineTriggerRange = 120;
+		mineTriggerActivationRange = 100;
+		mineDelay = 0;
+	};
+	class RangeTriggerBounding: RangeTrigger {
+		mineTriggerRange = 6;
+		mineTriggerActivationRange = 5;
+		restrictZoneCenter[] = {0,0,0};
+		restrictZoneRadius = 5;
+		mineDelay = 1;
+	};
+	class lxim_IRTrigger: WireTrigger {
+		mineTriggerRange = 2;
+		mineTriggerActivationRange = 3;
+		mineMagnetic = 1;
+		mineDelay = 0;
+	};
+};
