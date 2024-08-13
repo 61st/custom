@@ -24,7 +24,7 @@ force force lxim_bft_showOwnGroupUnits = true;
 force force lxim_bft_showPlayerNames = true;
 force force lxim_bft_showUnitNames = true;
 force force lxim_bft_teamColors = "ACE";
-force lxim_bft_bftEnabled = false;
+force lxim_bft_bftEnabled = true;
 
 // 61st - Civilians
 force force LXIM_Civilians_enableFollowGestures = true;
@@ -1012,18 +1012,18 @@ force force kat_surgery_surgicalLocation = 0;
 
 // Simplex Support Services
 force force sss_artillery_autoTerminals = true;
-force force sss_artillery_manualInput = true;
+force force sss_artillery_manualInput = false;
 force force sss_artillery_rangeIndicators = true;
 force force sss_artillery_relocateCooldown = true;
 force force sss_artillery_taskMarkers = true;
 force force sss_artillery_visualAids = true;
-force force sss_cas_manualInput = true;
+force force sss_cas_manualInput = false;
 force force sss_cas_taskMarkers = true;
 force force sss_cas_visualAids = true;
 force force sss_cas_visualAidsLive = true;
 force force sss_logistics_clearAreaRestriction = true;
 force force sss_logistics_cooldownTrigger = "END";
-force force sss_logistics_manualInput = true;
+force force sss_logistics_manualInput = false;
 force force sss_logistics_taskMarkers = true;
 force force sss_logistics_visualAids = true;
 force force sss_logistics_visualAidsLive = true;
@@ -1043,7 +1043,7 @@ force force sss_optionterminalRequireAuth = true;
 force force sss_optionterminalRequireItems = false;
 force force sss_transport_autoTerminals = true;
 force force sss_transport_holdTimeoutStr = "-1";
-force force sss_transport_manualInput = true;
+force force sss_transport_manualInput = false;
 force force sss_transport_maxSearchRadiusStr = "1000";
 force force sss_transport_RTBReset = true;
 force force sss_transport_RTBRestoreCrew = true;
