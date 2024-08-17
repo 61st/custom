@@ -40,7 +40,8 @@ class CfgPatches {
             "A3_Air_F",
             "A3_Armor_F",
             "A3_Soft_F",
-            "A3_Armor_F_APC_Wheeled_03"
+            "A3_Armor_F_APC_Wheeled_03",
+            "A3_Armor_F_Gamma"
         };
         authorUrl = URL;
         author = QAUTHOR;

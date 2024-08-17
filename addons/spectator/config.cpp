@@ -7,12 +7,16 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "lxim_common"
+            "lxim_common",
+            "A3_Functions_F_Exp_A"
         };
-        author = QAUTHOR;
+        author = "ArmaForces";
         VERSION_CONFIG;
     };
 };
 
 
 #include "CfgEventHandlers.hpp"
+#include "CfgFunctions.hpp"
+#include "CfgScriptPaths.hpp"
+#include "RscDisplayEGSpectator.hpp"
