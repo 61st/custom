@@ -2004,16 +2004,16 @@ class CfgVehicles {
     };
 
     class lxim_outlaw_g_V11: lxim_outlaw_g {
-        displayName = "M20 1/1";
+        displayName = "M20 Thunder 2/1";
         author = QAUTHOR;
-        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_wd_01_ext_g.paa),QPATHTOF(data\outlaw_wd_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\thunder_2_1_hull_g.paa),QPATHTOF(data\thunder_2_1_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
         forceInGarage = 0;
     };
 
     class lxim_outlaw_g_V12: lxim_outlaw_g {
-        displayName = "M20 1/2";
+        displayName = "M20 Thunder 2/2";
         author = QAUTHOR;
-        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_wm_01_ext_g.paa),QPATHTOF(data\outlaw_wm_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\thunder_2_2_hull_g.paa),QPATHTOF(data\thunder_2_2_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
         forceInGarage = 0;
     };
 
@@ -2025,16 +2025,16 @@ class CfgVehicles {
     };
 
     class lxim_outlaw_AA_g_V11: lxim_outlaw_AA_g {
-        displayName = "M20-AA 1/1";
+        displayName = "M20-AA Thunder 2/1";
         author = QAUTHOR;
-        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_wd_01_ext_g.paa),QPATHTOF(data\outlaw_wd_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\thunder_2_1_hull_g.paa),QPATHTOF(data\thunder_2_1_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
         forceInGarage = 0;
     };
 
     class lxim_outlaw_AA_g_V12: lxim_outlaw_AA_g {
-        displayName = "M20-AA 1/2";
+        displayName = "M20-AA thunder 2/2";
         author = QAUTHOR;
-        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_wm_01_ext_g.paa),QPATHTOF(data\outlaw_wm_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g_aa.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\thunder_2_2_hull_g.paa),QPATHTOF(data\thunder_2_2_ext_g.paa),QPATHTOF(data\outlaw_turret_g_aa.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
         forceInGarage = 0;
     };
     class lxim_outlaw_AA_g_Vhq: lxim_outlaw_AA_g {
@@ -2058,16 +2058,16 @@ class CfgVehicles {
     };
 
     class lxim_outlaw_d_V11: lxim_outlaw_d {
-        displayName = "M20 Desert 1/1";
+        displayName = "M20 Desert Thuinder 2/1";
         author = QAUTHOR;
-        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_wd_01_ext_d.paa),QPATHTOF(data\outlaw_wd_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\thunder_2_1_hull_d.paa),QPATHTOF(data\thunder_2_1_ext_d.paa),QPATHTOF(data\outlaw_turret_d.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
         forceInGarage = 0;
     };
 
     class lxim_outlaw_d_V12: lxim_outlaw_d {
-        displayName = "M20 Desert 1/2";
+        displayName = "M20 Desert Thunder 2/2";
         author = QAUTHOR;
-        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_wm_01_ext_d.paa),QPATHTOF(data\outlaw_wm_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\thunder_2_2_hull_d.paa),QPATHTOF(data\thunder_2_2_ext_d.paa),QPATHTOF(data\outlaw_turret_d.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
         forceInGarage = 0;
     };
     class lxim_outlaw_d_Vhq: lxim_outlaw_d {
@@ -2078,16 +2078,16 @@ class CfgVehicles {
     };
 
     class lxim_outlaw_AA_d_V11: lxim_outlaw_AA_d {
-        displayName = "M20-AA Desert 1/1";
+        displayName = "M20-AA Desert Thunder 2/1";
         author = QAUTHOR;
-        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_wd_01_ext_d.paa),QPATHTOF(data\outlaw_wd_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d_aa.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\thunder_2_1_hull_d.paa),QPATHTOF(data\thunder_2_1_ext_d.paa),QPATHTOF(data\outlaw_turret_d_aa.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
         forceInGarage = 0;
     };
 
     class lxim_outlaw_AA_d_V12: lxim_outlaw_AA_d {
-        displayName = "M20-AA Desert 1/2";
+        displayName = "M20-AA Desert Thunder 2/2";
         author = QAUTHOR;
-        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_wm_01_ext_d.paa),QPATHTOF(data\outlaw_wm_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d_aa.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\thunder_2_2_hull_d.paa),QPATHTOF(data\thunder_2_2_ext_d.paa),QPATHTOF(data\outlaw_turret_d_aa.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
         forceInGarage = 0;
     };
     class lxim_outlaw_AA_d_Vhq: lxim_outlaw_AA_d {

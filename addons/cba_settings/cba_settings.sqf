@@ -24,7 +24,7 @@ force force lxim_bft_showOwnGroupUnits = true;
 force force lxim_bft_showPlayerNames = true;
 force force lxim_bft_showUnitNames = true;
 force force lxim_bft_teamColors = "ACE";
-force lxim_bft_bftEnabled = false;
+force force lxim_bft_bftEnabled = true;
 
 // 61st - Civilians
 force force LXIM_Civilians_enableFollowGestures = true;
@@ -631,6 +631,30 @@ force force cfp_autoEquipNVG = true;
 force force bocr_main_disabled = false;
 force force bocr_main_walk = true;
 
+// Better CAS Environment
+force force BCE_Access_list = 1;
+force force BCE_Alpha_sdr = 1;
+force force BCE_CamNoise_sdr = 0.5;
+force force BCE_FriendlyTrack_fn = false;
+force force BCE_HUD_fn = true;
+force force BCE_HUD_RK_fn = 0;
+force force BCE_inf_IR_fn = true;
+force force BCE_inf_IR_Lig_fn = true;
+force force BCE_Landmarks_fn = true;
+force force BCE_Mapicon_fn = true;
+force force BCE_touchMark_fn = true;
+force force BCE_Tracker_Render_sdr = 10000;
+force force BCE_UnitTrack_fn = false;
+force force BCE_veh_IR_fn = true;
+
+// Better CAS Environment (Server)
+force force BCE_AI_CAS_Support_fn = true;
+force force BCE_AIAir_IR_fn = true;
+force force BCE_inf_IR_Lig_S_fn = true;
+force force BCE_LandVeh_Laser_fn = false;
+force force BCE_LandVeh_Light_fn = false;
+force force BCE_veh_IR_S_fn = true;
+
 // BettIR
 force force BettIR_ViewDistance = 300;
 
@@ -647,6 +671,16 @@ force force CUP_Vehicles_PreventBarrelClip = true;
 // CUP Static Weapons
 CUP_staticWeapons_allowMovement = false;
 CUP_staticWeapons_allowRotation = false;
+
+// cTab
+force force ctab_compass_enable = true;
+force force ctab_core_bft_mode = 0;
+force force ctab_core_gridPrecision = 2;
+force force ctab_core_helmetcam_mode = 1;
+force force ctab_core_sync_time = 30;
+force force ctab_core_uav_mode = 1;
+force force ctab_core_useAceMicroDagr = true;
+force force ctab_core_useArmaMarker = true;
 
 // DUI - Squad Radar - Indicators
 force force diwako_dui_indicators_crew_range_enabled = false;
@@ -992,6 +1026,10 @@ force force kat_surgery_Surgery_ConsciousnessRequirement = 2;
 force force kat_surgery_surgicalAction_MedLevel = 1;
 force force kat_surgery_surgicalLocation = 0;
 
+// Reeveli's teleportation system
+Rev_tp_action_radius = 8;
+force force Rev_tp_action_time = 1;
+
 // Simplex Support Services
 force force sss_artillery_autoTerminals = true;
 force force sss_artillery_manualInput = false;
@@ -1104,9 +1142,202 @@ force force Rev_TFAR_settings_SR_B = "";
 force force Rev_TFAR_settings_SR_I = "";
 force force Rev_TFAR_settings_SR_O = "";
 
-// Reeveli's teleportation system
-Rev_tp_action_radius = 8;
-force force Rev_tp_action_time = 1;
+
+// TSP Animate
+tsp_cba_animate_attachment = true;
+tsp_cba_animate_Bang = true;
+tsp_cba_animate_Bird = true;
+tsp_cba_animate_black = "[""optic_tws_mg""]";
+tsp_cba_animate_Breach = true;
+tsp_cba_animate_Cancel = true;
+tsp_cba_animate_cant = true;
+tsp_cba_animate_captive = true;
+tsp_cba_animate_clacker = true;
+tsp_cba_animate_compass = true;
+tsp_cba_animate_Contact = true;
+tsp_cba_animate_Dab = true;
+tsp_cba_animate_door = true;
+tsp_cba_animate_Duo = true;
+tsp_cba_animate_friend = 2;
+tsp_cba_animate_grenade = true;
+tsp_cba_animate_Horns = true;
+tsp_cba_animate_Inspect = true;
+tsp_cba_animate_Ivan = true;
+tsp_cba_animate_Jackoff = true;
+tsp_cba_animate_Kata = true;
+tsp_cba_animate_ladder = true;
+tsp_cba_animate_Loser = true;
+tsp_cba_animate_Mahalo = true;
+tsp_cba_animate_map = true;
+tsp_cba_animate_Metal = true;
+tsp_cba_animate_nvg = true;
+tsp_cba_animate_object = 1.5;
+tsp_cba_animate_Ok = true;
+tsp_cba_animate_Paper = true;
+tsp_cba_animate_Peace = true;
+tsp_cba_animate_poll = 0.25;
+tsp_cba_animate_port = true;
+tsp_cba_animate_Pushups = true;
+tsp_cba_animate_Rock = true;
+tsp_cba_animate_Scissors = true;
+tsp_cba_animate_shake = 1;
+tsp_cba_animate_sling = true;
+tsp_cba_animate_sling_add = false;
+tsp_cba_animate_sling_pos = "[[0.1, 0.8, 0.15], [-90, 40, 70]]";
+tsp_cba_animate_sling_scroll = true;
+tsp_cba_animate_sling_sprint = false;
+tsp_cba_animate_sound = 1;
+tsp_cba_animate_sprint = true;
+tsp_cba_animate_Squats = true;
+tsp_cba_animate_Stefan = true;
+tsp_cba_animate_Suicide = true;
+tsp_cba_animate_tactical = true;
+tsp_cba_animate_tap = true;
+tsp_cba_animate_throw = true;
+tsp_cba_animate_walk = true;
+tsp_cba_animate_walk_default = 1;
+tsp_cba_animate_walk_lower = 1;
+tsp_cba_animate_walk_max = 1.6;
+tsp_cba_animate_watch = true;
+tsp_cba_animate_Zozo = true;
+
+// TSP Breach
+force tsp_cba_breach = true;
+tsp_cba_breach_ace = true;
+force tsp_cba_breach_ammo = "[
+""B_12Gauge_Slug_NoCartridge"",""B_12Gauge_Pellets_Submunition"",
+""rhs_ammo_12g_slug"",""rhs_ammo_12g_00buckshot"",""rhs_ammo_m576_buckshot"",
+""UK3CB_BAF_B_12Gauge_Slug"",""UK3CB_BAF_B_12Gauge_Pellets"",
+""CUP_12Gauge_Slug"",""CUP_B_12Gauge_Pellets"",""CUP_B_12Gauge_74Slug"",
+""CUP_12Gauge_Pellets_Submunition_No0_Buck"",""CUP_12Gauge_Pellets_Submunition_No00_Buck"",
+""ACE_12Gauge_Pellets_Submunition_No0_Buck"",""HLC_12G_Buck""
+]";
+force tsp_cba_breach_ammo_multiplier = 1;
+force tsp_cba_breach_auto = 5;
+tsp_cba_breach_break = true;
+force tsp_cba_breach_lockpick = "[0,0.75,0.5,0.05]";
+force tsp_cba_breach_military = "[
+""Land_Budova4_in"",
+""Land_Budova4"",
+""Barrack2"",
+""Land_Barrack2"",
+""Land_MilOffices_V1_F"",
+""Land_Mil_Barracks_L_EP1"",
+""Land_Barrack2_EP1"",
+""Land_Mil_Barracks_EP1"",
+""Land_Mil_Barracks_no_interior_EP1_CUP"",
+""Land_Mil_Barracks_i_EP1"",
+""Land_Mil_Barracks_L"",
+""Land_Mil_Barracks_no_interior_CUP"",
+""Land_Mil_Barracks_i"",
+""Land_Mil_Barracks"",
+""Land_GuardHouse_02_F"",
+""Land_Mil_Guardhouse_EP1"",
+""Land_Mil_Guardhouse"",
+""Land_Mil_Guardhouse_no_interior_CUP"",
+""Land_GuardHouse_02_grey_F"",
+""Land_Barracks_03_F"",
+""Land_Barracks_05_F"",
+""Land_Barracks_02_F"",
+""Land_Barracks_04_F"",
+""Land_ControlTower_02_F"",
+""Land_Mil_Guardhouse_no_interior_EP1_CUP"",
+""Land_Radar_01_HQ_F"",
+""Land_i_Barracks_V2_F"",
+""Land_i_Barracks_V1_F"",
+""Land_u_Barracks_V2_F"",
+""Land_Barracks_06_F"",
+""Land_Mil_House_dam_EP1"",
+""Land_Barracks_01_grey_F"",
+""Land_Barracks_01_dilapidated_F"",
+""Land_Mil_House_EP1"",
+""Land_Army_hut2_int"",
+""Land_Barracks_01_camo_F"",
+""Land_Army_hut_int"",
+""Land_Army_hut3_long"",
+""Land_Army_hut2"",
+""Land_Army_hut3_long_int""
+]";
+force tsp_cba_breach_paperclip = "[0,0.5,0.25,0.15]";
+force tsp_cba_breach_picking_time = 20;
+force tsp_cba_breach_reinforced = "[
+""Land_Ammostore2"",
+""Land_Garaz_s_tankem"",
+""Land_Garaz_bez_tanku"",
+""Land_Cargo_House_V4_F"",
+""Land_Cargo_Tower_V1_F"",
+""Land_Cargo_HQ_V4_F"",
+""Land_Cargo_Tower_V1_No4_F"",
+""Land_Cargo_Tower_V1_No5_F"",
+""Land_Cargo_Tower_V1_No7_F"",
+""Land_Cargo_Tower_V4_F"",
+""Land_Cargo_Tower_V1_No2_F"",
+""Land_Cargo_Tower_V2_F"",
+""Land_Cargo_Tower_V3_F"",
+""Land_Cargo_Tower_V1_No1_F"",
+""Land_Cargo_Tower_V1_No3_F"",
+""Land_Cargo_HQ_V2_F"",
+""Land_Medevac_HQ_V1_F"",
+""Land_Cargo_HQ_V1_F"",
+""Land_Cargo_House_V2_F"",
+""Land_Medevac_house_V1_F"",
+""Land_Cargo_Tower_V1_No6_F"",
+""Land_Cargo_House_V1_F"",
+""Land_Cargo_HQ_V3_F"",
+""Land_Cargo_House_V3_F""
+]";
+force tsp_cba_breach_shock = 240;
+tsp_cba_breach_vanilla = false;
+force tsp_cba_breach_walls = "[
+[""AHHH"", ""Land_BrickWall_04_l_5m_F"",""Land_BrickWall_04_l_5m_d_F""],
+[""AHHH"", ""Land_BrickWall_03_l_5m_v2_F"",""Land_BrickWall_03_l_5m_v2_d_F""],
+[""AHHH"", ""Land_BrickWall_03_l_5m_v1_F"",""Land_BrickWall_03_l_5m_v2_d_F""],
+[""AHHH"", ""Land_BrickWall_02_l_5m_F"",""Land_BrickWall_02_l_5m_d_F""],
+[""AHHH"", ""Land_BrickWall_01_l_5m_F"",""Land_BrickWall_01_l_5m_d_F""],
+[""AHHH"", ""Land_Stone_8m_F"",""Land_Stone_8mD_F""],
+[""AHHH"", ""Land_WallCity_01_8m_yellow_F"",""Land_WallCity_01_8m_dmg_yellow_F""],
+[""AHHH"", ""Land_City_8m_F"",""Land_City_8mD_F""],
+[""AHHH"", ""Land_WallCity_01_8m_whiteblue_F"",""Land_WallCity_01_8m_dmg_whiteblue_F""],
+[""AHHH"", ""Land_WallCity_01_8m_blue_F"",""Land_WallCity_01_8m_dmg_blue_F""],
+[""AHHH"", ""Land_WallCity_01_8m_grey_F"",""Land_WallCity_01_8m_dmg_grey_F""],
+[""AHHH"", ""Land_WallCity_01_8m_pink_F"",""Land_WallCity_01_8m_dmg_pink_F""],
+[""AHHH"", ""Land_SilageWall_01_l_5m_F"",""Land_SilageWall_01_l_d_F""],
+[""AHHH"", ""Land_ConcreteWall_02_m_8m_F"",""Land_ConcreteWall_02_m_d_F""],
+[""AHHH"", ""Land_ConcreteWall_01_m_4m_F"",""Land_ConcreteWall_01_m_d_F""],
+[""AHHH"", ""Land_ConcreteWall_01_m_8m_F"",""Land_ConcreteWall_01_m_d_F""],
+[""AHHH"", ""Land_PipeFence_01_m_8m_F"",""Land_PipeFence_01_m_d_F""],
+[""AHHH"", ""Land_City2_8m_F"",""Land_City2_8mD_F""],
+[""AHHH"", ""Land_Wall_IndCnc_4_F"",""Land_Wall_IndCnc_End_2_F""],
+[""AHHH"", ""Land_CamoConcreteWall_01_l_4m_v1_F"",""Land_CamoConcreteWall_01_l_end_v1_F""],
+[""AHHH"", ""Land_Mil_WallBig_4m_F"",""Land_Mil_WallBig_4m_damaged_center_F""],
+[""mil_wallbig_4m_battered_f"", ""Land_Mil_WallBig_4m_battered_F"",""Land_Mil_WallBig_4m_damaged_right_F""],
+[""AHHH"", ""Land_Mil_WallBig_Corner_F"",""Land_Mil_WallBig_debris_F""],
+[""AHHH"", ""Land_Mil_WallBig_corner_battered_F"",""Land_Mil_WallBig_debris_F""]
+]";
+force tsp_cba_flashbang_brightness = 1;
+force tsp_cba_flashbang_distance = 10;
+force tsp_cba_flashbang_fire = true;
+force tsp_cba_flashbang_friends = 0.1;
+force tsp_cba_flashbang_intensity = 1;
+force tsp_cba_flashbang_smoke = true;
+force tsp_cba_flashbang_sparks = true;
+force tsp_cba_flashbang_spray = 0.4;
+force tsp_cba_flashbang_surrender = 0.1;
+
+// TSP Core
+force tsp_cba_angle = -0.1;
+force tsp_cba_core_chvd = false;
+force tsp_cba_core_pause = false;
+force tsp_cba_hint = "Subtitle";
+force tsp_cba_hint_distance = 20;
+force tsp_param_faction = false;
+
+// TSP Melee
+force tsp_cba_melee = true;
+force tsp_cba_melee_damage = 1;
+force tsp_cba_melee_disarm = 1;
+force tsp_cba_melee_speed = 15;
+force tsp_cba_melee_stamina = 1;
 
 // Tun Utilities - Uncon Info
 force force tuncon_unconinfo_noFriendliesNearbyText = "Your current situation is not looking very good, feel free to grab a drink";

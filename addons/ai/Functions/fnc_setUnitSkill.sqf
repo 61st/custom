@@ -79,7 +79,7 @@ private _units = call {
 } forEach _skillt;
 
 if (side _target == civilian) then {
-    {_x setSkill [courage, LXIM_AI_CivCourage]; true } count _units;
+    {_x setSkill ["courage", LXIM_AI_CivCourage]; true } count _units;
 
     if (LXIM_AI_CivFleeing) then {
         {
