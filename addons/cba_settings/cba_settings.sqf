@@ -18,7 +18,6 @@ force force lxim_bft_showCivilians = false;
 force force lxim_bft_showGroupIcons = true;
 force force lxim_bft_showGroupText = true;
 force force lxim_bft_showLifeState = true;
-force force lxim_bft_showOwnFactionOnly = true;
 force force lxim_bft_showOwnGroup = true;
 force force lxim_bft_showOwnGroupUnits = true;
 force force lxim_bft_showPlayerNames = true;

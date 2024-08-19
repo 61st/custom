@@ -20,6 +20,5 @@ class GVAR(CfgLoadingScreen) {
         LOADING_SCREEN_CLASS(recoveryHD,61st Mechanized Infantry Battalion);
         LOADING_SCREEN_CLASS(stackupHD,61st Mechanized Infantry Battalion);
         LOADING_SCREEN_CLASS(WardaddyHD,61st Mechanized Infantry Battalion);
-        LOADING_SCREEN_CLASS(maxresdefault,61st Mechanized Infantry Battalion);
     };
 };

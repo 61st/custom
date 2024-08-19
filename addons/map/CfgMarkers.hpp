@@ -6,7 +6,7 @@ class CfgMarkers {
         shadow = "false";
         scope=2;
         scopeCurator=2;
-        markerClass="xmark_assets";
+        markerClass="Military";
         color[] = {1, 1, 1, 1};
     };
     class iconcasbp {
@@ -16,7 +16,7 @@ class CfgMarkers {
         shadow = "false";
         scope=2;
         scopeCurator=2;
-        markerClass="xmark_assets";
+        markerClass="Military";
         color[] = {1, 1, 1, 1};
     };
     class iconcascp {
@@ -26,7 +26,7 @@ class CfgMarkers {
         shadow = "false";
         scope=2;
         scopeCurator=2;
-        markerClass="xmark_assets";
+        markerClass="Military";
         color[] = {1, 1, 1, 1};
     };
     class iconcasop {
@@ -36,7 +36,7 @@ class CfgMarkers {
         shadow = "false";
         scope=2;
         scopeCurator=2;
-        markerClass="xmark_assets";
+        markerClass="Military";
         color[] = {1, 1, 1, 1};
     };
     class iconcasip {
@@ -46,7 +46,7 @@ class CfgMarkers {
         shadow = "false";
         scope=2;
         scopeCurator=2;
-        markerClass="xmark_assets";
+        markerClass="Military";
         color[] = {1, 1, 1, 1};
     };
     class iconcascck {
@@ -56,7 +56,7 @@ class CfgMarkers {
         shadow = "false";
         scope=2;
         scopeCurator=2;
-        markerClass="xmark_assets";
+        markerClass="Military";
         color[] = {1, 1, 1, 1};
     };
     class iconcasep {
@@ -66,7 +66,7 @@ class CfgMarkers {
         shadow = "false";
         scope=2;
         scopeCurator=2;
-        markerClass="xmark_assets";
+        markerClass="Military";
         color[] = {1, 1, 1, 1};
     };
     class iconcasdz {
@@ -76,7 +76,7 @@ class CfgMarkers {
         shadow = "false";
         scope=2;
         scopeCurator=2;
-        markerClass="xmark_assets";
+        markerClass="Military";
         color[] = {1, 1, 1, 1};
     };
     class iconcasilz {
@@ -86,7 +86,7 @@ class CfgMarkers {
         shadow = "false";
         scope=2;
         scopeCurator=2;
-        markerClass="xmark_assets";
+        markerClass="Military";
         color[] = {1, 1, 1, 1};
     };
     class iconcaselz {
@@ -96,7 +96,7 @@ class CfgMarkers {
         shadow = "false";
         scope=2;
         scopeCurator=2;
-        markerClass="xmark_assets";
+        markerClass="Military";
         color[] = {1, 1, 1, 1};
     };
     class iconcasflz {
@@ -106,7 +106,7 @@ class CfgMarkers {
         shadow = "false";
         scope=2;
         scopeCurator=2;
-        markerClass="xmark_assets";
+        markerClass="Military";
         color[] = {1, 1, 1, 1};
     };
     class iconassultd {
@@ -116,7 +116,7 @@ class CfgMarkers {
         shadow = "false";
         scope=2;
         scopeCurator=2;
-        markerClass="xmark_assets";
+        markerClass="Military";
         color[] = {1, 1, 1, 1};
     };
     class iconsupportd {
@@ -126,7 +126,7 @@ class CfgMarkers {
         shadow = "false";
         scope=2;
         scopeCurator=2;
-        markerClass="xmark_assets";
+        markerClass="Military";
         color[] = {1, 1, 1, 1};
     };
     class iconXMARKx {
@@ -136,7 +136,7 @@ class CfgMarkers {
         shadow = "false";
         scope=2;
         scopeCurator=2;
-        markerClass="xmark_assets";
+        markerClass="Military";
         color[] = {1, 1, 1, 1};
     };
     class iconXMARKnrp {
@@ -146,7 +146,7 @@ class CfgMarkers {
         shadow = "false";
         scope=2;
         scopeCurator=2;
-        markerClass="xmark_assets";
+        markerClass="Military";
         color[] = {1, 1, 1, 1};
     };
     class iconXMARKnsp {
@@ -156,7 +156,7 @@ class CfgMarkers {
         shadow = "false";
         scope=2;
         scopeCurator=2;
-        markerClass="xmark_assets";
+        markerClass="Military";
         color[] = {1, 1, 1, 1};
     };
     class iconXMARKnnp {
@@ -166,7 +166,7 @@ class CfgMarkers {
         shadow = "false";
         scope=2;
         scopeCurator=2;
-        markerClass="xmark_assets";
+        markerClass="Military";
         color[] = {1, 1, 1, 1};
     };
     class iconXMARKdive {
@@ -176,7 +176,7 @@ class CfgMarkers {
         shadow = "false";
         scope=2;
         scopeCurator=2;
-        markerClass="xmark_assets";
+        markerClass="Military";
         color[] = {1, 1, 1, 1};
     };
     class iconXMARKsurface {
@@ -186,7 +186,7 @@ class CfgMarkers {
         shadow = "false";
         scope=2;
         scopeCurator=2;
-        markerClass="xmark_assets";
+        markerClass="Military";
         color[] = {1, 1, 1, 1};
     };
     class iconXMARKland {
@@ -196,7 +196,7 @@ class CfgMarkers {
         shadow = "false";
         scope=2;
         scopeCurator=2;
-        markerClass="xmark_assets";
+        markerClass="Military";
         color[] = {1, 1, 1, 1};
     };   
     class iconXMARKacrew {
@@ -206,7 +206,7 @@ class CfgMarkers {
         shadow = "false";
         scope=2;
         scopeCurator=2;
-        markerClass="xmark_assets";
+        markerClass="Military";
         color[] = {1, 1, 1, 1};
     }; 
     class hd_dot {
