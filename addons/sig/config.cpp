@@ -11,6 +11,7 @@ class CfgPatches {
             QGVAR(XM7_BLK_G)
         };
         requiredVersion = REQUIRED_VERSION;
+        skipWhenMissingDependencies = 1;
         requiredAddons[] = {
             "lxim_main",
             "KAR_XM7"
