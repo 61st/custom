@@ -2,7 +2,7 @@
 enabled = false
 
 [binarize]
-enabled = false
+enabled = true
 
 [asc]
 enabled = false
