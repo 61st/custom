@@ -993,6 +993,7 @@ class CfgVehicles {
             };
         };
         maxSpeed = 125;
+        maximumLoad = 4000;
         enginePower = 390;
         terrainCoef = 1;
         vehicleClass = "APCs""";
@@ -1279,6 +1280,7 @@ class CfgVehicles {
         ace_vehicle_damage_hullFireProb = 0.5;
         ace_hunterkiller = 1;
         maxSpeed = 125;
+        maximumLoad = 4000;
         class Components: Components {
             class SensorsManagerComponent {
                 class Components {
@@ -1568,7 +1570,14 @@ class CfgVehicles {
         armor = 550;
         ace_vehicle_damage_hullFireProb = 0.5;
         ace_hunterkiller = 1;
+        radarType = 2;
+        reportRemoteTargets = 1;
+        reportOwnPosition = 1;
+        receiveRemoteTargets = 1;
         maxSpeed = 125;
+        maximumLoad = 4000;
+        enginePower = 390;
+        terrainCoef = 1;
         vehicleClass = "APCs""";
         textureList[] = {"Blu",1};
         class Components: Components {
@@ -2027,7 +2036,7 @@ class CfgVehicles {
     class lxim_outlaw_AA_g_V11: lxim_outlaw_AA_g {
         displayName = "M20-AA Thunder 2/1";
         author = QAUTHOR;
-        hiddenSelectionsTextures[] = {QPATHTOF(data\thunder_2_1_hull_g.paa),QPATHTOF(data\thunder_2_1_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\thunder_2_1_hull_g.paa),QPATHTOF(data\thunder_2_1_ext_g.paa),QPATHTOF(data\outlaw_turret_g_aa.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
         forceInGarage = 0;
     };
 
