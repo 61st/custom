@@ -47,8 +47,13 @@ you can find the 61st Mechanized Infantry Battalion Version at https://github.co
 (I know I forgot a few, I will work on getting those mentions put in)
 # This mod includes :
 - Drongo's 
-    - Dynamic Weather https://steamcommunity.com/sharedfiles/filedetails/?id=2935700533
-    - Map Population https://steamcommunity.com/sharedfiles/filedetails/?id=1990653162&searchtext=drongo
+    - Drongos Active Protection System https://steamcommunity.com/workshop/filedetails/?id=1447351824
+
+- ASmallDinosaur's 
+    - Speshal Core https://steamcommunity.com/sharedfiles/filedetails/?id=3283642267
+    - Melee - Rewritehttps://steamcommunity.com/sharedfiles/filedetails/?id=3283652320
+    - Breach - Rewrite https://steamcommunity.com/sharedfiles/filedetails/?id=3283645995
+
 
 ACE MOD https://steamcommunity.com/workshop/filedetails/?id=463939057
   Compatibility and optional packages

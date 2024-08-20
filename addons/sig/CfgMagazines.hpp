@@ -22,22 +22,22 @@ class CfgMagazines {
     class KAR_20Rnd_Fury_RT_blk;
 
     class GVAR(25Rnd_Fury): KAR_20Rnd_Fury {
-        displayname="[61st] 20rnd .277 Fury";
+        displayname="[61st] 25rnd .277 Fury";
         count=25;
         mass=17;
     };
     class GVAR(25Rnd_Fury_blk): KAR_20Rnd_Fury_blk {
-        displayname="[61st] 20rnd .277 Fury (Black)";
+        displayname="[61st] 25rnd .277 Fury (Black)";
         count=25;
         mass=17;
     };
     class GVAR(25Rnd_Fury_RT): KAR_20Rnd_Fury_RT {
-        displayname="[61st] 20rnd .277 Fury (Red Tracer)";
+        displayname="[61st] 25rnd .277 Fury (Red Tracer)";
         count=25;
         mass=17;
     };
     class GVAR(25Rnd_Fury_RT_blk): KAR_20Rnd_Fury_RT_blk {
-        displayname="[61st] 20rnd .277 Fury (Black/Red Tracer)";
+        displayname="[61st] 25rnd .277 Fury (Black/Red Tracer)";
         count=25;
         mass=17;
     };
