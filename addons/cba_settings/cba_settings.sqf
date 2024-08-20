@@ -8,22 +8,54 @@ force force lxim_back_to_game_removeBody = false;
 force force lxim_back_to_game_teleportToLeader = true;
 force force lxim_back_to_game_teleportToVehicle = true;
 
-// 61st - Bluforce force Tracker
-force force lxim_bft_groupIconsInteraction = "hover";
-force force lxim_bft_medicalSystem = "ACE";
-force force lxim_bft_requireItemGPS = true;
-force force lxim_bft_showAIGroups = true;
-force force lxim_bft_showAINames = true;
-force force lxim_bft_showCivilians = false;
-force force lxim_bft_showGroupIcons = true;
-force force lxim_bft_showGroupText = true;
-force force lxim_bft_showLifeState = true;
-force force lxim_bft_showOwnGroup = true;
-force force lxim_bft_showOwnGroupUnits = true;
-force force lxim_bft_showPlayerNames = true;
-force force lxim_bft_showUnitNames = true;
-force force lxim_bft_teamColors = "ACE";
-force force lxim_bft_bftEnabled = true;
+// // 61st - Bluforce force Tracker
+// force force lxim_bft_groupIconsInteraction = "hover";
+// force force lxim_bft_medicalSystem = "ACE";
+// force force lxim_bft_requireItemGPS = true;
+// force force lxim_bft_showAIGroups = true;
+// force force lxim_bft_showAINames = true;
+// force force lxim_bft_showCivilians = false;
+// force force lxim_bft_showGroupIcons = true;
+// force force lxim_bft_showGroupText = true;
+// force force lxim_bft_showLifeState = true;
+// force force lxim_bft_showOwnGroup = true;
+// force force lxim_bft_showOwnGroupUnits = true;
+// force force lxim_bft_showPlayerNames = true;
+// force force lxim_bft_showUnitNames = true;
+// force force lxim_bft_teamColors = "ACE";
+// force force lxim_bft_bftEnabled = true;
+
+// 61st BFT - bft
+force force lximtca_bft_groupMarkers_colorsBlacklist = "Default, ColorWEST, ColorEAST, ColorGUER, ColorCIV, Color1_FD_F, Color2_FD_F, Color3_FD_F, Color4_FD_F, Color5_FD_F, Color6_FD_F";
+force force lximtca_bft_groupMarkers_defaultSetting = 2;
+force force lximtca_bft_groupMarkers_enabled = true;
+force force lximtca_bft_groupMarkers_fuzzOtherFactions = true;
+force force lximtca_bft_groupMarkers_iconsBlacklist = "unknown, uav";
+force force lximtca_bft_groupMarkers_mapSettings_enabled = true;
+force force lximtca_bft_groupMarkers_markerShape = "a";
+force force lximtca_bft_groupMarkers_nameOptions = "Zulu,Lima,Uniform,Echo,Whiskey,Tango,Bob";
+force force lximtca_bft_groupMarkers_preferredColors = "ColorYellow, ColorRed, ColorBlue, ColorBlack, ColorGreen, ColorWhite, ColorOrange";
+force force lximtca_bft_groupMarkers_preferredIcons = "inf, motor_inf, mech_inf, air, armor, recon";
+force force lximtca_bft_groupMarkers_trackingMode = "weightedAverage";
+force force lximtca_bft_groupMarkers_trailingCount = 5;
+force force lximtca_bft_groupMarkers_trailingMode = "weightedAverage";
+force force lximtca_bft_groupMarkers_trailingWeight = 0.75;
+force force lximtca_bft_groupMarkers_updateDelay = 1;
+
+// 61st BFT - main
+force force lximtca_main_ClearBuildingMarkers_Channel = 0;
+force force lximtca_main_ClearBuildingMarkers_Enabled = false;
+force force lximtca_main_LoadoutDiaryRecord_Enabled = false;
+
+// 61st BFT - unitmarkers
+force force lximtca_unitmarkers_unitMarkers_enabled = true;
+force force lximtca_unitmarkers_unitMarkers_markAI = true;
+force force lximtca_unitmarkers_unitMarkers_otherGroups = true;
+force force lximtca_unitmarkers_unitMarkers_showToggle = true;
+
+// 61st BFT - vehicles
+force force lximtca_vehicles_showSpeedLimiterOptions = true;
+force force lximtca_vehicles_showSpeedLimiterWaitTime = 10;
 
 // 61st - Civilians
 force force LXIM_Civilians_enableFollowGestures = true;
@@ -756,6 +788,12 @@ force force grad_trenches_functions_vehicleEnvelopeDigTime = 120;
 force force grad_trenches_functions_vehicleEnvelopeRemovalTime = -1;
 force force grad_trenches_functions_vehicleTrenchBuildSpeed = 5;
 
+// Hatchet Vehicle Framework
+//vxf_interaction_showLabels = 2;
+force force vxf_interaction_updateEvery = 5;
+//vxf_uh60_interaction_autoclose_actionmenu = false;
+//vxf_uh60_interaction_pointing = true;
+
 // KAT - ADV Medical: Airway
 force force kat_airway_Accuvac_time = 8;
 force force kat_airway_autoTriage = true;
@@ -1141,65 +1179,6 @@ force force Rev_TFAR_settings_SR_B = "";
 force force Rev_TFAR_settings_SR_I = "";
 force force Rev_TFAR_settings_SR_O = "";
 
-
-// TSP Animate
-tsp_cba_animate_attachment = true;
-tsp_cba_animate_Bang = true;
-tsp_cba_animate_Bird = true;
-tsp_cba_animate_black = "[""optic_tws_mg""]";
-tsp_cba_animate_Breach = true;
-tsp_cba_animate_Cancel = true;
-tsp_cba_animate_cant = true;
-tsp_cba_animate_captive = true;
-tsp_cba_animate_clacker = true;
-tsp_cba_animate_compass = true;
-tsp_cba_animate_Contact = true;
-tsp_cba_animate_Dab = true;
-tsp_cba_animate_door = true;
-tsp_cba_animate_Duo = true;
-tsp_cba_animate_friend = 2;
-tsp_cba_animate_grenade = true;
-tsp_cba_animate_Horns = true;
-tsp_cba_animate_Inspect = true;
-tsp_cba_animate_Ivan = true;
-tsp_cba_animate_Jackoff = true;
-tsp_cba_animate_Kata = true;
-tsp_cba_animate_ladder = true;
-tsp_cba_animate_Loser = true;
-tsp_cba_animate_Mahalo = true;
-tsp_cba_animate_map = true;
-tsp_cba_animate_Metal = true;
-tsp_cba_animate_nvg = true;
-tsp_cba_animate_object = 1.5;
-tsp_cba_animate_Ok = true;
-tsp_cba_animate_Paper = true;
-tsp_cba_animate_Peace = true;
-tsp_cba_animate_poll = 0.25;
-tsp_cba_animate_port = true;
-tsp_cba_animate_Pushups = true;
-tsp_cba_animate_Rock = true;
-tsp_cba_animate_Scissors = true;
-tsp_cba_animate_shake = 1;
-tsp_cba_animate_sling = true;
-tsp_cba_animate_sling_add = false;
-tsp_cba_animate_sling_pos = "[[0.1, 0.8, 0.15], [-90, 40, 70]]";
-tsp_cba_animate_sling_scroll = true;
-tsp_cba_animate_sling_sprint = false;
-tsp_cba_animate_sound = 1;
-tsp_cba_animate_sprint = true;
-tsp_cba_animate_Squats = true;
-tsp_cba_animate_Stefan = true;
-tsp_cba_animate_Suicide = true;
-tsp_cba_animate_tactical = true;
-tsp_cba_animate_tap = true;
-tsp_cba_animate_throw = true;
-tsp_cba_animate_walk = true;
-tsp_cba_animate_walk_default = 1;
-tsp_cba_animate_walk_lower = 1;
-tsp_cba_animate_walk_max = 1.6;
-tsp_cba_animate_watch = true;
-tsp_cba_animate_Zozo = true;
-
 // TSP Breach
 force tsp_cba_breach = true;
 tsp_cba_breach_ace = true;
@@ -1351,6 +1330,49 @@ force force Fat_Lurch_ShowAz = true;
 force force Fat_Lurch_ShowEl = true;
 force force Fat_Lurch_ShowNorth = true;
 force force Fat_Lurch_ShowTarget = true;
+
+// UH-60M
+force force vtx_ace_viv_loadDistance = 15;
+force force vtx_ace_viv_timeFactor = 1;
+//vtx_uh60_anvishud_defaultMode = -1;
+//vtx_uh60_anvishud_settingBrightness = 0.6;
+//vtx_uh60_anvishud_settingColor = [0.082,0.608,0.039];
+force force vtx_uh60_flir_setting_AimSlewBlockMouse = true;
+force force vtx_uh60_flir_setting_AimSlewSpeed = 1;
+force force vtx_uh60_flir_setting_AimXFactor = 1;
+force force vtx_uh60_flir_setting_animateTurret = true;
+force force vtx_uh60_flir_setting_KeySlewSpeed = 1;
+force force vtx_uh60_flir_setting_KeyXFactor = 1;
+force force vtx_uh60_flir_setting_syncDelay = 0.015;
+force force vtx_uh60_hoist_setting_useAttachScript = false;
+force force vtx_uh60_sfmPlus_showDamageHints = true;
+force force vtx_uh60_sfmPlusStabilatorEnabled = 1;
+force force vtx_uh60_ui_showDebugMessages = false;
+force force vtx_uh60m_simpleCollective = false;
+force force vtx_uh60m_simpleStartup = false;
+//vtx_uh60m_trackIR_interaction_cursor = false;
+//vtx_uh60m_trackIR_interaction_cursorSensitivity = 2.5;
+
+// USAF
+force force usaf_afterburner_setting_allow_ai = true;
+force force USAF_allowNuke = false;
+force force usaf_debug_setting_enabled_clients = false;
+force force usaf_debug_setting_enabled_server = false;
+force force usaf_f35a_allow_das_coverage = true;
+force force usaf_f35a_allow_sar_imagery = false;
+force force usaf_serviceMenu_setting_allowHangarRearm = true;
+force force usaf_serviceMenu_setting_allowHangarRefuel = true;
+force force usaf_serviceMenu_setting_allowHangarRepair = true;
+force force usaf_serviceMenu_setting_allowLoadoutModification = true;
+force force usaf_serviceMenu_setting_enabled = true;
+force force usaf_serviceMenu_setting_refuelTime = "100";
+force force usaf_serviceMenu_setting_reloadTime = "15";
+force force usaf_serviceMenu_setting_repairTime = "100";
+force force usaf_serviceMenu_setting_replaceSources = true;
+force force usaf_serviceMenu_setting_selectorSearchRadius = "100";
+force force usaf_setting_allow_aiFormlights = true;
+force force usaf_utility_core_allow_move_in_cargo = false;
+
 
 // Zeus Enhanced
 force force zen_area_markers_editableMarkers = 0;
