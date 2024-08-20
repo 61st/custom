@@ -3,6 +3,8 @@ class CfgWeapons {
     class KAR_XM7_BLK;
     class KAR_XM7_G;
     class KAR_XM7_BLK_G;
+    class KAR_XM250;
+    class KAR_XM250_BLK;
 
     class GVAR(XM7): KAR_XM7 {
         author=QAUTHOR;
@@ -18,6 +20,7 @@ class CfgWeapons {
         hiddenSelections[]={"Camo2", "Camo3", "Camo4", "Camo5", "Camo6", "Camo7", "Camo8"};
         hiddenSelectionsTextures[]={QPATHTOF(data\UpperReceiver_lxim_co.paa), "\KAR_XM7\data\tex\stock_co.paa", "\KAR_XM7\data\tex\magazine_co.paa", QPATHTOF(data\LowerReceiver_lxim_co.paa), "\KAR_XM7\data\tex\ironsight_co.paa", "\KAR_XM7\data\tex\handguard_co.paa", "\KAR_XM7\data\tex\details_co.paa"};
         baseWeapon = QGVAR(XM7);
+        magazines[]={QGVAR(25Rnd_Fury),QGVAR(25Rnd_Fury_blk),QGVAR(25Rnd_Fury_RT),QGVAR(25Rnd_Fury_RT_blk)};
     };
     class GVAR(XM7_G): KAR_XM7_G {
         author=QAUTHOR;
@@ -33,6 +36,7 @@ class CfgWeapons {
         hiddenSelections[]={"Camo2", "Camo3", "Camo4", "Camo5", "Camo6", "Camo7", "Camo8"};
         hiddenSelectionsTextures[]={QPATHTOF(data\UpperReceiver_lxim_co.paa), "\KAR_XM7\data\tex\stock_co.paa", "\KAR_XM7\data\tex\magazine_co.paa", QPATHTOF(data\LowerReceiver_lxim_co.paa), "\KAR_XM7\data\tex\ironsight_co.paa", "\KAR_XM7\data\tex\handguard_co.paa", "\KAR_XM7\data\tex\details_co.paa"};
         baseWeapon = QGVAR(XM7_G);
+        magazines[]={QGVAR(25Rnd_Fury),QGVAR(25Rnd_Fury_blk),QGVAR(25Rnd_Fury_RT),QGVAR(25Rnd_Fury_RT_blk)};
     };
 
     class GVAR(XM7_BLK): KAR_XM7_BLK {
@@ -49,6 +53,7 @@ class CfgWeapons {
         hiddenSelections[]={"Camo2", "Camo3", "Camo4", "Camo5", "Camo6", "Camo7", "Camo8"};
         hiddenSelectionsTextures[]={QPATHTOF(data\UpperReceiver_blk_lxim_co.paa), "\KAR_XM7\data\tex\stock_blk_co.paa", "\KAR_XM7\data\tex\magazine_blk_co.paa", QPATHTOF(data\LowerReceiver_blk_lxim_co.paa), "\KAR_XM7\data\tex\ironsight_co.paa", "\KAR_XM7\data\tex\handguard_blk_co.paa", "\KAR_XM7\data\tex\details_blk_co.paa"};
         baseWeapon = QGVAR(XM7_BLK);
+        magazines[]={QGVAR(25Rnd_Fury),QGVAR(25Rnd_Fury_blk),QGVAR(25Rnd_Fury_RT),QGVAR(25Rnd_Fury_RT_blk)};
     };
 
     class GVAR(XM7_BLK_G): KAR_XM7_BLK_G {
@@ -65,6 +70,19 @@ class CfgWeapons {
         hiddenSelections[]={"Camo2", "Camo3", "Camo4", "Camo5", "Camo6", "Camo7", "Camo8"};
         hiddenSelectionsTextures[]={QPATHTOF(data\UpperReceiver_blk_lxim_co.paa), "\KAR_XM7\data\tex\stock_blk_co.paa", "\KAR_XM7\data\tex\magazine_blk_co.paa", QPATHTOF(data\LowerReceiver_blk_lxim_co.paa), "\KAR_XM7\data\tex\ironsight_co.paa", "\KAR_XM7\data\tex\handguard_blk_co.paa", "\KAR_XM7\data\tex\details_blk_co.paa"};
         baseWeapon = QGVAR(XM7_BLK_G);
+        magazines[]={QGVAR(25Rnd_Fury),QGVAR(25Rnd_Fury_blk),QGVAR(25Rnd_Fury_RT),QGVAR(25Rnd_Fury_RT_blk)};
+    };
+
+    class GVAR(XM250): KAR_XM250 {
+        displayName="[61st]M250";
+        recoil="recoil_mk200";
+        modes[]={"manual", "close", "short", "medium", "far_optic1", "far_optic2"};
+    };
+
+    class GVAR(XM250_BLK): KAR_XM250_BLK {
+        displayName="[61st] M250 (Black)";
+        recoil="recoil_mk200";
+        modes[]={"manual", "close", "short", "medium", "far_optic1", "far_optic2"};
     };
 };
 
