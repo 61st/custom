@@ -944,7 +944,7 @@ class LXIM_CC_RscShortcutButtonMain
     {
         font = "RobotoCondensed";
         color = "#E5E5E5";
-        align = false;
+        align = "false";
     };
 };
 class LXIM_CC_RscFrame
