@@ -7,12 +7,15 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "lxim_common"
+            "lxim_main"
         };
+        authorUrl = URL;
         author = QAUTHOR;
-        authors[] = {"veteran29"};
+        authors[] = {""};
         VERSION_CONFIG;
     };
 };
 
 #include "CfgEventHandlers.hpp"
+#include "CfgVehicles.hpp"
+#include "CfgWeapons.hpp"

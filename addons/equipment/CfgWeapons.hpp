@@ -392,7 +392,7 @@ class CfgWeapons {
         class ItemInfo: InventoryOpticsItem_Base_F {
             mass=14;
             opticType=2;
-            weaponInfoType = QGVAR(info);
+            weaponInfoType = "ace_xm157_info";
             optics = 1;
             inertia=0.2;
             modelOptics = "\x\cba\addons\optics\cba_optic_big_100.p3d";
