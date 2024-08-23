@@ -35,7 +35,7 @@ class CfgDifficultyPresets {
             vonID = 0;    // VoN ID
 
             /* Misc */
-            mapContent = 0;   // Extended map content
+            mapContent = 1;   // Extended map content
             autoReport = 0;   // (former autoSpot) Automatic reporting of spotted enemied by players only. This doesn't have any effect on AIs.
             multipleSaves = 0;  // Multiple saves
         };

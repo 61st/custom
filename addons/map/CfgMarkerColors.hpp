@@ -6,9 +6,9 @@ class CfgMarkerColors {
         color[] = {1, 0, 1, 1};
     };
     class ColorLXIM: Default {
-        name = "lxim";
+        name = "61st";
         scope = 2;
-        color[] = {0.714,0.235,0.145,1};
+        color[] = {0.886,0.616,0.133,1};
     };
     class ColorWEST: Default {
         color[] = {0.494,0.882,1,1};
