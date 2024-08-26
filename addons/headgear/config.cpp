@@ -6,6 +6,8 @@ class CfgPatches {
         units[] = {};
         weapons[] = {
             QGVAR(H_HelmetCrew_green),
+            QGVAR(H_HelmetCrew_sand),
+            QGVAR(Cap_Headphones_BlackLogo),
             QGVAR(H_HelmetCrew_sand)
         };
         requiredVersion = REQUIRED_VERSION;
