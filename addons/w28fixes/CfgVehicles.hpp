@@ -66,11 +66,11 @@ class CfgVehicles {
     class B_simc_US_Molle_sturm_OCP_RTO : B_simc_US_Molle_sturm_OCP {
         displayName="[US] MOLLE Sturmgepak (Radio)";
         maximumLoad=280;
-        mass=100;
+        mass=90;
         tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
         tf_hasLRradio=1;
         tf_encryptionCode="tf_west_radio_code";
-        tf_range=20000;
+        tf_range=40000;
         tf_dialog="rt1523g_radio_dialog";
         tf_subtype="digital_lr";
     };

@@ -7,7 +7,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"lxim_main"};
-        author = ECSTRING(main,Author);
+        author = QAUTHOR;
         authors[] = {"Mike"};
         VERSION_CONFIG;
     };
