@@ -52,7 +52,7 @@ class XtdGearModels {
                 class EOD {
                     texture = "z\lxim\addons\media\images\patches\peod.paa";
                 };
-                class JFIRE {
+                class JTAC {
                     texture = "z\lxim\addons\media\images\patches\jtac.paa";
                 };
             };

@@ -11,7 +11,7 @@ class CfgPatches {
             "lxim_main",
             "lxim_common"
         };
-        author = ECSTRING(Main,ModTeam);
+        author = QAUTHOR;
         authors[] = {"PiZZADOX"};
         url = URL;
         VERSION_CONFIG;

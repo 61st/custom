@@ -20,6 +20,6 @@
     QGVAR(showNotifcations),
     "CHECKBOX",
     ["Show 61st system chat notifications", "False should disable most notifcations, can use to make clean recordings."],
-    ["61st - User", "Admin Chat"],
+    [COMPONENT_NAME, "Admin Chat"],
     true
 ] call cba_settings_fnc_init;
