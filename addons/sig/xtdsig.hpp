@@ -81,11 +81,11 @@ class XtdGearInfos {
             grip = "YES";
             color = "Solid_Black";
         };
-        class KAR_XM250 {
+        class lxim_sig_M250 {
             model = "sigm250";
             color = "Solid_Tan";
         };
-        class KAR_XM250_BLK {
+        class lxim_sig_M250_BLK {
             model = "sigm250";
             color = "Solid_Black";
         };
