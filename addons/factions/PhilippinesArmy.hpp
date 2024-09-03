@@ -66,7 +66,7 @@
         scope = 2;
         scopeCurator = 2;
         displayName = "Squad Leader";
-        side = 1;
+        side = 2;
         faction = "B_PhilippinesArmy_Woodland";
         identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
         uniformClass = "U_I_CombatUniform_shortsleeve";
@@ -91,7 +91,7 @@
         scope = 2;
         scopeCurator = 2;
         displayName = "Team Leader";
-        side = 1;
+        side = 2;
         faction = "B_PhilippinesArmy_Woodland";
         identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
         uniformClass = "CUP_U_B_CZ_WDL_NoKneepads";
@@ -116,7 +116,7 @@
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman";
-        side = 1;
+        side = 2;
         faction = "B_PhilippinesArmy_Woodland";
         identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
         uniformClass = "U_I_CombatUniform";
@@ -141,7 +141,7 @@
         scope = 2;
         scopeCurator = 2;
         displayName = "Autorifleman";
-        side = 1;
+        side = 2;
         faction = "B_PhilippinesArmy_Woodland";
         identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
         uniformClass = "U_I_CombatUniform";
@@ -166,7 +166,7 @@
         scope = 2;
         scopeCurator = 2;
         displayName = "Light AT";
-        side = 1;
+        side = 2;
         faction = "B_PhilippinesArmy_Woodland";
         identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
         uniformClass = "U_I_CombatUniform";
@@ -191,7 +191,7 @@
         scope = 2;
         scopeCurator = 2;
         displayName = "AA";
-        side = 1;
+        side = 2;
         faction = "B_PhilippinesArmy_Woodland";
         identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
         uniformClass = "U_I_CombatUniform";
@@ -216,7 +216,7 @@
         scope = 2;
         scopeCurator = 2;
         displayName = "Heavy AT";
-        side = 1;
+        side = 2;
         faction = "B_PhilippinesArmy_Woodland";
         identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
         uniformClass = "U_I_CombatUniform_shortsleeve";
@@ -241,7 +241,7 @@
         scope = 2;
         scopeCurator = 2;
         displayName = "Marksman";
-        side = 1;
+        side = 2;
         faction = "B_PhilippinesArmy_Woodland";
         identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
         uniformClass = "U_I_CombatUniform_shortsleeve";
@@ -266,7 +266,7 @@
         scope = 2;
         scopeCurator = 2;
         displayName = "JTAC";
-        side = 1;
+        side = 2;
         faction = "B_PhilippinesArmy_Woodland";
         identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
         uniformClass = "U_I_CombatUniform_shortsleeve";
@@ -291,7 +291,7 @@
         scope = 2;
         scopeCurator = 2;
         displayName = "Grenadier";
-        side = 1;
+        side = 2;
         faction = "B_PhilippinesArmy_Woodland";
         identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
         uniformClass = "U_I_CombatUniform_shortsleeve";
@@ -316,7 +316,7 @@
         scope = 2;
         scopeCurator = 2;
         displayName = "Crewman";
-        side = 1;
+        side = 2;
         faction = "B_PhilippinesArmy_Woodland";
         identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
         uniformClass = "U_Tank_green_F";
@@ -342,7 +342,7 @@
         scope = 2;
         scopeCurator = 2;
         displayName = "Pilot";
-        side = 1;
+        side = 2;
         faction = "B_PhilippinesArmy_Woodland";
         identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
         uniformClass = "U_I_CombatUniform";
@@ -367,7 +367,7 @@
         scope = 2;
         scopeCurator = 2;
         displayName = "Officer";
-        side = 1;
+        side = 2;
         faction = "B_PhilippinesArmy_Woodland";
         identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
         uniformClass = "U_I_OfficerUniform";
@@ -392,7 +392,7 @@
         scope = 2;
         scopeCurator = 2;
         displayName = "M1A2 Abrams";
-        side = 1;
+        side = 2;
         faction = "B_PhilippinesArmy_Woodland";
         crew = "B_PhilippinesArmy_Crewman_Woodland_01";
         class Turrets : Turrets {
@@ -421,7 +421,7 @@
         scope = 2;
         scopeCurator = 2;
         displayName = "M1126 ICV M2";
-        side = 1;
+        side = 2;
         faction = "B_PhilippinesArmy_Woodland";
         crew = "B_PhilippinesArmy_Crewman_Woodland_01";
         class Turrets : Turrets {
@@ -443,7 +443,7 @@
         scope = 2;
         scopeCurator = 2;
         displayName = "M2 HUMVEE";
-        side = 1;
+        side = 2;
         faction = "B_PhilippinesArmy_Woodland";
         crew = "B_PhilippinesArmy_Rifleman_Woodland_01";
         class Turrets : Turrets {
@@ -463,7 +463,7 @@
         scope = 2;
         scopeCurator = 2;
         displayName = "MK19 HUMVEE";
-        side = 1;
+        side = 2;
         faction = "B_PhilippinesArmy_Woodland";
         crew = "B_PhilippinesArmy_Rifleman_Woodland_01";
         class Turrets : Turrets {
@@ -483,7 +483,7 @@
         scope = 2;
         scopeCurator = 2;
         displayName = "UH-60";
-        side = 1;
+        side = 2;
         faction = "B_PhilippinesArmy_Woodland";
         crew = "B_PhilippinesArmy_Pilot_Woodland_01";
         class Turrets : Turrets {
@@ -505,7 +505,7 @@
         scope = 2;
         scopeCurator = 2;
         displayName = "M2 STANDING";
-        side = 1;
+        side = 2;
         faction = "B_PhilippinesArmy_Woodland";
         crew = "CFP_B_USARMY_2003_Rifleman_WDL_01";
         class Turrets : Turrets {
@@ -535,7 +535,7 @@
 
     class B_PhilippinesArmy_Woodland_Jet_Pilot: B_PhilippinesArmy_Pilot_Woodland_01 {
         faction = "B_PhilippinesArmy_Woodland";
-        side=1;
+        side = 2;
         displayName="Jet Pilot";
         uniformClass="U_I_pilotCoveralls";
         weapons[]={"B_PhilippinesArmy_Woodland_CUP_hgun_M9A1","Put","Throw"};
@@ -550,7 +550,7 @@
     };
     class B_PhilippinesArmy_Woodland_M113A3: CUP_B_M113A1_olive_USA {
         faction = "B_PhilippinesArmy_Woodland";
-        side=1;
+        side = 2;
         displayName="M113A3";
         hiddenSelectionsTextures[]={"cup\trackedvehicles\cup_trackedvehicles_newm113\data\camo\aaf\main_co.paa","cup\trackedvehicles\cup_trackedvehicles_newm113\data\camo\aaf\unique_co.paa","cup\trackedvehicles\cup_trackedvehicles_newm113\data\camo\aaf\accessories_co.paa","","cup\trackedvehicles\cup_trackedvehicles_m1abrams\data\usarmy_marks\w_front_ca.paa","cup\vehicles\cup_vehicles_core\data\fonts\stencilfont\1_ca.paa","cup\vehicles\cup_vehicles_core\data\fonts\stencilfont\4_ca.paa"};
         crew="B_PhilippinesArmy_Woodland_Crewman";
@@ -558,7 +558,7 @@
     };
     class B_PhilippinesArmy_Woodland_M113A3_MEV: CUP_B_M113A3_Med_olive_USA {
         faction = "B_PhilippinesArmy_Woodland";
-        side=1;
+        side = 2;
         displayName="M113A3 MEV";
         hiddenSelectionsTextures[]={"cup\trackedvehicles\cup_trackedvehicles_newm113\data\camo\aaf\main_co.paa","cup\trackedvehicles\cup_trackedvehicles_newm113\data\camo\aaf\unique_co.paa","cup\trackedvehicles\cup_trackedvehicles_newm113\data\camo\aaf\accessories_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_newhmmwv\data\decals\red_crystal_co.paa","cup\trackedvehicles\cup_trackedvehicles_m1abrams\data\usarmy_marks\w_front_ca.paa","cup\vehicles\cup_vehicles_core\data\fonts\stencilfont\6_ca.paa","cup\vehicles\cup_vehicles_core\data\fonts\stencilfont\4_ca.paa"};
         crew="B_PhilippinesArmy_Woodland_Crewman";
@@ -566,7 +566,7 @@
     };
     class B_PhilippinesArmy_Woodland_M113A3_HQ: CUP_B_M113A3_HQ_olive_USA {
         faction = "B_PhilippinesArmy_Woodland";
-        side=1;
+        side = 2;
         displayName="M113A3 HQ";
         hiddenSelectionsTextures[]={"cup\trackedvehicles\cup_trackedvehicles_newm113\data\camo\olive\main_co.paa","cup\trackedvehicles\cup_trackedvehicles_newm113\data\camo\olive\unique_co.paa","cup\trackedvehicles\cup_trackedvehicles_newm113\data\camo\olive\accessories_co.paa","","cup\trackedvehicles\cup_trackedvehicles_m1abrams\data\usarmy_marks\w_front_ca.paa","cup\vehicles\cup_vehicles_core\data\fonts\stencilfont\2_ca.paa","cup\vehicles\cup_vehicles_core\data\fonts\stencilfont\4_ca.paa"};
         crew="B_PhilippinesArmy_Woodland_Crewman";
@@ -574,7 +574,7 @@
     };
     class B_PhilippinesArmy_Woodland_Pandur: I_APC_Wheeled_03_cannon_F {
         faction = "B_PhilippinesArmy_Woodland";
-        side=1;
+        side = 2;
         displayName="Pandur";
         hiddenSelectionsTextures[]={"a3\armor_f_gamma\apc_wheeled_03\data\apc_wheeled_03_ext_indp_co.paa","a3\armor_f_gamma\apc_wheeled_03\data\apc_wheeled_03_ext2_indp_co.paa","a3\armor_f_gamma\apc_wheeled_03\data\rcws30_indp_co.paa","a3\armor_f_gamma\apc_wheeled_03\data\apc_wheeled_03_ext_alpha_indp_co.paa","a3\armor_f\data\camonet_aaf_digi_green_co.paa","a3\armor_f\data\cage_aaf_co.paa"};
         crew="B_PhilippinesArmy_Crewman_Woodland_01";
@@ -582,7 +582,7 @@
     };
     class B_PhilippinesArmy_Woodland_C130: CUP_I_C130J_AAF {
         faction = "B_PhilippinesArmy_Woodland";
-        side=1;
+        side = 2;
         displayName="C130";
         hiddenSelectionsTextures[]={"cup\airvehicles\cup_airvehicles_c130j\data\textures\c130j_body_aaf_co.paa","cup\airvehicles\cup_airvehicles_c130j\data\textures\c130j_wings_aaf_co.paa"};
         crew="B_PhilippinesArmy_Woodland_Jet_Pilot";
@@ -590,7 +590,7 @@
     };
     class B_PhilippinesArmy_Woodland_L_39ZA: CUP_I_L39_AAF {
         faction = "B_PhilippinesArmy_Woodland";
-        side=1;
+        side = 2;
         displayName="L 39ZA";
         hiddenSelectionsTextures[]={"a3\air_f_gamma\plane_fighter_03\data\plane_fighter_03_body_1_indp_co.paa","a3\air_f_gamma\plane_fighter_03\data\plane_fighter_03_body_2_indp_co.paa"};
         crew="B_PhilippinesArmy_Woodland_Jet_Pilot";
@@ -598,7 +598,7 @@
     };
     class B_PhilippinesArmy_Woodland_KamAZ: I_Truck_02_covered_F {
         faction = "B_PhilippinesArmy_Woodland";
-        side=1;
+        side = 2;
         displayName="KamAZ";
         hiddenSelectionsTextures[]={"a3\soft_f_beta\truck_02\data\truck_02_kab_indp_co.paa","a3\soft_f_beta\truck_02\data\truck_02_kuz_indp_co.paa","a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
         crew="B_PhilippinesArmy_Rifleman_Woodland_01";
@@ -606,7 +606,7 @@
     };
     class B_PhilippinesArmy_Woodland_KamAZ_MEV: I_Truck_02_medical_F {
         faction = "B_PhilippinesArmy_Woodland";
-        side=1;
+        side = 2;
         displayName="KamAZ MEV";
         hiddenSelectionsTextures[]={"a3\soft_f_beta\truck_02\data\truck_02_kab_indp_co.paa","a3\soft_f_beta\truck_02\data\truck_02_kuz_indp_co.paa","a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
         crew="B_PhilippinesArmy_Rifleman_Woodland_01";
@@ -614,7 +614,7 @@
     };
     class B_PhilippinesArmy_Woodland_KamAZ_Fuel: I_Truck_02_fuel_F {
         faction = "B_PhilippinesArmy_Woodland";
-        side=1;
+        side = 2;
         displayName="KamAZ Fuel";
         hiddenSelectionsTextures[]={"a3\soft_f_beta\truck_02\data\truck_02_kab_indp_co.paa","a3\soft_f_beta\truck_02\data\truck_02_fuel_indp_co.paa","a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
         crew="B_PhilippinesArmy_Rifleman_Woodland_01";
@@ -622,7 +622,7 @@
     };
     class B_PhilippinesArmy_Woodland_KamAZ_Ammo: I_Truck_02_ammo_F {
         faction = "B_PhilippinesArmy_Woodland";
-        side=1;
+        side = 2;
         displayName="KamAZ Ammo";
         hiddenSelectionsTextures[]={"a3\soft_f_beta\truck_02\data\truck_02_kab_indp_co.paa","a3\soft_f_beta\truck_02\data\truck_02_repair_indp_co.paa","a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
         crew="B_PhilippinesArmy_Rifleman_Woodland_01";
@@ -630,7 +630,7 @@
     };
     class B_PhilippinesArmy_Woodland_Avenger: CFP_B_USARMY_1991_HMMWV_Avenger_Des_01 {
         faction = "B_PhilippinesArmy_Woodland";
-        side=1;
+        side = 2;
         displayName="Avenger";
         hiddenSelectionsTextures[]={"cup\wheeledvehicles\cup_wheeledvehicles_hmmwv\data\textures\nato_t_hmmwv_body_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_hmmwv\data\textures\nato_t_m998a2_avenger_1_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_hmmwv\data\textures\nato_t_m998a2_avenger_3_co.paa"};
         crew="B_PhilippinesArmy_Crewman_Woodland_01";

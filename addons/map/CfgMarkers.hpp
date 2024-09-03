@@ -80,7 +80,7 @@ class CfgMarkers {
         color[] = {1, 1, 1, 1};
     };
     class iconcasilz {
-        name = "Landing Zone Insertion";
+        name = "Landing Zone (LZ)";
         icon = "z\lxim\addons\map\data\ILZ.paa";
         size = 24;
         shadow = "false";
@@ -90,7 +90,7 @@ class CfgMarkers {
         color[] = {1, 1, 1, 1};
     };
     class iconcaselz {
-        name = "Landing Zone Extraction";
+        name = "Pickup Zone (PZ)";
         icon = "z\lxim\addons\map\data\ELZ.paa";
         size = 24;
         shadow = "false";
