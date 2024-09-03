@@ -89,6 +89,7 @@ class CfgWeapons {
         ACE_overheating_mrbs=10000;
         ACE_Overheating_Dispersion[]={0, 0.0008, 0.0012, 0.0024};
         ACE_Overheating_SlowdownFactor[]={1, 1, 1, 0.9};
+        ace_overheating_allowSwapBarrel = 1;
         ACE_Overheating_JamChance[]={0, 0.00015, 0.00075, 0.00375};
         modes[]={"manual", "close", "short", "medium", "far_optic1", "far_optic2"};
         magazines[]={QGVAR(150Rnd_Fury),QGVAR(150Rnd_Fury_blk),QGVAR(150Rnd_Fury_RT),QGVAR(150Rnd_Fury_RT_blk)};
@@ -108,6 +109,7 @@ class CfgWeapons {
         ACE_Overheating_Dispersion[]={0, 0.0008, 0.0012, 0.0024};
         ACE_Overheating_SlowdownFactor[]={1, 1, 1, 0.9};
         ACE_Overheating_JamChance[]={0, 0.00015, 0.00075, 0.00375};
+        ace_overheating_allowSwapBarrel = 1;
         modes[]={"manual", "close", "short", "medium", "far_optic1", "far_optic2"};
         magazines[]={QGVAR(150Rnd_Fury),QGVAR(150Rnd_Fury_blk),QGVAR(150Rnd_Fury_RT),QGVAR(150Rnd_Fury_RT_blk)};
         baseWeapon = QGVAR(M250_BLK);

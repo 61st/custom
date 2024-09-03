@@ -158,7 +158,7 @@ force ace_arsenal_EnableRPTLog = false;
 
 // ACE Artillery
 force force ace_artillerytables_advancedCorrections = true;
-force force ace_artillerytables_disableArtilleryComputer = true;
+force force ace_artillerytables_disableArtilleryComputer = false;
 force force ace_mk6mortar_airResistanceEnabled = true;
 force force ace_mk6mortar_allowCompass = true;
 force force ace_mk6mortar_allowComputerRangefinder = false;
@@ -242,7 +242,7 @@ force force ace_frag_spallEnabled = true;
 
 // ACE G-force forces
 force force ace_gforce forces_coef = 1;
-force force ace_gforce forces_enabledFor = 2;
+force force ace_gforce forces_enabledFor = 1;
 
 // ACE Goggles
 force force ace_goggles_effects = 2;
@@ -501,8 +501,8 @@ force force ace_finger_sizeCoef = 1;
 force force ace_pylons_enabledForZeus = true;
 force force ace_pylons_enabledFromAmmoTrucks = true;
 force force ace_pylons_rearmNewPylons = true;
-force force ace_pylons_requireEngineer = true;
-force force ace_pylons_requireToolkit = true;
+force force ace_pylons_requireEngineer = false;
+force force ace_pylons_requireToolkit = false;
 force force ace_pylons_searchDistance = 45;
 force force ace_pylons_timePerPylon = 5;
 
@@ -1372,7 +1372,6 @@ force force usaf_serviceMenu_setting_replaceSources = true;
 force force usaf_serviceMenu_setting_selectorSearchRadius = "100";
 force force usaf_setting_allow_aiFormlights = true;
 force force usaf_utility_core_allow_move_in_cargo = false;
-
 
 // Zeus Enhanced
 force force zen_area_markers_editableMarkers = 0;

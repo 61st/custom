@@ -41,19 +41,74 @@ class XtdGearModels {
             textureOptions[] = { "patch" };
             class patch {
                 label = "Skill Tab";
-                values[] = {"None","MED", "EOD", "JTAC"};
+                values[] = {"None","O11", "O12", "OHQ", "RINO", "MED", "EOD", "JTAC", "FLIGHTMED", "FLIGHTCREW", "PILOT", "CMD", "LEAD", "AIRA", "AIRB","PATH", "ZEUS"};
                 hiddenselection = "insignia";
                 class None {
                     texture = "";
                 };
                 class MED {
-                    texture = "z\lxim\addons\media\images\patches\pmed.paa";
+                    texture = "z\lxim\addons\media\images\patches\medic.paa";
+                    label = "Medic";
                 };
                 class EOD {
-                    texture = "z\lxim\addons\media\images\patches\peod.paa";
+                    texture = "z\lxim\addons\media\images\patches\eod.paa";
+                    label = "EOD";
                 };
                 class JTAC {
                     texture = "z\lxim\addons\media\images\patches\jtac.paa";
+                    label = "JTAC";
+                };
+                class O11 {
+                    texture = "z\lxim\addons\media\images\patches\O11.paa";
+                    label = "Outlaw 1/1";
+                };
+                class O12 {
+                    texture = "z\lxim\addons\media\images\patches\O12.paa";
+                    label = "Outlaw 1/2";
+                };
+                class OHQ {
+                    texture = "z\lxim\addons\media\images\patches\HQ.paa";
+                    label = "Outlaw HQ";
+                };
+                class LEAD {
+                    texture = "z\lxim\addons\media\images\patches\lead.paa";
+                    label = "Leader";
+                };
+                class CMD {
+                    texture = "z\lxim\addons\media\images\patches\cmd.paa";
+                    label = "Command";
+                };
+                class RINO {
+                    texture = "z\lxim\addons\media\images\patches\rhino.paa";
+                    label = "Rhino";
+                };
+                class AIRA {
+                    texture = "z\lxim\addons\media\images\patches\airassult.paa";
+                    label = "Air Assault";
+                };
+                class AIRB {
+                    texture = "z\lxim\addons\media\images\patches\airborne.paa";
+                    label = "Airborne";
+                };
+                class PATH {
+                    texture = "z\lxim\addons\media\images\patches\path.paa";
+                    label = "PathFinder";
+                };
+                class FLIGHTMED {
+                    texture = "z\lxim\addons\media\images\patches\flightmed.paa";
+                    label = "Flight Medic";
+                };
+                class FLIGHTCREW {
+                    texture = "z\lxim\addons\media\images\patches\flightcrew.paa";
+                    label = "Flight Crew";
+                };
+                class PILOT {
+                    texture = "z\lxim\addons\media\images\patches\badges.paa";
+                    label = "Pilot";
+                };
+                class ZEUS {
+                    texture = "z\lxim\addons\media\images\patches\zeus.paa";
+                    label = "Zeus";
                 };
             };
         };
