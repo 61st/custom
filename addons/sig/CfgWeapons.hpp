@@ -19,7 +19,7 @@ class CfgWeapons {
         ACE_Overheating_JamChance[]={0, 0.00015, 0.00075, 0.00375};
         displayName="[61st] Sig MCX Spear";
         hiddenSelections[]={"Camo2", "Camo3", "Camo4", "Camo5", "Camo6", "Camo7", "Camo8"};
-        hiddenSelectionsTextures[]={QPATHTOF(data\UpperReceiver_lxim_co.paa), "\KAR_XM7\data\tex\stock_co.paa", "\KAR_XM7\data\tex\magazine_co.paa", QPATHTOF(data\LowerReceiver_lxim_co.paa), "\KAR_XM7\data\tex\ironsight_co.paa", "\KAR_XM7\data\tex\handguard_co.paa", "\KAR_XM7\data\tex\details_co.paa"};
+        hiddenSelectionsTextures[]={QPATHTOF(data\UpperReceiver_co.paa), "\KAR_XM7\data\tex\stock_co.paa", "\KAR_XM7\data\tex\magazine_co.paa", QPATHTOF(data\LowerReceiver_co.paa), "\KAR_XM7\data\tex\ironsight_co.paa", "\KAR_XM7\data\tex\handguard_co.paa", "\KAR_XM7\data\tex\details_co.paa"};
         baseWeapon = QGVAR(XM7);
         magazines[]={QGVAR(25Rnd_Fury),QGVAR(25Rnd_Fury_blk),QGVAR(25Rnd_Fury_RT),QGVAR(25Rnd_Fury_RT_blk)};
     };
@@ -36,7 +36,7 @@ class CfgWeapons {
         ACE_Overheating_JamChance[]={0, 0.00015, 0.00075, 0.00375};
         displayName="[61st] Sig MCX Spear (Grip)";
         hiddenSelections[]={"Camo2", "Camo3", "Camo4", "Camo5", "Camo6", "Camo7", "Camo8"};
-        hiddenSelectionsTextures[]={QPATHTOF(data\UpperReceiver_lxim_co.paa), "\KAR_XM7\data\tex\stock_co.paa", "\KAR_XM7\data\tex\magazine_co.paa", QPATHTOF(data\LowerReceiver_lxim_co.paa), "\KAR_XM7\data\tex\ironsight_co.paa", "\KAR_XM7\data\tex\handguard_co.paa", "\KAR_XM7\data\tex\details_co.paa"};
+        hiddenSelectionsTextures[]={QPATHTOF(data\UpperReceiver_co.paa), "\KAR_XM7\data\tex\stock_co.paa", "\KAR_XM7\data\tex\magazine_co.paa", QPATHTOF(data\LowerReceiver_co.paa), "\KAR_XM7\data\tex\ironsight_co.paa", "\KAR_XM7\data\tex\handguard_co.paa", "\KAR_XM7\data\tex\details_co.paa"};
         baseWeapon = QGVAR(XM7_G);
         magazines[]={QGVAR(25Rnd_Fury),QGVAR(25Rnd_Fury_blk),QGVAR(25Rnd_Fury_RT),QGVAR(25Rnd_Fury_RT_blk)};
     };
@@ -54,7 +54,7 @@ class CfgWeapons {
         ACE_Overheating_JamChance[]={0, 0.00015, 0.00075, 0.00375};
         displayName="[61st] Sig MCX Spear (Black)";
         hiddenSelections[]={"Camo2", "Camo3", "Camo4", "Camo5", "Camo6", "Camo7", "Camo8"};
-        hiddenSelectionsTextures[]={QPATHTOF(data\UpperReceiver_blk_lxim_co.paa), "\KAR_XM7\data\tex\stock_blk_co.paa", "\KAR_XM7\data\tex\magazine_blk_co.paa", QPATHTOF(data\LowerReceiver_blk_lxim_co.paa), "\KAR_XM7\data\tex\ironsight_co.paa", "\KAR_XM7\data\tex\handguard_blk_co.paa", "\KAR_XM7\data\tex\details_blk_co.paa"};
+        hiddenSelectionsTextures[]={QPATHTOF(data\UpperReceiver_blk_co.paa), "\KAR_XM7\data\tex\stock_blk_co.paa", "\KAR_XM7\data\tex\magazine_blk_co.paa", QPATHTOF(data\LowerReceiver_blk_co.paa), "\KAR_XM7\data\tex\ironsight_co.paa", "\KAR_XM7\data\tex\handguard_blk_co.paa", "\KAR_XM7\data\tex\details_blk_co.paa"};
         baseWeapon = QGVAR(XM7_BLK);
         magazines[]={QGVAR(25Rnd_Fury),QGVAR(25Rnd_Fury_blk),QGVAR(25Rnd_Fury_RT),QGVAR(25Rnd_Fury_RT_blk)};
     };
@@ -72,7 +72,7 @@ class CfgWeapons {
         ACE_Overheating_JamChance[]={0, 0.00015, 0.00075, 0.00375};
         displayName="[61st] Sig MCX Spear (Grip/Black)";
         hiddenSelections[]={"Camo2", "Camo3", "Camo4", "Camo5", "Camo6", "Camo7", "Camo8"};
-        hiddenSelectionsTextures[]={QPATHTOF(data\UpperReceiver_blk_lxim_co.paa), "\KAR_XM7\data\tex\stock_blk_co.paa", "\KAR_XM7\data\tex\magazine_blk_co.paa", QPATHTOF(data\LowerReceiver_blk_lxim_co.paa), "\KAR_XM7\data\tex\ironsight_co.paa", "\KAR_XM7\data\tex\handguard_blk_co.paa", "\KAR_XM7\data\tex\details_blk_co.paa"};
+        hiddenSelectionsTextures[]={QPATHTOF(data\UpperReceiver_blk_co.paa), "\KAR_XM7\data\tex\stock_blk_co.paa", "\KAR_XM7\data\tex\magazine_blk_co.paa", QPATHTOF(data\LowerReceiver_blk_co.paa), "\KAR_XM7\data\tex\ironsight_co.paa", "\KAR_XM7\data\tex\handguard_blk_co.paa", "\KAR_XM7\data\tex\details_blk_co.paa"};
         baseWeapon = QGVAR(XM7_BLK_G);
         magazines[]={QGVAR(25Rnd_Fury),QGVAR(25Rnd_Fury_blk),QGVAR(25Rnd_Fury_RT),QGVAR(25Rnd_Fury_RT_blk)};
     };
