@@ -113,4 +113,23 @@ class CfgUnitInsignia {
         texture = "z\lxim\addons\media\images\patches\flightmed.paa";   // Image path
         textureVehicle = "";             // Does nothing, reserved for future use
     };
+
+    class pthunder1 {
+        displayName = "Thunder";        // Name displayed in Arsenal
+        author = QAUTHOR;              // Author displayed in Arsenal
+        texture = "z\lxim\addons\media\images\patches\thunder1.paa";   // Image path
+        textureVehicle = "";             // Does nothing, reserved for future use
+    };
+    class pthunder2 {
+        displayName = "Thunder a2";        // Name displayed in Arsenal
+        author = QAUTHOR;              // Author displayed in Arsenal
+        texture = "z\lxim\addons\media\images\patches\thunder2.paa";   // Image path
+        textureVehicle = "";             // Does nothing, reserved for future use
+    };
+    class pthunder3 {
+        displayName = "Thunder a3";        // Name displayed in Arsenal
+        author = QAUTHOR;              // Author displayed in Arsenal
+        texture = "z\lxim\addons\media\images\patches\thunder3.paa";   // Image path
+        textureVehicle = "";             // Does nothing, reserved for future use
+    };
 };

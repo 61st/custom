@@ -41,7 +41,7 @@ class XtdGearModels {
             textureOptions[] = { "patch" };
             class patch {
                 label = "Skill Tab";
-                values[] = {"None","O11", "O12", "OHQ", "RINO", "MED", "EOD", "JTAC", "FLIGHTMED", "FLIGHTCREW", "PILOT", "CMD", "LEAD", "AIRA", "AIRB","PATH", "ZEUS"};
+                values[] = {"None","O11", "O12", "OHQ", "RINO", "PHX", "THD1", "THD2","THD3","MED", "EOD", "JTAC", "FLIGHTMED", "FLIGHTCREW", "PILOT", "PILOT1","CMD", "LEAD", "AIRA", "AIRB","PATH", "ZEUS"};
                 hiddenselection = "insignia";
                 class None {
                     texture = "";
@@ -103,12 +103,32 @@ class XtdGearModels {
                     label = "Flight Crew";
                 };
                 class PILOT {
-                    texture = "z\lxim\addons\media\images\patches\badges.paa";
+                    texture = "z\lxim\addons\media\images\patches\prophead.paa";
                     label = "Pilot";
+                };
+                class PILOT1 {
+                    texture = "z\lxim\addons\media\images\patches\badges.paa";
+                    label = "Pilot Alt";
                 };
                 class ZEUS {
                     texture = "z\lxim\addons\media\images\patches\zeus.paa";
                     label = "Zeus";
+                };
+                class PHX {
+                    texture = "z\lxim\addons\media\images\patches\phoenix.paa";
+                    label = "Phoenix";
+                };
+                class THD1 {
+                    texture = "z\lxim\addons\media\images\patches\thunder1.paa";
+                    label = "Thunder ";
+                };
+                class THD2 {
+                    texture = "z\lxim\addons\media\images\patches\thunder2.paa";
+                    label = "Thunder Alt1 ";
+                };
+                class THD3 {
+                    texture = "z\lxim\addons\media\images\patches\thunder3.paa";
+                    label = "Thunder Alt2";
                 };
             };
         };
