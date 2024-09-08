@@ -10,7 +10,6 @@ hemtt.exe
 .hemttout
 tools/temp
 *.cache
-*.pbo
 texHeaders.bin
 *.swp
 *.swo
