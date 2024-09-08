@@ -35,11 +35,7 @@ class CfgPatches {
             QGVAR(xm157_ace),
             QGVAR(rebreather),
             QGVAR(Wetsuit),
-            QGVAR(vs17),
-            QGVAR(optic_ISM1400A7),
-            QGVAR(optic_ISM1400A7_tan),
-            QGVAR(optic_ISM1400A7_od),
-            QGVAR(optic_ISM1400A7_green)
+            QGVAR(vs17)
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
