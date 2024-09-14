@@ -17,14 +17,14 @@
 
 class CfgFactionClasses {
     class NO_CATEGORY;
-    class I_CebuArmy_Woodland: NO_CATEGORY {
+    class O_CebuArmy_Woodland: NO_CATEGORY {
         displayName = "61st Cebu Armed Forces";
         side = 2;
         flag = "\A3\ui_f\data\map\markers\flags\Altis_ca.paa";
         icon = "\A3\ui_f\data\map\markers\flags\Altis_ca.paa";
         priority = 0;
     };
-    class B_PhilippinesArmy_Woodland: NO_CATEGORY {
+    class I_PhilippinesArmy_Woodland: NO_CATEGORY {
         displayName = "61st Philippines Armed Forces";
         side = 1;
         flag = "ca\Ca_E\data\flag_blufor_co.paa";

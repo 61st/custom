@@ -9,7 +9,7 @@ class CfgVehicles {
     class B_tweed_pack_wasser_molle_od3 : B_tweed_pack_camel_base {
         displayName="Hydration rearpack";
         mass=40;
-        maximumLoad=80;
+        maximumLoad=100;
     };
     class B_tweed_pack_wasser_molle_od3_alt : B_tweed_pack_wasser_molle_od3 {
         displayName="Hydration rearpack";
@@ -48,7 +48,7 @@ class CfgVehicles {
     };
     class B_simc_US_Molle_sturm_OCP : B_tweed_pack_wasser_molle_od3 {
         displayName="[US] MOLLE Sturmgepak";
-        maximumLoad=280;
+        maximumLoad=300;
         mass=80;
     };
     class B_simc_US_Molle_sturm_OCP_etool : B_simc_US_Molle_sturm_OCP {
@@ -65,7 +65,7 @@ class CfgVehicles {
     };
     class B_simc_US_Molle_sturm_OCP_RTO : B_simc_US_Molle_sturm_OCP {
         displayName="[US] MOLLE Sturmgepak (Radio)";
-        maximumLoad=280;
+        maximumLoad=300;
         mass=90;
         tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
         tf_hasLRradio=1;
