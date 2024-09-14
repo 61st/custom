@@ -114,13 +114,13 @@ class CFP_I_IS_Hilux_Igla_01_OCimport_02 : CFP_I_IS_Hilux_Igla_01_OCimport_01 {
         class MainTurret;
     };
 };
-class I_CebuArmy_Squad_Leader_woodland_01 : CFP_I_WestUltra_Team_Leader_01_OCimport_02 {
+class O_CebuArmy_Squad_Leader_woodland_01 : CFP_I_WestUltra_Team_Leader_01_OCimport_02 {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
     displayName = "Squad Leader";
     side = 0;
-    faction = "I_CebuArmy_Woodland";
+    faction = "O_CebuArmy_Woodland";
     identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
     uniformClass = "U_I_L_Uniform_01_deserter_F";
     linkedItems[] = {"V_CarrierRigKBT_01_light_EAF_F","CUP_H_RUS_6B47_headset_goggles","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -139,13 +139,13 @@ class I_CebuArmy_Squad_Leader_woodland_01 : CFP_I_WestUltra_Team_Leader_01_OCimp
     // custom attributes (do not delete)
     ALiVE_orbatCreator_owned = 1;
 };
-class I_CebuArmy_Team_Leader_woodland_01 : I_CebuArmy_Squad_Leader_woodland_01 {
+class O_CebuArmy_Team_Leader_woodland_01 : O_CebuArmy_Squad_Leader_woodland_01 {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
     displayName = "Team Leader";
     side = 0;
-    faction = "I_CebuArmy_Woodland";
+    faction = "O_CebuArmy_Woodland";
     identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
     uniformClass = "U_I_E_Uniform_01_tanktop_F";
     linkedItems[] = {"V_CarrierRigKBT_01_light_EAF_F","CUP_H_Ger_M92_GG_CB","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
@@ -164,13 +164,13 @@ class I_CebuArmy_Team_Leader_woodland_01 : I_CebuArmy_Squad_Leader_woodland_01 {
     // custom attributes (do not delete)
     ALiVE_orbatCreator_owned = 1;
 };
-class I_CebuArmy_Rifleman_M4_woodland_01 : I_CebuArmy_Team_Leader_woodland_01 {
+class O_CebuArmy_Rifleman_M4_woodland_01 : O_CebuArmy_Team_Leader_woodland_01 {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
     displayName = "Rifleman M4";
     side = 0;
-    faction = "I_CebuArmy_Woodland";
+    faction = "O_CebuArmy_Woodland";
     identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
     uniformClass = "U_I_L_Uniform_01_deserter_F";
     linkedItems[] = {"V_CarrierRigKBT_01_light_EAF_F","CUP_H_LWHv2_OD_ess_comms","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
@@ -189,13 +189,13 @@ class I_CebuArmy_Rifleman_M4_woodland_01 : I_CebuArmy_Team_Leader_woodland_01 {
     // custom attributes (do not delete)
     ALiVE_orbatCreator_owned = 1;
 };
-class I_CebuArmy_Rifleman_M14_woodland_01 : I_CebuArmy_Rifleman_M4_woodland_01 {
+class O_CebuArmy_Rifleman_M14_woodland_01 : O_CebuArmy_Rifleman_M4_woodland_01 {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
     displayName = "Rifleman M14";
     side = 0;
-    faction = "I_CebuArmy_Woodland";
+    faction = "O_CebuArmy_Woodland";
     identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
     uniformClass = "U_I_L_Uniform_01_camo_F";
     linkedItems[] = {"V_CarrierRigKBT_01_light_EAF_F","CUP_H_LWHv2_OD_comms","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
@@ -214,13 +214,13 @@ class I_CebuArmy_Rifleman_M14_woodland_01 : I_CebuArmy_Rifleman_M4_woodland_01 {
     // custom attributes (do not delete)
     ALiVE_orbatCreator_owned = 1;
 };
-class I_CebuArmy_Autorifleman_woodland_01 : I_CebuArmy_Rifleman_M14_woodland_01 {
+class O_CebuArmy_Autorifleman_woodland_01 : O_CebuArmy_Rifleman_M14_woodland_01 {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
     displayName = "Autorifleman";
     side = 0;
-    faction = "I_CebuArmy_Woodland";
+    faction = "O_CebuArmy_Woodland";
     identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
     uniformClass = "U_I_E_Uniform_01_tanktop_F";
     linkedItems[] = {"V_CarrierRigKBT_01_light_EAF_F","CUP_H_RUS_6B47_headset_goggles","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
@@ -239,13 +239,13 @@ class I_CebuArmy_Autorifleman_woodland_01 : I_CebuArmy_Rifleman_M14_woodland_01 
     // custom attributes (do not delete)
     ALiVE_orbatCreator_owned = 1;
 };
-class I_CebuArmy_Light_AT_woodland_01 : I_CebuArmy_Autorifleman_woodland_01 {
+class O_CebuArmy_Light_AT_woodland_01 : O_CebuArmy_Autorifleman_woodland_01 {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
     displayName = "Light AT";
     side = 0;
-    faction = "I_CebuArmy_Woodland";
+    faction = "O_CebuArmy_Woodland";
     identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
     uniformClass = "U_I_L_Uniform_01_camo_F";
     linkedItems[] = {"V_CarrierRigKBT_01_light_EAF_F","H_HelmetB_snakeskin","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
@@ -264,13 +264,13 @@ class I_CebuArmy_Light_AT_woodland_01 : I_CebuArmy_Autorifleman_woodland_01 {
     // custom attributes (do not delete)
     ALiVE_orbatCreator_owned = 1;
 };
-class I_CebuArmy_Heavy_AT_woodland_01 : I_CebuArmy_Light_AT_woodland_01 {
+class O_CebuArmy_Heavy_AT_woodland_01 : O_CebuArmy_Light_AT_woodland_01 {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
     displayName = "Heavy AT";
     side = 0;
-    faction = "I_CebuArmy_Woodland";
+    faction = "O_CebuArmy_Woodland";
     identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
     uniformClass = "U_I_L_Uniform_01_camo_F";
     linkedItems[] = {"V_CarrierRigKBT_01_light_EAF_F","H_HelmetB_snakeskin","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
@@ -289,13 +289,13 @@ class I_CebuArmy_Heavy_AT_woodland_01 : I_CebuArmy_Light_AT_woodland_01 {
     // custom attributes (do not delete)
     ALiVE_orbatCreator_owned = 1;
 };
-class I_CebuArmy_Heavy_AA_woodland_01 : I_CebuArmy_Light_AT_woodland_01 {
+class O_CebuArmy_Heavy_AA_woodland_01 : O_CebuArmy_Light_AT_woodland_01 {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
     displayName = "AA";
     side = 0;
-    faction = "I_CebuArmy_Woodland";
+    faction = "O_CebuArmy_Woodland";
     identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
     uniformClass = "U_I_L_Uniform_01_camo_F";
     linkedItems[] = {"V_CarrierRigKBT_01_light_EAF_F","H_HelmetB_snakeskin","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
@@ -314,13 +314,13 @@ class I_CebuArmy_Heavy_AA_woodland_01 : I_CebuArmy_Light_AT_woodland_01 {
     // custom attributes (do not delete)
     ALiVE_orbatCreator_owned = 1;
 };
-class I_CebuArmy_Sniper_woodland_01 : I_CebuArmy_Heavy_AT_woodland_01 {
+class O_CebuArmy_Sniper_woodland_01 : O_CebuArmy_Heavy_AT_woodland_01 {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
     displayName = "Sniper";
     side = 0;
-    faction = "I_CebuArmy_Woodland";
+    faction = "O_CebuArmy_Woodland";
     identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
     uniformClass = "U_I_E_Uniform_01_sweater_F";
     linkedItems[] = {"V_SmershVest_01_radio_F","H_MilCap_grn","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"};
@@ -339,13 +339,13 @@ class I_CebuArmy_Sniper_woodland_01 : I_CebuArmy_Heavy_AT_woodland_01 {
     // custom attributes (do not delete)
     ALiVE_orbatCreator_owned = 1;
 };
-class I_CebuArmy_Grenadier_woodland_01 : I_CebuArmy_Sniper_woodland_01 {
+class O_CebuArmy_Grenadier_woodland_01 : O_CebuArmy_Sniper_woodland_01 {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
     displayName = "Grenadier";
     side = 0;
-    faction = "I_CebuArmy_Woodland";
+    faction = "O_CebuArmy_Woodland";
     identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
     uniformClass = "U_I_E_Uniform_01_sweater_F";
     linkedItems[] = {"V_CarrierRigKBT_01_light_EAF_F","CUP_H_Ger_M92_GG_CB","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"};
@@ -364,13 +364,13 @@ class I_CebuArmy_Grenadier_woodland_01 : I_CebuArmy_Sniper_woodland_01 {
     // custom attributes (do not delete)
     ALiVE_orbatCreator_owned = 1;
 };
-class I_CebuArmy_Crewman_woodland_01 : I_CebuArmy_Grenadier_woodland_01 {
+class O_CebuArmy_Crewman_woodland_01 : O_CebuArmy_Grenadier_woodland_01 {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
     displayName = "Crewman";
     side = 0;
-    faction = "I_CebuArmy_Woodland";
+    faction = "O_CebuArmy_Woodland";
     identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
     uniformClass = "U_I_E_Uniform_01_tanktop_F";
     linkedItems[] = {"V_CarrierRigKBT_01_light_EAF_F","CUP_H_CVC","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
@@ -389,13 +389,13 @@ class I_CebuArmy_Crewman_woodland_01 : I_CebuArmy_Grenadier_woodland_01 {
     // custom attributes (do not delete)
     ALiVE_orbatCreator_owned = 1;
 };
-class I_CebuArmy_Pilot_woodland_01 : I_CebuArmy_Crewman_woodland_01 {
+class O_CebuArmy_Pilot_woodland_01 : O_CebuArmy_Crewman_woodland_01 {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
     displayName = "Pilot";
     side = 0;
-    faction = "I_CebuArmy_Woodland";
+    faction = "O_CebuArmy_Woodland";
     identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
     uniformClass = "CUP_U_B_BDUv2_roll2_gloves_OD";
     linkedItems[] = {"V_CarrierRigKBT_01_light_EAF_F","H_PilotHelmetHeli_O","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
@@ -414,13 +414,13 @@ class I_CebuArmy_Pilot_woodland_01 : I_CebuArmy_Crewman_woodland_01 {
     // custom attributes (do not delete)
     ALiVE_orbatCreator_owned = 1;
 };
-class I_CebuArmy_Officer_woodland_01 : I_CebuArmy_Pilot_woodland_01 {
+class O_CebuArmy_Officer_woodland_01 : O_CebuArmy_Pilot_woodland_01 {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
     displayName = "Officer";
     side = 0;
-    faction = "I_CebuArmy_Woodland";
+    faction = "O_CebuArmy_Woodland";
     identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
     uniformClass = "U_I_E_Uniform_01_sweater_F";
     linkedItems[] = {"V_CarrierRigKBT_01_light_EAF_F","CUP_H_Ger_Beret_TankCommander_Grn","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"};
@@ -439,16 +439,16 @@ class I_CebuArmy_Officer_woodland_01 : I_CebuArmy_Pilot_woodland_01 {
     // custom attributes (do not delete)
     ALiVE_orbatCreator_owned = 1;
 };
-class I_CebuArmy_Tank_woodland_01 : CUP_I_M60A3_RACS_OCimport_02 {
+class O_CebuArmy_Tank_woodland_01 : CUP_I_M60A3_RACS_OCimport_02 {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
     displayName = "M60A3";
     side = 0;
-    faction = "I_CebuArmy_Woodland";
-    crew = "I_CebuArmy_Crewman_woodland_01";
+    faction = "O_CebuArmy_Woodland";
+    crew = "O_CebuArmy_Crewman_woodland_01";
     class Turrets : Turrets {
-        class MainTurret : MainTurret { gunnerType = "I_CebuArmy_Crewman_woodland_01"; };
+        class MainTurret : MainTurret { gunnerType = "O_CebuArmy_Crewman_woodland_01"; };
         class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
         class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
         class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -466,16 +466,16 @@ class I_CebuArmy_Tank_woodland_01 : CUP_I_M60A3_RACS_OCimport_02 {
     ALiVE_orbatCreator_owned = 1;
     ALiVE_orbatCreator_texture = "USMC";
 };
-class I_CebuArmy_M1A1_Abrams_woodland_01 : CUP_B_M1A2SEP_RACS_OCimport_02 {
+class O_CebuArmy_M1A1_Abrams_woodland_01 : CUP_B_M1A2SEP_RACS_OCimport_02 {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
     displayName = "M1A1 Abrams";
     side = 0;
-    faction = "I_CebuArmy_Woodland";
-    crew = "I_CebuArmy_Crewman_woodland_01";
+    faction = "O_CebuArmy_Woodland";
+    crew = "O_CebuArmy_Crewman_woodland_01";
     class Turrets : Turrets {
-        class MainTurret : MainTurret { gunnerType = "I_CebuArmy_Crewman_woodland_01"; };
+        class MainTurret : MainTurret { gunnerType = "O_CebuArmy_Crewman_woodland_01"; };
     };
     class EventHandlers : EventHandlers {
         class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -487,17 +487,17 @@ class I_CebuArmy_M1A1_Abrams_woodland_01 : CUP_B_M1A2SEP_RACS_OCimport_02 {
     ALiVE_orbatCreator_owned = 1;
     ALiVE_orbatCreator_texture = "Ukraine";
 };
-class I_CebuArmy_M2_Landrover_woodland_01 : CUP_I_LR_MG_AAF_OCimport_02 {
+class O_CebuArmy_M2_Landrover_woodland_01 : CUP_I_LR_MG_AAF_OCimport_02 {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
     displayName = "M2 Landrover";
     side = 0;
-    faction = "I_CebuArmy_Woodland";
-    crew = "I_CebuArmy_Rifleman_M4_woodland_01";
+    faction = "O_CebuArmy_Woodland";
+    crew = "O_CebuArmy_Rifleman_M4_woodland_01";
     class Turrets : Turrets {
-        class CargoTurret_01 : CargoTurret_01 { gunnerType = "I_CebuArmy_Rifleman_M14_woodland_01"; };
-        class MainTurret : MainTurret { gunnerType = "I_CebuArmy_Autorifleman_woodland_01"; };
+        class CargoTurret_01 : CargoTurret_01 { gunnerType = "O_CebuArmy_Rifleman_M14_woodland_01"; };
+        class MainTurret : MainTurret { gunnerType = "O_CebuArmy_Autorifleman_woodland_01"; };
     };
     class EventHandlers : EventHandlers {
         class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -509,18 +509,18 @@ class I_CebuArmy_M2_Landrover_woodland_01 : CUP_I_LR_MG_AAF_OCimport_02 {
     ALiVE_orbatCreator_owned = 1;
     ALiVE_orbatCreator_texture = "GREEN";
 };
-class I_CebuArmy_UH_1H_Transport_woodland_01 : CUP_I_UH1H_Slick_RACS_OCimport_02 {
+class O_CebuArmy_UH_1H_Transport_woodland_01 : CUP_I_UH1H_Slick_RACS_OCimport_02 {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
     displayName = "UH-1H Transport";
     side = 0;
-    faction = "I_CebuArmy_Woodland";
-    crew = "I_CebuArmy_Pilot_woodland_01";
+    faction = "O_CebuArmy_Woodland";
+    crew = "O_CebuArmy_Pilot_woodland_01";
     class Turrets : Turrets {
-        class RightDoorGun : RightDoorGun { gunnerType = "I_CebuArmy_Crewman_woodland_01"; };
-        class LeftDoorGun : LeftDoorGun { gunnerType = "I_CebuArmy_Crewman_woodland_01"; };
-        class CopilotTurret : CopilotTurret { gunnerType = "I_CebuArmy_Pilot_woodland_01"; };
+        class RightDoorGun : RightDoorGun { gunnerType = "O_CebuArmy_Crewman_woodland_01"; };
+        class LeftDoorGun : LeftDoorGun { gunnerType = "O_CebuArmy_Crewman_woodland_01"; };
+        class CopilotTurret : CopilotTurret { gunnerType = "O_CebuArmy_Pilot_woodland_01"; };
         class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
         class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
         class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -536,18 +536,18 @@ class I_CebuArmy_UH_1H_Transport_woodland_01 : CUP_I_UH1H_Slick_RACS_OCimport_02
     ALiVE_orbatCreator_owned = 1;
     ALiVE_orbatCreator_texture = "Olive";
 };
-class I_CebuArmy_UH_1H_Gunship_woodland_01 : CUP_I_UH1H_gunship_RACS_OCimport_02 {
+class O_CebuArmy_UH_1H_Gunship_woodland_01 : CUP_I_UH1H_gunship_RACS_OCimport_02 {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
     displayName = "UH-1H Gunship";
     side = 0;
-    faction = "I_CebuArmy_Woodland";
-    crew = "I_CebuArmy_Pilot_woodland_01";
+    faction = "O_CebuArmy_Woodland";
+    crew = "O_CebuArmy_Pilot_woodland_01";
     class Turrets : Turrets {
-        class RightDoorGun : RightDoorGun { gunnerType = "I_CebuArmy_Crewman_woodland_01"; };
-        class LeftDoorGun : LeftDoorGun { gunnerType = "I_CebuArmy_Crewman_woodland_01"; };
-        class CopilotTurret : CopilotTurret { gunnerType = "I_CebuArmy_Pilot_woodland_01"; };
+        class RightDoorGun : RightDoorGun { gunnerType = "O_CebuArmy_Crewman_woodland_01"; };
+        class LeftDoorGun : LeftDoorGun { gunnerType = "O_CebuArmy_Crewman_woodland_01"; };
+        class CopilotTurret : CopilotTurret { gunnerType = "O_CebuArmy_Pilot_woodland_01"; };
         class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
         class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
     };
@@ -561,22 +561,22 @@ class I_CebuArmy_UH_1H_Gunship_woodland_01 : CUP_I_UH1H_gunship_RACS_OCimport_02
     ALiVE_orbatCreator_owned = 1;
     ALiVE_orbatCreator_texture = "Olive";
 };
-class I_CebuArmy_UH_1H_Transport_Loaded_woodland_01 : I_CebuArmy_UH_1H_Transport_woodland_01 {
+class O_CebuArmy_UH_1H_Transport_Loaded_woodland_01 : O_CebuArmy_UH_1H_Transport_woodland_01 {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
     displayName = "UH-1H Transport Loaded";
     side = 0;
-    faction = "I_CebuArmy_Woodland";
-    crew = "I_CebuArmy_Pilot_woodland_01";
+    faction = "O_CebuArmy_Woodland";
+    crew = "O_CebuArmy_Pilot_woodland_01";
     class Turrets : Turrets {
-        class RightDoorGun : RightDoorGun { gunnerType = "I_CebuArmy_Crewman_woodland_01"; };
-        class LeftDoorGun : LeftDoorGun { gunnerType = "I_CebuArmy_Crewman_woodland_01"; };
-        class CopilotTurret : CopilotTurret { gunnerType = "I_CebuArmy_Pilot_woodland_01"; };
-        class CargoTurret_01 : CargoTurret_01 { gunnerType = "I_CebuArmy_Team_Leader_woodland_01"; };
-        class CargoTurret_02 : CargoTurret_02 { gunnerType = "I_CebuArmy_Rifleman_M4_woodland_01"; };
-        class CargoTurret_03 : CargoTurret_03 { gunnerType = "I_CebuArmy_Autorifleman_woodland_01"; };
-        class CargoTurret_04 : CargoTurret_04 { gunnerType = "I_CebuArmy_Grenadier_woodland_01"; };
+        class RightDoorGun : RightDoorGun { gunnerType = "O_CebuArmy_Crewman_woodland_01"; };
+        class LeftDoorGun : LeftDoorGun { gunnerType = "O_CebuArmy_Crewman_woodland_01"; };
+        class CopilotTurret : CopilotTurret { gunnerType = "O_CebuArmy_Pilot_woodland_01"; };
+        class CargoTurret_01 : CargoTurret_01 { gunnerType = "O_CebuArmy_Team_Leader_woodland_01"; };
+        class CargoTurret_02 : CargoTurret_02 { gunnerType = "O_CebuArmy_Rifleman_M4_woodland_01"; };
+        class CargoTurret_03 : CargoTurret_03 { gunnerType = "O_CebuArmy_Autorifleman_woodland_01"; };
+        class CargoTurret_04 : CargoTurret_04 { gunnerType = "O_CebuArmy_Grenadier_woodland_01"; };
     };
     class EventHandlers : EventHandlers {
         class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -588,13 +588,13 @@ class I_CebuArmy_UH_1H_Transport_Loaded_woodland_01 : I_CebuArmy_UH_1H_Transport
     ALiVE_orbatCreator_owned = 1;
     ALiVE_orbatCreator_texture = "Olive";
 };
-class I_CebuArmy_M2_Standing_woodland_01 : I_G_HMG_02_high_F_OCimport_02 {
+class O_CebuArmy_M2_Standing_woodland_01 : I_G_HMG_02_high_F_OCimport_02 {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
     displayName = "M2 Standing";
     side = 0;
-    faction = "I_CebuArmy_Woodland";
+    faction = "O_CebuArmy_Woodland";
     crew = "I_G_Soldier_F";
     class Turrets : Turrets {
         class MainTurret : MainTurret { gunnerType = ""; };
@@ -608,13 +608,13 @@ class I_CebuArmy_M2_Standing_woodland_01 : I_G_HMG_02_high_F_OCimport_02 {
     // custom attributes (do not delete)
     ALiVE_orbatCreator_owned = 1;
 };
-class I_CebuArmy_M2_Lower_woodland_01 : I_G_HMG_02_F_OCimport_02 {
+class O_CebuArmy_M2_Lower_woodland_01 : I_G_HMG_02_F_OCimport_02 {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
     displayName = "M2 Lower";
     side = 0;
-    faction = "I_CebuArmy_Woodland";
+    faction = "O_CebuArmy_Woodland";
     crew = "I_G_Soldier_F";
     class Turrets : Turrets {
         class MainTurret : MainTurret { gunnerType = ""; };
@@ -628,16 +628,16 @@ class I_CebuArmy_M2_Lower_woodland_01 : I_G_HMG_02_F_OCimport_02 {
     // custom attributes (do not delete)
     ALiVE_orbatCreator_owned = 1;
 };
-class I_CebuArmy_2B14_Mortar_woodland_01 : cfp_i_is_2b14_82mm_OCimport_02 {
+class O_CebuArmy_2B14_Mortar_woodland_01 : cfp_i_is_2b14_82mm_OCimport_02 {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
     displayName = "2B14 Mortar";
     side = 0;
-    faction = "I_CebuArmy_Woodland";
+    faction = "O_CebuArmy_Woodland";
     crew = "cfp_i_is_crewman";
     class Turrets : Turrets {
-        class MainTurret : MainTurret { gunnerType = "I_CebuArmy_Rifleman_M4_woodland_01"; };
+        class MainTurret : MainTurret { gunnerType = "O_CebuArmy_Rifleman_M4_woodland_01"; };
     };
     class EventHandlers : EventHandlers {
         class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -648,16 +648,16 @@ class I_CebuArmy_2B14_Mortar_woodland_01 : cfp_i_is_2b14_82mm_OCimport_02 {
     // custom attributes (do not delete)
     ALiVE_orbatCreator_owned = 1;
 };
-class I_CebuArmy_SPG_woodland_01 : cfp_i_is_SPG9_OCimport_02 {
+class O_CebuArmy_SPG_woodland_01 : cfp_i_is_SPG9_OCimport_02 {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
     displayName = "SPG";
     side = 0;
-    faction = "I_CebuArmy_Woodland";
+    faction = "O_CebuArmy_Woodland";
     crew = "cfp_i_is_crewman";
     class Turrets : Turrets {
-        class MainTurret : MainTurret { gunnerType = "I_CebuArmy_Rifleman_M4_woodland_01"; };
+        class MainTurret : MainTurret { gunnerType = "O_CebuArmy_Rifleman_M4_woodland_01"; };
     };
     class EventHandlers : EventHandlers {
         class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -668,16 +668,16 @@ class I_CebuArmy_SPG_woodland_01 : cfp_i_is_SPG9_OCimport_02 {
     // custom attributes (do not delete)
     ALiVE_orbatCreator_owned = 1;
 };
-class I_CebuArmy_TOW_Launcher_woodland_01 : cfp_i_is_TOW_OCimport_02 {
+class O_CebuArmy_TOW_Launcher_woodland_01 : cfp_i_is_TOW_OCimport_02 {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
     displayName = "TOW Launcher";
     side = 0;
-    faction = "I_CebuArmy_Woodland";
+    faction = "O_CebuArmy_Woodland";
     crew = "cfp_i_is_crewman";
     class Turrets : Turrets {
-        class MainTurret : MainTurret { gunnerType = "I_CebuArmy_Rifleman_M14_woodland_01"; };
+        class MainTurret : MainTurret { gunnerType = "O_CebuArmy_Rifleman_M14_woodland_01"; };
     };
     class EventHandlers : EventHandlers {
         class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -688,16 +688,16 @@ class I_CebuArmy_TOW_Launcher_woodland_01 : cfp_i_is_TOW_OCimport_02 {
     // custom attributes (do not delete)
     ALiVE_orbatCreator_owned = 1;
 };
-class I_CebuArmy_M163A1_Vad_woodland_01 : CUP_I_M163_Vulcan_AAF_OCimport_02 {
+class O_CebuArmy_M163A1_Vad_woodland_01 : CUP_I_M163_Vulcan_AAF_OCimport_02 {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
     displayName = "M163A1 Vad";
     side = 0;
-    faction = "I_CebuArmy_Woodland";
-    crew = "I_CebuArmy_Crewman_woodland_01";
+    faction = "O_CebuArmy_Woodland";
+    crew = "O_CebuArmy_Crewman_woodland_01";
     class Turrets : Turrets {
-        class MainTurret : MainTurret { gunnerType = "I_CebuArmy_Crewman_woodland_01"; };
+        class MainTurret : MainTurret { gunnerType = "O_CebuArmy_Crewman_woodland_01"; };
     };
     class EventHandlers : EventHandlers {
         class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -709,16 +709,16 @@ class I_CebuArmy_M163A1_Vad_woodland_01 : CUP_I_M163_Vulcan_AAF_OCimport_02 {
     ALiVE_orbatCreator_owned = 1;
     ALiVE_orbatCreator_texture = "Olive";
 };
-class I_CebuArmy_AA_Missle_woodland_01 : CFP_I_IS_Hilux_Igla_01_OCimport_02 {
+class O_CebuArmy_AA_Missle_woodland_01 : CFP_I_IS_Hilux_Igla_01_OCimport_02 {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
     displayName = "AA Missle";
     side = 0;
-    faction = "I_CebuArmy_Woodland";
-    crew = "I_CebuArmy_Rifleman_M4_woodland_01";
+    faction = "O_CebuArmy_Woodland";
+    crew = "O_CebuArmy_Rifleman_M4_woodland_01";
     class Turrets : Turrets {
-        class MainTurret : MainTurret { gunnerType = "I_CebuArmy_Rifleman_M14_woodland_01"; };
+        class MainTurret : MainTurret { gunnerType = "O_CebuArmy_Rifleman_M14_woodland_01"; };
     };
     class EventHandlers : EventHandlers {
         class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -731,8 +731,8 @@ class I_CebuArmy_AA_Missle_woodland_01 : CFP_I_IS_Hilux_Igla_01_OCimport_02 {
     ALiVE_orbatCreator_texture = "ArmyGreen";
 };
 class B_GEN_Soldier_F;
-class I_CebuArmy_Crewman_woodland_01;
-class I_CebuArmy_Pilot_woodland_01;
+class O_CebuArmy_Crewman_woodland_01;
+class O_CebuArmy_Pilot_woodland_01;
 class CUP_I_T55_NAPA;
 class CUP_I_T72_NAPA;
 class CUP_I_BMP2_NAPA;
@@ -754,8 +754,8 @@ class CFP_O_IQARMY_Su_25_Frogfoot_01;
 class cfp_o_is_BMP1;
 class CFP_O_SDARMY_Offroad_Police_01;
 
-class I_CebuArmy_Woodland_popo: B_GEN_Soldier_F {
-    faction="I_CebuArmy_Woodland";
+class O_CebuArmy_Woodland_popo: B_GEN_Soldier_F {
+    faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="Police Dude";
     uniformClass="U_B_GEN_Soldier_F";
@@ -771,181 +771,181 @@ class I_CebuArmy_Woodland_popo: B_GEN_Soldier_F {
 };
 
 class cebu_t55: CUP_I_T55_NAPA {
-    faction="I_CebuArmy_Woodland";
+    faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="t55";
     hiddenSelectionsTextures[]={"cup\trackedvehicles\cup_trackedvehicles_t55\data\t55_body_olive_co.paa","cup\trackedvehicles\cup_trackedvehicles_t55\data\t55_tower_olive_co.paa"};
-    crew="I_CebuArmy_Crewman_woodland_01";
-    typicalCargo[]={"I_CebuArmy_Crewman_woodland_01"};
+    crew="O_CebuArmy_Crewman_woodland_01";
+    typicalCargo[]={"O_CebuArmy_Crewman_woodland_01"};
 };
 
 class cebu_t72: CUP_I_T72_NAPA {
-    faction="I_CebuArmy_Woodland";
+    faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="t72";
     hiddenSelectionsTextures[]={"cup\trackedvehicles\cup_trackedvehicles_t72\data\textures\gue_t72_1_co.paa","cup\trackedvehicles\cup_trackedvehicles_t72\data\textures\gue_t72_2_co.paa","cup\trackedvehicles\cup_trackedvehicles_t72\data\textures\gue_t72_3_co.paa"};
-    crew="I_CebuArmy_Crewman_woodland_01";
-    typicalCargo[]={"I_CebuArmy_Crewman_woodland_01"};
+    crew="O_CebuArmy_Crewman_woodland_01";
+    typicalCargo[]={"O_CebuArmy_Crewman_woodland_01"};
 };
 
 class cebu_bmp2: CUP_I_BMP2_NAPA {
-    faction="I_CebuArmy_Woodland";
+    faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="bmp2";
     hiddenSelectionsTextures[]={"cup\trackedvehicles\cup_trackedvehicles_bmp\bmp2\data\bmp2_khk_01_co.paa","cup\trackedvehicles\cup_trackedvehicles_bmp\bmp2\data\bmp2_khk_02_co.paa"};
-    crew="I_CebuArmy_Crewman_woodland_01";
-    typicalCargo[]={"I_CebuArmy_Crewman_woodland_01"};
+    crew="O_CebuArmy_Crewman_woodland_01";
+    typicalCargo[]={"O_CebuArmy_Crewman_woodland_01"};
 };
 
 class cebu_brdm2: CUP_I_BRDM2_NAPA {
-    faction="I_CebuArmy_Woodland";
+    faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="brdm2";
     hiddenSelectionsTextures[]={"cup\wheeledvehicles\cup_wheeledvehicles_brdm2\data\textures\sla_brdm2_01_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_brdm2\data\brdm2_02_co.paa"};
-    crew="I_CebuArmy_Crewman_woodland_01";
-    typicalCargo[]={"I_CebuArmy_Crewman_woodland_01"};
+    crew="O_CebuArmy_Crewman_woodland_01";
+    typicalCargo[]={"O_CebuArmy_Crewman_woodland_01"};
 };
 
 class cebu_mtlblv: CUP_I_MTLB_pk_NAPA {
-    faction="I_CebuArmy_Woodland";
+    faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="mtlblv";
     hiddenSelectionsTextures[]={"cup\trackedvehicles\cup_trackedvehicles_mtlb\data\textures\indep\body_new_napa_co.paa","cup\trackedvehicles\cup_trackedvehicles_mtlb\data\textures\indep\pk_mod_new_napa_co.paa"};
-    crew="I_CebuArmy_Crewman_woodland_01";
-    typicalCargo[]={"I_CebuArmy_Crewman_woodland_01"};
+    crew="O_CebuArmy_Crewman_woodland_01";
+    typicalCargo[]={"O_CebuArmy_Crewman_woodland_01"};
 };
 
 class cebu_av8: CUP_I_AV8B_DYN_AAF {
-    faction="I_CebuArmy_Woodland";
+    faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="av8";
     hiddenSelectionsTextures[]={"cup\airvehicles\cup_airvehicles_av8b\data\texture\cup_av8b_aaf_1_co.paa","cup\airvehicles\cup_airvehicles_av8b\data\texture\cup_av8b_aaf_1_co.paa","#(argb,512,512,1)r2t(rendertarget0,1.0)"};
-    crew="I_CebuArmy_Pilot_woodland_01";
-    typicalCargo[]={"I_CebuArmy_Pilot_woodland_01"};
+    crew="O_CebuArmy_Pilot_woodland_01";
+    typicalCargo[]={"O_CebuArmy_Pilot_woodland_01"};
 };
 
 class cebu_btr60pb: CUP_I_BTR60_UN {
-    faction="I_CebuArmy_Woodland";
+    faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="btr60pb";
     hiddenSelectionsTextures[]={"x\cfp\addons\vehicles\btr60\olivebody1.paa","x\cfp\addons\vehicles\btr60\olivebody2.paa"};
-    crew="I_CebuArmy_Crewman_woodland_01";
-    typicalCargo[]={"I_CebuArmy_Crewman_woodland_01"};
+    crew="O_CebuArmy_Crewman_woodland_01";
+    typicalCargo[]={"O_CebuArmy_Crewman_woodland_01"};
 };
 
 class cebu_btr80: CUP_I_BTR80_UN {
-    faction="I_CebuArmy_Woodland";
+    faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="btr80";
     hiddenSelectionsTextures[]={"cup\wheeledvehicles\cup_wheeledvehicles_btr80\data\ru_green\btr80_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_btr80\data\ru_green\kpvt_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_btr80\data\ru_green\wheels_co.paa"};
-    crew="I_CebuArmy_Crewman_woodland_01";
-    typicalCargo[]={"I_CebuArmy_Crewman_woodland_01"};
+    crew="O_CebuArmy_Crewman_woodland_01";
+    typicalCargo[]={"O_CebuArmy_Crewman_woodland_01"};
 };
 
 class cebu_btr80ad: CUP_I_BTR80A_UN {
-    faction="I_CebuArmy_Woodland";
+    faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="btr80ad";
     hiddenSelectionsTextures[]={"cup\wheeledvehicles\cup_wheeledvehicles_btr80\data\ru_green\btr80_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_btr80\data\ru_green\bppu_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_btr80\data\ru_green\wheels_co.paa"};
-    crew="I_CebuArmy_Crewman_woodland_01";
-    typicalCargo[]={"I_CebuArmy_Crewman_woodland_01"};
+    crew="O_CebuArmy_Crewman_woodland_01";
+    typicalCargo[]={"O_CebuArmy_Crewman_woodland_01"};
 };
 
 class cebu_ural: CFP_I_SSArmy_Ural_01 {
-    faction="I_CebuArmy_Woodland";
+    faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="ural";
     hiddenSelectionsTextures[]={"cup\wheeledvehicles\cup_wheeledvehicles_ural\data\ural_kabina_sla_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_ural\data\ural_plachta_sla_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_ural\data\whl_tyresize3.paa",""};
-    crew="I_CebuArmy_Crewman_woodland_01";
-    typicalCargo[]={"I_CebuArmy_Crewman_woodland_01"};
+    crew="O_CebuArmy_Crewman_woodland_01";
+    typicalCargo[]={"O_CebuArmy_Crewman_woodland_01"};
 };
 
 class cebu_ural_a: CFP_I_SSArmy_Ural_Ammunition_01 {
-    faction="I_CebuArmy_Woodland";
+    faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="ural a";
     hiddenSelectionsTextures[]={"cup\wheeledvehicles\cup_wheeledvehicles_ural\data\ural_kabina_sla_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_ural\data\ural_plachta_sla_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_ural\data\whl_tyresize3.paa",""};
-    crew="I_CebuArmy_Crewman_woodland_01";
-    typicalCargo[]={"I_CebuArmy_Crewman_woodland_01"};
+    crew="O_CebuArmy_Crewman_woodland_01";
+    typicalCargo[]={"O_CebuArmy_Crewman_woodland_01"};
 };
 
 class cebu_ural_f: CFP_I_SSArmy_Ural_Refuel_01 {
-    faction="I_CebuArmy_Woodland";
+    faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="ural f";
     hiddenSelectionsTextures[]={"cup\wheeledvehicles\cup_wheeledvehicles_ural\data\ural_kabina_sla_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_ural\data\ural_open_sla_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_ural\data\ural_fuel_chdkz_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_ural\data\whl_tyresize3.paa"};
-    crew="I_CebuArmy_Crewman_woodland_01";
-    typicalCargo[]={"I_CebuArmy_Crewman_woodland_01"};
+    crew="O_CebuArmy_Crewman_woodland_01";
+    typicalCargo[]={"O_CebuArmy_Crewman_woodland_01"};
 };
 
 class cebu_ural_r: CFP_I_SSArmy_Ural_Repair_01 {
-    faction="I_CebuArmy_Woodland";
+    faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="ural r";
     hiddenSelectionsTextures[]={"cup\wheeledvehicles\cup_wheeledvehicles_ural\data\ural_kabina_sla_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_ural\data\ural_plachta_sla_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_ural\data\whl_tyresize3.paa",""};
-    crew="I_CebuArmy_Crewman_woodland_01";
-    typicalCargo[]={"I_CebuArmy_Crewman_woodland_01"};
+    crew="O_CebuArmy_Crewman_woodland_01";
+    typicalCargo[]={"O_CebuArmy_Crewman_woodland_01"};
 };
 
 class cebu_rihb: CUP_I_RHIB_RACS {
-    faction="I_CebuArmy_Woodland";
+    faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="rihb";
     hiddenSelectionsTextures[]={"cup\watervehicles\cup_watervehicles_rhib\data\rhib_racs_co.paa"};
-    crew="I_CebuArmy_Crewman_woodland_01";
-    typicalCargo[]={"I_CebuArmy_Crewman_woodland_01"};
+    crew="O_CebuArmy_Crewman_woodland_01";
+    typicalCargo[]={"O_CebuArmy_Crewman_woodland_01"};
 };
 
 class cebu_lcac: CUP_I_ZUBR_UN {
-    faction="I_CebuArmy_Woodland";
+    faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="lcac";
     hiddenSelectionsTextures[]={"cup\watervehicles\cup_watervehicles_zubr\data\zubr_body_1_dark_co.paa","cup\watervehicles\cup_watervehicles_zubr\data\zubr_body_2_dark_co.paa","cup\watervehicles\cup_watervehicles_zubr\data\zubr_details_dark_co.paa","cup\watervehicles\cup_watervehicles_zubr\data\zubr_interiors_co.paa","cup\watervehicles\cup_watervehicles_zubr\data\num\hull_num_5_ca.paa","cup\watervehicles\cup_watervehicles_zubr\data\num\hull_num_9_ca.paa","cup\watervehicles\cup_watervehicles_zubr\data\num\hull_num_1_ca.paa","cup\baseconfigs\cup_baseconfigs\data\flags\flag_sla_co.paa"};
-    crew="I_CebuArmy_Crewman_woodland_01";
-    typicalCargo[]={"I_CebuArmy_Crewman_woodland_01"};
+    crew="O_CebuArmy_Crewman_woodland_01";
+    typicalCargo[]={"O_CebuArmy_Crewman_woodland_01"};
 };
 
 class cebu_d30: CFP_O_IQARMY_D30_01 {
-    faction="I_CebuArmy_Woodland";
+    faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="d30";
     hiddenSelectionsTextures[]={};
-    crew="I_CebuArmy_Crewman_woodland_01";
-    typicalCargo[]={"I_CebuArmy_Crewman_woodland_01"};
+    crew="O_CebuArmy_Crewman_woodland_01";
+    typicalCargo[]={"O_CebuArmy_Crewman_woodland_01"};
 };
 
 class cebu_zu23: CFP_O_IQARMY_ZU_23_01 {
-    faction="I_CebuArmy_Woodland";
+    faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="zu23";
     hiddenSelectionsTextures[]={};
-    crew="I_CebuArmy_Crewman_woodland_01";
-    typicalCargo[]={"I_CebuArmy_Crewman_woodland_01"};
+    crew="O_CebuArmy_Crewman_woodland_01";
+    typicalCargo[]={"O_CebuArmy_Crewman_woodland_01"};
 };
 
 class cebu_su25: CFP_O_IQARMY_Su_25_Frogfoot_01 {
-    faction="I_CebuArmy_Woodland";
+    faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="SU25";
     hiddenSelectionsTextures[]={"x\cfp\addons\vehicles\su25\su25_body1_saddam_co.paa","x\cfp\addons\vehicles\su25\su25_body2_saddam_co.paa"};
-    crew="I_CebuArmy_Pilot_woodland_01";
-    typicalCargo[]={"I_CebuArmy_Pilot_woodland_01"};
+    crew="O_CebuArmy_Pilot_woodland_01";
+    typicalCargo[]={"O_CebuArmy_Pilot_woodland_01"};
 };
 
 class cebu_bmp1: cfp_o_is_BMP1 {
-    faction="I_CebuArmy_Woodland";
+    faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="BMP 1";
     hiddenSelectionsTextures[]={"x\cfp\addons\vehicles\bmp\bmp_tan_hull.paa","x\cfp\addons\vehicles\bmp\bmp_tan_trt.paa",""};
-    crew="I_CebuArmy_Crewman_woodland_01";
-    typicalCargo[]={"I_CebuArmy_Crewman_woodland_01"};
+    crew="O_CebuArmy_Crewman_woodland_01";
+    typicalCargo[]={"O_CebuArmy_Crewman_woodland_01"};
 };
 
 class cebu_offroad: CFP_O_SDARMY_Offroad_Police_01 {
-    faction="I_CebuArmy_Woodland";
+    faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="Police Offroad";
     hiddenSelectionsTextures[]={"a3\soft_f\offroad_01\data\offroad_01_ext_base03_co.paa","a3\soft_f\offroad_01\data\offroad_01_ext_base03_co.paa"};
-    crew="I_CebuArmy_Woodland_popo";
-    typicalCargo[]={"I_CebuArmy_Woodland_popo"};
+    crew="O_CebuArmy_Woodland_popo";
+    typicalCargo[]={"O_CebuArmy_Woodland_popo"};
 };

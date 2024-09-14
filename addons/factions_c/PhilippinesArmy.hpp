@@ -61,13 +61,13 @@
             class MainTurret;
         };
     };
-    class B_PhilippinesArmy_Squad_Leader_Woodland_01 : CFP_B_USARMY_2003_Squad_Leader_WDL_01_OCimport_02 {
+    class I_PhilippinesArmy_Squad_Leader_Woodland_01 : CFP_B_USARMY_2003_Squad_Leader_WDL_01_OCimport_02 {
         author = "CPT Cury";
         scope = 2;
         scopeCurator = 2;
         displayName = "Squad Leader";
         side = 2;
-        faction = "B_PhilippinesArmy_Woodland";
+        faction = "I_PhilippinesArmy_Woodland";
         identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
         uniformClass = "U_I_CombatUniform_shortsleeve";
         linkedItems[] = {"V_CarrierRigKBT_01_light_Olive_F","H_HelmetIA","ItemMap","ItemRadio","ItemCompass","ItemWatch","ACE_NVG_Gen4_Black"};
@@ -86,13 +86,13 @@
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
     };
-    class B_PhilippinesArmy_Team_Leader_Woodland_01 : B_PhilippinesArmy_Squad_Leader_Woodland_01 {
+    class I_PhilippinesArmy_Team_Leader_Woodland_01 : I_PhilippinesArmy_Squad_Leader_Woodland_01 {
         author = "CPT Cury";
         scope = 2;
         scopeCurator = 2;
         displayName = "Team Leader";
         side = 2;
-        faction = "B_PhilippinesArmy_Woodland";
+        faction = "I_PhilippinesArmy_Woodland";
         identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
         uniformClass = "CUP_U_B_CZ_WDL_NoKneepads";
         linkedItems[] = {"V_CarrierRigKBT_01_light_Olive_F","H_HelmetHBK_headset_F","ItemMap","ItemRadio","ItemCompass","ItemWatch","ACE_NVG_Gen4_Black"};
@@ -111,13 +111,13 @@
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
     };
-    class B_PhilippinesArmy_Rifleman_Woodland_01 : B_PhilippinesArmy_Team_Leader_Woodland_01 {
+    class I_PhilippinesArmy_Rifleman_Woodland_01 : I_PhilippinesArmy_Team_Leader_Woodland_01 {
         author = "CPT Cury";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman";
         side = 2;
-        faction = "B_PhilippinesArmy_Woodland";
+        faction = "I_PhilippinesArmy_Woodland";
         identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
         uniformClass = "U_I_CombatUniform";
         linkedItems[] = {"V_CarrierRigKBT_01_light_Olive_F","H_HelmetIA","ItemMap","ItemRadio","ItemCompass","ItemWatch","ACE_NVG_Gen4_Black"};
@@ -136,13 +136,13 @@
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
     };
-    class B_PhilippinesArmy_Autorifleman_Woodland_01 : B_PhilippinesArmy_Rifleman_Woodland_01 {
+    class I_PhilippinesArmy_Autorifleman_Woodland_01 : I_PhilippinesArmy_Rifleman_Woodland_01 {
         author = "CPT Cury";
         scope = 2;
         scopeCurator = 2;
         displayName = "Autorifleman";
         side = 2;
-        faction = "B_PhilippinesArmy_Woodland";
+        faction = "I_PhilippinesArmy_Woodland";
         identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
         uniformClass = "U_I_CombatUniform";
         linkedItems[] = {"V_CarrierRigKBT_01_light_Olive_F","H_HelmetIA","ItemMap","ItemRadio","ItemCompass","ItemWatch","ACE_NVG_Gen4_Black"};
@@ -161,13 +161,13 @@
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
     };
-    class B_PhilippinesArmy_Light_AT_Woodland_01 : B_PhilippinesArmy_Rifleman_Woodland_01 {
+    class I_PhilippinesArmy_Light_AT_Woodland_01 : I_PhilippinesArmy_Rifleman_Woodland_01 {
         author = "CPT Cury";
         scope = 2;
         scopeCurator = 2;
         displayName = "Light AT";
         side = 2;
-        faction = "B_PhilippinesArmy_Woodland";
+        faction = "I_PhilippinesArmy_Woodland";
         identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
         uniformClass = "U_I_CombatUniform";
         linkedItems[] = {"V_CarrierRigKBT_01_light_Olive_F","H_HelmetIA","ItemMap","ItemRadio","ItemCompass","ItemWatch","ACE_NVG_Gen4_Black"};
@@ -186,13 +186,13 @@
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
     };
-    class B_PhilippinesArmy_Light_AA_Woodland_01 : B_PhilippinesArmy_Rifleman_Woodland_01 {
+    class I_PhilippinesArmy_Light_AA_Woodland_01 : I_PhilippinesArmy_Rifleman_Woodland_01 {
         author = "CPT Cury";
         scope = 2;
         scopeCurator = 2;
         displayName = "AA";
         side = 2;
-        faction = "B_PhilippinesArmy_Woodland";
+        faction = "I_PhilippinesArmy_Woodland";
         identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
         uniformClass = "U_I_CombatUniform";
         linkedItems[] = {"V_CarrierRigKBT_01_light_Olive_F","H_HelmetIA","ItemMap","ItemRadio","ItemCompass","ItemWatch","ACE_NVG_Gen4_Black"};
@@ -211,13 +211,13 @@
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
     };
-    class B_PhilippinesArmy_Heavy_AT_Woodland_01 : B_PhilippinesArmy_Rifleman_Woodland_01 {
+    class I_PhilippinesArmy_Heavy_AT_Woodland_01 : I_PhilippinesArmy_Rifleman_Woodland_01 {
         author = "CPT Cury";
         scope = 2;
         scopeCurator = 2;
         displayName = "Heavy AT";
         side = 2;
-        faction = "B_PhilippinesArmy_Woodland";
+        faction = "I_PhilippinesArmy_Woodland";
         identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
         uniformClass = "U_I_CombatUniform_shortsleeve";
         linkedItems[] = {"V_CarrierRigKBT_01_light_Olive_F","H_HelmetIA","ItemMap","ItemRadio","ItemCompass","ItemWatch","ACE_NVG_Gen4_Black"};
@@ -236,13 +236,13 @@
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
     };
-    class B_PhilippinesArmy_Marksman_Woodland_01 : B_PhilippinesArmy_Rifleman_Woodland_01 {
+    class I_PhilippinesArmy_Marksman_Woodland_01 : I_PhilippinesArmy_Rifleman_Woodland_01 {
         author = "CPT Cury";
         scope = 2;
         scopeCurator = 2;
         displayName = "Marksman";
         side = 2;
-        faction = "B_PhilippinesArmy_Woodland";
+        faction = "I_PhilippinesArmy_Woodland";
         identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
         uniformClass = "U_I_CombatUniform_shortsleeve";
         linkedItems[] = {"V_CarrierRigKBT_01_light_Olive_F","H_HelmetIA","ItemMap","ItemRadio","ItemCompass","ItemWatch","ACE_NVG_Gen4_Black"};
@@ -261,13 +261,13 @@
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
     };
-    class B_PhilippinesArmy_JTAC_Woodland_01 : B_PhilippinesArmy_Rifleman_Woodland_01 {
+    class I_PhilippinesArmy_JTAC_Woodland_01 : I_PhilippinesArmy_Rifleman_Woodland_01 {
         author = "CPT Cury";
         scope = 2;
         scopeCurator = 2;
         displayName = "JTAC";
         side = 2;
-        faction = "B_PhilippinesArmy_Woodland";
+        faction = "I_PhilippinesArmy_Woodland";
         identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
         uniformClass = "U_I_CombatUniform_shortsleeve";
         linkedItems[] = {"V_CarrierRigKBT_01_light_Olive_F","H_HelmetIA","ItemMap","ItemRadio","ItemCompass","ItemWatch","ACE_NVG_Gen4_Black"};
@@ -286,13 +286,13 @@
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
     };
-    class B_PhilippinesArmy_Grenadier_Woodland_01 : B_PhilippinesArmy_Rifleman_Woodland_01 {
+    class I_PhilippinesArmy_Grenadier_Woodland_01 : I_PhilippinesArmy_Rifleman_Woodland_01 {
         author = "CPT Cury";
         scope = 2;
         scopeCurator = 2;
         displayName = "Grenadier";
         side = 2;
-        faction = "B_PhilippinesArmy_Woodland";
+        faction = "I_PhilippinesArmy_Woodland";
         identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
         uniformClass = "U_I_CombatUniform_shortsleeve";
         linkedItems[] = {"V_CarrierRigKBT_01_light_Olive_F","H_HelmetIA","ItemMap","ItemRadio","ItemCompass","ItemWatch","ACE_NVG_Gen4_Black"};
@@ -311,13 +311,13 @@
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
     };
-    class B_PhilippinesArmy_Crewman_Woodland_01 : B_PhilippinesArmy_Rifleman_Woodland_01 {
+    class I_PhilippinesArmy_Crewman_Woodland_01 : I_PhilippinesArmy_Rifleman_Woodland_01 {
         author = "CPT Cury";
         scope = 2;
         scopeCurator = 2;
         displayName = "Crewman";
         side = 2;
-        faction = "B_PhilippinesArmy_Woodland";
+        faction = "I_PhilippinesArmy_Woodland";
         identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
         uniformClass = "U_Tank_green_F";
         linkedItems[] = {"H_HelmetCrew_I","ItemMap","ItemRadio","ItemCompass","ItemWatch","ACE_NVG_Gen4_Black"};
@@ -337,13 +337,13 @@
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
     };
-    class B_PhilippinesArmy_Pilot_Woodland_01 : B_PhilippinesArmy_Rifleman_Woodland_01 {
+    class I_PhilippinesArmy_Pilot_Woodland_01 : I_PhilippinesArmy_Rifleman_Woodland_01 {
         author = "CPT Cury";
         scope = 2;
         scopeCurator = 2;
         displayName = "Pilot";
         side = 2;
-        faction = "B_PhilippinesArmy_Woodland";
+        faction = "I_PhilippinesArmy_Woodland";
         identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
         uniformClass = "U_I_CombatUniform";
         linkedItems[] = {"V_CarrierRigKBT_01_light_Olive_F","H_CrewHelmetHeli_O","ItemMap","ItemRadio","ItemCompass","ItemWatch","ACE_NVG_Gen4_Black"};
@@ -362,13 +362,13 @@
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
     };
-    class B_PhilippinesArmy_Officer_Woodland_01 : B_PhilippinesArmy_Rifleman_Woodland_01 {
+    class I_PhilippinesArmy_Officer_Woodland_01 : I_PhilippinesArmy_Rifleman_Woodland_01 {
         author = "CPT Cury";
         scope = 2;
         scopeCurator = 2;
         displayName = "Officer";
         side = 2;
-        faction = "B_PhilippinesArmy_Woodland";
+        faction = "I_PhilippinesArmy_Woodland";
         identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
         uniformClass = "U_I_OfficerUniform";
         linkedItems[] = {"V_CarrierRigKBT_01_light_Olive_F","SP_Beret_Black","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -387,16 +387,16 @@
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
     };
-    class B_PhilippinesArmy_M1A2_Abrams_Woodland_01 : CUP_B_M1A1_Woodland_US_Army_OCimport_02 {
+    class I_PhilippinesArmy_M1A2_Abrams_Woodland_01 : CUP_B_M1A1_Woodland_US_Army_OCimport_02 {
         author = "CPT Cury";
         scope = 2;
         scopeCurator = 2;
         displayName = "M1A2 Abrams";
         side = 2;
-        faction = "B_PhilippinesArmy_Woodland";
-        crew = "B_PhilippinesArmy_Crewman_Woodland_01";
+        faction = "I_PhilippinesArmy_Woodland";
+        crew = "I_PhilippinesArmy_Crewman_Woodland_01";
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "B_PhilippinesArmy_Crewman_Woodland_01"; };
+            class MainTurret : MainTurret { gunnerType = "I_PhilippinesArmy_Crewman_Woodland_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -416,16 +416,16 @@
         ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_texture = "Woodland";
     };
-    class B_PhilippinesArmy_M1126_ICV_M2_Woodland_01 : CUP_B_M1126_ICV_M2_Woodland_OCimport_02 {
+    class I_PhilippinesArmy_M1126_ICV_M2_Woodland_01 : CUP_B_M1126_ICV_M2_Woodland_OCimport_02 {
         author = "CPT Cury";
         scope = 2;
         scopeCurator = 2;
         displayName = "M1126 ICV M2";
         side = 2;
-        faction = "B_PhilippinesArmy_Woodland";
-        crew = "B_PhilippinesArmy_Crewman_Woodland_01";
+        faction = "I_PhilippinesArmy_Woodland";
+        crew = "I_PhilippinesArmy_Crewman_Woodland_01";
         class Turrets : Turrets {
-            class ObsTurret : ObsTurret { gunnerType = "B_PhilippinesArmy_Crewman_Woodland_01"; };
+            class ObsTurret : ObsTurret { gunnerType = "I_PhilippinesArmy_Crewman_Woodland_01"; };
             // class CommanderTurret : CommanderTurret { gunnerType = "CFP_B_USARMY_2003_Crewman_WDL_01"; };
         };
         class EventHandlers : EventHandlers {
@@ -438,16 +438,16 @@
         ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_texture = "Woodland";
     };
-    class B_PhilippinesArmy_M2_HUMVEE_Woodland_01 : CFP_B_USARMY_2003_HMMWV_M2_WDL_01_OCimport_02 {
+    class I_PhilippinesArmy_M2_HUMVEE_Woodland_01 : CFP_B_USARMY_2003_HMMWV_M2_WDL_01_OCimport_02 {
         author = "CPT Cury";
         scope = 2;
         scopeCurator = 2;
         displayName = "M2 HUMVEE";
         side = 2;
-        faction = "B_PhilippinesArmy_Woodland";
-        crew = "B_PhilippinesArmy_Rifleman_Woodland_01";
+        faction = "I_PhilippinesArmy_Woodland";
+        crew = "I_PhilippinesArmy_Rifleman_Woodland_01";
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "B_PhilippinesArmy_Rifleman_Woodland_01"; };
+            class MainTurret : MainTurret { gunnerType = "I_PhilippinesArmy_Rifleman_Woodland_01"; };
         };
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -458,16 +458,16 @@
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
     };
-    class B_PhilippinesArmy_MK19_HUMVEE_Woodland_01 : CFP_B_USARMY_2003_HMMWV_MK19_WDL_01_OCimport_02 {
+    class I_PhilippinesArmy_MK19_HUMVEE_Woodland_01 : CFP_B_USARMY_2003_HMMWV_MK19_WDL_01_OCimport_02 {
         author = "CPT Cury";
         scope = 2;
         scopeCurator = 2;
         displayName = "MK19 HUMVEE";
         side = 2;
-        faction = "B_PhilippinesArmy_Woodland";
-        crew = "B_PhilippinesArmy_Rifleman_Woodland_01";
+        faction = "I_PhilippinesArmy_Woodland";
+        crew = "I_PhilippinesArmy_Rifleman_Woodland_01";
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "B_PhilippinesArmy_Rifleman_Woodland_01"; };
+            class MainTurret : MainTurret { gunnerType = "I_PhilippinesArmy_Rifleman_Woodland_01"; };
         };
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -478,18 +478,18 @@
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
     };
-    class B_PhilippinesArmy_UH_60_Woodland_01 : CFP_B_USARMY_2003_UH_60M_WDL_01_OCimport_02 {
+    class I_PhilippinesArmy_UH_60_Woodland_01 : CFP_B_USARMY_2003_UH_60M_WDL_01_OCimport_02 {
         author = "CPT Cury";
         scope = 2;
         scopeCurator = 2;
         displayName = "UH-60";
         side = 2;
-        faction = "B_PhilippinesArmy_Woodland";
-        crew = "B_PhilippinesArmy_Pilot_Woodland_01";
+        faction = "I_PhilippinesArmy_Woodland";
+        crew = "I_PhilippinesArmy_Pilot_Woodland_01";
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "B_PhilippinesArmy_Pilot_Woodland_01"; };
-            class MainTurret : MainTurret { gunnerType = "B_PhilippinesArmy_Crewman_Woodland_01"; };
-            class RightDoorGun : RightDoorGun { gunnerType = "B_PhilippinesArmy_Crewman_Woodland_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "I_PhilippinesArmy_Pilot_Woodland_01"; };
+            class MainTurret : MainTurret { gunnerType = "I_PhilippinesArmy_Crewman_Woodland_01"; };
+            class RightDoorGun : RightDoorGun { gunnerType = "I_PhilippinesArmy_Crewman_Woodland_01"; };
         };
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -500,16 +500,16 @@
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
     };
-    class B_PhilippinesArmy_M2_STANDING_Woodland_01 : CFP_B_USARMY_2003_M2_Machine_Gun_WDL_01_OCimport_02 {
+    class I_PhilippinesArmy_M2_STANDING_Woodland_01 : CFP_B_USARMY_2003_M2_Machine_Gun_WDL_01_OCimport_02 {
         author = "CPT Cury";
         scope = 2;
         scopeCurator = 2;
         displayName = "M2 STANDING";
         side = 2;
-        faction = "B_PhilippinesArmy_Woodland";
+        faction = "I_PhilippinesArmy_Woodland";
         crew = "CFP_B_USARMY_2003_Rifleman_WDL_01";
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "B_PhilippinesArmy_Rifleman_Woodland_01"; };
+            class MainTurret : MainTurret { gunnerType = "I_PhilippinesArmy_Rifleman_Woodland_01"; };
         };
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -533,13 +533,13 @@
     class I_Truck_02_ammo_F;
     class CFP_B_USARMY_1991_HMMWV_Avenger_Des_01;
 
-    class B_PhilippinesArmy_Woodland_Jet_Pilot: B_PhilippinesArmy_Pilot_Woodland_01 {
-        faction = "B_PhilippinesArmy_Woodland";
+    class I_PhilippinesArmy_Woodland_Jet_Pilot: I_PhilippinesArmy_Pilot_Woodland_01 {
+        faction = "I_PhilippinesArmy_Woodland";
         side = 2;
         displayName="Jet Pilot";
         uniformClass="U_I_pilotCoveralls";
-        weapons[]={"B_PhilippinesArmy_Woodland_CUP_hgun_M9A1","Put","Throw"};
-        respawnWeapons[]={"B_PhilippinesArmy_Woodland_CUP_hgun_M9A1","Put","Throw"};
+        weapons[]={"I_PhilippinesArmy_Woodland_CUP_hgun_M9A1","Put","Throw"};
+        respawnWeapons[]={"I_PhilippinesArmy_Woodland_CUP_hgun_M9A1","Put","Throw"};
         items[]={"ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_tourniquet","ACE_tourniquet"};
         respawnItems[]={"ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_tourniquet","ACE_tourniquet"};
         magazines[]={"CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
@@ -548,91 +548,91 @@
         respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","H_PilotHelmetFighter_I","V_CarrierRigKBT_01_light_Olive_F"};
         backpack="";
     };
-    class B_PhilippinesArmy_Woodland_M113A3: CUP_B_M113A1_olive_USA {
-        faction = "B_PhilippinesArmy_Woodland";
+    class I_PhilippinesArmy_Woodland_M113A3: CUP_B_M113A1_olive_USA {
+        faction = "I_PhilippinesArmy_Woodland";
         side = 2;
         displayName="M113A3";
         hiddenSelectionsTextures[]={"cup\trackedvehicles\cup_trackedvehicles_newm113\data\camo\aaf\main_co.paa","cup\trackedvehicles\cup_trackedvehicles_newm113\data\camo\aaf\unique_co.paa","cup\trackedvehicles\cup_trackedvehicles_newm113\data\camo\aaf\accessories_co.paa","","cup\trackedvehicles\cup_trackedvehicles_m1abrams\data\usarmy_marks\w_front_ca.paa","cup\vehicles\cup_vehicles_core\data\fonts\stencilfont\1_ca.paa","cup\vehicles\cup_vehicles_core\data\fonts\stencilfont\4_ca.paa"};
-        crew="B_PhilippinesArmy_Woodland_Crewman";
-        typicalCargo[]={"B_PhilippinesArmy_Woodland_Crewman"};
+        crew="I_PhilippinesArmy_Woodland_Crewman";
+        typicalCargo[]={"I_PhilippinesArmy_Woodland_Crewman"};
     };
-    class B_PhilippinesArmy_Woodland_M113A3_MEV: CUP_B_M113A3_Med_olive_USA {
-        faction = "B_PhilippinesArmy_Woodland";
+    class I_PhilippinesArmy_Woodland_M113A3_MEV: CUP_B_M113A3_Med_olive_USA {
+        faction = "I_PhilippinesArmy_Woodland";
         side = 2;
         displayName="M113A3 MEV";
         hiddenSelectionsTextures[]={"cup\trackedvehicles\cup_trackedvehicles_newm113\data\camo\aaf\main_co.paa","cup\trackedvehicles\cup_trackedvehicles_newm113\data\camo\aaf\unique_co.paa","cup\trackedvehicles\cup_trackedvehicles_newm113\data\camo\aaf\accessories_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_newhmmwv\data\decals\red_crystal_co.paa","cup\trackedvehicles\cup_trackedvehicles_m1abrams\data\usarmy_marks\w_front_ca.paa","cup\vehicles\cup_vehicles_core\data\fonts\stencilfont\6_ca.paa","cup\vehicles\cup_vehicles_core\data\fonts\stencilfont\4_ca.paa"};
-        crew="B_PhilippinesArmy_Woodland_Crewman";
-        typicalCargo[]={"B_PhilippinesArmy_Woodland_Crewman"};
+        crew="I_PhilippinesArmy_Woodland_Crewman";
+        typicalCargo[]={"I_PhilippinesArmy_Woodland_Crewman"};
     };
-    class B_PhilippinesArmy_Woodland_M113A3_HQ: CUP_B_M113A3_HQ_olive_USA {
-        faction = "B_PhilippinesArmy_Woodland";
+    class I_PhilippinesArmy_Woodland_M113A3_HQ: CUP_B_M113A3_HQ_olive_USA {
+        faction = "I_PhilippinesArmy_Woodland";
         side = 2;
         displayName="M113A3 HQ";
         hiddenSelectionsTextures[]={"cup\trackedvehicles\cup_trackedvehicles_newm113\data\camo\olive\main_co.paa","cup\trackedvehicles\cup_trackedvehicles_newm113\data\camo\olive\unique_co.paa","cup\trackedvehicles\cup_trackedvehicles_newm113\data\camo\olive\accessories_co.paa","","cup\trackedvehicles\cup_trackedvehicles_m1abrams\data\usarmy_marks\w_front_ca.paa","cup\vehicles\cup_vehicles_core\data\fonts\stencilfont\2_ca.paa","cup\vehicles\cup_vehicles_core\data\fonts\stencilfont\4_ca.paa"};
-        crew="B_PhilippinesArmy_Woodland_Crewman";
-        typicalCargo[]={"B_PhilippinesArmy_Woodland_Crewman"};
+        crew="I_PhilippinesArmy_Woodland_Crewman";
+        typicalCargo[]={"I_PhilippinesArmy_Woodland_Crewman"};
     };
-    class B_PhilippinesArmy_Woodland_Pandur: I_APC_Wheeled_03_cannon_F {
-        faction = "B_PhilippinesArmy_Woodland";
+    class I_PhilippinesArmy_Woodland_Pandur: I_APC_Wheeled_03_cannon_F {
+        faction = "I_PhilippinesArmy_Woodland";
         side = 2;
         displayName="Pandur";
         hiddenSelectionsTextures[]={"a3\armor_f_gamma\apc_wheeled_03\data\apc_wheeled_03_ext_indp_co.paa","a3\armor_f_gamma\apc_wheeled_03\data\apc_wheeled_03_ext2_indp_co.paa","a3\armor_f_gamma\apc_wheeled_03\data\rcws30_indp_co.paa","a3\armor_f_gamma\apc_wheeled_03\data\apc_wheeled_03_ext_alpha_indp_co.paa","a3\armor_f\data\camonet_aaf_digi_green_co.paa","a3\armor_f\data\cage_aaf_co.paa"};
-        crew="B_PhilippinesArmy_Crewman_Woodland_01";
-        typicalCargo[]={"B_PhilippinesArmy_Crewman_Woodland_01"};
+        crew="I_PhilippinesArmy_Crewman_Woodland_01";
+        typicalCargo[]={"I_PhilippinesArmy_Crewman_Woodland_01"};
     };
-    class B_PhilippinesArmy_Woodland_C130: CUP_I_C130J_AAF {
-        faction = "B_PhilippinesArmy_Woodland";
+    class I_PhilippinesArmy_Woodland_C130: CUP_I_C130J_AAF {
+        faction = "I_PhilippinesArmy_Woodland";
         side = 2;
         displayName="C130";
         hiddenSelectionsTextures[]={"cup\airvehicles\cup_airvehicles_c130j\data\textures\c130j_body_aaf_co.paa","cup\airvehicles\cup_airvehicles_c130j\data\textures\c130j_wings_aaf_co.paa"};
-        crew="B_PhilippinesArmy_Woodland_Jet_Pilot";
-        typicalCargo[]={"B_PhilippinesArmy_Woodland_Jet_Pilot"};
+        crew="I_PhilippinesArmy_Woodland_Jet_Pilot";
+        typicalCargo[]={"I_PhilippinesArmy_Woodland_Jet_Pilot"};
     };
-    class B_PhilippinesArmy_Woodland_L_39ZA: CUP_I_L39_AAF {
-        faction = "B_PhilippinesArmy_Woodland";
+    class I_PhilippinesArmy_Woodland_L_39ZA: CUP_I_L39_AAF {
+        faction = "I_PhilippinesArmy_Woodland";
         side = 2;
         displayName="L 39ZA";
         hiddenSelectionsTextures[]={"a3\air_f_gamma\plane_fighter_03\data\plane_fighter_03_body_1_indp_co.paa","a3\air_f_gamma\plane_fighter_03\data\plane_fighter_03_body_2_indp_co.paa"};
-        crew="B_PhilippinesArmy_Woodland_Jet_Pilot";
-        typicalCargo[]={"B_PhilippinesArmy_Woodland_Jet_Pilot"};
+        crew="I_PhilippinesArmy_Woodland_Jet_Pilot";
+        typicalCargo[]={"I_PhilippinesArmy_Woodland_Jet_Pilot"};
     };
-    class B_PhilippinesArmy_Woodland_KamAZ: I_Truck_02_covered_F {
-        faction = "B_PhilippinesArmy_Woodland";
+    class I_PhilippinesArmy_Woodland_KamAZ: I_Truck_02_covered_F {
+        faction = "I_PhilippinesArmy_Woodland";
         side = 2;
         displayName="KamAZ";
         hiddenSelectionsTextures[]={"a3\soft_f_beta\truck_02\data\truck_02_kab_indp_co.paa","a3\soft_f_beta\truck_02\data\truck_02_kuz_indp_co.paa","a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
-        crew="B_PhilippinesArmy_Rifleman_Woodland_01";
-        typicalCargo[]={"B_PhilippinesArmy_Rifleman_Woodland_01"};
+        crew="I_PhilippinesArmy_Rifleman_Woodland_01";
+        typicalCargo[]={"I_PhilippinesArmy_Rifleman_Woodland_01"};
     };
-    class B_PhilippinesArmy_Woodland_KamAZ_MEV: I_Truck_02_medical_F {
-        faction = "B_PhilippinesArmy_Woodland";
+    class I_PhilippinesArmy_Woodland_KamAZ_MEV: I_Truck_02_medical_F {
+        faction = "I_PhilippinesArmy_Woodland";
         side = 2;
         displayName="KamAZ MEV";
         hiddenSelectionsTextures[]={"a3\soft_f_beta\truck_02\data\truck_02_kab_indp_co.paa","a3\soft_f_beta\truck_02\data\truck_02_kuz_indp_co.paa","a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
-        crew="B_PhilippinesArmy_Rifleman_Woodland_01";
-        typicalCargo[]={"B_PhilippinesArmy_Rifleman_Woodland_01"};
+        crew="I_PhilippinesArmy_Rifleman_Woodland_01";
+        typicalCargo[]={"I_PhilippinesArmy_Rifleman_Woodland_01"};
     };
-    class B_PhilippinesArmy_Woodland_KamAZ_Fuel: I_Truck_02_fuel_F {
-        faction = "B_PhilippinesArmy_Woodland";
+    class I_PhilippinesArmy_Woodland_KamAZ_Fuel: I_Truck_02_fuel_F {
+        faction = "I_PhilippinesArmy_Woodland";
         side = 2;
         displayName="KamAZ Fuel";
         hiddenSelectionsTextures[]={"a3\soft_f_beta\truck_02\data\truck_02_kab_indp_co.paa","a3\soft_f_beta\truck_02\data\truck_02_fuel_indp_co.paa","a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
-        crew="B_PhilippinesArmy_Rifleman_Woodland_01";
-        typicalCargo[]={"B_PhilippinesArmy_Rifleman_Woodland_01"};
+        crew="I_PhilippinesArmy_Rifleman_Woodland_01";
+        typicalCargo[]={"I_PhilippinesArmy_Rifleman_Woodland_01"};
     };
-    class B_PhilippinesArmy_Woodland_KamAZ_Ammo: I_Truck_02_ammo_F {
-        faction = "B_PhilippinesArmy_Woodland";
+    class I_PhilippinesArmy_Woodland_KamAZ_Ammo: I_Truck_02_ammo_F {
+        faction = "I_PhilippinesArmy_Woodland";
         side = 2;
         displayName="KamAZ Ammo";
         hiddenSelectionsTextures[]={"a3\soft_f_beta\truck_02\data\truck_02_kab_indp_co.paa","a3\soft_f_beta\truck_02\data\truck_02_repair_indp_co.paa","a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
-        crew="B_PhilippinesArmy_Rifleman_Woodland_01";
-        typicalCargo[]={"B_PhilippinesArmy_Rifleman_Woodland_01"};
+        crew="I_PhilippinesArmy_Rifleman_Woodland_01";
+        typicalCargo[]={"I_PhilippinesArmy_Rifleman_Woodland_01"};
     };
-    class B_PhilippinesArmy_Woodland_Avenger: CFP_B_USARMY_1991_HMMWV_Avenger_Des_01 {
-        faction = "B_PhilippinesArmy_Woodland";
+    class I_PhilippinesArmy_Woodland_Avenger: CFP_B_USARMY_1991_HMMWV_Avenger_Des_01 {
+        faction = "I_PhilippinesArmy_Woodland";
         side = 2;
         displayName="Avenger";
         hiddenSelectionsTextures[]={"cup\wheeledvehicles\cup_wheeledvehicles_hmmwv\data\textures\nato_t_hmmwv_body_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_hmmwv\data\textures\nato_t_m998a2_avenger_1_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_hmmwv\data\textures\nato_t_m998a2_avenger_3_co.paa"};
-        crew="B_PhilippinesArmy_Crewman_Woodland_01";
-        typicalCargo[]={"B_PhilippinesArmy_Crewman_Woodland_01"};
+        crew="I_PhilippinesArmy_Crewman_Woodland_01";
+        typicalCargo[]={"I_PhilippinesArmy_Crewman_Woodland_01"};
     };

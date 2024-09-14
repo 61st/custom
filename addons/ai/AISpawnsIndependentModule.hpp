@@ -56,7 +56,7 @@ class LXIM_ModuleAISpawnsIndependent: Module_F {
                     class rhssaf_faction_un    {name = "@RHS SAF - SAF (UN Peacekeepers)";      value = "rhssaf_faction_un";};
                     class IND_F       {name = "Vanilla - AAF";          value = "IND_F";};
                     class IND_C_F       {name = "Vanilla - Syndikat";          value = "IND_C_F";};
-                    class I_CebuArmy_Woodland      {name = "61st Cebu Armed Forces";       value = "I_CebuArmy_Woodland";};
+                    class O_CebuArmy_Woodland      {name = "61st Cebu Armed Forces";       value = "O_CebuArmy_Woodland";};
                 };    
             };
         class GarrRadius: Edit {

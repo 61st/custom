@@ -68,7 +68,7 @@ class LXIM_ModuleAISpawnsWest: Module_F {
                     class rhs_faction_usarmy_wd    {name = "@RHS USAF  - USA Army - Woodland";      value = "rhs_faction_usarmy_wd";};
                     class BLU_F        {name = "Vanilla - NATO";           value = "BLU_F";};
                     class BLU_T_F       {name = "Vanilla - NATO (Pacific)";        value = "BLU_T_F";};
-                    class B_PhilippinesArmy_Woodland        {name = "61st Philippines Armed Forces";           value = "B_PhilippinesArmy_Woodland";};
+                    class I_PhilippinesArmy_Woodland        {name = "61st Philippines Armed Forces";           value = "I_PhilippinesArmy_Woodland";};
                 };
             };
         class GarrRadius: Edit {

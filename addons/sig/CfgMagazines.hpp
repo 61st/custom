@@ -54,18 +54,21 @@ class CfgMagazines {
         displayname="[61st] 150rnd .277 Fury";
         displaynameshort=".277";
         count=150;
+        ACE_isBelt = 1;
         mass=50;
     };
     class GVAR(150Rnd_Fury_blk): KAR_100Rnd_Fury_blk {
         displayname="[61st] 150rnd .277 Fury (Black)";
         displaynameshort=".277";
         count=150;
+        ACE_isBelt = 1;
         mass=50;
     };
     class GVAR(150Rnd_Fury_RT): KAR_100Rnd_Fury_RT {
         displayname="[61st] 150rnd .277 Fury (Red Tracer)";
         displaynameshort=".277 (Red Tracer)";
         count=150;
+        ACE_isBelt = 1;
         mass=50;
         tracersEvery = 5;
     };
@@ -73,6 +76,7 @@ class CfgMagazines {
         displaynameshort=".277 (Red Tracer)";
         displayname="[61st] 150rnd .277 Fury (Black/Red Tracer)";
         count=150;
+        ACE_isBelt = 1;
         mass=50;
         tracersEvery = 5;
     };
