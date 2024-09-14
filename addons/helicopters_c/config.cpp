@@ -7,7 +7,8 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "lxim_main"
+            "lxim_main",
+            "CUP_AirVehicles_AH64"
         };
         skipWhenMissingDependencies = 1;
         authorUrl = URL;

@@ -1900,12 +1900,187 @@ class CfgVehicles {
                 factions[] = {QUOTE(PREFIX)};
             };
         };
+        class AnimationSources {
+            class BreakWater {
+                source = "user";
+                initPhase = 0;
+                animPeriod = 2;
+            };
+            class Missiles_revolving {
+                source = "revolving";
+                weapon = "missiles_titan";
+            };
+            class Missiles_reloadMagazine: Missiles_revolving {
+                source = "reloadMagazine";
+            };
+            class muzzle_rot {
+                source = "ammorandom";
+                weapon = "autocannon_30mm_CTWS";
+            };
+            class muzzle_hide {
+                source = "reload";
+                weapon = "autocannon_30mm_CTWS";
+            };
+            class HitEngine_src {
+                source = "Hit";
+                hitpoint = "HitEngine";
+                raw = 1;
+            };
+            class HitFuel_src {
+                source = "Hit";
+                hitpoint = "HitFuel";
+                raw = 1;
+            };
+            class HitHull_src {
+                source = "Hit";
+                hitpoint = "HitHull";
+                raw = 1;
+            };
+            class HitMainGun_src {
+                source = "Hit";
+                hitpoint = "HitGun";
+                raw = 1;
+            };
+            class HitTurret_src {
+                source = "Hit";
+                hitpoint = "HitTurret";
+                raw = 1;
+            };
+            class HitComTurret_src {
+                source = "Hit";
+                hitpoint = "HitComTurret";
+                raw = 1;
+            };
+            class HitSLAT_Left_1_src {
+                source = "Hit";
+                hitpoint = "HitSLAT_Left_1";
+                raw = 1;
+            };
+            class HitSLAT_Left_2_src {
+                source = "Hit";
+                hitpoint = "HitSLAT_Left_2";
+                raw = 1;
+            };
+            class HitSLAT_Left_3_src {
+                source = "Hit";
+                hitpoint = "HitSLAT_Left_3";
+                raw = 1;
+            };
+            class HitSLAT_Right_1_src {
+                source = "Hit";
+                hitpoint = "HitSLAT_Right_1";
+                raw = 1;
+            };
+            class HitSLAT_Right_2_src {
+                source = "Hit";
+                hitpoint = "HitSLAT_Right_2";
+                raw = 1;
+            };
+            class HitSLAT_Right_3_src {
+                source = "Hit";
+                hitpoint = "HitSLAT_Right_3";
+                raw = 1;
+            };
+            class HitSLAT_back_src {
+                source = "Hit";
+                hitpoint = "HitSLAT_back";
+                raw = 1;
+            };
+            class HitSLAT_front_src {
+                source = "Hit";
+                hitpoint = "HitSLAT_front";
+                raw = 1;
+            };
+            class showCamonetHull {
+                displayName = "$STR_A3_animationsources_showcamonethull0";
+                author = QAUTHOR;
+                source = "user";
+                animPeriod = 0.001;
+                initPhase = 0;
+                mass = -50;
+            };
+            class showBags {
+                displayName = "$STR_A3_animationsources_showbagshull0";
+                author = QAUTHOR;
+                source = "user";
+                animPeriod = 0.001;
+                initPhase = 0;
+                mass = -50;
+            };
+            class showBags2 {
+                displayName = "$STR_A3_animationsources_showbagsturret0";
+                author = QAUTHOR;
+                source = "user";
+                animPeriod = 0.001;
+                initPhase = 1;
+                mass = -50;
+            };
+            class showTools {
+                displayName = "$STR_A3_animationsources_showtoolshull0";
+                author = QAUTHOR;
+                source = "user";
+                animPeriod = 0.001;
+                initPhase = 1;
+                mass = -50;
+            };
+            class showSLATHull {
+                displayName = "$STR_A3_animationsources_showslathull0";
+                author = QAUTHOR;
+                source = "user";
+                animPeriod = 0.001;
+                initPhase = 0;
+                mass = -50;
+            };
+        };
         driverCanSee = "4+8+2+32+16";
         gunnerCanSee = "4+2+8+32+16";
         weapons[] = {"TruckHorn","SmokeLauncher"};
         magazines[] = {"SmokeLauncherMag"};
         class Turrets {};
         threat[] = {0,0,0};
+        class HitPoints: HitPoints {
+            class HitBody {
+                armor = 1.8;  // Increased body armor
+                explosionShielding = 1.9;  // Increased explosion shielding
+                material = -1;
+                name = "karoserie";
+                passThrough = 0.6;  // Reduced passthrough
+                visual = "zbytek";
+            };
+            class HitEngine: HitEngine {
+                armor = 1.8;  // Increased engine armor
+                armorComponent = "hit_engine";
+                explosionShielding = 0.6;  // Increased explosion shielding
+                material = -1;
+                minimalHit = 0.1;
+                name = "hit_engine_point";
+                passThrough = 0.05;  // Reduced passthrough
+                radius = 0.2;
+                visual = "-";
+            };
+            class HitFuel: HitFuel {
+                armor = 1.2;  // Increased fuel tank armor
+                armorComponent = "hit_fuel";
+                explosionShielding = 0.6;  // Increased explosion shielding
+                material = -1;
+                minimalHit = 0.1;
+                name = "hit_fuel_point";
+                passThrough = 0.3;  // Reduced passthrough
+                radius = 0.2;
+                visual = "-";
+            };
+            class HitHull: HitHull {
+                armor = 3.0;  // Increased hull armor
+                armorComponent = "hit_hull";
+                explosionShielding = 0.2;
+                material = -1;
+                minimalHit = 0.1;
+                name = "hit_hull_point";
+                passThrough = 0.6;  // Reduced passthrough
+                radius = 0.2;
+                visual = "zbytek";
+            };
+        };
     };
 
     class lxim_outlaw_Unarmed_g: lxim_outlaw_unarmed_base_F {

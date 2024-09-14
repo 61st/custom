@@ -177,30 +177,25 @@ class CfgWeapons {
     class V_tweed_iotv_mk4_base : Vest_Camo_Base {
         displayName="[US] IOTV";
         class ItemInfo : VestItem {
-            containerClass="Supply80";
+            containerClass="Supply100";
             mass=75;
-            class HitpointsProtectionInfo
-            {
-                class Chest
-                {
+            class HitpointsProtectionInfo {
+                class Chest {
                     hitpointName="HitChest";
                     armor=30;
                     passThrough=0.2;
                 };
-                class Diaphragm
-                {
+                class Diaphragm {
                     hitpointName="HitDiaphragm";
                     armor=30;
                     passThrough=0.2;
                 };
-                class Abdomen
-                {
+                class Abdomen {
                     hitpointName="HitAbdomen";
                     armor=30;
                     passThrough=0.2;
                 };
-                class Body
-                {
+                class Body {
                     hitpointName="HitBody";
                     passThrough=0.2;
                 };
@@ -210,34 +205,34 @@ class CfgWeapons {
     class V_tweed_iotv_mk4_e_1 : V_tweed_iotv_mk4_base {
         displayName="[US] IOTV";
         class ItemInfo : ItemInfo {
-            containerClass="Supply60";
+            containerClass="Supply80";
             mass=75;
         };
     };
     class V_tweed_iotv_mk4_e_2 : V_tweed_iotv_mk4_e_1 {
         class ItemInfo : ItemInfo {
-            containerClass="Supply60";
+            containerClass="Supply80";
             mass=75;
         };
     };
     class V_tweed_iotv_mk4_1 : V_tweed_iotv_mk4_e_1 {
         displayName="[US] IOTV";
         class ItemInfo : ItemInfo {
-            containerClass="Supply200";
+            containerClass="Supply220";
             mass=85;
         };
     };
     class V_tweed_iotv_mk4_2 : V_tweed_iotv_mk4_1 {
         displayName="[US] IOTV";
         class ItemInfo : ItemInfo {
-            containerClass="Supply200";
+            containerClass="Supply220";
             mass=85;
         };
     };
     class V_tweed_iotv_mk4_3 : V_tweed_iotv_mk4_1 {
         displayName="[US] IOTV";
         class ItemInfo : ItemInfo {
-            containerClass="Supply200";
+            containerClass="Supply220";
             mass=85;
         };
     };
@@ -258,88 +253,88 @@ class CfgWeapons {
     class V_tweed_iotv_mk4_45_1 : V_tweed_iotv_mk4_1 {
         displayName="[US] IOTV";
         class ItemInfo : ItemInfo {
-            containerClass="Supply200";
+            containerClass="Supply220";
             mass=85;
         };
     };
     class V_tweed_iotv_mk4_45_2 : V_tweed_iotv_mk4_45_1 {
         displayName="[US] IOTV";
         class ItemInfo : ItemInfo {
-            containerClass="Supply200";
+            containerClass="Supply220";
             mass=85;
         };
     };
     class V_tweed_iotv_mk4_cell_1 : V_tweed_iotv_mk4_1 {
         displayName="[US] IOTV";
         class ItemInfo : ItemInfo {
-            containerClass="Supply200";
+            containerClass="Supply220";
             mass=85;
         };
     };
     class V_tweed_iotv_mk4_cell_2 : V_tweed_iotv_mk4_1 {
         displayName="[US] IOTV";
         class ItemInfo : ItemInfo {
-            containerClass="Supply200";
+            containerClass="Supply220";
             mass=85;
         };
     };
     class V_tweed_iotv_mk4_cell_45_1 : V_tweed_iotv_mk4_45_1 {
             class ItemInfo : ItemInfo {
-            containerClass="Supply200";
+            containerClass="Supply220";
             mass=85;
         };
     };
     class V_tweed_iotv_mk4_cell_45_2 : V_tweed_iotv_mk4_45_1 {
         displayName="[US] IOTV";
         class ItemInfo : ItemInfo {
-            containerClass="Supply200";
+            containerClass="Supply220";
             mass=85;
         };
     };
     class V_tweed_iotv_mk4_4cm_1 : V_tweed_iotv_mk4_1 {
         displayName="[US] IOTV";
         class ItemInfo : ItemInfo {
-            containerClass="Supply200";
+            containerClass="Supply220";
             mass=85;
         };
     };
     class V_tweed_iotv_mk4_4cm_2 : V_tweed_iotv_mk4_4cm_1 {
             class ItemInfo : ItemInfo {
-            containerClass="Supply200";
+            containerClass="Supply220";
             mass=85;
         };
     };
     class V_tweed_iotv_mk4_cell_4cm_1 : V_tweed_iotv_mk4_4cm_1 {
             class ItemInfo : ItemInfo {
-            containerClass="Supply200";
+            containerClass="Supply220";
             mass=85;
         };
     };
     class V_tweed_msv_mk2_e_1 : V_tweed_iotv_mk4_base {
         displayName="[US] IOTV";
         class ItemInfo : ItemInfo {
-            containerClass="Supply60";
+            containerClass="Supply80";
             mass=65;
         };
     };
     class V_tweed_msv_mk2_1 : V_tweed_msv_mk2_e_1 {
         displayName="[US] IOTV";
         class ItemInfo : ItemInfo {
-            containerClass="Supply200";
+            containerClass="Supply220";
             mass=70;
         };
     };
     class V_tweed_msv_mk2_2 : V_tweed_msv_mk2_1 {
         displayName="[US] IOTV";
         class ItemInfo : ItemInfo {
-            containerClass="Supply200";
+            containerClass="Supply220";
             mass=70;
         };
     };
     class V_tweed_msv_mk2_3 : V_tweed_msv_mk2_1 {
         displayName="[US] IOTV";
         class ItemInfo : ItemInfo {
-            containerClass="Supply200";
+            containerClass="Supply220";
             mass=70;
         };
     };
@@ -360,60 +355,60 @@ class CfgWeapons {
     class V_tweed_msv_mk2_45_1 : V_tweed_msv_mk2_1 {
         displayName="[US] IOTV";
         class ItemInfo : ItemInfo {
-            containerClass="Supply200";
+            containerClass="Supply220";
             mass=70;
         };
     };
     class V_tweed_msv_mk2_45_2 : V_tweed_msv_mk2_45_1 {
         displayName="[US] IOTV";
         class ItemInfo : ItemInfo {
-            containerClass="Supply200";
+            containerClass="Supply220";
             mass=70;
         };
     };
     class V_tweed_msv_mk2_cell_1 : V_tweed_msv_mk2_1 {
         displayName="[US] IOTV";
         class ItemInfo : ItemInfo {
-            containerClass="Supply200";
+            containerClass="Supply220";
             mass=70;
         };
     };
     class V_tweed_msv_mk2_cell_2 : V_tweed_msv_mk2_1 {
         displayName="[US] IOTV";
         class ItemInfo : ItemInfo {
-            containerClass="Supply200";
+            containerClass="Supply220";
             mass=70;
         };
     };
     class V_tweed_msv_mk2_cell_45_1 : V_tweed_msv_mk2_45_1 {
         class ItemInfo : ItemInfo {
-            containerClass="Supply200";
+            containerClass="Supply220";
             mass=70;
         };
     };
     class V_tweed_msv_mk2_cell_45_2 : V_tweed_msv_mk2_45_1 {
         displayName="[US] IOTV";
         class ItemInfo : ItemInfo {
-            containerClass="Supply200";
+            containerClass="Supply220";
             mass=70;
         };
     };
     class V_tweed_msv_mk2_4cm_1 : V_tweed_msv_mk2_1 {
         displayName="[US] IOTV";
         class ItemInfo : ItemInfo {
-            containerClass="Supply200";
+            containerClass="Supply220";
             mass=70;
         };
     };
     class V_tweed_msv_mk2_4cm_2 : V_tweed_msv_mk2_4cm_1 {
         class ItemInfo : ItemInfo {
-            containerClass="Supply200";
+            containerClass="Supply220";
             mass=70;
         };
     };
     class V_tweed_msv_mk2_cell_4cm_1 : V_tweed_msv_mk2_4cm_1 {
         class ItemInfo : ItemInfo {
-            containerClass="Supply200";
+            containerClass="Supply220";
             mass=70;
         };
     };

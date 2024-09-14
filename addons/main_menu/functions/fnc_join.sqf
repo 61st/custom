@@ -26,9 +26,9 @@ if (isNil "CBA_fnc_log") then {
 // Disable Enchanced Multiplayer Menu for compatiblity with this script
 uiNamespace setVariable ["EMM_multiplayerMenu_enabled", false];
 
-INFO("Auto joining to 61st Mechanized Infantry Battalion server");
+INFO("Auto joining to 61st Mechanized Infantry Battalion Ops Server");
 
-GVAR(serverAddress) = "game5001.ghostsofbattle.com";
+GVAR(serverAddress) = "185.150.189.213";
 GVAR(serverPort) = "2302";
 GVAR(joinTimeout) = diag_tickTime + 5;
 
