@@ -162,5 +162,5 @@ PREP(AIOccupyBuilding);
 PREP(randomPos);
 PREP(ZenOccupy);
 PREP(ConfigZeus);
-PREP(B_PhilippinesArmy_Woodland);
-PREP(I_CebuArmy_Woodland);
+PREP(I_PhilippinesArmy_Woodland);
+PREP(O_CebuArmy_Woodland);
