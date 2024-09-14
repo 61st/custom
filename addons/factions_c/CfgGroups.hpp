@@ -15,7 +15,7 @@
  * Public: No
  */
 class CfgGroups {
-    class Indep {
+    class East {
         class O_CebuArmy_Woodland {
             name = "Cebu Armed Forces";
             class Infantry {
@@ -279,7 +279,7 @@ class CfgGroups {
             };
         };
     };
-    class WEST {
+    class Indep {
         class I_PhilippinesArmy_Woodland {
             name = "Philippines Armed Forces ";
             class Infantry {
