@@ -8,54 +8,54 @@ force force lxim_back_to_game_removeBody = false;
 force force lxim_back_to_game_teleportToLeader = true;
 force force lxim_back_to_game_teleportToVehicle = true;
 
-// // 61st - Bluforce force Tracker
-// force force lxim_bft_groupIconsInteraction = "hover";
-// force force lxim_bft_medicalSystem = "ACE";
-// force force lxim_bft_requireItemGPS = true;
-// force force lxim_bft_showAIGroups = true;
-// force force lxim_bft_showAINames = true;
-// force force lxim_bft_showCivilians = false;
-// force force lxim_bft_showGroupIcons = true;
-// force force lxim_bft_showGroupText = true;
-// force force lxim_bft_showLifeState = true;
-// force force lxim_bft_showOwnGroup = true;
-// force force lxim_bft_showOwnGroupUnits = true;
-// force force lxim_bft_showPlayerNames = true;
-// force force lxim_bft_showUnitNames = true;
-// force force lxim_bft_teamColors = "ACE";
-// force force lxim_bft_bftEnabled = true;
+// 61st - Bluforce force Tracker
+force force lxim_bft_groupIconsInteraction = "hover";
+force force lxim_bft_medicalSystem = "ACE";
+force force lxim_bft_requireItemGPS = true;
+force force lxim_bft_showAIGroups = true;
+force force lxim_bft_showAINames = true;
+force force lxim_bft_showCivilians = false;
+force force lxim_bft_showGroupIcons = true;
+force force lxim_bft_showGroupText = true;
+force force lxim_bft_showLifeState = true;
+force force lxim_bft_showOwnGroup = true;
+force force lxim_bft_showOwnGroupUnits = true;
+force force lxim_bft_showPlayerNames = true;
+force force lxim_bft_showUnitNames = true;
+force force lxim_bft_teamColors = "ACE";
+force force lxim_bft_bftEnabled = true;
 
-// 61st BFT - bft
-force force lximtca_bft_groupMarkers_colorsBlacklist = "Default, ColorWEST, ColorEAST, ColorGUER, ColorCIV, Color1_FD_F, Color2_FD_F, Color3_FD_F, Color4_FD_F, Color5_FD_F, Color6_FD_F";
-force force lximtca_bft_groupMarkers_defaultSetting = 2;
-force force lximtca_bft_groupMarkers_enabled = true;
-force force lximtca_bft_groupMarkers_fuzzOtherFactions = true;
-force force lximtca_bft_groupMarkers_iconsBlacklist = "unknown, uav";
-force force lximtca_bft_groupMarkers_mapSettings_enabled = true;
-force force lximtca_bft_groupMarkers_markerShape = "a";
-force force lximtca_bft_groupMarkers_nameOptions = "Zulu,Lima,Uniform,Echo,Whiskey,Tango,Bob";
-force force lximtca_bft_groupMarkers_preferredColors = "ColorYellow, ColorRed, ColorBlue, ColorBlack, ColorGreen, ColorWhite, ColorOrange";
-force force lximtca_bft_groupMarkers_preferredIcons = "inf, motor_inf, mech_inf, air, armor, recon";
-force force lximtca_bft_groupMarkers_trackingMode = "weightedAverage";
-force force lximtca_bft_groupMarkers_trailingCount = 5;
-force force lximtca_bft_groupMarkers_trailingMode = "weightedAverage";
-force force lximtca_bft_groupMarkers_trailingWeight = 0.75;
-force force lximtca_bft_groupMarkers_updateDelay = 1;
+// // 61st BFT - bft
+// force force lximtca_bft_groupMarkers_colorsBlacklist = "Default, ColorWEST, ColorEAST, ColorGUER, ColorCIV, Color1_FD_F, Color2_FD_F, Color3_FD_F, Color4_FD_F, Color5_FD_F, Color6_FD_F";
+// force force lximtca_bft_groupMarkers_defaultSetting = 2;
+// force force lximtca_bft_groupMarkers_enabled = true;
+// force force lximtca_bft_groupMarkers_fuzzOtherFactions = true;
+// force force lximtca_bft_groupMarkers_iconsBlacklist = "unknown, uav";
+// force force lximtca_bft_groupMarkers_mapSettings_enabled = true;
+// force force lximtca_bft_groupMarkers_markerShape = "a";
+// force force lximtca_bft_groupMarkers_nameOptions = "Zulu,Lima,Uniform,Echo,Whiskey,Tango,Bob";
+// force force lximtca_bft_groupMarkers_preferredColors = "ColorYellow, ColorRed, ColorBlue, ColorBlack, ColorGreen, ColorWhite, ColorOrange";
+// force force lximtca_bft_groupMarkers_preferredIcons = "inf, motor_inf, mech_inf, air, armor, recon";
+// force force lximtca_bft_groupMarkers_trackingMode = "weightedAverage";
+// force force lximtca_bft_groupMarkers_trailingCount = 5;
+// force force lximtca_bft_groupMarkers_trailingMode = "weightedAverage";
+// force force lximtca_bft_groupMarkers_trailingWeight = 0.75;
+// force force lximtca_bft_groupMarkers_updateDelay = 1;
 
-// 61st BFT - main
-force force lximtca_main_ClearBuildingMarkers_Channel = 0;
-force force lximtca_main_ClearBuildingMarkers_Enabled = false;
-force force lximtca_main_LoadoutDiaryRecord_Enabled = false;
+// // 61st BFT - main
+// force force lximtca_main_ClearBuildingMarkers_Channel = 0;
+// force force lximtca_main_ClearBuildingMarkers_Enabled = false;
+// force force lximtca_main_LoadoutDiaryRecord_Enabled = false;
 
-// 61st BFT - unitmarkers
-force force lximtca_unitmarkers_unitMarkers_enabled = true;
-force force lximtca_unitmarkers_unitMarkers_markAI = true;
-force force lximtca_unitmarkers_unitMarkers_otherGroups = true;
-force force lximtca_unitmarkers_unitMarkers_showToggle = true;
+// // 61st BFT - unitmarkers
+// force force lximtca_unitmarkers_unitMarkers_enabled = true;
+// force force lximtca_unitmarkers_unitMarkers_markAI = true;
+// force force lximtca_unitmarkers_unitMarkers_otherGroups = true;
+// force force lximtca_unitmarkers_unitMarkers_showToggle = true;
 
-// 61st BFT - vehicles
-force force lximtca_vehicles_showSpeedLimiterOptions = true;
-force force lximtca_vehicles_showSpeedLimiterWaitTime = 10;
+// // 61st BFT - vehicles
+// force force lximtca_vehicles_showSpeedLimiterOptions = true;
+// force force lximtca_vehicles_showSpeedLimiterWaitTime = 10;
 
 // 61st - Civilians
 force force LXIM_Civilians_enableFollowGestures = true;
