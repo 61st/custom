@@ -17,14 +17,14 @@
 
 if !(GVAR(showOwnGroupUnits)) exitWith {};
 
-private _playersGroupUnitsToDrawMarkers = units (group lxim_unit);
+private _playersGroupUnitsToDrawMarkers = units (side lxim_unit);
 
 {
     private ["_markerType", "_markerColor", "_markerSize", "_markerDir", "_markerName", "_markerText", "_marker"];
-    _markerType = [_x] call FUNC(getUnitMarkerType);
-    _markerColor = [_x] call FUNC(getMarkerColor);
-    _markerSize = [_x] call FUNC(getMarkerSize);
-    _markerDir = getDirVisual (vehicle _x);
+     _markerType = [_x] call FUNC(getUnitMarkerType);
+     _markerColor = [_x] call FUNC(getMarkerColor);
+     _markerSize = [_x] call FUNC(getMarkerSize);
+     _markerDir = getDirVisual (vehicle _x);
     if (!isNull objectParent _x) then {
         _markerName = (objectParent _x) call BIS_fnc_netId;
         _markerText = groupId (group _x);
