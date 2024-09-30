@@ -15,6 +15,30 @@
  * Public: No
  */
 
+class DefaultVehicleSystemsDisplayManagerLeft {
+	class components;
+};
+class DefaultVehicleSystemsDisplayManagerRight {
+	class components;
+};
+class VehicleSystemsTemplateLeftDriver: DefaultVehicleSystemsDisplayManagerLeft {
+	class components;
+};
+class VehicleSystemsTemplateRightDriver: DefaultVehicleSystemsDisplayManagerRight {
+	class components;
+};
+class VehicleSystemsTemplateLeftCommander: DefaultVehicleSystemsDisplayManagerLeft {
+	class components;
+};
+class VehicleSystemsTemplateRightCommander: DefaultVehicleSystemsDisplayManagerRight {
+	class components;
+};
+class VehicleSystemsTemplateLeftGunner: DefaultVehicleSystemsDisplayManagerLeft {
+	class components;
+};
+class VehicleSystemsTemplateRightGunner: DefaultVehicleSystemsDisplayManagerRight {
+	class components;
+};
 class CBA_Extended_EventHandlers;
 class SensorTemplatePassiveRadar;
 class SensorTemplateAntiRadiation;
@@ -25,30 +49,9 @@ class SensorTemplateMan;
 class SensorTemplateLaser;
 class SensorTemplateNV;
 class SensorTemplateDataLink;
-class DefaultVehicleSystemsDisplayManagerLeft {
-    class components;
-};
-class DefaultVehicleSystemsDisplayManagerRight {
-    class components;
-};
-class VehicleSystemsTemplateLeftDriver: DefaultVehicleSystemsDisplayManagerLeft {
-    class components;
-};
-class VehicleSystemsTemplateRightDriver: DefaultVehicleSystemsDisplayManagerRight {
-    class components;
-};
-class VehicleSystemsTemplateLeftCommander: DefaultVehicleSystemsDisplayManagerLeft {
-    class components;
-};
-class VehicleSystemsTemplateRightCommander: DefaultVehicleSystemsDisplayManagerRight {
-    class components;
-};
-class VehicleSystemsTemplateLeftGunner: DefaultVehicleSystemsDisplayManagerLeft {
-    class components;
-};
-class VehicleSystemsTemplateRightGunner: DefaultVehicleSystemsDisplayManagerRight {
-    class components;
-};
+
+
+
 class CfgVehicles {
     class All {
         class Turrets;
@@ -96,7 +99,6 @@ class CfgVehicles {
     class I_APC_Wheeled_03_base_F: APC_Wheeled_03_base_F {};
 
     class I_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_base_F {
-        class AnimationSources {};
         class MFD {
             class MFD_Driver_Heading {
                 topLeft = "MFD_1_TL";
@@ -2193,6 +2195,13 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_01_ext_d.paa),QPATHTOF(data\outlaw_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d_aa.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
     };
 
+    class lxim_outlaw_g_V26: lxim_outlaw_g {
+        displayName = "M20 Thunder 2/6";
+        author = QAUTHOR;
+        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_01_ext_wardaddy_g.paa),QPATHTOF(data\outlaw_02_ext_wardaddy_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
+        forceInGarage = 0;
+    };
+
     class lxim_outlaw_g_V11: lxim_outlaw_g {
         displayName = "M20 Thunder 2/1";
         author = QAUTHOR;
@@ -2211,6 +2220,13 @@ class CfgVehicles {
         displayName = "M20 HQ";
         author = QAUTHOR;
         hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_hq_01_ext_g.paa),QPATHTOF(data\outlaw_hq_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
+        forceInGarage = 0;
+    };
+
+    class lxim_outlaw_AA_g_V26: lxim_outlaw_AA_g {
+        displayName = "M20-AA Thunder 2/6";
+        author = QAUTHOR;
+        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_01_ext_wardaddy_g.paa),QPATHTOF(data\outlaw_02_ext_wardaddy_g.paa),QPATHTOF(data\outlaw_turret_g_aa.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
         forceInGarage = 0;
     };
 
@@ -2247,6 +2263,13 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(data\rino_01_ext_g.paa),QPATHTOF(data\rino_02_ext_g.paa),QPATHTOF(data\outlaw_turret_g_eng.paa),QPATHTOF(data\outlaw_03_ext_g.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};        
     };
 
+    class lxim_outlaw_d_V26: lxim_outlaw_d {
+        displayName = "M20 Desert Thuinder 2/6";
+        author = QAUTHOR;
+        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_01_ext_wardaddy_d.paa),QPATHTOF(data\outlaw_02_ext_wardaddy_d.paa),QPATHTOF(data\outlaw_turret_d.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
+        forceInGarage = 0;
+    };
+
     class lxim_outlaw_d_V11: lxim_outlaw_d {
         displayName = "M20 Desert Thuinder 2/1";
         author = QAUTHOR;
@@ -2264,6 +2287,13 @@ class CfgVehicles {
         displayName = "M20 Desert HQ";
         author = QAUTHOR;
         hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_hq_01_ext_d.paa),QPATHTOF(data\outlaw_hq_02_ext_d.paa),QPATHTOF(data\outlaw_turret_d.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
+        forceInGarage = 0;
+    };
+
+    class lxim_outlaw_AA_d_V26: lxim_outlaw_AA_d {
+        displayName = "M20-AA Desert Thunder 2/6";
+        author = QAUTHOR;
+        hiddenSelectionsTextures[] = {QPATHTOF(data\outlaw_01_ext_wardaddy_d.paa),QPATHTOF(data\outlaw_02_ext_wardaddy_d.paa),QPATHTOF(data\outlaw_turret_d_aa.paa),QPATHTOF(data\outlaw_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
         forceInGarage = 0;
     };
 
@@ -2389,11 +2419,160 @@ class CfgVehicles {
         crewExplosionProtection = .5;
         armor = 275;
         threat[]={0,0,0};
-        hiddenSelectionsTextures[]=
-        {
+        hiddenSelectionsTextures[]= {
             QPATHTOF(data\MRAP_01_base_61G_CO.paa),
             QUOTE(\A3\soft_F_Exp\MRAP_01\data\MRAP_01_adds_olive_CO.paa),
             QPATHTOF(data\Turret_CO_G.paa),
         };
+    };
+
+
+    
+    class B_AFV_Wheeled_01_up_cannon_F;
+    class B_AFV_Wheeled_01_cannon_F;
+
+    class LXIM_B_RHINO_UP_base : B_AFV_Wheeled_01_up_cannon_F {
+        displayName="MGS";
+        author = QAUTHOR;
+        faction=QUOTE(PREFIX);
+        side = 1;
+        scope= 1;
+        scopeCurator=2;
+        class TextureSources {
+            class LXIM_GREEN {
+                textures[]={
+                    QPATHTOF(data\afv_wheeled_01_ext1_wardaddy_g_co.paa),
+                    QPATHTOF(data\afv_wheeled_01_ext2_wardaddy_g_co.paa),
+                    "a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_wheel_green_CO.paa",
+                    "A3\Armor_F_Tank\AFV_Wheeled_01\Data\afv_wheeled_01_EXT3_CO.paa",
+                    "a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_commander_tow_CO.paa",
+                    "a3\Armor_F\Data\camonet_NATO_Green_CO.paa",
+                    "A3\Armor_F_Tank\AFV_Wheeled_01\Data\afv_wheeled_01_EXT3_CO.paa"
+                };
+                factions[]={"BLU_F"};
+            };
+            class LXIM_SAND {
+                textures[]={
+                    QPATHTOF(data\afv_wheeled_01_ext1_wardaddy_d_co.paa),
+                    QPATHTOF(data\afv_wheeled_01_ext2_wardaddy_d_co.paa),
+                    "a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_wheel_CO.paa",
+                    "A3\Armor_F_Tank\AFV_Wheeled_01\Data\afv_wheeled_01_EXT3_sand_CO.paa",
+                    "a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_commander_tow_sand_CO.paa",
+                    "a3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
+                    "A3\Armor_F_Tank\AFV_Wheeled_01\Data\afv_wheeled_01_EXT3_sand_CO.paa"
+                    };
+                factions[]={"BLU_F"};
+            };
+        };
+    };
+
+    class LXIM_B_RHINO_base : B_AFV_Wheeled_01_cannon_F {
+        displayName="MGS";
+        author = QAUTHOR;
+        faction=QUOTE(PREFIX);
+        side = 1;
+        scope= 1;
+        scopeCurator=2;
+        class TextureSources {
+            class LXIM_GREEN {
+                textures[]={
+                    QPATHTOF(data\afv_wheeled_01_ext1_wardaddy_g_co.paa),
+                    QPATHTOF(data\afv_wheeled_01_ext2_wardaddy_g_co.paa),
+                    "a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_wheel_green_CO.paa",
+                    "A3\Armor_F_Tank\AFV_Wheeled_01\Data\afv_wheeled_01_EXT3_CO.paa",
+                    "a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_commander_tow_CO.paa",
+                    "a3\Armor_F\Data\camonet_NATO_Green_CO.paa",
+                    "A3\Armor_F_Tank\AFV_Wheeled_01\Data\afv_wheeled_01_EXT3_CO.paa"
+                };
+                factions[]={"BLU_F"};
+            };
+            class LXIM_SAND {
+                textures[]={
+                    QPATHTOF(data\afv_wheeled_01_ext1_wardaddy_d_co.paa),
+                    QPATHTOF(data\afv_wheeled_01_ext2_wardaddy_d_co.paa),
+                    "a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_wheel_CO.paa",
+                    "A3\Armor_F_Tank\AFV_Wheeled_01\Data\afv_wheeled_01_EXT3_sand_CO.paa",
+                    "a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_commander_tow_sand_CO.paa",
+                    "a3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
+                    "A3\Armor_F_Tank\AFV_Wheeled_01\Data\afv_wheeled_01_EXT3_sand_CO.paa"
+                    };
+                factions[]={"BLU_F"};
+            };
+        };
+    };
+
+
+    class LXIM_B_RHINO_UP_26_G : LXIM_B_RHINO_UP_base {
+        displayName="MGS UP 2/6";
+        author = QAUTHOR;
+        faction=QUOTE(PREFIX);
+        side = 1;
+        scope= 2;
+        scopeCurator=2;
+        editorSubcategory = "LXIM_EdSubcat_mgs_green";
+        hiddenSelectionsTextures[]={
+            QPATHTOF(data\afv_wheeled_01_ext1_wardaddy_g_co.paa),
+            QPATHTOF(data\afv_wheeled_01_ext2_wardaddy_g_co.paa),
+            "a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_wheel_green_CO.paa",
+            "A3\Armor_F_Tank\AFV_Wheeled_01\Data\afv_wheeled_01_EXT3_CO.paa",
+            "a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_commander_tow_CO.paa",
+            "a3\Armor_F\Data\camonet_NATO_Green_CO.paa",
+            "A3\Armor_F_Tank\AFV_Wheeled_01\Data\afv_wheeled_01_EXT3_CO.paa"
+            };
+    };
+    class LXIM_B_RHINO_UP_26_D : LXIM_B_RHINO_UP_base {
+        displayName="MGS UP 2/6 Sand";
+        author = QAUTHOR;
+        faction=QUOTE(PREFIX);
+        side = 1;
+        scope= 2;
+        scopeCurator=2;
+        editorSubcategory = "LXIM_EdSubcat_mgs_desert";
+        hiddenSelectionsTextures[]={
+            QPATHTOF(data\afv_wheeled_01_ext1_wardaddy_d_co.paa),
+            QPATHTOF(data\afv_wheeled_01_ext2_wardaddy_d_co.paa),
+            "a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_wheel_CO.paa",
+            "A3\Armor_F_Tank\AFV_Wheeled_01\Data\afv_wheeled_01_EXT3_sand_CO.paa",
+            "a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_commander_tow_sand_CO.paa",
+            "a3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
+            "A3\Armor_F_Tank\AFV_Wheeled_01\Data\afv_wheeled_01_EXT3_sand_CO.paa"
+            };
+    };
+
+    class LXIM_B_RHINO_26_G : LXIM_B_RHINO_UP_base {
+        displayName="MGS 2/6";
+        author = QAUTHOR;
+        faction=QUOTE(PREFIX);
+        side = 1;
+        scope= 2;
+        scopeCurator=2;
+        editorSubcategory = "LXIM_EdSubcat_mgs_green";
+        hiddenSelectionsTextures[]={
+            QPATHTOF(data\afv_wheeled_01_ext1_wardaddy_g_co.paa),
+            QPATHTOF(data\afv_wheeled_01_ext2_wardaddy_g_co.paa),
+            "a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_wheel_green_CO.paa",
+            "A3\Armor_F_Tank\AFV_Wheeled_01\Data\afv_wheeled_01_EXT3_CO.paa",
+            "a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_commander_tow_CO.paa",
+            "a3\Armor_F\Data\camonet_NATO_Green_CO.paa",
+            "A3\Armor_F_Tank\AFV_Wheeled_01\Data\afv_wheeled_01_EXT3_CO.paa"
+            };
+    };
+    class LXIM_B_RHINO_26_D : LXIM_B_RHINO_base {
+        displayName="MGS 2.6 Sand";
+        author = QAUTHOR;
+        faction=QUOTE(PREFIX);
+        side = 1;
+        scope= 2;
+        scopeCurator=2;
+        editorSubcategory = "LXIM_EdSubcat_mgs_desert";
+        hiddenSelectionsTextures[]={
+            QPATHTOF(data\afv_wheeled_01_ext1_wardaddy_d_co.paa),
+            QPATHTOF(data\afv_wheeled_01_ext2_wardaddy_d_co.paa),
+            "a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_wheel_CO.paa",
+            "A3\Armor_F_Tank\AFV_Wheeled_01\Data\afv_wheeled_01_EXT3_sand_CO.paa",
+            "a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_commander_tow_sand_CO.paa",
+            "a3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
+            "A3\Armor_F_Tank\AFV_Wheeled_01\Data\afv_wheeled_01_EXT3_sand_CO.paa"
+            };
     };
 };

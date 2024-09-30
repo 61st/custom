@@ -17,12 +17,13 @@
 class CfgGroups {
     class East {
         class O_CebuArmy_Woodland {
-            name = "Cebu Armed Forces";
+            name = "61st Cebu Armed Forces";
             class Infantry {
                 name="Infantry";
 
                 class O_CebuArmy_Woodland_R_Squad {
                     name="Squad";
+                    icon="\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     faction="O_CebuArmy_Woodland";
                     side = 0;
                     class Unit0 {
@@ -82,6 +83,7 @@ class CfgGroups {
                 };
                 class O_CebuArmy_Woodland_R_Support_Team {
                     name="Support Team";
+                    icon="\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     faction="O_CebuArmy_Woodland";
                     side = 0;
                     class Unit0 {
@@ -129,6 +131,7 @@ class CfgGroups {
                 };
                 class O_CebuArmy_Woodland_R_Sniper_Team {
                     name="Sniper Team";
+                    icon="\A3\ui_f\data\map\markers\nato\o_recon.paa";
                     faction="O_CebuArmy_Woodland";
                     side = 0;
                     class Unit0 {
@@ -145,6 +148,7 @@ class CfgGroups {
                     };
                 };
                 class O_CebuArmy_Woodland_R_AA_Team {
+                    icon="\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     name="AA Team";
                     faction="O_CebuArmy_Woodland_O_CebuArmy_Woodland";
                     side = 0;
@@ -166,47 +170,48 @@ class CfgGroups {
             };
             class Motorized {
                 name="Motorized";
-
                 class O_CebuArmy_Woodland_R_AA_Team {
-                name="AA Team";
-                faction="O_CebuArmy_Woodland";
-                side = 0;
-                class Unit0 {
+                    name="AA Team";
+                    icon="\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+                    faction="O_CebuArmy_Woodland";
                     side = 0;
-                    vehicle="O_CebuArmy_AA_Missle_woodland_01";
-                    rank="PRIVATE";
-                    position[]={0,-0,0};
-                };
-                class Unit1 {
+                    class Unit0 {
+                        side = 0;
+                        vehicle="O_CebuArmy_AA_Missle_woodland_01";
+                        rank="PRIVATE";
+                        position[]={0,-0,0};
+                    };
+                    class Unit1 {
+                        side = 0;
+                        vehicle="O_CebuArmy_AA_Missle_woodland_01";
+                        rank="MAJOR";
+                        position[]={0,-15,0};
+                    };
+                    };
+                    class O_CebuArmy_Woodland_R_Jeep_Patrol {
+                    name="Jeep Patrol";
+                    icon="\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+                    faction="O_CebuArmy_Woodland";
                     side = 0;
-                    vehicle="O_CebuArmy_AA_Missle_woodland_01";
-                    rank="MAJOR";
-                    position[]={0,-15,0};
-                };
-                };
-                class O_CebuArmy_Woodland_R_Jeep_Patrol {
-                name="Jeep Patrol";
-                faction="O_CebuArmy_Woodland";
-                side = 0;
-                class Unit0 {
-                    side = 0;
-                    vehicle="O_CebuArmy_M2_Landrover_woodland_01";
-                    rank="SERGEANT";
-                    position[]={0,-0,0};
-                };
-                class Unit1 {
-                    side = 0;
-                    vehicle="O_CebuArmy_M2_Landrover_woodland_01";
-                    rank="SERGEANT";
-                    position[]={0,-15,0};
-                };
+                    class Unit0 {
+                        side = 0;
+                        vehicle="O_CebuArmy_M2_Landrover_woodland_01";
+                        rank="SERGEANT";
+                        position[]={0,-0,0};
+                    };
+                    class Unit1 {
+                        side = 0;
+                        vehicle="O_CebuArmy_M2_Landrover_woodland_01";
+                        rank="SERGEANT";
+                        position[]={0,-15,0};
+                    };
                 };
             };
             class Mechanized {
                 name="Mechanized";
-
                 class O_CebuArmy_Woodland_R_AA_Vic_Team {
                     name="AA Vic Team";
+                    icon="\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
                     faction="O_CebuArmy_Woodland";
                     side = 0;
                     class Unit0 {
@@ -225,40 +230,41 @@ class CfgGroups {
             };
             class Armored {
                 name="Armored";
-
-                class O_CebuArmy_Woodland_R_M60_Tank_Team {
-                name="M60 Tank Team";
-                faction="O_CebuArmy_Woodland";
-                side = 0;
-                class Unit0 {
+                    class O_CebuArmy_Woodland_R_M60_Tank_Team {
+                    name="M60 Tank Team";
+                    icon="\A3\ui_f\data\map\markers\nato\o_armor.paa";
+                    faction="O_CebuArmy_Woodland";
                     side = 0;
-                    vehicle="O_CebuArmy_Tank_woodland_01";
-                    rank="COLONEL";
-                    position[]={0,-0,0};
-                };
-                class Unit1 {
+                    class Unit0 {
+                        side = 0;
+                        vehicle="O_CebuArmy_Tank_woodland_01";
+                        rank="COLONEL";
+                        position[]={0,-0,0};
+                    };
+                    class Unit1 {
+                        side = 0;
+                        vehicle="O_CebuArmy_Tank_woodland_01";
+                        rank="SERGEANT";
+                        position[]={0,-15,0};
+                    };
+                    };
+                    class O_CebuArmy_Woodland_R_Mixed_Tank_Team {
+                    name="Mixed Tank Team";
+                    icon="\A3\ui_f\data\map\markers\nato\o_armor.paa";
+                    faction="O_CebuArmy_Woodland";
                     side = 0;
-                    vehicle="O_CebuArmy_Tank_woodland_01";
-                    rank="SERGEANT";
-                    position[]={0,-15,0};
-                };
-                };
-                class O_CebuArmy_Woodland_R_Mixed_Tank_Team {
-                name="Mixed Tank Team";
-                faction="O_CebuArmy_Woodland";
-                side = 0;
-                class Unit0 {
-                    side = 0;
-                    vehicle="O_CebuArmy_M1A1_Abrams_woodland_01";
-                    rank="COLONEL";
-                    position[]={0,-0,0};
-                };
-                class Unit1 {
-                    side = 0;
-                    vehicle="O_CebuArmy_Tank_woodland_01";
-                    rank="PRIVATE";
-                    position[]={0,-15,0};
-                };
+                    class Unit0 {
+                        side = 0;
+                        vehicle="O_CebuArmy_M1A1_Abrams_woodland_01";
+                        rank="COLONEL";
+                        position[]={0,-0,0};
+                    };
+                    class Unit1 {
+                        side = 0;
+                        vehicle="O_CebuArmy_Tank_woodland_01";
+                        rank="PRIVATE";
+                        position[]={0,-15,0};
+                    };
                 };
             };
             class SpecOps {
@@ -281,7 +287,7 @@ class CfgGroups {
     };
     class Indep {
         class I_PhilippinesArmy_Woodland {
-            name = "Philippines Armed Forces ";
+            name = "61st Philippines Armed Forces ";
             class Infantry {
                 name = "Infantry";
                 class CFP_B_USARMY_1991_WDL_RifleSquad {
@@ -441,7 +447,8 @@ class CfgGroups {
                 };
                 class I_PhilippinesArmy_Woodland_B_AA_Team{
                     name="AA Team";
-                    faction="I_PhilippinesArmy_Woodland_I_PhilippinesArmy_Woodland";
+                    icon="\A3\ui_f\data\map\markers\nato\n_inf.paa";
+                    faction="I_PhilippinesArmy_Woodland";
                     side = 2;
                     class Unit0
                     {
