@@ -6,12 +6,14 @@ class CfgPatches {
         units[] = {
             "lxim_outlaw_base_F",
             "lxim_outlaw_d",
+            "lxim_outlaw_d_V26",
             "lxim_outlaw_d_V11",
             "lxim_outlaw_d_V12",
             "lxim_outlaw_d_Vhq",
             "lxim_outlaw_g",
             "lxim_outlaw_g_rino",
             "lxim_outlaw_d_rino",
+            "lxim_outlaw_g_V26",
             "lxim_outlaw_g_V11",
             "lxim_outlaw_g_V12",
             "lxim_outlaw_g_Vhq",
@@ -20,12 +22,16 @@ class CfgPatches {
             "lxim_outlaw_Unarmed_g",
             "lxim_outlaw_repair_d",
             "lxim_outlaw_repair_g",
+            "lxim_outlaw_AA_d_V26",
             "lxim_outlaw_AA_d_V11",
             "lxim_outlaw_AA_d_V12",
             "lxim_outlaw_AA_d_Vhq",
+            "lxim_outlaw_AA_g_V26",
             "lxim_outlaw_AA_g_V11",
             "lxim_outlaw_AA_g_V12",
-            "lxim_outlaw_AA_g_Vhq"
+            "lxim_outlaw_AA_g_Vhq",
+            "LXIM_B_RHINO_UP_26_G",
+            "LXIM_B_RHINO_UP_26_D"
         };
         weapons[] = {"missiles_titan_aa_2Rnd_Pan"};
         magazines[]={"2Rnd_Titan_long_missiles_Pan"};
