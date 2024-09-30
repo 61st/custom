@@ -755,6 +755,9 @@ class cfp_o_is_BMP1;
 class CFP_O_SDARMY_Offroad_Police_01;
 
 class O_CebuArmy_Woodland_popo: B_GEN_Soldier_F {
+    author = "CPT Cury";
+    scope = 2;
+    scopeCurator = 2;
     faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="Police Dude";
@@ -771,6 +774,9 @@ class O_CebuArmy_Woodland_popo: B_GEN_Soldier_F {
 };
 
 class cebu_t55: CUP_I_T55_NAPA {
+    author = "CPT Cury";
+    scope = 2;
+    scopeCurator = 2;
     faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="t55";
@@ -780,6 +786,9 @@ class cebu_t55: CUP_I_T55_NAPA {
 };
 
 class cebu_t72: CUP_I_T72_NAPA {
+    author = "CPT Cury";
+    scope = 2;
+    scopeCurator = 2;
     faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="t72";
@@ -789,6 +798,9 @@ class cebu_t72: CUP_I_T72_NAPA {
 };
 
 class cebu_bmp2: CUP_I_BMP2_NAPA {
+    author = "CPT Cury";
+    scope = 2;
+    scopeCurator = 2;
     faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="bmp2";
@@ -798,6 +810,9 @@ class cebu_bmp2: CUP_I_BMP2_NAPA {
 };
 
 class cebu_brdm2: CUP_I_BRDM2_NAPA {
+    author = "CPT Cury";
+    scope = 2;
+    scopeCurator = 2;
     faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="brdm2";
@@ -807,6 +822,9 @@ class cebu_brdm2: CUP_I_BRDM2_NAPA {
 };
 
 class cebu_mtlblv: CUP_I_MTLB_pk_NAPA {
+    author = "CPT Cury";
+    scope = 2;
+    scopeCurator = 2;
     faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="mtlblv";
@@ -816,6 +834,9 @@ class cebu_mtlblv: CUP_I_MTLB_pk_NAPA {
 };
 
 class cebu_av8: CUP_I_AV8B_DYN_AAF {
+    author = "CPT Cury";
+    scope = 2;
+    scopeCurator = 2;
     faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="av8";
@@ -825,6 +846,9 @@ class cebu_av8: CUP_I_AV8B_DYN_AAF {
 };
 
 class cebu_btr60pb: CUP_I_BTR60_UN {
+    author = "CPT Cury";
+    scope = 2;
+    scopeCurator = 2;
     faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="btr60pb";
@@ -834,6 +858,9 @@ class cebu_btr60pb: CUP_I_BTR60_UN {
 };
 
 class cebu_btr80: CUP_I_BTR80_UN {
+    author = "CPT Cury";
+    scope = 2;
+    scopeCurator = 2;
     faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="btr80";
@@ -843,6 +870,9 @@ class cebu_btr80: CUP_I_BTR80_UN {
 };
 
 class cebu_btr80ad: CUP_I_BTR80A_UN {
+    author = "CPT Cury";
+    scope = 2;
+    scopeCurator = 2;
     faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="btr80ad";
@@ -852,6 +882,9 @@ class cebu_btr80ad: CUP_I_BTR80A_UN {
 };
 
 class cebu_ural: CFP_I_SSArmy_Ural_01 {
+    author = "CPT Cury";
+    scope = 2;
+    scopeCurator = 2;
     faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="ural";
@@ -861,6 +894,9 @@ class cebu_ural: CFP_I_SSArmy_Ural_01 {
 };
 
 class cebu_ural_a: CFP_I_SSArmy_Ural_Ammunition_01 {
+    author = "CPT Cury";
+    scope = 2;
+    scopeCurator = 2;
     faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="ural a";
@@ -870,6 +906,9 @@ class cebu_ural_a: CFP_I_SSArmy_Ural_Ammunition_01 {
 };
 
 class cebu_ural_f: CFP_I_SSArmy_Ural_Refuel_01 {
+    author = "CPT Cury";
+    scope = 2;
+    scopeCurator = 2;
     faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="ural f";
@@ -879,6 +918,9 @@ class cebu_ural_f: CFP_I_SSArmy_Ural_Refuel_01 {
 };
 
 class cebu_ural_r: CFP_I_SSArmy_Ural_Repair_01 {
+    author = "CPT Cury";
+    scope = 2;
+    scopeCurator = 2;
     faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="ural r";
@@ -888,6 +930,9 @@ class cebu_ural_r: CFP_I_SSArmy_Ural_Repair_01 {
 };
 
 class cebu_rihb: CUP_I_RHIB_RACS {
+    author = "CPT Cury";
+    scope = 2;
+    scopeCurator = 2;
     faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="rihb";
@@ -897,6 +942,9 @@ class cebu_rihb: CUP_I_RHIB_RACS {
 };
 
 class cebu_lcac: CUP_I_ZUBR_UN {
+    author = "CPT Cury";
+    scope = 2;
+    scopeCurator = 2;
     faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="lcac";
@@ -906,6 +954,9 @@ class cebu_lcac: CUP_I_ZUBR_UN {
 };
 
 class cebu_d30: CFP_O_IQARMY_D30_01 {
+    author = "CPT Cury";
+    scope = 2;
+    scopeCurator = 2;
     faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="d30";
@@ -915,6 +966,9 @@ class cebu_d30: CFP_O_IQARMY_D30_01 {
 };
 
 class cebu_zu23: CFP_O_IQARMY_ZU_23_01 {
+    author = "CPT Cury";
+    scope = 2;
+    scopeCurator = 2;
     faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="zu23";
@@ -924,6 +978,9 @@ class cebu_zu23: CFP_O_IQARMY_ZU_23_01 {
 };
 
 class cebu_su25: CFP_O_IQARMY_Su_25_Frogfoot_01 {
+    author = "CPT Cury";
+    scope = 2;
+    scopeCurator = 2;
     faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="SU25";
@@ -933,6 +990,9 @@ class cebu_su25: CFP_O_IQARMY_Su_25_Frogfoot_01 {
 };
 
 class cebu_bmp1: cfp_o_is_BMP1 {
+    author = "CPT Cury";
+    scope = 2;
+    scopeCurator = 2;
     faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="BMP 1";
@@ -942,6 +1002,9 @@ class cebu_bmp1: cfp_o_is_BMP1 {
 };
 
 class cebu_offroad: CFP_O_SDARMY_Offroad_Police_01 {
+    author = "CPT Cury";
+    scope = 2;
+    scopeCurator = 2;
     faction="O_CebuArmy_Woodland";
     side = 0;
     displayName="Police Offroad";
