@@ -16,28 +16,28 @@
  */
 
 class DefaultVehicleSystemsDisplayManagerLeft {
-	class components;
+    class components;
 };
 class DefaultVehicleSystemsDisplayManagerRight {
-	class components;
+    class components;
 };
 class VehicleSystemsTemplateLeftDriver: DefaultVehicleSystemsDisplayManagerLeft {
-	class components;
+    class components;
 };
 class VehicleSystemsTemplateRightDriver: DefaultVehicleSystemsDisplayManagerRight {
-	class components;
+    class components;
 };
 class VehicleSystemsTemplateLeftCommander: DefaultVehicleSystemsDisplayManagerLeft {
-	class components;
+    class components;
 };
 class VehicleSystemsTemplateRightCommander: DefaultVehicleSystemsDisplayManagerRight {
-	class components;
+    class components;
 };
 class VehicleSystemsTemplateLeftGunner: DefaultVehicleSystemsDisplayManagerLeft {
-	class components;
+    class components;
 };
 class VehicleSystemsTemplateRightGunner: DefaultVehicleSystemsDisplayManagerRight {
-	class components;
+    class components;
 };
 class CBA_Extended_EventHandlers;
 class SensorTemplatePassiveRadar;
