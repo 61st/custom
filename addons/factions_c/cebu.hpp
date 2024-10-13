@@ -758,7 +758,7 @@ class O_CebuArmy_Woodland_popo: B_GEN_Soldier_F {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
-    faction="O_CebuArmy_Woodland";
+    faction = "O_CebuArmy_Woodland";
     side = 0;
     displayName="Police Dude";
     uniformClass="U_B_GEN_Soldier_F";
@@ -777,7 +777,7 @@ class cebu_t55: CUP_I_T55_NAPA {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
-    faction="O_CebuArmy_Woodland";
+    faction = "O_CebuArmy_Woodland";
     side = 0;
     displayName="t55";
     hiddenSelectionsTextures[]={"cup\trackedvehicles\cup_trackedvehicles_t55\data\t55_body_olive_co.paa","cup\trackedvehicles\cup_trackedvehicles_t55\data\t55_tower_olive_co.paa"};
@@ -789,7 +789,7 @@ class cebu_t72: CUP_I_T72_NAPA {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
-    faction="O_CebuArmy_Woodland";
+    faction = "O_CebuArmy_Woodland";
     side = 0;
     displayName="t72";
     hiddenSelectionsTextures[]={"cup\trackedvehicles\cup_trackedvehicles_t72\data\textures\gue_t72_1_co.paa","cup\trackedvehicles\cup_trackedvehicles_t72\data\textures\gue_t72_2_co.paa","cup\trackedvehicles\cup_trackedvehicles_t72\data\textures\gue_t72_3_co.paa"};
@@ -801,7 +801,7 @@ class cebu_bmp2: CUP_I_BMP2_NAPA {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
-    faction="O_CebuArmy_Woodland";
+    faction = "O_CebuArmy_Woodland";
     side = 0;
     displayName="bmp2";
     hiddenSelectionsTextures[]={"cup\trackedvehicles\cup_trackedvehicles_bmp\bmp2\data\bmp2_khk_01_co.paa","cup\trackedvehicles\cup_trackedvehicles_bmp\bmp2\data\bmp2_khk_02_co.paa"};
@@ -813,7 +813,7 @@ class cebu_brdm2: CUP_I_BRDM2_NAPA {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
-    faction="O_CebuArmy_Woodland";
+    faction = "O_CebuArmy_Woodland";
     side = 0;
     displayName="brdm2";
     hiddenSelectionsTextures[]={"cup\wheeledvehicles\cup_wheeledvehicles_brdm2\data\textures\sla_brdm2_01_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_brdm2\data\brdm2_02_co.paa"};
@@ -825,7 +825,7 @@ class cebu_mtlblv: CUP_I_MTLB_pk_NAPA {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
-    faction="O_CebuArmy_Woodland";
+    faction = "O_CebuArmy_Woodland";
     side = 0;
     displayName="mtlblv";
     hiddenSelectionsTextures[]={"cup\trackedvehicles\cup_trackedvehicles_mtlb\data\textures\indep\body_new_napa_co.paa","cup\trackedvehicles\cup_trackedvehicles_mtlb\data\textures\indep\pk_mod_new_napa_co.paa"};
@@ -837,7 +837,7 @@ class cebu_av8: CUP_I_AV8B_DYN_AAF {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
-    faction="O_CebuArmy_Woodland";
+    faction = "O_CebuArmy_Woodland";
     side = 0;
     displayName="av8";
     hiddenSelectionsTextures[]={"cup\airvehicles\cup_airvehicles_av8b\data\texture\cup_av8b_aaf_1_co.paa","cup\airvehicles\cup_airvehicles_av8b\data\texture\cup_av8b_aaf_1_co.paa","#(argb,512,512,1)r2t(rendertarget0,1.0)"};
@@ -849,7 +849,7 @@ class cebu_btr60pb: CUP_I_BTR60_UN {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
-    faction="O_CebuArmy_Woodland";
+    faction = "O_CebuArmy_Woodland";
     side = 0;
     displayName="btr60pb";
     hiddenSelectionsTextures[]={"x\cfp\addons\vehicles\btr60\olivebody1.paa","x\cfp\addons\vehicles\btr60\olivebody2.paa"};
@@ -861,7 +861,7 @@ class cebu_btr80: CUP_I_BTR80_UN {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
-    faction="O_CebuArmy_Woodland";
+    faction = "O_CebuArmy_Woodland";
     side = 0;
     displayName="btr80";
     hiddenSelectionsTextures[]={"cup\wheeledvehicles\cup_wheeledvehicles_btr80\data\ru_green\btr80_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_btr80\data\ru_green\kpvt_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_btr80\data\ru_green\wheels_co.paa"};
@@ -873,7 +873,7 @@ class cebu_btr80ad: CUP_I_BTR80A_UN {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
-    faction="O_CebuArmy_Woodland";
+    faction = "O_CebuArmy_Woodland";
     side = 0;
     displayName="btr80ad";
     hiddenSelectionsTextures[]={"cup\wheeledvehicles\cup_wheeledvehicles_btr80\data\ru_green\btr80_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_btr80\data\ru_green\bppu_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_btr80\data\ru_green\wheels_co.paa"};
@@ -885,7 +885,7 @@ class cebu_ural: CFP_I_SSArmy_Ural_01 {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
-    faction="O_CebuArmy_Woodland";
+    faction = "O_CebuArmy_Woodland";
     side = 0;
     displayName="ural";
     hiddenSelectionsTextures[]={"cup\wheeledvehicles\cup_wheeledvehicles_ural\data\ural_kabina_sla_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_ural\data\ural_plachta_sla_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_ural\data\whl_tyresize3.paa",""};
@@ -897,7 +897,7 @@ class cebu_ural_a: CFP_I_SSArmy_Ural_Ammunition_01 {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
-    faction="O_CebuArmy_Woodland";
+    faction = "O_CebuArmy_Woodland";
     side = 0;
     displayName="ural a";
     hiddenSelectionsTextures[]={"cup\wheeledvehicles\cup_wheeledvehicles_ural\data\ural_kabina_sla_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_ural\data\ural_plachta_sla_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_ural\data\whl_tyresize3.paa",""};
@@ -909,7 +909,7 @@ class cebu_ural_f: CFP_I_SSArmy_Ural_Refuel_01 {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
-    faction="O_CebuArmy_Woodland";
+    faction = "O_CebuArmy_Woodland";
     side = 0;
     displayName="ural f";
     hiddenSelectionsTextures[]={"cup\wheeledvehicles\cup_wheeledvehicles_ural\data\ural_kabina_sla_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_ural\data\ural_open_sla_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_ural\data\ural_fuel_chdkz_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_ural\data\whl_tyresize3.paa"};
@@ -921,7 +921,7 @@ class cebu_ural_r: CFP_I_SSArmy_Ural_Repair_01 {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
-    faction="O_CebuArmy_Woodland";
+    faction = "O_CebuArmy_Woodland";
     side = 0;
     displayName="ural r";
     hiddenSelectionsTextures[]={"cup\wheeledvehicles\cup_wheeledvehicles_ural\data\ural_kabina_sla_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_ural\data\ural_plachta_sla_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_ural\data\whl_tyresize3.paa",""};
@@ -933,7 +933,7 @@ class cebu_rihb: CUP_I_RHIB_RACS {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
-    faction="O_CebuArmy_Woodland";
+    faction = "O_CebuArmy_Woodland";
     side = 0;
     displayName="rihb";
     hiddenSelectionsTextures[]={"cup\watervehicles\cup_watervehicles_rhib\data\rhib_racs_co.paa"};
@@ -945,7 +945,7 @@ class cebu_lcac: CUP_I_ZUBR_UN {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
-    faction="O_CebuArmy_Woodland";
+    faction = "O_CebuArmy_Woodland";
     side = 0;
     displayName="lcac";
     hiddenSelectionsTextures[]={"cup\watervehicles\cup_watervehicles_zubr\data\zubr_body_1_dark_co.paa","cup\watervehicles\cup_watervehicles_zubr\data\zubr_body_2_dark_co.paa","cup\watervehicles\cup_watervehicles_zubr\data\zubr_details_dark_co.paa","cup\watervehicles\cup_watervehicles_zubr\data\zubr_interiors_co.paa","cup\watervehicles\cup_watervehicles_zubr\data\num\hull_num_5_ca.paa","cup\watervehicles\cup_watervehicles_zubr\data\num\hull_num_9_ca.paa","cup\watervehicles\cup_watervehicles_zubr\data\num\hull_num_1_ca.paa","cup\baseconfigs\cup_baseconfigs\data\flags\flag_sla_co.paa"};
@@ -957,7 +957,7 @@ class cebu_d30: CFP_O_IQARMY_D30_01 {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
-    faction="O_CebuArmy_Woodland";
+    faction = "O_CebuArmy_Woodland";
     side = 0;
     displayName="d30";
     hiddenSelectionsTextures[]={};
@@ -969,7 +969,7 @@ class cebu_zu23: CFP_O_IQARMY_ZU_23_01 {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
-    faction="O_CebuArmy_Woodland";
+    faction = "O_CebuArmy_Woodland";
     side = 0;
     displayName="zu23";
     hiddenSelectionsTextures[]={};
@@ -981,7 +981,7 @@ class cebu_su25: CFP_O_IQARMY_Su_25_Frogfoot_01 {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
-    faction="O_CebuArmy_Woodland";
+    faction = "O_CebuArmy_Woodland";
     side = 0;
     displayName="SU25";
     hiddenSelectionsTextures[]={"x\cfp\addons\vehicles\su25\su25_body1_saddam_co.paa","x\cfp\addons\vehicles\su25\su25_body2_saddam_co.paa"};
@@ -993,7 +993,7 @@ class cebu_bmp1: cfp_o_is_BMP1 {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
-    faction="O_CebuArmy_Woodland";
+    faction = "O_CebuArmy_Woodland";
     side = 0;
     displayName="BMP 1";
     hiddenSelectionsTextures[]={"x\cfp\addons\vehicles\bmp\bmp_tan_hull.paa","x\cfp\addons\vehicles\bmp\bmp_tan_trt.paa",""};
@@ -1005,7 +1005,7 @@ class cebu_offroad: CFP_O_SDARMY_Offroad_Police_01 {
     author = "CPT Cury";
     scope = 2;
     scopeCurator = 2;
-    faction="O_CebuArmy_Woodland";
+    faction = "O_CebuArmy_Woodland";
     side = 0;
     displayName="Police Offroad";
     hiddenSelectionsTextures[]={"a3\soft_f\offroad_01\data\offroad_01_ext_base03_co.paa","a3\soft_f\offroad_01\data\offroad_01_ext_base03_co.paa"};
