@@ -1,6 +1,6 @@
-class LXIM_Equipment {
+class lxim_Equipment {
 
-    tag = "LXIM";
+    tag = "lxim";
     class Equipment {
 
         file = "z\lxim\addons\equipment\Functions";

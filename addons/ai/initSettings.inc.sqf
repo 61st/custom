@@ -1,10 +1,8 @@
-#include "script_component.hpp"
-
 // Reporting AI
 [
-    "LXIM_AI_Reporting",
+    "lxim_AI_Reporting",
     "CHECKBOX",
-    ["Spawn Reporting", "Receive a systemchat message for any groups or vehicles that fail to spawn."],
+    ["Spawn Reporting", "Receive a systemChat message for any groups or vehicles that fail to spawn."],
     COMPONENT_NAME,
     false,
     true,
@@ -15,7 +13,7 @@
 
 // Set DynSim
 [
-    "LXIM_AI_DynSim",
+    "lxim_AI_DynSim",
     "CHECKBOX",
     ["Set Dynamic Simulation", "If enabled, all units in the mission file and all new units placed by Zeus and Spawn AI will automatically have Dynamic Simulation turned on."],
     COMPONENT_NAME,
@@ -26,20 +24,20 @@
 
 // Initial AI
 [
-    "LXIM_AI_InitialAI",
+    "lxim_AI_InitialAI",
     "CHECKBOX",
     ["Apply AI Skill", "This will automatically apply the below skills to AI Spawns and Zeus-placed AI. If enabled, it will also apply them to any Editor placed AI at mission start."],
     COMPONENT_NAME,
     true,
     true,
     {
-        if (_this && { isserver }) then  { call lxim_ai_fnc_SetInitialAI};
+        if (_this && { isServer }) then  { call lxim_ai_fnc_SetInitialAI};
     }
 ] call CBA_Settings_fnc_init;
 
 // AI Aiming Accuracy
 [
-    "LXIM_AI_AimingAccuracy",
+    "lxim_AI_AimingAccuracy",
     "SLIDER",
     ["Min Aiming Accuracy", "Higher value means the AI will be more likely to hit the target."],
     COMPONENT_NAME,
@@ -52,7 +50,7 @@
 
 // AI Aiming Shake
 [
-    "LXIM_AI_AimingShake",
+    "lxim_AI_AimingShake",
     "SLIDER",
     ["Min Aiming Shake", "Higher value means the AI will be more precise."],
     COMPONENT_NAME,
@@ -65,7 +63,7 @@
 
 // AI Aiming Speed
 [
-    "LXIM_AI_AimingSpeed",
+    "lxim_AI_AimingSpeed",
     "SLIDER",
     ["Min Aiming Speed", "Higher value means the AI can rotate and stabilize its aim faster."],
     COMPONENT_NAME,
@@ -78,7 +76,7 @@
 
 // AI Commanding
 [
-    "LXIM_AI_Commanding",
+    "lxim_AI_Commanding",
     "SLIDER",
     ["Commanding", "Higher value means the AI can report targets faster."],
     COMPONENT_NAME,
@@ -91,7 +89,7 @@
 
 // AI Courage
 [
-    "LXIM_AI_Courage",
+    "lxim_AI_Courage",
     "SLIDER",
     ["Courage", "Higher value means the AI is less likely to flee."],
     COMPONENT_NAME,
@@ -104,7 +102,7 @@
 
 // AI General
 [
-    "LXIM_AI_General",
+    "lxim_AI_General",
     "SLIDER",
     ["General", "Higher value improves the AI's decision making and general ability."],
     COMPONENT_NAME,
@@ -117,7 +115,7 @@
 
 // AI Min Reload Speed
 [
-    "LXIM_AI_ReloadSpeed",
+    "lxim_AI_ReloadSpeed",
     "SLIDER",
     ["Min Reload Speed", "Higher value means the AI can switch or reload weapons faster."],
     COMPONENT_NAME,
@@ -130,7 +128,7 @@
 
 // AI Min Spot Distance
 [
-    "LXIM_AI_SpotDistance",
+    "lxim_AI_SpotDistance",
     "SLIDER",
     ["Min Spot Distance", "Higher value means the AI is better at spotting targets."],
     COMPONENT_NAME,
@@ -143,7 +141,7 @@
 
 // AI Min Spot Time
 [
-    "LXIM_AI_SpotTime",
+    "lxim_AI_SpotTime",
     "SLIDER",
     ["Min Spot Time", "Higher value means the AI will react faster to death, damage or enemies."],
     COMPONENT_NAME,
@@ -156,7 +154,7 @@
 
 // CivAI Courage
 [
-    "LXIM_AI_CivCourage",
+    "lxim_AI_CivCourage",
     "SLIDER",
     ["Civilian Courage", "Higher value means the AI is less likely to flee. Only applies to Civilian units!"],
     COMPONENT_NAME,
@@ -169,7 +167,7 @@
 
 // CivAI Fleeing
 [
-    "LXIM_AI_CivFleeing",
+    "lxim_AI_CivFleeing",
     "CHECKBOX",
     ["Civilian Fleeing", "Prevent Civilian units from fleeing."],
     COMPONENT_NAME,
@@ -182,7 +180,7 @@
 
 
 [
-    "LXIM_Zeus_Module_AISpawnsEast",
+    "lxim_Zeus_Module_AISpawnsEast",
     "CHECKBOX",
     ["Zeus Module - AI Spawn - East", "Enable the Spawn AI - East Zeus module for use with ZEN"],
     COMPONENT_NAME,
@@ -197,7 +195,7 @@
 ] call CBA_Settings_fnc_init;
 
 [
-    "LXIM_Zeus_Module_AISpawnsIndep",
+    "lxim_Zeus_Module_AISpawnsIndep",
     "CHECKBOX",
     ["Zeus Module - AI Spawn - Independent", "Enable the Spawn AI - Independent Zeus module for use with ZEN"],
     COMPONENT_NAME,
@@ -212,7 +210,7 @@
 ] call CBA_Settings_fnc_init;
 
 [
-    "LXIM_Zeus_Module_AISpawnsWest",
+    "lxim_Zeus_Module_AISpawnsWest",
     "CHECKBOX",
     ["Zeus Module - AI Spawn - West", "Enable the Spawn AI - West Zeus module for use with ZEN"],
     COMPONENT_NAME,
@@ -228,7 +226,7 @@
 
 // CivilianSpawns Module
 [
-    "LXIM_Zeus_Module_CivilianSpawns",
+    "lxim_Zeus_Module_CivilianSpawns",
     "CHECKBOX",
     ["Zeus Module - AI Spawn - Civilian", "Enable the Spawn AI Civilians Zeus module for use with ZEN"],
     COMPONENT_NAME,

@@ -7,11 +7,16 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "ace_medical_treatment",
+            "cba_main", 
+            "ace_main", 
+            "ace_medical_treatment", 
+            "ACM_core",
+            "ACM_circulation",
             "lxim_main"
         };
-        author = "ArmaForces";
+        author = QAUTHOR;
         VERSION_CONFIG;
+        skipWhenMissingDependencies = 1;
     };
 };
 
@@ -19,5 +24,6 @@ class CfgPatches {
 #include "CfgEventHandlers.hpp"
 #include "CfgVehicles.hpp"
 #include "CfgWeapons.hpp"
+#include "CfgMagazines.hpp"
 #include "ACE_Medical_Treatment_Actions.hpp"
-#include "ACE_Medical_Treatment.hpp"
+// #include "ACE_Medical_Treatment.hpp"

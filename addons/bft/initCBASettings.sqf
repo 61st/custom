@@ -1,3 +1,4 @@
+#include "script_component.hpp"
 //================= GENERAL
 [
     QGVAR(bftEnabled),
@@ -65,7 +66,7 @@
 ] call CBA_fnc_addSetting;
 
 [
-    QGVAR(showPlayerNames),
+    QGVAR(showplayerNames),
     "CHECKBOX",
     "Show player names",
     ["61ST - BFT","Units"],
@@ -174,7 +175,7 @@
 ] call CBA_fnc_addSetting;
 
 [
-    QGVAR(friendlySides_EAST),
+    QGVAR(friendlySides_east),
     "LIST",
     "East is Friendly to:",
     ["61ST - BFT","Diplomacy"],
@@ -185,7 +186,7 @@
 ] call CBA_fnc_addSetting;
 
 [
-    QGVAR(friendlySides_WEST),
+    QGVAR(friendlySides_west),
     "LIST",
     "West is Friendly to:",
     ["61ST - BFT","Diplomacy"],
@@ -196,7 +197,7 @@
 ] call CBA_fnc_addSetting;
 
 [
-    QGVAR(friendlySides_RESISTANCE),
+    QGVAR(friendlySides_resistance),
     "LIST",
     "Independent is Friendly to:",
     ["61ST - BFT","Diplomacy"],
@@ -207,7 +208,7 @@
 ] call CBA_fnc_addSetting;
 
 [
-    QGVAR(friendlySides_CIVILIAN),
+    QGVAR(friendlySides_civilian),
     "LIST",
     "Civilians is Friendly to:",
     ["61ST - BFT","Diplomacy"],

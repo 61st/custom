@@ -42,14 +42,14 @@ class CfgWeapons {
         class CBA_ScriptedOptic {
             reticleTexture = "z\ace\addons\vector\data\reticles\ace_vector_reticle_ca.paa";
             reticleTextureSize = 1.026;
-            bodyTexture = "";
+            bodyTexture = "z\lxim\addons\equipment\data\ace_vector_body_co.paa";
             bodyTextureSize = 1.25;
-            reticleSafezoneSize = 1;
+            reticlesafeZoneSize = 1;
             hidePeripheralVision = 1;
             opticsPPEffects[] = {"QACEGVAR(vector,OpticsRadBlur1)"};
             disableTilt = 1;
         };
-        weaponInfoType = "LXIM_RscOptics_vector";
+        weaponInfoType = "lxim_RscOptics_vector";
         class WeaponSlotsInfo {
             mass = 20;
         };
@@ -437,13 +437,13 @@ class CfgWeapons {
             };
         };
     };
-    // class tsp_paperclip: CBA_MiscItem {
-    //     ACE_isTool = 1;
-    //     scope = 2;
-    // };
-    // class tsp_lockpick: tsp_paperclip {
-    //     ACE_isTool = 1;
-    // };
+    class tsp_paperclip: CBA_MiscItem {
+        ACE_isTool = 1;
+        scope = 2;
+    };
+    class tsp_lockpick: tsp_paperclip {
+        ACE_isTool = 1;
+    };
     class sps_black_hornet_01_Static_F {
         ACE_isTool = 1;
     };

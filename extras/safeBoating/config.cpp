@@ -3,7 +3,7 @@
 class CfgPatches {
     class ADDON {
         author = QAUTHOR;
-        name = COMPONENT_NAME;
+        name = QUOTE(ADDON);
         requiredAddons[] = {
             "lxim_main"
         };

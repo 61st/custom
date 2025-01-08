@@ -4,4 +4,5 @@ class CfgAmmo {
         simulation = "shotSmoke";
         deflectionSlowDown = 0.1;
     };
+    
 };

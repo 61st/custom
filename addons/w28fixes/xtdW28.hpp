@@ -41,7 +41,7 @@ class XtdGearModels {
             textureOptions[] = { "patch" };
             class patch {
                 label = "Skill Tab";
-                values[] = {"None","O11", "O12", "OHQ", "RINO", "PHX", "THD1", "THD2","THD3","MED", "EOD", "JTAC", "FLIGHTMED", "FLIGHTCREW", "PILOT", "PILOT1","CMD", "LEAD", "AIRA", "AIRB","PATH","SPEEDBUMP", "ZEUS"};
+                values[] = {"None","O11", "O12", "OHQ", "RINO", "PHX", "THD1", "THD2","THD3","MED", "EOD", "JTAC", "FLIGHTMED", "FLIGHTCREW", "PILOT", "PILOT1","CMD", "LEAD", "AIRA", "AIRB","PATH", "ZEUS"};
                 hiddenselection = "insignia";
                 class None {
                     texture = "";
@@ -130,9 +130,102 @@ class XtdGearModels {
                     texture = "z\lxim\addons\media\images\patches\thunder3.paa";
                     label = "Thunder Alt2";
                 };
-                class SPEEDBUMP {
-                    texture = "z\lxim\addons\media\images\patches\speedbump.paa";
-                    label = "Speedbump";
+            };
+        };
+        class lxim_moppsuit {
+            options[] = {""};
+            label = "MOPP SUIT";
+            textureOptions[] = { "patch" };
+            class patch {
+                label = "Skill Tab";
+                values[] = {"None","O11", "O12", "OHQ", "RINO", "PHX", "THD1", "THD2","THD3","MED", "EOD", "JTAC", "FLIGHTMED", "FLIGHTCREW", "PILOT", "PILOT1","CMD", "LEAD", "AIRA", "AIRB","PATH", "ZEUS"};
+                hiddenselection = "insignia";
+                class None {
+                    texture = "";
+                };
+                class MED {
+                    texture = "z\lxim\addons\media\images\patches\medic.paa";
+                    label = "Medic";
+                };
+                class EOD {
+                    texture = "z\lxim\addons\media\images\patches\eod.paa";
+                    label = "EOD";
+                };
+                class JTAC {
+                    texture = "z\lxim\addons\media\images\patches\jtac.paa";
+                    label = "JTAC";
+                };
+                class O11 {
+                    texture = "z\lxim\addons\media\images\patches\O11.paa";
+                    label = "Outlaw 1/1";
+                };
+                class O12 {
+                    texture = "z\lxim\addons\media\images\patches\O12.paa";
+                    label = "Outlaw 1/2";
+                };
+                class OHQ {
+                    texture = "z\lxim\addons\media\images\patches\HQ.paa";
+                    label = "Outlaw HQ";
+                };
+                class LEAD {
+                    texture = "z\lxim\addons\media\images\patches\lead.paa";
+                    label = "Leader";
+                };
+                class CMD {
+                    texture = "z\lxim\addons\media\images\patches\cmd.paa";
+                    label = "Command";
+                };
+                class RINO {
+                    texture = "z\lxim\addons\media\images\patches\rhino.paa";
+                    label = "Rhino";
+                };
+                class AIRA {
+                    texture = "z\lxim\addons\media\images\patches\airassult.paa";
+                    label = "Air Assault";
+                };
+                class AIRB {
+                    texture = "z\lxim\addons\media\images\patches\airborne.paa";
+                    label = "Airborne";
+                };
+                class PATH {
+                    texture = "z\lxim\addons\media\images\patches\path.paa";
+                    label = "PathFinder";
+                };
+                class FLIGHTMED {
+                    texture = "z\lxim\addons\media\images\patches\flightmed.paa";
+                    label = "Flight Medic";
+                };
+                class FLIGHTCREW {
+                    texture = "z\lxim\addons\media\images\patches\flightcrew.paa";
+                    label = "Flight Crew";
+                };
+                class PILOT {
+                    texture = "z\lxim\addons\media\images\patches\prophead.paa";
+                    label = "Pilot";
+                };
+                class PILOT1 {
+                    texture = "z\lxim\addons\media\images\patches\badges.paa";
+                    label = "Pilot Alt";
+                };
+                class ZEUS {
+                    texture = "z\lxim\addons\media\images\patches\zeus.paa";
+                    label = "Zeus";
+                };
+                class PHX {
+                    texture = "z\lxim\addons\media\images\patches\phoenix.paa";
+                    label = "Phoenix";
+                };
+                class THD1 {
+                    texture = "z\lxim\addons\media\images\patches\thunder1.paa";
+                    label = "Thunder ";
+                };
+                class THD2 {
+                    texture = "z\lxim\addons\media\images\patches\thunder2.paa";
+                    label = "Thunder Alt1 ";
+                };
+                class THD3 {
+                    texture = "z\lxim\addons\media\images\patches\thunder3.paa";
+                    label = "Thunder Alt2";
                 };
             };
         };
@@ -405,6 +498,9 @@ class XtdGearModels {
 
 class XtdGearInfos {
     class CfgWeapons {
+        class lxim_equipment_moppsuit {
+            model = "lxim_moppsuit";
+        };
         class H_tweed_Hat_fleece {
             model = "w28fleece";
             color = "Black";

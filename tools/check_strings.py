@@ -84,7 +84,7 @@ def main(argv):
     allDefinedStrings = list(sorted(set(allDefinedStrings)))
     allUsedStrings = list(sorted(set(allUsedStrings)))
 
-    if ("str_LXIM_tagging_name" in allUsedStrings): allUsedStrings.remove("str_LXIM_tagging_name") # Handle tagging macro
+    if ("STR_LXIM_tagging_name" in allUsedStrings): allUsedStrings.remove("STR_LXIM_tagging_name") # Handle tagging macro
 
     print("-----------")
     countUnusedStrings = 0
