@@ -8,7 +8,7 @@ class CfgMagazines {
     
 
 
-    class GVAR(100Rnd_35mm_MP_shells):140Rnd_30mm_MP_shells {
+    class GVAR(100Rnd_35mm_MP_shells): 140Rnd_30mm_MP_shells {
         ammo = QGVAR(35mm_MP);
         displayName = "100Rnd MP";
         displayNameShort = "MP";
@@ -16,7 +16,7 @@ class CfgMagazines {
         count=100;
         mass = 8;
     };
-    class GVAR(100Rnd_35mm_MP_shells_Tracer_Red):140Rnd_30mm_MP_shells_Tracer_Red {
+    class GVAR(100Rnd_35mm_MP_shells_Tracer_Red): 140Rnd_30mm_MP_shells_Tracer_Red {
         ammo = QGVAR(35mm_MP_Tracer_Red);
         displayName = "100Rnd MP Tracer (Red)";
         displayNameShort = "MP-T";
@@ -24,7 +24,7 @@ class CfgMagazines {
         count=100;
         mass = 8;        
     };
-    class GVAR(100Rnd_35mm_APFSDS_shells):60Rnd_30mm_APFSDS_shells {
+    class GVAR(100Rnd_35mm_APFSDS_shells): 60Rnd_30mm_APFSDS_shells {
         ammo = QGVAR(35mm_APFSDS);
         displayName = "100Rnd APFSDS";
         displayNameShort = "APFSDS";
@@ -32,7 +32,7 @@ class CfgMagazines {
         count=100;
         mass = 8;
     };
-    class GVAR(100Rnd_35mm_APFSDS_shells_Tracer_Red):60Rnd_30mm_APFSDS_shells_Tracer_Red {
+    class GVAR(100Rnd_35mm_APFSDS_shells_Tracer_Red): 60Rnd_30mm_APFSDS_shells_Tracer_Red {
         ammo = QGVAR(35mm_APFSDS_Tracer_Red);
         displayName = "100Rnd APFSDS Tracer (Red)";
         displayNameShort = "APFSDS-T";
@@ -40,7 +40,7 @@ class CfgMagazines {
         count=100;
         mass = 8;  
     };
-    class GVAR(100Rnd_35mm_HE_shells):250Rnd_30mm_HE_shells {
+    class GVAR(100Rnd_35mm_HE_shells): 250Rnd_30mm_HE_shells {
         ammo = QGVAR(35mm_HE);
         displayName = "100Rnd HE";
         displayNameShort = "HE";
@@ -48,7 +48,7 @@ class CfgMagazines {
         count=100;
         mass = 8;
     };
-    class GVAR(100Rnd_35mm_HE_shells_Tracer_Red):250Rnd_30mm_HE_shells_Tracer_Red {
+    class GVAR(100Rnd_35mm_HE_shells_Tracer_Red): 250Rnd_30mm_HE_shells_Tracer_Red {
         ammo = QGVAR(35mm_HE_Tracer_Red);
         displayName = "100Rnd HE Tracer (Red)";
         displayNameShort = "HE-T";
@@ -56,7 +56,7 @@ class CfgMagazines {
         count=100;
         mass = 8;        
     };
-    class GVAR(100Rnd_35mm_AP_shells):60Rnd_30mm_APFSDS_shells {
+    class GVAR(100Rnd_35mm_AP_shells): 60Rnd_30mm_APFSDS_shells {
         ammo = QGVAR(35mm_AP);
         displayName = "100Rnd AP";
         displayNameShort = "AP";
@@ -64,7 +64,7 @@ class CfgMagazines {
         count=100;
         mass = 8;
     };
-    class GVAR(100Rnd_35mm_AP_shells_Tracer_Red):60Rnd_30mm_APFSDS_shells_Tracer_Red {
+    class GVAR(100Rnd_35mm_AP_shells_Tracer_Red): 60Rnd_30mm_APFSDS_shells_Tracer_Red {
         ammo = QGVAR(35mm_AP_Tracer_Red);
         displayName = "100Rnd AP Tracer (Red)";
         displayNameShort = "AP-T";

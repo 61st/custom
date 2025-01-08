@@ -18,12 +18,11 @@
 
 class CfgWorlds {
     class DefaultWorld;
-    class CAWorld : DefaultWorld {
-        class Grid {
-        };
+    class CAWorld: DefaultWorld {
+        class Grid {};
     };
-    class yulakia : CAWorld {
-        class Grid : Grid {
+    class yulakia: CAWorld {
+        class Grid: Grid {
             class Zoom1 {
                 zoomMax=0.005;
                 format="X Y";
