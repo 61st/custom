@@ -33,12 +33,12 @@ if (!isNil "ocap_fnc_exportData") then {
 
     // Start in own 'thread'
     [] spawn {
-         {
+        {
             [] call ocap_fnc_exportData;
             private _message = format["[61st] OCAP Export complete. Ending..."];
             [_message,'tac1_admin_fnc_messageAdmin',true] call BIS_fnc_MP;
             GVAR(endMissionWait) = -1;
-         } call CBA_fnc_directCall;
+        } call CBA_fnc_directCall;
     };
 
 

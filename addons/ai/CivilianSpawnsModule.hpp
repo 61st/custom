@@ -56,16 +56,14 @@ class lxim_ModuleCivilianSpawns: Module_F {
                 defaultValue = 200;
             };
 
-        class GarrisonedUnitsMin: Edit
-        {
+        class GarrisonedUnitsMin: Edit {
             property = "lxim_AI_GarrisonedUnitsMin";
             displayName = "Min Garrisoned Units";
             description = "Minimum Number of Garrisoned Civilians to Spawn";
             typeName = "Number";
             defaultValue = 0;
         };
-        class GarrisonedUnitsMax: Edit
-        {
+        class GarrisonedUnitsMax: Edit {
             property = "lxim_AI_GarrisonedUnitsMax";
             displayName = "Max Garrisoned Units";
             description = "Maximum Number of Garrisoned Civilians to Spawn";
@@ -81,55 +79,49 @@ class lxim_ModuleCivilianSpawns: Module_F {
                 defaultValue = 500;
             };
 
-        class CivPedPatrolsMin: Edit
-        {
+        class CivPedPatrolsMin: Edit {
             property = "lxim_AI_CivPedPatrolsMin";
             displayName = "Min Pedestrian Patrols";
             description = "Minimum Number of Pedestrians to Spawn";
             typeName = "Number";
             defaultValue = 0;
         };
-        class CivPedPatrolsMax: Edit
-        {
+        class CivPedPatrolsMax: Edit {
             property = "lxim_AI_CivPedPatrolsMax";
             displayName = "Max Pedestrian Patrols";
             description = "Maximum Number of Pedestrians to Spawn";
             typeName = "Number";
             defaultValue = 0;
         };
-        class CivVehPatrolsMin: Edit
-        {
+        class CivVehPatrolsMin: Edit {
             property = "lxim_AI_CivVehPatrolsMin";
             displayName = "Min Vehicle Patrols";
             description = "Minimum Number of Vehicle Patrols to Spawn";
             typeName = "Number";
             defaultValue = 0;
         };
-        class CivVehPatrolsMax: Edit
-        {
+        class CivVehPatrolsMax: Edit {
             property = "lxim_AI_CivVehPatrolsMax";
             displayName = "Max Vehicle Patrols";
             description = "Maximum Number of Vehicle Patrols to Spawn";
             typeName = "Number";
             defaultValue = 0;
         };
-        class CivVehParkedMin: Edit
-        {
+        class CivVehParkedMin: Edit {
             property = "lxim_AI_CivVehParkedMin";
             displayName = "Min Parked Vehicles";
             description = "Minimum Number of Parked Vehicles to Spawn";
             typeName = "Number";
             defaultValue = 0;
         };
-        class CivVehParkedMax: Edit
-        {
+        class CivVehParkedMax: Edit {
             property = "lxim_AI_CivVehPaarkedMax";
             displayName = "Max Parked Vehicle";
             description = "Maximum Number of Parked Vehicles to Spawn";
             typeName = "Number";
             defaultValue = 0;
         };
-        class ModuleDescription: ModuleDescription{};
+        class ModuleDescription: ModuleDescription {};
     };
     class ModuleDescription: ModuleDescription {
         description[] = {

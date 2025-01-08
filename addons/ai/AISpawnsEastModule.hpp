@@ -242,7 +242,7 @@ class lxim_ModuleAISpawns: Module_F {
             typeName = "Number";
             defaultValue = 0;
         };
-        class ModuleDescription: ModuleDescription{};
+        class ModuleDescription: ModuleDescription {};
     };
     class ModuleDescription: ModuleDescription {
         description[] = {
