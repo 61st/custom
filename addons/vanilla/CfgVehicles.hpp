@@ -109,7 +109,7 @@ class CfgVehicles {
                     diffuse[] = {1,1,1,1};
                     emissive[] = {1000,1000,1000,1};
                 };
-                class Bones{};
+                class Bones {};
                 class Draw {
                     color[] = {0.61,0.62,0};
                     alpha = 1;
@@ -146,7 +146,7 @@ class CfgVehicles {
                     diffuse[] = {1,1,1,1};
                     emissive[] = {1000,1000,1000,1};
                 };
-                class Bones{};
+                class Bones {};
                 class Draw {
                     color[] = {1,1,1};
                     alpha = 1;
@@ -471,7 +471,7 @@ class CfgVehicles {
                     diffuse[] = {1,1,1,1};
                     emissive[] = {1000,1000,1000,1};
                 };
-                class Bones{};
+                class Bones {};
                 class Draw {
                     color[] = {1,1,1};
                     alpha = 1;
@@ -571,7 +571,7 @@ class CfgVehicles {
                     diffuse[] = {1,1,1,1};
                     emissive[] = {1000,1000,1000,1};
                 };
-                class Bones{};
+                class Bones {};
                 class Draw {
                     color[] = {1,1,1};
                     alpha = 1;
@@ -608,7 +608,7 @@ class CfgVehicles {
                     diffuse[] = {1,1,1,1};
                     emissive[] = {1000,1000,1000,1};
                 };
-                class Bones{};
+                class Bones {};
                 class Draw {
                     color[] = {0,0,0};
                     alpha = 1;
@@ -659,7 +659,7 @@ class CfgVehicles {
                     diffuse[] = {1,1,1,1};
                     emissive[] = {1000,1000,1000,1};
                 };
-                class Bones{};
+                class Bones {};
                 class Draw {
                     color[] = {1,1,1};
                     alpha = 1;
@@ -786,7 +786,7 @@ class CfgVehicles {
                     diffuse[] = {1,1,1,1};
                     emissive[] = {1000,1000,1000,1};
                 };
-                class Bones{};
+                class Bones {};
                 class Draw {
                     color[] = {1,1,1};
                     alpha = 1;
@@ -823,7 +823,7 @@ class CfgVehicles {
                     diffuse[] = {1,1,1,1};
                     emissive[] = {1000,1000,1000,1};
                 };
-                class Bones{};
+                class Bones {};
                 class Draw {
                     color[] = {1,1,1};
                     alpha = 1;
@@ -861,7 +861,7 @@ class CfgVehicles {
                     diffuse[] = {1,1,1,1};
                     emissive[] = {1000,1000,1000,1};
                 };
-                class Bones{};
+                class Bones {};
                 class Draw {
                     color[] = {1,1,1};
                     alpha = 1;
@@ -981,7 +981,7 @@ class CfgVehicles {
         class Components: Components {
             class SensorsManagerComponent {
                 class Components {
-                    class DataLinkSensorComponent: SensorTemplateDataLink{};
+                    class DataLinkSensorComponent: SensorTemplateDataLink {};
                 };
             };
         };

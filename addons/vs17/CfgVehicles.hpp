@@ -1,5 +1,5 @@
 class CBA_Extended_EventHandlers_base;
-class CBA_Extended_EventHandlers: CBA_Extended_EventHandlers_base{};
+class CBA_Extended_EventHandlers: CBA_Extended_EventHandlers_base {};
 class CfgVehicles {
     class Man;
     class Helipad_base_F;
@@ -8,12 +8,12 @@ class CfgVehicles {
         scope = 0;
         vehicleclass = "lxim";
         mapsize = 1.5;
-        class TransportWeapons{};
-        class TransportItems{};
-        class TransportMagazines{};
-        class TransportBackpacks{};
+        class TransportWeapons {};
+        class TransportItems {};
+        class TransportMagazines {};
+        class TransportBackpacks {};
         class EventHandlers {
-            class CBA_Extended_EventHandlers: CBA_Extended_EventHandlers_base{};
+            class CBA_Extended_EventHandlers: CBA_Extended_EventHandlers_base {};
         };
     };
     class GVAR(vs17_item): GVAR(vs17_base) {

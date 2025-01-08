@@ -80,7 +80,7 @@ class CfgVehicles {
         mass = 20;
         maximumLoad = 160;
     };
-    class rhsusf_assault_eagleaiii_ucp : B_AssaultPack_Base {
+    class rhsusf_assault_eagleaiii_ucp: B_AssaultPack_Base {
         mass = 50; // 20
         maximumLoad = 280; // 160
     };
@@ -108,14 +108,14 @@ class CfgVehicles {
             class HitGlass6;
         };
     };
-    class Tank : LandVehicle {
+    class Tank: LandVehicle {
         class NewTurret;
         class Sounds;
         class HitPoints;
     };
-    class Tank_F : Tank {
+    class Tank_F: Tank {
         class Turrets {
-            class MainTurret : NewTurret {
+            class MainTurret: NewTurret {
                 class Turrets {
                     class CommanderOptics;
                 };
@@ -126,34 +126,34 @@ class CfgVehicles {
         class ViewOptics;
         class ViewCargo;
         class HeadLimits;
-        class HitPoints : HitPoints {
+        class HitPoints: HitPoints {
             class HitHull;
             class HitEngine;
             class HitLTrack;
             class HitRTrack;
         };
-        class Sounds : Sounds {
+        class Sounds: Sounds {
             class Engine;
             class Movement;
         };
     };
-    class MBT_01_base_F : Tank_F {
+    class MBT_01_base_F: Tank_F {
         class EventHandlers;
         class Turrets {
-            class MainTurret : NewTurret {
+            class MainTurret: NewTurret {
                 class Turrets {
                     class CommanderOptics;
                 };
             };
         };
     };
-    class Wheeled_APC_F : Car_F {
+    class Wheeled_APC_F: Car_F {
         class ViewPilot;
         class ViewOptics;
         class ViewCargo;
         class NewTurret;
         class Turrets {
-            class MainTurret : NewTurret {
+            class MainTurret: NewTurret {
                 class ViewOptics;
                 class ViewGunner;
                 class Turrets {
@@ -165,7 +165,7 @@ class CfgVehicles {
         class Components;
     };
     // Abrams
-    class rhsusf_m1a1tank_base : MBT_01_base_F {
+    class rhsusf_m1a1tank_base: MBT_01_base_F {
         acre_hasInfantryPhone = 1;
         acre_infantryPhoneIntercom[] = {"CrewIntercom"};
         acre_infantryPhoneControlActions[] = {"CrewIntercom"};
@@ -191,98 +191,98 @@ class CfgVehicles {
                 shortName = "R.Low";
             };
         };
-        class Turrets : Turrets {
-            class MainTurret : MainTurret {
+        class Turrets: Turrets {
+            class MainTurret: MainTurret {
                 class OpticsIn {
-                    class Wide : ViewOptics {
+                    class Wide: ViewOptics {
                         visionMode[]={"Normal", "NVG", "Ti"};
                     };
-                    class Medium : Wide {
+                    class Medium: Wide {
                     };
-                    class Wide_TI : Wide {
+                    class Wide_TI: Wide {
                         gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A2_2";
                         visionMode[]={"Normal", "NVG", "Ti"};
                     };
-                    class Wide2_TI : Wide_TI {
+                    class Wide2_TI: Wide_TI {
                         gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A2_2";
                     };
-                    class Medium_TI : Wide_TI {
+                    class Medium_TI: Wide_TI {
                         gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A2_2";
                     };
-                    class Medium2_TI : Wide_TI {
+                    class Medium2_TI: Wide_TI {
                         gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A2_2";
                     };
-                    class Narrow_TI : Wide_TI {
+                    class Narrow_TI: Wide_TI {
                         gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A2_2";
                     };
                 };
             };
         };
     };
-    class rhsusf_m1a1hc_wd : rhsusf_m1a1tank_base {
-        class Turrets : Turrets {
-            class MainTurret : MainTurret {
+    class rhsusf_m1a1hc_wd: rhsusf_m1a1tank_base {
+        class Turrets: Turrets {
+            class MainTurret: MainTurret {
                 class OpticsIn {
-                    class Wide : ViewOptics {
+                    class Wide: ViewOptics {
                         visionMode[]={"Normal", "NVG", "Ti"};
                     };
-                    class Medium : Wide {
+                    class Medium: Wide {
                     };
-                    class Wide_TI : Wide {
+                    class Wide_TI: Wide {
                         gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A2_2";
                         visionMode[]={"Normal", "NVG", "Ti"};
                     };
-                    class Wide2_TI : Wide_TI {
+                    class Wide2_TI: Wide_TI {
                         gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A2_2";
                     };
-                    class Medium_TI : Wide_TI {
+                    class Medium_TI: Wide_TI {
                         gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A2_2";
                     };
-                    class Medium2_TI : Wide_TI {
+                    class Medium2_TI: Wide_TI {
                         gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A2_2";
                     };
-                    class Narrow_TI : Wide_TI {
+                    class Narrow_TI: Wide_TI {
                         gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A2_2";
                     };
                 };
             };
         };
     };
-    class rhsusf_m1a2tank_base : rhsusf_m1a1tank_base {
-        class Turrets : Turrets {
-            class MainTurret : MainTurret {
+    class rhsusf_m1a2tank_base: rhsusf_m1a1tank_base {
+        class Turrets: Turrets {
+            class MainTurret: MainTurret {
                 class OpticsIn {
-                    class Wide : ViewOptics {
+                    class Wide: ViewOptics {
                         visionMode[]={"Normal", "NVG", "Ti"};
                     };
-                    class Medium : Wide {
+                    class Medium: Wide {
                     };
-                    class Wide_TI : Wide {
+                    class Wide_TI: Wide {
                         gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A1_2";
                         visionMode[]={"Normal", "NVG", "Ti"};
                     };
-                    class Wide2_TI : Wide_TI {
+                    class Wide2_TI: Wide_TI {
                         gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A1_2";
                     };
-                    class Medium_TI : Wide_TI {
+                    class Medium_TI: Wide_TI {
                         gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A1_2";
                     };
-                    class Medium2_TI : Wide_TI {
+                    class Medium2_TI: Wide_TI {
                         gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A1_2";
                     };
-                    class Narrow_TI : Wide_TI {
+                    class Narrow_TI: Wide_TI {
                         gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A1_2";
                     };
                 };
             };
         };
     };
-    class rhsusf_m1a2sep2_base : rhsusf_m1a2tank_base {
-        class Turrets : Turrets {
-            class MainTurret : MainTurret {
-                class Turrets : Turrets {
+    class rhsusf_m1a2sep2_base: rhsusf_m1a2tank_base {
+        class Turrets: Turrets {
+            class MainTurret: MainTurret {
+                class Turrets: Turrets {
                     class CommanderOptics;
-                    class CROWS_Turret : CommanderOptics {
+                    class CROWS_Turret: CommanderOptics {
                         weapons[]={"RHS_M2_Abrams_Commander", "Laserdesignator_vehicle"};
                         magazines[]={"rhs_mag_100rnd_127x99_mag_Tracer_Red", "rhs_mag_100rnd_127x99_mag_Tracer_Red", "rhs_mag_100rnd_127x99_mag_Tracer_Red", "rhs_mag_100rnd_127x99_mag_Tracer_Red", "rhs_mag_100rnd_127x99_mag_Tracer_Red", "rhs_mag_100rnd_127x99_mag_Tracer_Red", "rhs_mag_100rnd_127x99_mag_Tracer_Red", "rhs_mag_100rnd_127x99_mag_Tracer_Red", "rhs_mag_100rnd_127x99_mag_Tracer_Red", "rhs_mag_100rnd_127x99_mag_Tracer_Red", "Laserbatteries"};
                     };
@@ -295,7 +295,7 @@ class CfgVehicles {
         class EventHandlers;
         class Components;
     };
-    class rhsusf_MATV_base : MRAP_01_base_F {
+    class rhsusf_MATV_base: MRAP_01_base_F {
         class AcreIntercoms {
             class CrewIntercom {
                 displayName = "$STR_ACRE_sys_intercom_intercom";
@@ -907,7 +907,7 @@ class CfgVehicles {
     };
     // RHS MRZR-4
     class rhsusf_mrzr_base;
-    class rhsusf_mrzr4_d : rhsusf_mrzr_base {
+    class rhsusf_mrzr4_d: rhsusf_mrzr_base {
         class AcreIntercoms {};
         class AcreRacks {};
         accuracy = 1.25; // 0.25
@@ -959,22 +959,22 @@ class CfgVehicles {
     class rhsusf_stryker_m1126_base: rhsusf_stryker_base {
         armor = 220; // 120
         audible = 15; // 14
-        class Turrets : Turrets {
-            class MainTurret : MainTurret {
+        class Turrets: Turrets {
+            class MainTurret: MainTurret {
                 class OpticsIn {
-                    class DaysightWFOV : ViewOptics {
+                    class DaysightWFOV: ViewOptics {
                         visionMode[]={"Normal", "NVG", "Ti"};
                     };
-                    class ThermalWFOV : DaysightWFOV {
+                    class ThermalWFOV: DaysightWFOV {
                         visionMode[]={"Normal", "NVG", "Ti"};
                     };
-                    class ThermalNFOV : ThermalWFOV {
+                    class ThermalNFOV: ThermalWFOV {
                         visionMode[]={"Normal", "NVG", "Ti"};
                     };
-                    class DaysightNFOV : DaysightWFOV {
+                    class DaysightNFOV: DaysightWFOV {
                         visionMode[]={"Normal", "NVG", "Ti"};
                     };
-                    class DaysightVNFOV : DaysightWFOV {
+                    class DaysightVNFOV: DaysightWFOV {
                         visionMode[]={"Normal", "NVG", "Ti"};
                     };
                 };
@@ -1050,7 +1050,7 @@ class CfgVehicles {
             };
         };
     };
-    class rhsusf_stryker_m1134_base : rhsusf_stryker_m1126_m2_base {
+    class rhsusf_stryker_m1134_base: rhsusf_stryker_m1126_m2_base {
         class AcreIntercoms {
             class CrewIntercom {
                 displayName = "$STR_ACRE_sys_intercom_crewIntercom";
@@ -1074,34 +1074,34 @@ class CfgVehicles {
                 allowedPositions[] = {"all"};
             };
         };
-        class Turrets : Turrets {
-            class MainTurret : MainTurret {
+        class Turrets: Turrets {
+            class MainTurret: MainTurret {
                 class OpticsIn {
-                    class DaysightWFOV : ViewOptics {
+                    class DaysightWFOV: ViewOptics {
                         visionMode[]={"Normal", "NVG", "Ti"};
                     };
-                    class DaysightNFOV : DaysightWFOV {
+                    class DaysightNFOV: DaysightWFOV {
                         visionMode[]={"Normal", "NVG", "Ti"};
                     };
-                    class ThermalWFOV : DaysightWFOV {
+                    class ThermalWFOV: DaysightWFOV {
                         visionMode[]={"Normal", "NVG", "Ti"};
                     };
-                    class ThermalWFOV2X : ThermalWFOV {
+                    class ThermalWFOV2X: ThermalWFOV {
                         visionMode[]={"Normal", "NVG", "Ti"};
                     };
-                    class ThermalNFOV : ThermalWFOV {
+                    class ThermalNFOV: ThermalWFOV {
                         visionMode[]={"Normal", "NVG", "Ti"};
                     };
-                    class DaysightNFOV2X : ThermalNFOV {
+                    class DaysightNFOV2X: ThermalNFOV {
                         visionMode[]={"Normal", "NVG", "Ti"};
                     };
                 };
             };
         };
     };
-    class APC_Tracked_03_base_F : Tank_F {
+    class APC_Tracked_03_base_F: Tank_F {
         class Turrets {
-            class MainTurret : NewTurret {
+            class MainTurret: NewTurret {
                 class Turrets {
                     class CommanderOptics;
                 };
@@ -1109,7 +1109,7 @@ class CfgVehicles {
         };
     };
     // Bradley
-    class RHS_M2A2_Base : APC_Tracked_03_base_F {
+    class RHS_M2A2_Base: APC_Tracked_03_base_F {
         class AcreIntercoms {
             class CrewIntercom {
                 displayName = "$STR_ACRE_sys_intercom_crewIntercom";
@@ -1145,8 +1145,8 @@ class CfgVehicles {
         };
         armor = 510; // 290
         audible = 17; // 18
-        class Turrets : Turrets {
-            class MainTurret : MainTurret {
+        class Turrets: Turrets {
+            class MainTurret: MainTurret {
                 class OpticsIn {
                     class Wide {
                         visionMode[]={"Normal", "NVG", "Ti"};
@@ -1155,11 +1155,11 @@ class CfgVehicles {
             };
         };
     };
-    class RHS_M2A2 : RHS_M2A2_Base {
+    class RHS_M2A2: RHS_M2A2_Base {
     };
-    class RHS_M2A3 : RHS_M2A2 {
-        class Turrets : Turrets {
-            class MainTurret : MainTurret {
+    class RHS_M2A3: RHS_M2A2 {
+        class Turrets: Turrets {
+            class MainTurret: MainTurret {
                 class OpticsIn {
                     class Wide {
                         visionMode[]={"Normal", "NVG", "Ti"};
@@ -1169,7 +1169,7 @@ class CfgVehicles {
         };
     };
     class RHS_C130J_Base;
-    class RHS_C130J : RHS_C130J_Base {
+    class RHS_C130J: RHS_C130J_Base {
         accuracy = 0.1; // 0.15
         armor = 70; // 50
         audible = 210; // 60
@@ -1215,7 +1215,7 @@ class CfgVehicles {
             };
         };
     };
-    class RHS_CH_47F : RHS_CH_47F_base {
+    class RHS_CH_47F: RHS_CH_47F_base {
         accuracy = 0.35; // 0.5
         accuracyDarkNightLightsOff = 0.003; // 0.001
         accuracyNightLightsOff = 0.018; // 0.006
@@ -1228,7 +1228,7 @@ class CfgVehicles {
         radarType = 8; // 4
     };
     class Heli_Attack_01_base_F;
-    class RHS_AH64_base : Heli_Attack_01_base_F {
+    class RHS_AH64_base: Heli_Attack_01_base_F {
         acre_hasInfantryPhone = 0;
         class AcreIntercoms {
             class CrewIntercom {
@@ -1304,7 +1304,7 @@ class CfgVehicles {
             };
         };
     };
-    class RHS_UH60M_base : RHS_UH60_Base {
+    class RHS_UH60M_base: RHS_UH60_Base {
         accuracy = 0.42; // 0.5
         accuracyDarkNightLightsOff = 0.002; // 0.001
         accuracyNightLightsOff = 0.012; // 0.006
@@ -1319,7 +1319,7 @@ class CfgVehicles {
         radarTargetSize = 1.25; // 1
     };
     class Helicopter_Base_H;
-    class RHS_MELB_base : Helicopter_Base_H {
+    class RHS_MELB_base: Helicopter_Base_H {
         acre_hasInfantryPhone = 0;
         class AcreIntercoms {
             class CrewIntercom {
@@ -1431,7 +1431,7 @@ class CfgVehicles {
         ace_repair_canRepair = 1;
         ace_rearm_defaultSupply = 1200;
     };
-    class rhsusf_M1239_M2_Deploy_socom_d :rhsusf_M1239_Deploy_base {
+    class rhsusf_M1239_M2_Deploy_socom_d:rhsusf_M1239_Deploy_base {
         ace_refuel_fuelCargo = 1000;
         ace_repair_canRepair = 1;
         ace_rearm_defaultSupply = 1200;

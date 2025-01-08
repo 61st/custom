@@ -19,12 +19,11 @@
 
 class CfgWorlds {
     class DefaultWorld;
-    class CAWorld : DefaultWorld {
-        class Grid {
-        };
+    class CAWorld: DefaultWorld {
+        class Grid {};
     };
-    class Enoch : CAWorld {
-        class Grid : Grid {
+    class Enoch: CAWorld {
+        class Grid: Grid {
             class Zoom1 {
                 zoomMax=0.005;
                 format="X Y";
@@ -51,8 +50,8 @@ class CfgWorlds {
             };
         };
     };
-    class Malden : CAWorld {
-        class Grid : Grid {
+    class Malden: CAWorld {
+        class Grid: Grid {
             class Zoom1 {
                 zoomMax=0.005;
                 format="X Y";
@@ -79,8 +78,8 @@ class CfgWorlds {
             };
         };
     };
-    class Stratis : CAWorld {
-        class Grid : Grid {
+    class Stratis: CAWorld {
+        class Grid: Grid {
             class Zoom1 {
                 zoomMax=0.005;
                 format="X Y";
@@ -107,8 +106,8 @@ class CfgWorlds {
             };
         };
     };
-    class Tanoa : CAWorld {
-        class Grid : Grid {
+    class Tanoa: CAWorld {
+        class Grid: Grid {
             class Zoom1 {
                 zoomMax=0.005;
                 format="X Y";
@@ -136,7 +135,7 @@ class CfgWorlds {
         };
     };
     // class dagger_island_summer_no_targets: CAWorld {
-    //     class Grid : Grid {
+    //     class Grid: Grid {
     //         class Zoom1 {
     //             zoomMax=0.005;
     //             format="X Y";
