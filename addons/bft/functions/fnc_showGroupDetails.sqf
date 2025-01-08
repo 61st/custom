@@ -46,7 +46,7 @@ _unitNameList = "";
         _leader = "[L]";
     };
 
-    if (vehicle _x != _x) then {
+    if (!isNull objectParent _x) then {
         _vehicle = "[" + getText (configFile >> "CfgVehicles" >> (typeOf (vehicle _x)) >> "displayName") + "]";
     };
 

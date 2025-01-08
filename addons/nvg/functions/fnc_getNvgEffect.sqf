@@ -11,7 +11,7 @@
  *	<ARRAY> - [<NUMBER>] Color correction array
  *
  * example:
- * call PLXIM_EnhancedNVG_fnc_getNvgEffect;
+ * call Plxim_EnhancedNVG_fnc_getNvgEffect;
  */
 
 private _effectSelection = lxim_nvg_Effect;

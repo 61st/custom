@@ -17,7 +17,7 @@
 
 if !(GVAR(showOwnGroupUnits)) exitWith {};
 
-private _playersGroupUnitsToDrawMarkers = units (side lxim_unit);
+private _playersGroupUnitsToDrawMarkers = units (group lxim_unit);
 
 {
     private ["_markerType", "_markerColor", "_markerSize", "_markerDir", "_markerName", "_markerText", "_marker"];

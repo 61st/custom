@@ -13,7 +13,7 @@
  *	<ARRAY> - [<STRING>, <BOOL>], ["NVG Effect", true if effect was set; false if not]
  *
  * example:
- * [] spawn PLXIM_EnhancedNVG_fnc_setNvgEffect;
+ * [] spawn Plxim_EnhancedNVG_fnc_setNvgEffect;
  */
 
 // player is not using NVGs, exit

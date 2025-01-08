@@ -113,7 +113,6 @@ class CfgUnitInsignia {
         texture = "z\lxim\addons\media\images\patches\flightmed.paa";   // Image path
         textureVehicle = "";             // Does nothing, reserved for future use
     };
-
     class pthunder1 {
         displayName = "Thunder";        // Name displayed in Arsenal
         author = QAUTHOR;              // Author displayed in Arsenal
@@ -139,5 +138,3 @@ class CfgUnitInsignia {
         textureVehicle = "";             // Does nothing, reserved for future use
     };
 };
-
-

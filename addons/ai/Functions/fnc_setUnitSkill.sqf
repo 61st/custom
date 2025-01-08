@@ -1,6 +1,6 @@
 #include "script_component.hpp"
 /*
-Function: LXIM_ai_fnc_SetUnitSkill
+Function: lxim_ai_fnc_SetUnitSkill
 
 Description:
     Set the given unit's skill level to the desired one.
@@ -19,7 +19,7 @@ Author:
     Martin & MitchJC
 */
 
-if (!isserver) exitwith {};
+if (!isServer) exitWith {};
 
 params ["_target", ["_skillLevel", 2]];
 
@@ -48,15 +48,15 @@ private _skillv = [
 
 if !(isNil "LXIM_AI_AimingAccuracy") then {
     _skillv = [
-        (LXIM_AI_AimingAccuracy - 0.05 + random 0.1),
-        (LXIM_AI_AimingShake - 0.05 + random 0.1),
-        (LXIM_AI_AimingSpeed - 0.05 + random 0.1),
-        (LXIM_AI_Commanding),
-        (LXIM_AI_Courage), 1,
-        (LXIM_AI_General),
-        (LXIM_AI_ReloadSpeed - 0.1 + random 0.30),
-        (LXIM_AI_SpotDistance - 0.1 + random 0.15),
-        (LXIM_AI_SpotTime - 0.1 + random 0.15)
+        (lxim_AI_AimingAccuracy - 0.05 + random 0.1),
+        (lxim_AI_AimingShake - 0.05 + random 0.1),
+        (lxim_AI_AimingSpeed - 0.05 + random 0.1),
+        (lxim_AI_Commanding),
+        (lxim_AI_Courage), 1,
+        (lxim_AI_General),
+        (lxim_AI_ReloadSpeed - 0.1 + random 0.30),
+        (lxim_AI_SpotDistance - 0.1 + random 0.15),
+        (lxim_AI_SpotTime - 0.1 + random 0.15)
     ];
 };
 
@@ -64,7 +64,7 @@ if !(isNil "LXIM_AI_AimingAccuracy") then {
 {
     if (_x < 0) then {_x = 0 };
     if (_x > 1) then {_x = 1 };
-} foreach _skillv;
+} forEach _skillv;
 
 private _units = call {
     if ((typeName _target) isEqualTo "GROUP") exitWith { units _target };
@@ -79,9 +79,9 @@ private _units = call {
 } forEach _skillt;
 
 if (side _target == civilian) then {
-    {_x setSkill ["courage", LXIM_AI_CivCourage]; true } count _units;
+    {_x setSkill ["courage", lxim_AI_CivCourage]; true } count _units;
 
-    if (LXIM_AI_CivFleeing) then {
+    if (lxim_AI_CivFleeing) then {
         {
             [_x, 0] remoteExec ["allowFleeing", _x]; true
         } count _units;

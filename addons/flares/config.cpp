@@ -1,6 +1,6 @@
 #include "script_component.hpp"
 
-#ifndef LXIM_LEAN_RHS_CUP_HLC
+#ifndef lxim_LEAN_RHS_CUP_HLC
 
 class CfgPatches {
     class ADDON {

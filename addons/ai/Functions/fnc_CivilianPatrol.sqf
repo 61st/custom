@@ -1,6 +1,6 @@
 #include "\z\lxim\addons\ai\script_component.hpp"
 /*
-Function: LXIM_ai_fnc_CivilianPatrol
+Function: lxim_ai_fnc_CivilianPatrol
 
 Description:
     Sets up a patrol for civilians with appropriate reactions to getting shot at.
