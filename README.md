@@ -57,15 +57,6 @@ ACE MOD https://steamcommunity.com/workshop/filedetails/?id=463939057
   - Realistic Dispersion
   - Tracers (ball)
 
-# This mod includes retextures for: (per expressed permission in licenses  - GPL 3.0 )
-A rewrite of katalam KAM, (removed chemical and few other tweaks)
-https://github.com/KAT-Advanced-Medical/KAM 
-
-
-# This mod also includes : (per expressed permission on each mods steam page)
-Kiyo's 
-- 2035 Modern Equipment Replacement - Helmet https://steamcommunity.com/sharedfiles/filedetails/?id=2935677665&searchtext=2035
-
 Fat_Lurch's
 - Turret Enhanced https://steamcommunity.com/sharedfiles/filedetails/?id=1623498241
 - MS_IFF_Strobe https://steamcommunity.com/sharedfiles/filedetails/?id=1543390130
