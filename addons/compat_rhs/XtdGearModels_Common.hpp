@@ -247,9 +247,8 @@ class CamoBase {
         image = "z\aceax\compats\RHS\data\camo\svd_flora.paa";
     };
 };
-
-class rhs_attachsys // This is what kind of optic attachments a gun can accept, roughly.
-{
+ // This is what kind of optic attachments a gun can accept, roughly.
+class rhs_attachsys {
     label = "Attachment System";
     changeingame = 0;
     values[] = {};

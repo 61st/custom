@@ -7,3 +7,7 @@
   <summary>Images</summary>
 </details>
 -->
+
+<!-- Known issues that need to be addressed -->
+### Known Issues
+- [ ] Issue

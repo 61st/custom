@@ -26,7 +26,7 @@ class CfgWeapons {
         picture = "\rhsafrf\addons\rhs_inventoryicons\data\uniform\rhs_uniform_gorka_r_g_ca.paa";
         hiddenSelections[]={"camo1", "camo2"};
         hiddenSelectionsTextures[]={QPATHTOF(data\mopp_mc.paa), QPATHTOF(data\mopp_gloves.paa)};
-        class ItemInfo : UniformItem {
+        class ItemInfo: UniformItem {
             uniformModel="-";
             uniformClass= QGVAR(moppsuit_item);
             containerClass="Supply80";

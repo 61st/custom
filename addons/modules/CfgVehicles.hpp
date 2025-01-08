@@ -19,7 +19,7 @@ class CfgVehicles {
         is3DEN = 0;
 
         class Arguments: ArgumentsBaseUnits {
-            class groupSide{
+            class groupSide {
                 displayName = "Side";
                 description = "Group Side";
                 typeName = "SIDE";
@@ -118,7 +118,7 @@ class CfgVehicles {
         is3DEN = 0;
 
         class Arguments: ArgumentsBaseUnits {
-            class groupSide{
+            class groupSide {
                 displayName = "Side";
                 description = "Group Side";
                 typeName = "SIDE";
@@ -198,7 +198,7 @@ class CfgVehicles {
         };
 
         class Arguments: ArgumentsBaseUnits {
-            class spDisable{
+            class spDisable {
                 displayName = "SP Disable";
                 description = "Disable in single player";
                 typeName = "BOOL";
