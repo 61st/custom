@@ -458,36 +458,43 @@ class CfgWeapons {
     class H_tweed_ech_OCP_TASC: H_tweed_ech_OCP {
         displayName="[US] ACH (OCP)";
         ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
         ace_hearing_protection = 0.85;
     };
     class H_tweed_ech_OCP_TASC_b: H_tweed_ech_OCP_TASC {
         displayName="[US] ACH (OCP)";
         ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
         ace_hearing_protection = 0.85;
     };
     class H_tweed_ech_OCP_TASC_ESS: H_tweed_ech_OCP_TASC {
         displayName="[US] ACH (OCP)";
         ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
         ace_hearing_protection = 0.85;
     };
     class H_tweed_ech_OCP_TASC_ESS_2: H_tweed_ech_OCP_TASC_ESS {
         displayName="[US] ACH (OCP)";
         ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
         ace_hearing_protection = 0.85;
     };
     class H_tweed_ech_OCP_TASC_b_ESS: H_tweed_ech_OCP_TASC_ESS {
         displayName="[US] ACH (OCP)";
         ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
         ace_hearing_protection = 0.85;
     };
     class H_tweed_ech_OCP_TASC_b_ESS_2: H_tweed_ech_OCP_TASC_b_ESS {
         displayName="[US] ACH (OCP)";
         ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
         ace_hearing_protection = 0.85;
     };
     class H_tweed_ech_OCP_TASC_b_ESS_3: H_tweed_ech_OCP_TASC_b_ESS {
         displayName="[US] ACH (OCP)";
         ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
         ace_hearing_protection = 0.85;
     };
     class H_tweed_ech_OCP_scrim: H_tweed_ech_OCP {
@@ -499,11 +506,13 @@ class CfgWeapons {
     class H_tweed_ech_OCP_scrim_TASC: H_tweed_ech_OCP_scrim {
         displayName="[US] ACH (OCP)";
         ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
         ace_hearing_protection = 0.85;
     };
     class H_tweed_ech_OCP_scrim_TASC_ESS: H_tweed_ech_OCP_scrim {
         displayName="[US] ACH (OCP)";
         ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
         ace_hearing_protection = 0.85;
     };
     class H_tweed_ech_psq_OCP: H_tweed_ech_OCP {
@@ -545,31 +554,37 @@ class CfgWeapons {
     class H_tweed_ech_psq_OCP_TASC: H_tweed_ech_psq_OCP {
         displayName="[US] ACH (OCP)";
         ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
         ace_hearing_protection = 0.85;
     };
     class H_tweed_ech_psq_OCP_TASC_b: H_tweed_ech_psq_OCP_TASC {
         displayName="[US] ACH (OCP)";
         ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
         ace_hearing_protection = 0.85;
     };
     class H_tweed_ech_psq_OCP_TASC_ESS: H_tweed_ech_psq_OCP_TASC {
         displayName="[US] ACH (OCP)";
         ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
         ace_hearing_protection = 0.85;
     };
     class H_tweed_ech_psq_OCP_TASC_ESS_2: H_tweed_ech_psq_OCP_TASC_ESS {
         displayName="[US] ACH (OCP)";
         ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
         ace_hearing_protection = 0.85;
     };
     class H_tweed_ech_psq_OCP_TASC_b_ESS: H_tweed_ech_psq_OCP_TASC_ESS {
         displayName="[US] ACH (OCP)";
         ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
         ace_hearing_protection = 0.85;
     };
     class H_tweed_ech_psq_OCP_TASC_b_ESS_2: H_tweed_ech_psq_OCP_TASC_b_ESS {
         displayName="[US] ACH (OCP)";
         ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
         ace_hearing_protection = 0.85;
     };
     class H_tweed_ech_psq_OCP_TASC_b_ESS_3: H_tweed_ech_psq_OCP_TASC_b_ESS {
@@ -584,11 +599,13 @@ class CfgWeapons {
     class H_tweed_ech_psq_OCP_scrim_TASC: H_tweed_ech_psq_OCP_scrim {
         displayName="[US] ACH (OCP)";
         ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
         ace_hearing_protection = 0.85;
     };
     class H_tweed_ech_psq_OCP_scrim_TASC_ESS: H_tweed_ech_psq_OCP_scrim {
         displayName="[US] ACH (OCP)";
         ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
         ace_hearing_protection = 0.85;
     };
     class H_tweed_ech_nor_OCP: H_tweed_ech_OCP {
@@ -630,36 +647,43 @@ class CfgWeapons {
     class H_tweed_ech_nor_OCP_TASC: H_tweed_ech_nor_OCP {
         displayName="[US] ACH (OCP)";
         ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
         ace_hearing_protection = 0.85;
     };
     class H_tweed_ech_nor_OCP_TASC_b: H_tweed_ech_nor_OCP_TASC {
         displayName="[US] ACH (OCP)";
         ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
         ace_hearing_protection = 0.85;
     };
     class H_tweed_ech_nor_OCP_TASC_ESS: H_tweed_ech_nor_OCP_TASC {
         displayName="[US] ACH (OCP)";
         ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
         ace_hearing_protection = 0.85;
     };
     class H_tweed_ech_nor_OCP_TASC_ESS_2: H_tweed_ech_nor_OCP_TASC_ESS {
         displayName="[US] ACH (OCP)";
         ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
         ace_hearing_protection = 0.85;
     };
     class H_tweed_ech_nor_OCP_TASC_b_ESS: H_tweed_ech_nor_OCP_TASC_ESS {
         displayName="[US] ACH (OCP)";
         ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
         ace_hearing_protection = 0.85;
     };
     class H_tweed_ech_nor_OCP_TASC_b_ESS_2: H_tweed_ech_nor_OCP_TASC_b_ESS {
         displayName="[US] ACH (OCP)";
         ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
         ace_hearing_protection = 0.85;
     };
     class H_tweed_ech_nor_OCP_TASC_b_ESS_3: H_tweed_ech_nor_OCP_TASC_b_ESS {
         displayName="[US] ACH (OCP)";
         ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
         ace_hearing_protection = 0.85;
     };
     class H_tweed_ech_nor_OCP_scrim: H_tweed_ech_nor_OCP {
@@ -671,11 +695,13 @@ class CfgWeapons {
     class H_tweed_ech_nor_OCP_scrim_TASC: H_tweed_ech_nor_OCP_scrim {
         displayName="[US] ACH (OCP)";
         ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
         ace_hearing_protection = 0.85;
     };
     class H_tweed_ech_nor_OCP_scrim_TASC_ESS: H_tweed_ech_nor_OCP_scrim {
         displayName="[US] ACH (OCP)";
         ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
         ace_hearing_protection = 0.85;
     };
     class H_tweed_ihps_1: H_tweed_ech_casque_base {
@@ -693,21 +719,25 @@ class CfgWeapons {
     class H_tweed_ihps_tasc: H_tweed_ihps_1 {
         displayName="[US] IHPS (OCP)";
         ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
         ace_hearing_protection = 0.85;
     };
     class H_tweed_ihps_tasc_rail: H_tweed_ihps_tasc {
         displayName="[US] IHPS (OCP)";
         ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
         ace_hearing_protection = 0.85;
     };
     class H_tweed_ihps_tasc_bare: H_tweed_ihps_tasc {
         displayName="[US] IHPS (OCP)";
         ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
         ace_hearing_protection = 0.85;
     };
     class H_tweed_ihps_bare_tasc_rail: H_tweed_ihps_tasc_bare {
         displayName="[US] IHPS (OCP)";
         ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
         ace_hearing_protection = 0.85;
     };
     class H_tweed_ihps_g: H_tweed_ihps_1 {
@@ -725,21 +755,25 @@ class CfgWeapons {
     class H_tweed_ihps_g_tasc: H_tweed_ihps_g {
         displayName="[US] IHPS (OCP)";
         ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
         ace_hearing_protection = 0.85;
     };
     class H_tweed_ihps_g_tasc_rail: H_tweed_ihps_g_tasc {
         displayName="[US] IHPS (OCP)";
         ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
         ace_hearing_protection = 0.85;
     };
     class H_tweed_ihps_g_tasc_bare: H_tweed_ihps_g_tasc {
         displayName="[US] IHPS (OCP)";
         ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
         ace_hearing_protection = 0.85;
     };
     class H_tweed_ihps_g_bare_tasc_rail: H_tweed_ihps_g_tasc_bare {
         displayName="[US] IHPS (OCP)";
         ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
         ace_hearing_protection = 0.85;
     };
     class H_tweed_ihps_scrim: H_tweed_ihps_1 {
@@ -751,11 +785,13 @@ class CfgWeapons {
     class H_tweed_ihps_scrim_tasc: H_tweed_ihps_scrim {
         displayName="[US] IHPS (OCP)";
         ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
         ace_hearing_protection = 0.85;
     };
     class H_tweed_ihps_tasc_scrim_rail: H_tweed_ihps_scrim_tasc {
         displayName="[US] IHPS (OCP)";
         ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
         ace_hearing_protection = 0.85;
     };
     class H_tweed_ihps_scrim_g: H_tweed_ihps_1 {
@@ -767,11 +803,14 @@ class CfgWeapons {
     class H_tweed_ihps_scrim_g_tasc: H_tweed_ihps_scrim_g {
         displayName="[US] IHPS (OCP)";
         ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
         ace_hearing_protection = 0.85;
     };
     class H_tweed_ihps_tasc_scrim_g_rail: H_tweed_ihps_scrim_g_tasc {
         displayName="[US] IHPS (OCP)";
         ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
         ace_hearing_protection = 0.85;
+
     };
 };
