@@ -22,6 +22,7 @@ class CfgPatches {
 #include "CfgEventHandlers.hpp"
 #include "CfgVehicles.hpp"
 #include "CfgWeapons.hpp"
+#include "CfgGlasses.hpp"
 #include "xtdW28.hpp"
 #include "CfgUnitNoms.hpp"
 

@@ -1,8 +1,7 @@
-//配置模组的大致信息
+//Most information about the configuration module
 class CfgPatches
 {
-    class 2035_MRP
-    {
+    class 2035_MRP {
         units[] = {};
         weapons[] = {};
         requiredVersion = 1;
@@ -10,10 +9,10 @@ class CfgPatches
     };
 };
 
-//除背包外的所有装备均属于Weapons类
+//All equipment except the backpack belongs to the weapons class
 class cfgWeapons
 {
-    //此处需首先定义列举所拓展装备的基础类
+    //Here we need to first define the basic category of the expanded equipment
     class UniformItem;
     class Uniform_Base;
     class V_PlateCarrier1_rgr;
@@ -22,13 +21,12 @@ class cfgWeapons
     class HeadgearItem;
     class NVGoggles;
     
-    //配置头盔范例，未注明部分照抄或灵性发挥
+    //Configure the helmet example, no part of the copy or spiritual play is not indicated
     
-    //无盔罩Highcut----------------------------------------------------------------------------------------------------------
+    //Highcu without helmet covert----------------------------------------------------------------------------------------------------------
     
-    //无盔罩Highcut基础类
-    class opscore_highcut_base: H_HelmetB
-    {
+    //Highcut basic class
+    class opscore_highcut_base: H_HelmetB {
         author = "Kiyo";
         scope = 1;
         displayName = "HighCut Helmet Base";
@@ -42,14 +40,14 @@ class cfgWeapons
             "\2035mrp\Texture\Helmet\attachment\princeton_blk_co.paa",
             "\2035mrp\Texture\Helmet\attachment\pvs31_bat_blk_co.paa"
         };
-        //注：上方未列出的贴图均已直接写入p3d (一般为通用项)，需使用blender更改
+// Note: The stickers that are not listed above have been directly written into P3D (generally universal items), and BLENDER needs to be used to change
         descriptionShort="Armor Level III";
         class ItemInfo: HeadgearItem
         {
             uniformModel = "\2035mrp\Model\Helmet\opscore_HighCut_1.p3d";
             mass = 50;
             hiddenSelections[] = {"Camo1","flag_left","headset","MPLS","battery"};
-            //基础类此处须再次定义此项(子类不需要)，否则子类无法正常加载变种贴图
+// Basic classes must be defined herein again (the subclasses are not needed), otherwise the subclasses will not be loaded normally
             class HitpointsProtectionInfo
             {
                 class Head
@@ -62,9 +60,8 @@ class cfgWeapons
         };
     };
     
-    // 黑色
-    class opscore_highcut_blk_US: opscore_highcut_base
-    {
+    // black
+    class opscore_highcut_blk_US: opscore_highcut_base {
         scope = 2;
         displayName = "HighCut Helmet (Black | US)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_blk_US.paa";
@@ -78,9 +75,8 @@ class cfgWeapons
         };
     };
     
-    // 橄榄绿
-    class opscore_highcut_od_US: opscore_highcut_base
-    {
+    // Olive green
+    class opscore_highcut_od_US: opscore_highcut_base {
         scope = 2;
         displayName = "HighCut Helmet (Olive Drab | US)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_od_US.paa";
@@ -94,9 +90,8 @@ class cfgWeapons
         };
     };
     
-    // 游骑兵绿
-    class opscore_highcut_rgr_US: opscore_highcut_base
-    {
+    // Range Green
+    class opscore_highcut_rgr_US: opscore_highcut_base {
         scope = 2;
         displayName = "HighCut Helmet (Ranger Green | US)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_rgr_US.paa";
@@ -110,9 +105,8 @@ class cfgWeapons
         };
     };
     
-    // 狼棕色
-    class opscore_highcut_coy_US: opscore_highcut_base
-    {
+    // Wolf brown
+    class opscore_highcut_coy_US: opscore_highcut_base {
         scope = 2;
         displayName = "HighCut Helmet (Coyote | US)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_coy_US.paa";
@@ -126,9 +120,8 @@ class cfgWeapons
         };
     };
     
-    // 沙色
-    class opscore_highcut_tan_US: opscore_highcut_base
-    {
+    // Sandy color
+    class opscore_highcut_tan_US: opscore_highcut_base {
         scope = 2;
         displayName = "HighCut Helmet (Tan | US)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_tan_US.paa";
@@ -142,9 +135,8 @@ class cfgWeapons
         };
     };
     
-    // 蟒纹沙色
-    class opscore_highcut_tan_snake_US: opscore_highcut_base
-    {
+    // Python pattern sand color
+    class opscore_highcut_tan_snake_US: opscore_highcut_base {
         scope = 2;
         displayName = "HighCut Helmet (Tan & SnakeSkin | US)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_tan_snake_US.paa";
@@ -158,9 +150,8 @@ class cfgWeapons
         };
     };
     
-    // 蟒纹狼棕
-    class opscore_highcut_coy_snake_US: opscore_highcut_base
-    {
+    // Python wolf brown
+    class opscore_highcut_coy_snake_US: opscore_highcut_base {
         scope = 2;
         displayName = "HighCut Helmet (Coyote & SnakeSkin | US)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_coy_snake_US.paa";
@@ -174,9 +165,8 @@ class cfgWeapons
         };
     };
     
-    // 蟒纹橄榄绿
-    class opscore_highcut_od_snake_US: opscore_highcut_base
-    {
+    // Python pattern olive green
+    class opscore_highcut_od_snake_US: opscore_highcut_base {
         scope = 2;
         displayName = "HighCut Helmet (Olive Drab & SnakeSkin | US)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_od_snake_US.paa";
@@ -190,9 +180,8 @@ class cfgWeapons
         };
     };
     
-    // 蟒纹游骑兵绿
-    class opscore_highcut_rgr_snake_US: opscore_highcut_base
-    {
+    // Python pattern cavalry green
+    class opscore_highcut_rgr_snake_US: opscore_highcut_base {
         scope = 2;
         displayName = "HighCut Helmet (Ranger Green & SnakeSkin | US)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_rgr_snake_US.paa";
@@ -206,9 +195,8 @@ class cfgWeapons
         };
     };
         
-    // 水转印AOR-1
-    class opscore_highcut_aor1_US: opscore_highcut_base
-    {
+    //AOR-1
+    class opscore_highcut_aor1_US: opscore_highcut_base {
         scope = 2;
         displayName = "HighCut Helmet (AOR-1 | US)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_aor1_US.paa";
@@ -222,9 +210,8 @@ class cfgWeapons
         };
     };
     
-    // 水转印Multicam
-    class opscore_highcut_mc_US: opscore_highcut_base
-    {
+    //multicam
+    class opscore_highcut_mc_US: opscore_highcut_base {
         scope = 2;
         displayName = "HighCut Helmet (Multicam | US)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_mc_US.paa";
@@ -238,9 +225,8 @@ class cfgWeapons
         };
     };
     
-    // 水转印AOR-2
-    class opscore_highcut_aor2_US: opscore_highcut_base
-    {
+    // AOR-2
+    class opscore_highcut_aor2_US: opscore_highcut_base {
         scope = 2;
         displayName = "HighCut Helmet (AOR-2 | US)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_aor2_US.paa";
@@ -254,9 +240,8 @@ class cfgWeapons
         };
     };
     
-    //裸盔基础类
-    class opscore_highcut_plain_base: H_HelmetB
-    {
+    //Naked helmet basic category
+    class opscore_highcut_plain_base: H_HelmetB {
         author = "Kiyo";
         scope = 1;
         displayName = "Plain HighCut Helmet Base";
@@ -286,8 +271,7 @@ class cfgWeapons
     };
     
     // 黑色 裸盔
-    class opscore_highcut_blk_plain: opscore_highcut_plain_base
-    {
+    class opscore_highcut_blk_plain: opscore_highcut_plain_base {
         scope = 2;
         displayName = "Plain HighCut Helmet (Black)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_blk_plain.paa";
@@ -299,8 +283,7 @@ class cfgWeapons
     };
     
     // 沙色 裸盔
-    class opscore_highcut_tan_plain: opscore_highcut_plain_base
-    {
+    class opscore_highcut_tan_plain: opscore_highcut_plain_base {
         scope = 2;
         displayName = "Plain HighCut Helmet (Tan)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_tan_plain.paa";
@@ -312,8 +295,7 @@ class cfgWeapons
     };
     
     // 沙色蟒纹 裸盔
-    class opscore_highcut_tan_snake_plain: opscore_highcut_plain_base
-    {
+    class opscore_highcut_tan_snake_plain: opscore_highcut_plain_base {
         scope = 2;
         displayName = "Plain HighCut Helmet (Tan | SnakeSkin)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_tan_snake_plain.paa";
@@ -325,8 +307,7 @@ class cfgWeapons
     };
     
     // 狼棕色 裸盔
-    class opscore_highcut_coy_plain: opscore_highcut_plain_base
-    {
+    class opscore_highcut_coy_plain: opscore_highcut_plain_base {
         scope = 2;
         displayName = "Plain HighCut Helmet (Coyote)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_coy_plain.paa";
@@ -338,8 +319,7 @@ class cfgWeapons
     };
     
     // 狼棕色 蟒纹 裸盔
-    class opscore_highcut_coy_snake_plain: opscore_highcut_plain_base
-    {
+    class opscore_highcut_coy_snake_plain: opscore_highcut_plain_base {
         scope = 2;
         displayName = "Plain HighCut Helmet (Coyote | SnakeSkin)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_coy_snake_plain.paa";
@@ -351,8 +331,7 @@ class cfgWeapons
     };
     
     // 游骑兵绿 裸盔
-    class opscore_highcut_rgr_plain: opscore_highcut_plain_base
-    {
+    class opscore_highcut_rgr_plain: opscore_highcut_plain_base {
         scope = 2;
         displayName = "Plain HighCut Helmet (Ranger Green)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_rgr_plain.paa";
@@ -364,8 +343,7 @@ class cfgWeapons
     };
     
     // 游骑兵绿 蟒纹 裸盔
-    class opscore_highcut_rgr_snake_plain: opscore_highcut_plain_base
-    {
+    class opscore_highcut_rgr_snake_plain: opscore_highcut_plain_base {
         scope = 2;
         displayName = "Plain HighCut Helmet (Ranger Green | SnakeSkin)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_rgr_snake_plain.paa";
@@ -377,8 +355,7 @@ class cfgWeapons
     };
     
     // 橄榄绿 裸盔
-    class opscore_highcut_od_plain: opscore_highcut_plain_base
-    {
+    class opscore_highcut_od_plain: opscore_highcut_plain_base {
         scope = 2;
         displayName = "Plain HighCut Helmet (Olive Drab)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_od_plain.paa";
@@ -390,8 +367,7 @@ class cfgWeapons
     };
     
     // 橄榄绿 蟒纹 裸盔
-    class opscore_highcut_od_snake_plain: opscore_highcut_plain_base
-    {
+    class opscore_highcut_od_snake_plain: opscore_highcut_plain_base {
         scope = 2;
         displayName = "Plain HighCut Helmet (Olive Drab | SnakeSkin)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_od_snake_plain.paa";
@@ -405,8 +381,7 @@ class cfgWeapons
     // 有盔罩Highcut----------------------------------------------------------------------------------------------------------
     
     // 有盔罩Highcut基础类
-    class opscore_highcut_cover_base: H_HelmetB
-    {
+    class opscore_highcut_cover_base: H_HelmetB {
         author = "Kiyo";
         scope = 1;
         displayName = "Covered HighCut Helmet Base";
@@ -440,8 +415,7 @@ class cfgWeapons
     };
     
     // 黑色盔罩
-    class opscore_highcut_cover_blk_US: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_blk_US: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (Black | US)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_blk_US.paa";
@@ -457,8 +431,7 @@ class cfgWeapons
     };
     
     // 灰色盔罩
-    class opscore_highcut_cover_gry_US: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_gry_US: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (Grey | US)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_gry_US.paa";
@@ -474,8 +447,7 @@ class cfgWeapons
     };
     
     // Multicam Black迷彩盔罩
-    class opscore_highcut_cover_mcbk_US: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_mcbk_US: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (Multicam Black | US)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_mcbk_US.paa";
@@ -491,8 +463,7 @@ class cfgWeapons
     };
     
     // 游骑兵绿盔罩
-    class opscore_highcut_cover_rgr_US: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_rgr_US: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (Ranger Green | US)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_rgr_US.paa";
@@ -508,8 +479,7 @@ class cfgWeapons
     };
     
     // 橄榄绿盔罩
-    class opscore_highcut_cover_od_US: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_od_US: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (Olive Drab | US)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_od_US.paa";
@@ -525,8 +495,7 @@ class cfgWeapons
     };
     
     // AOR-2迷彩盔罩
-    class opscore_highcut_cover_aor2_US: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_aor2_US: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (AOR-2 | US)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_aor2_US.paa";
@@ -542,8 +511,7 @@ class cfgWeapons
     };
     
     // CTRG-Tropic迷彩盔罩(美国)
-    class opscore_highcut_cover_CTRGtropic_US: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_CTRGtropic_US: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (CTRG Tropic | US)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_CTRGtropic_US.paa";
@@ -559,8 +527,7 @@ class cfgWeapons
     };
     
     // CTRG-Tropic迷彩盔罩(英国)
-    class opscore_highcut_cover_CTRGtropic_UK: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_CTRGtropic_UK: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (CTRG Tropic | UK)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_CTRGtropic_UK.paa";
@@ -576,8 +543,7 @@ class cfgWeapons
     };
     
     // 2035版Multicam Woodland迷彩盔罩
-    class opscore_highcut_cover_mcwdl_US: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_mcwdl_US: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (Multicam Woodland | US)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_mcwdl_US.paa";
@@ -593,8 +559,7 @@ class cfgWeapons
     };
     
     // Multicam Tropic迷彩盔罩
-    class opscore_highcut_cover_mctp_US: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_mctp_US: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (Multicam Tropic | US)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_mctp_US.paa";
@@ -610,8 +575,7 @@ class cfgWeapons
     };
     
     // DPM迷彩盔罩
-    class opscore_highcut_cover_DPM_UK: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_DPM_UK: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (DPM | UK)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_DPM_UK.paa";
@@ -627,8 +591,7 @@ class cfgWeapons
     };
     
     // 狼棕色盔罩
-    class opscore_highcut_cover_coy_US: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_coy_US: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (Coyote | US)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_coy_US.paa";
@@ -644,8 +607,7 @@ class cfgWeapons
     };
     
     // 沙色盔罩
-    class opscore_highcut_cover_tan_US: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_tan_US: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (Tan | US)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_tan_US.paa";
@@ -661,8 +623,7 @@ class cfgWeapons
     };
     
     // CTRG-Arid迷彩盔罩(美国)
-    class opscore_highcut_cover_CTRGarid_US: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_CTRGarid_US: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (CTRG Arid | US)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_CTRGarid_US.paa";
@@ -678,8 +639,7 @@ class cfgWeapons
     };
     
     // CTRG-Arid迷彩盔罩(英国)
-    class opscore_highcut_cover_CTRGarid_UK: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_CTRGarid_UK: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (CTRG Arid | UK)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_CTRGarid_UK.paa";
@@ -695,8 +655,7 @@ class cfgWeapons
     };
     
     // 夜间沙漠迷彩盔罩
-    class opscore_highcut_cover_NightDesert_US: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_NightDesert_US: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (Night Desert | US)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_NightDesert_US.paa";
@@ -712,8 +671,7 @@ class cfgWeapons
     };
     
     // AOR-1迷彩盔罩
-    class opscore_highcut_cover_aor1_US: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_aor1_US: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (AOR-1 | US)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_aor1_US.paa";
@@ -729,8 +687,7 @@ class cfgWeapons
     };
     
     // Multicam Arid迷彩盔罩
-    class opscore_highcut_cover_mcarid_US: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_mcarid_US: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (Multicam Arid | US)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_mcarid_US.paa";
@@ -746,8 +703,7 @@ class cfgWeapons
     };
     
     // MTP迷彩盔罩
-    class opscore_highcut_cover_mtp_UK: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_mtp_UK: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (MTP | UK)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_mtp_UK.paa";
@@ -763,8 +719,7 @@ class cfgWeapons
     };
     
     // Multicam迷彩盔罩
-    class opscore_highcut_cover_mc_US: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_mc_US: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (Multicam | US)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_mc_US.paa";
@@ -780,8 +735,7 @@ class cfgWeapons
     };
     
     // M81四丛迷彩盔罩
-    class opscore_highcut_cover_m81_US: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_m81_US: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (M81 Woodland | US)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_m81_US.paa";
@@ -797,8 +751,7 @@ class cfgWeapons
     };
     
     // 有盔罩Highcut基础类 (INDEP阵营)
-    class opscore_highcut_cover_alt_base: H_HelmetB
-    {
+    class opscore_highcut_cover_alt_base: H_HelmetB {
         author = "Kiyo";
         scope = 1;
         displayName = "Covered HighCut Helmet Base (alt)";
@@ -831,8 +784,7 @@ class cfgWeapons
     };
     
     // AAF数码迷彩盔罩
-    class opscore_highcut_cover_alt_AAF: opscore_highcut_cover_alt_base
-    {
+    class opscore_highcut_cover_alt_AAF: opscore_highcut_cover_alt_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (Digital | AAF)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_alt_AAF.paa";
@@ -848,8 +800,7 @@ class cfgWeapons
     };
     
     // LDF几何迷彩盔罩
-    class opscore_highcut_cover_alt_LDF: opscore_highcut_cover_alt_base
-    {
+    class opscore_highcut_cover_alt_LDF: opscore_highcut_cover_alt_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (Geometric | LDF)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_alt_LDF.paa";
@@ -865,8 +816,7 @@ class cfgWeapons
     };
     
     // Multicam迷彩盔罩 (INDEP)
-    class opscore_highcut_cover_alt_mc: opscore_highcut_cover_alt_base
-    {
+    class opscore_highcut_cover_alt_mc: opscore_highcut_cover_alt_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (Black & Multicam Cover)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_alt_mc.paa";
@@ -884,8 +834,7 @@ class cfgWeapons
     // CTRG无盔罩隐形Highcut---------------------------------------------------------------------------------------------
     
     // 无盔罩CTRG-Arid(美国)
-    class opscore_highcut_CTRGarid_US_TI: H_HelmetB
-    {
+    class opscore_highcut_CTRGarid_US_TI: H_HelmetB {
         author = "Kiyo";
         scope = 2;
         displayName = "Stealth HighCut Helmet (CTRG Arid | US)";
@@ -918,8 +867,7 @@ class cfgWeapons
     };
     
     // 无盔罩CTRG-Arid(英国)
-    class opscore_highcut_CTRGarid_UK_TI: H_HelmetB
-    {
+    class opscore_highcut_CTRGarid_UK_TI: H_HelmetB {
         author = "Kiyo";
         scope = 2;
         displayName = "Stealth HighCut Helmet (CTRG Arid | UK)";
@@ -952,8 +900,7 @@ class cfgWeapons
     };
     
     // 无盔罩CTRG-Tropic(美国)
-    class opscore_highcut_CTRGtropic_US_TI: H_HelmetB
-    {
+    class opscore_highcut_CTRGtropic_US_TI: H_HelmetB {
         author = "Kiyo";
         scope = 2;
         displayName = "Stealth HighCut Helmet (CTRG Tropic | US)";
@@ -986,8 +933,7 @@ class cfgWeapons
     };
     
     // 无盔罩CTRG-Tropic(英国)
-    class opscore_highcut_CTRGtropic_UK_TI: H_HelmetB
-    {
+    class opscore_highcut_CTRGtropic_UK_TI: H_HelmetB {
         author = "Kiyo";
         scope = 2;
         displayName = "Stealth HighCut Helmet (CTRG Tropic | UK)";
@@ -1022,8 +968,7 @@ class cfgWeapons
     // 无国旗全种类Highcut------------------------------------------------------------------------------------------------------
     
     // 黑色
-    class opscore_highcut_blk: opscore_highcut_base
-    {
+    class opscore_highcut_blk: opscore_highcut_base {
         scope = 2;
         displayName = "HighCut Helmet (Black)";
         picture = "\2035mrp\UI\Helmet\ui_opscore_sample.paa";
@@ -1038,8 +983,7 @@ class cfgWeapons
     };
     
     // 橄榄绿
-    class opscore_highcut_od: opscore_highcut_base
-    {
+    class opscore_highcut_od: opscore_highcut_base {
         scope = 2;
         displayName = "HighCut Helmet (Olive Drab)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_od.paa";
@@ -1054,8 +998,7 @@ class cfgWeapons
     };
     
     // 游骑兵绿
-    class opscore_highcut_rgr: opscore_highcut_base
-    {
+    class opscore_highcut_rgr: opscore_highcut_base {
         scope = 2;
         displayName = "HighCut Helmet (Ranger Green)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_rgr.paa";
@@ -1070,8 +1013,7 @@ class cfgWeapons
     };
     
     // 狼棕色
-    class opscore_highcut_coy: opscore_highcut_base
-    {
+    class opscore_highcut_coy: opscore_highcut_base {
         scope = 2;
         displayName = "HighCut Helmet (Coyote)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_coy.paa";
@@ -1086,8 +1028,7 @@ class cfgWeapons
     };
     
     // 沙色
-    class opscore_highcut_tan: opscore_highcut_base
-    {
+    class opscore_highcut_tan: opscore_highcut_base {
         scope = 2;
         displayName = "HighCut Helmet (Tan)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_tan.paa";
@@ -1102,8 +1043,7 @@ class cfgWeapons
     };
     
     // 蟒纹沙色
-    class opscore_highcut_tan_snake: opscore_highcut_base
-    {
+    class opscore_highcut_tan_snake: opscore_highcut_base {
         scope = 2;
         displayName = "HighCut Helmet (Tan & SnakeSkin)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_tan_snake.paa";
@@ -1118,8 +1058,7 @@ class cfgWeapons
     };
     
     // 蟒纹狼棕
-    class opscore_highcut_coy_snake: opscore_highcut_base
-    {
+    class opscore_highcut_coy_snake: opscore_highcut_base {
         scope = 2;
         displayName = "HighCut Helmet (Coyote & SnakeSkin)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_coy_snake.paa";
@@ -1134,8 +1073,7 @@ class cfgWeapons
     };
     
     // 蟒纹橄榄绿
-    class opscore_highcut_od_snake: opscore_highcut_base
-    {
+    class opscore_highcut_od_snake: opscore_highcut_base {
         scope = 2;
         displayName = "HighCut Helmet (Olive Drab & SnakeSkin)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_od_snake.paa";
@@ -1150,8 +1088,7 @@ class cfgWeapons
     };
     
     // 蟒纹游骑兵绿
-    class opscore_highcut_rgr_snake: opscore_highcut_base
-    {
+    class opscore_highcut_rgr_snake: opscore_highcut_base {
         scope = 2;
         displayName = "HighCut Helmet (Ranger Green & SnakeSkin)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_rgr_snake.paa";
@@ -1165,9 +1102,8 @@ class cfgWeapons
         };
     };
         
-    // 水转印AOR-1
-    class opscore_highcut_aor1: opscore_highcut_base
-    {
+    // AOR-1
+    class opscore_highcut_aor1: opscore_highcut_base {
         scope = 2;
         displayName = "HighCut Helmet (AOR-1)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_aor1.paa";
@@ -1181,9 +1117,8 @@ class cfgWeapons
         };
     };
     
-    // 水转印Multicam
-    class opscore_highcut_mc: opscore_highcut_base
-    {
+    // Multicam
+    class opscore_highcut_mc: opscore_highcut_base {
         scope = 2;
         displayName = "HighCut Helmet (Multicam)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_mc.paa";
@@ -1197,9 +1132,8 @@ class cfgWeapons
         };
     };
     
-    // 水转印AOR-2
-    class opscore_highcut_aor2: opscore_highcut_base
-    {
+    // AOR-2
+    class opscore_highcut_aor2: opscore_highcut_base {
         scope = 2;
         displayName = "HighCut Helmet (AOR-2)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_aor2.paa";
@@ -1214,8 +1148,7 @@ class cfgWeapons
     };
     
     // 黑色盔罩
-    class opscore_highcut_cover_blk: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_blk: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (Black)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_blk.paa";
@@ -1231,8 +1164,7 @@ class cfgWeapons
     };
     
     // 灰色盔罩
-    class opscore_highcut_cover_gry: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_gry: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (Grey)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_gry.paa";
@@ -1248,8 +1180,7 @@ class cfgWeapons
     };
     
     // Multicam Black迷彩盔罩
-    class opscore_highcut_cover_mcbk: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_mcbk: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (Multicam Black)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_mcbk.paa";
@@ -1265,8 +1196,7 @@ class cfgWeapons
     };
     
     // 游骑兵绿盔罩
-    class opscore_highcut_cover_rgr: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_rgr: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (Ranger Green)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_rgr.paa";
@@ -1282,8 +1212,7 @@ class cfgWeapons
     };
     
     // 橄榄绿盔罩
-    class opscore_highcut_cover_od: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_od: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (Olive Drab)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_od.paa";
@@ -1299,8 +1228,7 @@ class cfgWeapons
     };
     
     // AOR-2迷彩盔罩
-    class opscore_highcut_cover_aor2: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_aor2: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (AOR-2)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_aor2.paa";
@@ -1316,8 +1244,7 @@ class cfgWeapons
     };
     
     // CTRG-Tropic迷彩盔罩
-    class opscore_highcut_cover_CTRGtropic: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_CTRGtropic: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (CTRG Tropic)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_CTRGtropic.paa";
@@ -1333,8 +1260,7 @@ class cfgWeapons
     };
     
     // 2035版Multicam Woodland迷彩盔罩
-    class opscore_highcut_cover_mcwdl: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_mcwdl: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (Multicam Woodland)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_mcwdl.paa";
@@ -1350,8 +1276,7 @@ class cfgWeapons
     };
     
     // Multicam Tropic迷彩盔罩
-    class opscore_highcut_cover_mctp: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_mctp: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (Multicam Tropic)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_mctp.paa";
@@ -1367,8 +1292,7 @@ class cfgWeapons
     };
     
     // DPM迷彩盔罩
-    class opscore_highcut_cover_DPM: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_DPM: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (DPM)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_DPM.paa";
@@ -1384,8 +1308,7 @@ class cfgWeapons
     };
     
     // 狼棕色盔罩
-    class opscore_highcut_cover_coy: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_coy: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (Coyote)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_coy.paa";
@@ -1401,8 +1324,7 @@ class cfgWeapons
     };
     
     // 沙色盔罩
-    class opscore_highcut_cover_tan: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_tan: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (Tan)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_tan.paa";
@@ -1418,8 +1340,7 @@ class cfgWeapons
     };
     
     // CTRG-Arid迷彩盔罩
-    class opscore_highcut_cover_CTRGarid: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_CTRGarid: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (CTRG Arid)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_CTRGarid.paa";
@@ -1435,8 +1356,7 @@ class cfgWeapons
     };
     
     // 夜间沙漠迷彩盔罩
-    class opscore_highcut_cover_NightDesert: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_NightDesert: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (Night Desert)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_NightDesert.paa";
@@ -1452,8 +1372,7 @@ class cfgWeapons
     };
     
     // AOR-1迷彩盔罩
-    class opscore_highcut_cover_aor1: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_aor1: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (AOR-1)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_aor1.paa";
@@ -1469,8 +1388,7 @@ class cfgWeapons
     };
     
     // Multicam Arid迷彩盔罩
-    class opscore_highcut_cover_mcarid: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_mcarid: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (Multicam Arid)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_mcarid.paa";
@@ -1486,8 +1404,7 @@ class cfgWeapons
     };
     
     // MTP迷彩盔罩
-    class opscore_highcut_cover_mtp: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_mtp: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (MTP)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_mtp.paa";
@@ -1503,8 +1420,7 @@ class cfgWeapons
     };
     
     // Multicam迷彩盔罩
-    class opscore_highcut_cover_mc: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_mc: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (Multicam)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_mc.paa";
@@ -1520,8 +1436,7 @@ class cfgWeapons
     };
     
     // M81四丛迷彩盔罩
-    class opscore_highcut_cover_m81: opscore_highcut_cover_base
-    {
+    class opscore_highcut_cover_m81: opscore_highcut_cover_base {
         scope = 2;
         displayName = "Covered HighCut Helmet (M81 Woodland)";
         picture = "\2035mrp\UI\Helmet\opscore_highcut_cover_m81.paa";
@@ -1537,8 +1452,7 @@ class cfgWeapons
     };
     
     // 无盔罩CTRG-Arid
-    class opscore_highcut_CTRGarid_TI: H_HelmetB
-    {
+    class opscore_highcut_CTRGarid_TI: H_HelmetB {
         author = "Kiyo";
         scope = 2;
         displayName = "Stealth HighCut Helmet (CTRG Arid)";
@@ -1571,8 +1485,7 @@ class cfgWeapons
     };
     
     // 无盔罩CTRG-Tropic
-    class opscore_highcut_CTRGtropic_TI: H_HelmetB
-    {
+    class opscore_highcut_CTRGtropic_TI: H_HelmetB {
         author = "Kiyo";
         scope = 2;
         displayName = "Stealth HighCut Helmet (CTRG Tropic)";
