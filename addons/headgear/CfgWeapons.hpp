@@ -13,6 +13,9 @@ class CfgWeapons {
         displayName = "[61st] Cap Headphones (Black)";
         picture = QPATHTOF(UI\cap_headphones_blacklogo_ca.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\cap_headphones_blacklogo_co.paa)};
+        ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
+        ace_hearing_protection = 0.85;
 
         class ItemInfo: ItemInfo {
             hiddenSelections[] = {"camo"};
@@ -35,13 +38,17 @@ class CfgWeapons {
         displayName = "61st Crew Helmet (Green)";
         picture = QPATHTOF(data\icon_h_i_helmet_crew_ca.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\lxim_headgear_ia_helmet_crew_co.paa)};
+        ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
+        ace_hearing_protection = 0.85;
     };
     class GVAR(H_HelmetCrew_sand): H_HelmetCrew_I {
         author = QAUTHOR;
         displayName = "61st Crew Helmet (Sand)";
         picture = QPATHTOF(data\icon_H_HelmetCrew_I_I_ca.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\lxim_H_HelmetCrew_I_I_CO.paa)};
+        ace_hearing_lowerVolume = 0.6;
+        ace_hearing_hasEHP = 1;  
+        ace_hearing_protection = 0.85;
     };
-    
-    
 };
