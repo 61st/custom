@@ -86,7 +86,7 @@ if (isNull _unit) exitWith {};
         // Circulation
         [_unit, "ACM_IV_16g",4, _order, _overflow] call EFUNC(common,addItem);
 
-        [_unit, "ACM_FieldBloodTransfusionKit_500",24, _order, _overflow] call EFUNC(common,addItem);
+        [_unit, "ACM_FieldBloodTransfusionKit_500",4, _order, _overflow] call EFUNC(common,addItem);
 
         [_unit, "ACE_epinephrine",2, _order, _overflow] call EFUNC(common,addItem);
         

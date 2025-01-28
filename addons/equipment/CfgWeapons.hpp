@@ -39,19 +39,9 @@ class CfgWeapons {
         cursorAim = "EmptyCursor";
         cursorAimOn = "CursorAimOn";
         showSwitchAction = 1;
-        class CBA_ScriptedOptic {
-            reticleTexture = "z\ace\addons\vector\data\reticles\ace_vector_reticle_ca.paa";
-            reticleTextureSize = 1.026;
-            bodyTexture = "z\lxim\addons\equipment\data\ace_vector_body_co.paa";
-            bodyTextureSize = 1.25;
-            reticlesafeZoneSize = 1;
-            hidePeripheralVision = 1;
-            opticsPPEffects[] = {"QACEGVAR(vector,OpticsRadBlur1)"};
-            disableTilt = 1;
-        };
         weaponInfoType = "lxim_RscOptics_vector";
         class WeaponSlotsInfo {
-            mass = 20;
+            mass = 18;
         };
         Laser = 1;
         visionMode[] = {"Normal","NVG","TI"};
@@ -384,9 +374,8 @@ class CfgWeapons {
         overviewPicture="\A3\Data_F_Mark\Images\watermarkInfo_page17_ca.paa";
         class CBA_ScriptedOptic {
             bodyTexture = "\z\ace\addons\xm157\data\ace_vector_body_co.paa";
-            // bodyTextureNight = ".paa"; // optional
             bodyTextureSize = 1;
-            hideMagnification = 1; // no point, and it flickers at 1x
+            hideMagnification = 1;
             disableTilt = 0;
         };
         class ItemInfo: InventoryOpticsItem_Base_F {
