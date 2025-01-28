@@ -85,6 +85,8 @@ if (isNull _unit) exitWith {};
         [_unit, "ACM_NPA",02, _order, _overflow] call EFUNC(common,addItem);
         
         [_unit, "ACM_SuctionBag",02, _order, _overflow] call EFUNC(common,addItem);
+
+        [_unit, "ACM_ThoracostomyKit",04, _order, _overflow] call EFUNC(common,addItem);
         
         // Breathing
         [_unit, "ACM_ChestSeal",8, _order, _overflow] call EFUNC(common,addItem);
