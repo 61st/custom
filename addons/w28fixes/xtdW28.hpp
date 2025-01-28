@@ -41,7 +41,7 @@ class XtdGearModels {
             textureOptions[] = { "patch" };
             class patch {
                 label = "Skill Tab";
-                values[] = {"None","O11", "O12", "OHQ", "RINO", "PHX", "THD1", "THD2","THD3","MED", "EOD", "JTAC", "FLIGHTMED", "FLIGHTCREW", "PILOT", "PILOT1","CMD", "LEAD", "AIRA", "AIRB","PATH", "ZEUS"};
+                values[] = {"None","O11", "O12", "OHQ", "RINO", "PHX", "THD1", "THD2","THD3","MED", "EOD", "JTAC", "FLIGHTMED", "FLIGHTCREW", "PILOT", "PILOT1","CMD", "LEAD", "AIRA", "AIRB","PATH","SPEEDBUMP", "ZEUS"};
                 hiddenselection = "insignia";
                 class None {
                     texture = "";
@@ -129,6 +129,10 @@ class XtdGearModels {
                 class THD3 {
                     texture = "z\lxim\addons\media\images\patches\thunder3.paa";
                     label = "Thunder Alt2";
+                };
+                class SPEEDBUMP {
+                    texture = "z\lxim\addons\media\images\patches\speedbump.paa";
+                    label = "Speedbump";
                 };
             };
         };
@@ -2020,7 +2024,7 @@ class XtdGearInfos {
             style = "2";
         };
         class G_comba_1_cut {
-          model = "G_comba";
+            model = "G_comba";
           cut = "yes";
           style = "1_cut";
         };
