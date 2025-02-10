@@ -65,7 +65,6 @@ class CfgVehicles {
 
             class GVAR(requiredSupplies): Edit {
                 displayName = CSTRING(AreaModule_Attribute_requiredSupplies);
-                tooltip = CSTRING(AreaModule_Attribute_requiredSupplies_Description);
 
                 property = QGVAR(requiredSupplies);
 
