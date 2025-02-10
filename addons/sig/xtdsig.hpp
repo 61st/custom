@@ -18,24 +18,23 @@
 class XtdGearModels {
     class CfgWeapons {    
         class sigm7 {
-            options[] = { "grip", "color" };
+            options[] = {"color" };
             label="SIG M7";
-            class grip {
-                label="Vertical Foregrip";
-                values[] = { "none", "YES" };
-                alwaysSelectable=1;
-            };
             class color {
                 label = "Color";
-                values[] = { "Solid_Tan", "Solid_Black" };
+                values[] = { "Arid", "Black", "Khaki" };
                 alwaysSelectable=1;
-                class Solid_Black {
-                    label = "BLK";
+                class Black {
+                    label = "Black";
                     image = "z\aceax\addons\gearinfo\data\camo\blk.paa";
                 };
-                class Solid_Tan {
-                    label = "Tan-ish ?";
+                class Arid {
+                    label = "Arid";
                     image = "z\aceax\addons\gearinfo\data\camo\khk.paa";
+                };
+                class Khaki {
+                    label = "Khaki";
+                    image = "z\aceax\addons\gearinfo\data\camo\rgr.paa";
                 };
             };
         };
@@ -63,23 +62,15 @@ class XtdGearInfos {
     class CfgWeapons {
         class lxim_sig_XM7 {
             model = "sigm7";
-            grip = "none";
-            color = "Solid_Tan";
+            color = "Arid";
         };
         class lxim_sig_XM7_BLK {
             model = "sigm7";
-            grip = "none";
-            color = "Solid_Black";
+            color = "Black";
         };
-        class lxim_sig_XM7_G {
+        class lxim_sig_XM7_KHK {
             model = "sigm7";
-            grip = "YES";
-            color = "Solid_Tan";
-        };
-        class lxim_sig_XM7_BLK_G {
-            model = "sigm7";
-            grip = "YES";
-            color = "Solid_Black";
+            color = "Khaki";
         };
         class lxim_sig_M250 {
             model = "sigm250";
