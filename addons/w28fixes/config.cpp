@@ -19,6 +19,12 @@ class CfgPatches {
     };
 };
 
+class CfgFactionClasses {
+    class tweed_UA_21 {
+        icon="\tweed_uaf_21\icons\factoid_ua_ca.paa";
+    };
+};
+
 #include "CfgEventHandlers.hpp"
 #include "CfgVehicles.hpp"
 #include "CfgWeapons.hpp"

@@ -15,17 +15,27 @@ class CfgPatches {
         magazines[] = {
             QGVAR(25Rnd_Fury),
             QGVAR(25Rnd_Fury_blk),
+            QGVAR(25Rnd_Fury_khk),
+
             QGVAR(25Rnd_Fury_RT),
             QGVAR(25Rnd_Fury_RT_blk),
+            QGVAR(25Rnd_Fury_RT_khk),
+
+            QGVAR(25Rnd_Fury_IR),
+            QGVAR(25Rnd_Fury_IR_blk),
+            QGVAR(25Rnd_Fury_IR_khk),
+
             QGVAR(150Rnd_Fury),
             QGVAR(150Rnd_Fury_blk),
             QGVAR(150Rnd_Fury_RT),
-            QGVAR(150Rnd_Fury_RT_blk)
+            QGVAR(150Rnd_Fury_RT_blk),
+            QGVAR(150Rnd_Fury_IR),
+            QGVAR(150Rnd_Fury_IR_blk)
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "lxim_main",
-            "KAR_XM7",
+            "ICM_XM7",
             "KAR_XM250"
         };
         authorUrl = URL;
@@ -37,8 +47,9 @@ class CfgPatches {
 };
 
 #include "CfgEventHandlers.hpp"
+#include "CfgAmmo.hpp"
+#include "CfgMagazines.hpp"
 #include "CfgVehicles.hpp"
 #include "CfgWeapons.hpp"
-#include "CfgMagazines.hpp"
 #include "xtdsig.hpp"
 
