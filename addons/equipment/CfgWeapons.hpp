@@ -127,16 +127,16 @@ class CfgWeapons {
                     opticsID = 1;
                     useModelOptics = 1;
                     opticsPPEffects[] = {"OpticsCHAbera1","OpticsBlur1"};
-                    opticsZoomMin = "0.25/1";
-                    opticsZoomMax = "0.25/10";
-                    opticsZoomInit = "0.25/10";
+                    opticsZoomMin = 0.25/1;
+                    opticsZoomMax = 0.25/10;
+                    opticsZoomInit = 0.25/10;
                     distanceZoomMin = 100;
                     distanceZoomMax = 1600;
                     discreteDistance[] = {100,200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600};
                     discreteDistanceInitIndex = 1;
                     discreteFOV[] = {
-                        "0.25/1","0.25/2","0.25/3","0.25/4","0.25/5",
-                        "0.25/6","0.25/7","0.25/8","0.25/9","0.25/10"
+                        0.25/1,0.25/2,0.25/3,0.25/4,0.25/5,
+                        0.25/6,0.25/7,0.25/8,0.25/9,0.25/10
                     };
                     discreteInitIndex = 0;
                     memoryPointCamera = "opticView";
@@ -190,19 +190,19 @@ class CfgWeapons {
                         "OpticsCHAbera2",
                         "OpticsBlur3"
                     };
-                    opticsZoomMin = "0.25/1";
-                    opticsZoomMax = "0.25/25";
-                    opticsZoomInit = "0.25/25";
+                    opticsZoomMin = 0.25/1;
+                    opticsZoomMax = 0.25/25;
+                    opticsZoomInit = 0.25/25;
                     discreteDistance[]={300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1700,1800,1900,2000};
                     discreteDistanceInitIndex=2;
                     distanceZoomMin=300;
                     distanceZoomMax=2000;
                     discretefov[]={
-                        "0.25/1","0.25/2","0.25/3","0.25/4","0.25/5",
-                        "0.25/6","0.25/7","0.25/8","0.25/9","0.25/10",
-                        "0.25/11","0.25/12","0.25/13","0.25/14","0.25/15",
-                        "0.25/16","0.25/17","0.25/18","0.25/19","0.25/20",
-                        "0.25/21","0.25/22","0.25/23","0.25/24","0.25/25"
+                        0.25/1,0.25/2,0.25/3,0.25/4,0.25/5,
+                        0.25/6,0.25/7,0.25/8,0.25/9,0.25/10,
+                        0.25/11,0.25/12,0.25/13,0.25/14,0.25/15,
+                        0.25/16,0.25/17,0.25/18,0.25/19,0.25/20,
+                        0.25/21,0.25/22,0.25/23,0.25/24,0.25/25
                     };
                     discreteInitIndex=0;
                     memoryPointCamera="opticView";
@@ -265,19 +265,19 @@ class CfgWeapons {
                         "OpticsCHAbera2",
                         "OpticsBlur3"
                     };
-                    opticsZoomMin = "0.25/1";
-                    opticsZoomMax = "0.25/25";
-                    opticsZoomInit = "0.25/25";
+                    opticsZoomMin = 0.25/1;
+                    opticsZoomMax = 0.25/25;
+                    opticsZoomInit = 0.25/25;
                     discreteDistance[]={300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1700,1800,1900,2000};
                     discreteDistanceInitIndex=2;
                     distanceZoomMin=300;
                     distanceZoomMax=2000;
                     discretefov[]={
-                        "0.25/1","0.25/2","0.25/3","0.25/4","0.25/5",
-                        "0.25/6","0.25/7","0.25/8","0.25/9","0.25/10",
-                        "0.25/11","0.25/12","0.25/13","0.25/14","0.25/15",
-                        "0.25/16","0.25/17","0.25/18","0.25/19","0.25/20",
-                        "0.25/21","0.25/22","0.25/23","0.25/24","0.25/25"
+                        0.25/1,0.25/2,0.25/3,0.25/4,0.25/5,
+                        0.25/6,0.25/7,0.25/8,0.25/9,0.25/10,
+                        0.25/11,0.25/12,0.25/13,0.25/14,0.25/15,
+                        0.25/16,0.25/17,0.25/18,0.25/19,0.25/20,
+                        0.25/21,0.25/22,0.25/23,0.25/24,0.25/25
                     };
                     discreteInitIndex=0;
                     memoryPointCamera="opticView";

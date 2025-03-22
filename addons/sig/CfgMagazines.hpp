@@ -2,12 +2,12 @@
 class CfgMagazines {
     class ICM_XM7_Magazine_277_Fury_BP_Arid_F;
     class ICM_XM7_Magazine_277_Fury_BP_Arid_Tracer_Red_F;
+    class ICM_XM7_Magazine_277_Fury_BP_Arid_Tracer_IR_F;
     class ICM_XM7_Magazine_277_Fury_BP_Khaki_Tracer_Red_F;
     class ICM_XM7_Magazine_277_Fury_BP_Khaki_Tracer_IR_F;
     class ICM_XM7_Magazine_277_Fury_BP_Khaki_F;
     class ICM_XM7_Magazine_277_Fury_BP_F;
     class ICM_XM7_Magazine_277_Fury_BP_Tracer_Red_F;
-    class ICM_XM7_Magazine_277_Fury_BP_Arid_Tracer_IR_F;
     class ICM_XM7_Magazine_277_Fury_BP_Tracer_IR_F;
 
     class KAR_100Rnd_Fury;

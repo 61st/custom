@@ -121,9 +121,9 @@ private _vehicles = [];
 ///////////////////////////////////////////////////////////
 // GARRISONS
 ///////////////////////////////////////////////////////////
-if !(_pedPool isEqualTo []) then {
+if (_pedPool isNotEqualTo []) then {
     if (_garrisonsMax > 0) then {
-       private _GarDif = _garrisonsMax - _garrisonsMin;
+        private _GarDif = _garrisonsMax - _garrisonsMin;
         if (_GarDif <0) then {_GarDif = 0};
 
         private _garrisonsExact = _garrisonsMin + floor (random _GarDif);
@@ -149,8 +149,8 @@ if !(_pedPool isEqualTo []) then {
 ///////////////////////////////////////////////////////////
 // STANDARD INFANTRY
 ///////////////////////////////////////////////////////////
-if !(_pedPool isEqualTo []) then {
-   private _pedDif = _pedMax - _pedMin;
+if (_pedPool isNotEqualTo []) then {
+    private _pedDif = _pedMax - _pedMin;
     if (_pedDif <0) then {_pedDif = 0};
 
     for "_x" from 1 to (_pedMin + floor(random _pedDif)) do {
@@ -213,8 +213,8 @@ if !((_motPool isEqualTo []) || (_pedPool isEqualTo [])) then {
 ///////////////////////////////////////////////////////////
 // VEHICLES (PARKED)
 ///////////////////////////////////////////////////////////
-if !(_motPool isEqualTo []) then {
-   private _vehparkedDif = _vehparkedMax - _vehparkedMin;
+if (_motPool isNotEqualTo []) then {
+    private _vehparkedDif = _vehparkedMax - _vehparkedMin;
     if (_vehparkedDif <0) then {_vehparkedDif = 0};
 
     for "_x" from 1 to (_vehparkedMin + floor(random _vehparkedDif)) do {

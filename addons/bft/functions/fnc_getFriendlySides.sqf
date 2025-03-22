@@ -20,7 +20,7 @@ private ["_friendlySides", "_sides"];
 
 _friendlySides = [];
 _sides = [EAST,WEST,RESISTANCE,CIVILIAN];
-if (!(_side isEqualTo CIVILIAN) && !(GVAR(showCivilians))) then {
+if ((_side isNotEqualTo CIVILIAN) && !(GVAR(showCivilians))) then {
     _sides = [EAST,WEST,RESISTANCE];
 };
 

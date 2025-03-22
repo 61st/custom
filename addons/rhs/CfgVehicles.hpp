@@ -200,20 +200,20 @@ class CfgVehicles {
                     class Medium: Wide {
                     };
                     class Wide_TI: Wide {
-                        gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A2_2";
+                        gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A2_2.p3d";
                         visionMode[]={"Normal", "NVG", "Ti"};
                     };
                     class Wide2_TI: Wide_TI {
-                        gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A2_2";
+                        gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A2_2.p3d";
                     };
                     class Medium_TI: Wide_TI {
-                        gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A2_2";
+                        gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A2_2.p3d";
                     };
                     class Medium2_TI: Wide_TI {
-                        gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A2_2";
+                        gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A2_2.p3d";
                     };
                     class Narrow_TI: Wide_TI {
-                        gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A2_2";
+                        gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A2_2.p3d";
                     };
                 };
             };
@@ -229,20 +229,20 @@ class CfgVehicles {
                     class Medium: Wide {
                     };
                     class Wide_TI: Wide {
-                        gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A2_2";
+                        gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A2_2.p3d";
                         visionMode[]={"Normal", "NVG", "Ti"};
                     };
                     class Wide2_TI: Wide_TI {
-                        gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A2_2";
+                        gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A2_2.p3d";
                     };
                     class Medium_TI: Wide_TI {
-                        gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A2_2";
+                        gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A2_2.p3d";
                     };
                     class Medium2_TI: Wide_TI {
-                        gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A2_2";
+                        gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A2_2.p3d";
                     };
                     class Narrow_TI: Wide_TI {
-                        gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A2_2";
+                        gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A2_2.p3d";
                     };
                 };
             };
@@ -258,20 +258,20 @@ class CfgVehicles {
                     class Medium: Wide {
                     };
                     class Wide_TI: Wide {
-                        gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A1_2";
+                        gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A1_2.p3d";
                         visionMode[]={"Normal", "NVG", "Ti"};
                     };
                     class Wide2_TI: Wide_TI {
-                        gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A1_2";
+                        gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A1_2.p3d";
                     };
                     class Medium_TI: Wide_TI {
-                        gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A1_2";
+                        gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A1_2.p3d";
                     };
                     class Medium2_TI: Wide_TI {
-                        gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A1_2";
+                        gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A1_2.p3d";
                     };
                     class Narrow_TI: Wide_TI {
-                        gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A1_2";
+                        gunnerOpticsModel="\rhsusf\addons\rhsusf_m1a1\gunnerOptics_M1A1_2.p3d";
                     };
                 };
             };
@@ -427,7 +427,7 @@ class CfgVehicles {
         class Sounds {
             class Idle_ext {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_ext_idle",
+                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_ext_idle.wss",
                     0.39810717,
                     1,
                     150
@@ -437,7 +437,7 @@ class CfgVehicles {
             };
             class Engine {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_ext_low1",
+                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_ext_low1.wss",
                     0.44668359,
                     1,
                     250
@@ -447,7 +447,7 @@ class CfgVehicles {
             };
             class Engine1_ext {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_ext_low2",
+                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_ext_low2.wss",
                     0.56234133,
                     1,
                     300
@@ -457,7 +457,7 @@ class CfgVehicles {
             };
             class Engine2_ext {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_ext_mid",
+                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_ext_mid.wss",
                     0.70794576,
                     1,
                     350
@@ -467,7 +467,7 @@ class CfgVehicles {
             };
             class Engine3_ext {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_ext_high",
+                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_ext_high.wss",
                     1,
                     1,
                     400
@@ -477,7 +477,7 @@ class CfgVehicles {
             };
             class IdleThrust {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_ext_exhaust_idle",
+                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_ext_exhaust_idle.wss",
                     0.56234133,
                     1,
                     200
@@ -487,7 +487,7 @@ class CfgVehicles {
             };
             class EngineThrust {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_ext_exhaust_low1",
+                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_ext_exhaust_low1.wss",
                     0.70794576,
                     1,
                     350
@@ -497,7 +497,7 @@ class CfgVehicles {
             };
             class Engine1_Thrust_ext {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_ext_exhaust_low2",
+                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_ext_exhaust_low2.wss",
                     0.89125091,
                     1,
                     400
@@ -507,7 +507,7 @@ class CfgVehicles {
             };
             class Engine2_Thrust_ext {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_ext_exhaust_mid",
+                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_ext_exhaust_mid.wss",
                     1.1220185,
                     1,
                     425
@@ -517,7 +517,7 @@ class CfgVehicles {
             };
             class Engine3_Thrust_ext {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_ext_exhaust_high",
+                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_ext_exhaust_high.wss",
                     1.2589254,
                     1,
                     450
@@ -527,7 +527,7 @@ class CfgVehicles {
             };
             class Idle_int {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_int_idle",
+                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_int_idle.wss",
                     0.25118864,
                     1
                 };
@@ -536,7 +536,7 @@ class CfgVehicles {
             };
             class Engine_int {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_int_low1",
+                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_int_low1.wss",
                     0.31622776,
                     1
                 };
@@ -545,7 +545,7 @@ class CfgVehicles {
             };
             class Engine1_int {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_int_low2",
+                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_int_low2.wss",
                     0.39810717,
                     1
                 };
@@ -554,7 +554,7 @@ class CfgVehicles {
             };
             class Engine2_int {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_int_mid",
+                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_int_mid.wss",
                     0.50118721,
                     1
                 };
@@ -563,7 +563,7 @@ class CfgVehicles {
             };
             class Engine3_int {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_int_high",
+                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_int_high.wss",
                     0.63095737,
                     1
                 };
@@ -572,7 +572,7 @@ class CfgVehicles {
             };
             class IdleThrust_int {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_int_exhaust_idle",
+                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_int_exhaust_idle.wss",
                     0.3548134,
                     1
                 };
@@ -581,7 +581,7 @@ class CfgVehicles {
             };
             class EngineThrust_int {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_int_exhaust_low1",
+                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_int_exhaust_low1.wss",
                     0.44668359,
                     1
                 };
@@ -590,7 +590,7 @@ class CfgVehicles {
             };
             class Engine1_Thrust_int {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_int_exhaust_low2",
+                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_int_exhaust_low2.wss",
                     0.56234133,
                     1
                 };
@@ -599,7 +599,7 @@ class CfgVehicles {
             };
             class Engine2_Thrust_int {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_int_exhaust_mid",
+                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_int_exhaust_mid.wss",
                     0.70794576,
                     1
                 };
@@ -608,7 +608,7 @@ class CfgVehicles {
             };
             class Engine3_Thrust_int {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_int_exhaust_high",
+                    "A3\Sounds_F\vehicles\soft\MRAP_01\MRAP_01_int_exhaust_high.wss",
                     0.79432821,
                     1
                 };
@@ -617,7 +617,7 @@ class CfgVehicles {
             };
             class TiresRockOut {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\tires\ext_tires_dirt_soft_1",
+                    "A3\Sounds_F\vehicles\soft\tires\ext_tires_dirt_soft_1.wss",
                     1.4125376,
                     1,
                     60
@@ -627,7 +627,7 @@ class CfgVehicles {
             };
             class TiresSandOut {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\tires\ext-tires-sand1",
+                    "A3\Sounds_F\vehicles\soft\tires\ext-tires-sand1.wss",
                     1.4125376,
                     1,
                     60
@@ -637,7 +637,7 @@ class CfgVehicles {
             };
             class TiresGrassOut {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\tires\ext_tires_dirt_soft_2",
+                    "A3\Sounds_F\vehicles\soft\tires\ext_tires_dirt_soft_2.wss",
                     1.2589254,
                     1,
                     60
@@ -647,7 +647,7 @@ class CfgVehicles {
             };
             class TiresMudOut {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\tires\ext-tires-mud2",
+                    "A3\Sounds_F\vehicles\soft\tires\ext-tires-mud2.wss",
                     1.1220185,
                     1,
                     60
@@ -657,7 +657,7 @@ class CfgVehicles {
             };
             class TiresGravelOut {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\tires\ext_tires_gravel_1",
+                    "A3\Sounds_F\vehicles\soft\tires\ext_tires_gravel_1.wss",
                     1.2589254,
                     1,
                     60
@@ -667,7 +667,7 @@ class CfgVehicles {
             };
             class TiresAsphaltOut {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\tires\ext_tires_asfalt_2",
+                    "A3\Sounds_F\vehicles\soft\tires\ext_tires_asfalt_2.wss",
                     1.1220185,
                     1,
                     60
@@ -677,7 +677,7 @@ class CfgVehicles {
             };
             class NoiseOut {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\noises\noise_ext_car_3",
+                    "A3\Sounds_F\vehicles\soft\noises\noise_ext_car_3.wss",
                     1.1220185,
                     1,
                     90
@@ -687,7 +687,7 @@ class CfgVehicles {
             };
             class TiresRockIn {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\tires\int_tires_dirt_soft_1",
+                    "A3\Sounds_F\vehicles\soft\tires\int_tires_dirt_soft_1.wss",
                     0.70794576,
                     1
                 };
@@ -696,7 +696,7 @@ class CfgVehicles {
             };
             class TiresSandIn {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\tires\int-tires-sand2",
+                    "A3\Sounds_F\vehicles\soft\tires\int-tires-sand2.wss",
                     0.70794576,
                     1
                 };
@@ -705,7 +705,7 @@ class CfgVehicles {
             };
             class TiresGrassIn {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\tires\int_tires_dirt_soft_2",
+                    "A3\Sounds_F\vehicles\soft\tires\int_tires_dirt_soft_2.wss",
                     0.70794576,
                     1
                 };
@@ -714,7 +714,7 @@ class CfgVehicles {
             };
             class TiresMudIn {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\tires\int-tires-mud2",
+                    "A3\Sounds_F\vehicles\soft\tires\int-tires-mud2.wss",
                     0.70794576,
                     1
                 };
@@ -723,7 +723,7 @@ class CfgVehicles {
             };
             class TiresGravelIn {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\tires\int_tires_gravel_1",
+                    "A3\Sounds_F\vehicles\soft\tires\int_tires_gravel_1.wss",
                     0.70794576,
                     1
                 };
@@ -732,7 +732,7 @@ class CfgVehicles {
             };
             class TiresAsphaltIn {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\tires\int_tires_asfalt_2",
+                    "A3\Sounds_F\vehicles\soft\tires\int_tires_asfalt_2.wss",
                     0.70794576,
                     1
                 };
@@ -741,7 +741,7 @@ class CfgVehicles {
             };
             class NoiseIn {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\noises\noise_int_car_3",
+                    "A3\Sounds_F\vehicles\soft\noises\noise_int_car_3.wss",
                     0.56234133,
                     1
                 };
@@ -750,7 +750,7 @@ class CfgVehicles {
             };
             class breaking_ext_road {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\noises\slipping_tires_loop_04",
+                    "A3\Sounds_F\vehicles\soft\noises\slipping_tires_loop_04.wss",
                     0.70794576,
                     1,
                     80
@@ -760,7 +760,7 @@ class CfgVehicles {
             };
             class acceleration_ext_road {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\noises\slipping_tires_loop_02",
+                    "A3\Sounds_F\vehicles\soft\noises\slipping_tires_loop_02.wss",
                     0.70794576,
                     1,
                     80
@@ -770,7 +770,7 @@ class CfgVehicles {
             };
             class turn_left_ext_road {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\noises\slipping_tires_loop_02",
+                    "A3\Sounds_F\vehicles\soft\noises\slipping_tires_loop_02.wss",
                     0.70794576,
                     1,
                     80
@@ -780,7 +780,7 @@ class CfgVehicles {
             };
             class turn_right_ext_road {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\noises\slipping_tires_loop_02",
+                    "A3\Sounds_F\vehicles\soft\noises\slipping_tires_loop_02.wss",
                     0.70794576,
                     1,
                     80
@@ -790,7 +790,7 @@ class CfgVehicles {
             };
             class breaking_ext_dirt {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\noises\slipping_tires_14_dirt_breaking",
+                    "A3\Sounds_F\vehicles\soft\noises\slipping_tires_14_dirt_breaking.wss",
                     0.70794576,
                     1,
                     60
@@ -800,7 +800,7 @@ class CfgVehicles {
             };
             class acceleration_ext_dirt {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\noises\acceleration_dirt_ext_1",
+                    "A3\Sounds_F\vehicles\soft\noises\acceleration_dirt_ext_1.wss",
                     0.70794576,
                     1,
                     60
@@ -810,7 +810,7 @@ class CfgVehicles {
             };
             class turn_left_ext_dirt {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\noises\slipping_tires_18_dirt",
+                    "A3\Sounds_F\vehicles\soft\noises\slipping_tires_18_dirt.wss",
                     0.70794576,
                     1,
                     60
@@ -820,7 +820,7 @@ class CfgVehicles {
             };
             class turn_right_ext_dirt {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\noises\slipping_tires_18_dirt",
+                    "A3\Sounds_F\vehicles\soft\noises\slipping_tires_18_dirt.wss",
                     0.70794576,
                     1,
                     60
@@ -830,7 +830,7 @@ class CfgVehicles {
             };
             class breaking_int_road {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\noises\slipping_tires_loop_04_int",
+                    "A3\Sounds_F\vehicles\soft\noises\slipping_tires_loop_04_int.wss",
                     0.63095737,
                     1
                 };
@@ -839,7 +839,7 @@ class CfgVehicles {
             };
             class acceleration_int_road {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\noises\slipping_tires_loop_02_int",
+                    "A3\Sounds_F\vehicles\soft\noises\slipping_tires_loop_02_int.wss",
                     0.63095737,
                     1
                 };
@@ -848,7 +848,7 @@ class CfgVehicles {
             };
             class turn_left_int_road {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\noises\slipping_tires_loop_02_int",
+                    "A3\Sounds_F\vehicles\soft\noises\slipping_tires_loop_02_int.wss",
                     0.63095737,
                     1
                 };
@@ -857,7 +857,7 @@ class CfgVehicles {
             };
             class turn_right_int_road {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\noises\slipping_tires_loop_02_int",
+                    "A3\Sounds_F\vehicles\soft\noises\slipping_tires_loop_02_int.wss",
                     0.63095737,
                     1
                 };
@@ -866,7 +866,7 @@ class CfgVehicles {
             };
             class breaking_int_dirt {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\noises\slipping_tires_14_dirt_breaking_int",
+                    "A3\Sounds_F\vehicles\soft\noises\slipping_tires_14_dirt_breaking_int.wss",
                     0.63095737,
                     1
                 };
@@ -875,7 +875,7 @@ class CfgVehicles {
             };
             class acceleration_int_dirt {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\noises\acceleration_dirt_int_1",
+                    "A3\Sounds_F\vehicles\soft\noises\acceleration_dirt_int_1.wss",
                     0.63095737,
                     1
                 };
@@ -884,7 +884,7 @@ class CfgVehicles {
             };
             class turn_left_int_dirt {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\noises\slipping_tires_18_dirt_int",
+                    "A3\Sounds_F\vehicles\soft\noises\slipping_tires_18_dirt_int.wss",
                     0.63095737,
                     1
                 };
@@ -893,7 +893,7 @@ class CfgVehicles {
             };
             class turn_right_int_dirt {
                 sound[]= {
-                    "A3\Sounds_F\vehicles\soft\noises\slipping_tires_18_dirt_int",
+                    "A3\Sounds_F\vehicles\soft\noises\slipping_tires_18_dirt_int.wss",
                     0.63095737,
                     1
                 };
@@ -1262,7 +1262,7 @@ class CfgVehicles {
         fuelConsumptionRate = 0.2;
         incomingMissileDetectionSystem = 16; // 0
         irTargetSize = 0.84; // 0.9
-        LockDetectionSystem = "2 + 8 + 4"; // 0
+        LockDetectionSystem = 2 + 8 + 4; // 0
         nvScanner = 1; // 0
         radarTargetSize = 1.05; // 1
         radarType = 8; // 1
@@ -1314,7 +1314,7 @@ class CfgVehicles {
         camouflage = 88; // 100
         incomingMissileDetectionSystem = 16; // 0
         irTargetSize = 0.86; // 0.9
-        LockDetectionSystem = "2 + 8 + 4"; // 0
+        LockDetectionSystem = 2 + 8 + 4; // 0
         nvScanner = 1; // 0
         radarTargetSize = 1.25; // 1
     };
@@ -1366,7 +1366,7 @@ class CfgVehicles {
         camShakeCoef = 0.8; // 0
         incomingMissileDetectionSystem = 16; // 0
         irTargetSize = 0.31; // 0.7
-        LockDetectionSystem = "2 + 8 + 4"; // 0
+        LockDetectionSystem = 2 + 8 + 4; // 0
         maxSpeed=260;
         nvScanner = 1; // 0
         radarTargetSize = 0.65; // 0.8
@@ -2679,8 +2679,8 @@ class CfgVehicles {
                 mass = -50;
             };
         };
-        driverCanSee = "4+8+2+32+16";
-        gunnerCanSee = "4+2+8+32+16";
+        driverCanSee = 4+8+2+32+16;
+        gunnerCanSee = 4+2+8+32+16;
         weapons[] = {"TruckHorn","SmokeLauncher","rhsusf_weap_duke"};
         magazines[] = {"SmokeLauncherMag","rhsusf_mag_duke"};
         class Turrets {};

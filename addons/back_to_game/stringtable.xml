@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="LXIM">
     <Package name="Back_To_Game">
-        <Key ID="STR_LXIM_Back_To_Game_DisplayName">
-            <English>61st Mechanized Infantry Battalion - Back To Game</English>
-            <Polish>61st Mechanized Infantry Battalion - Back To Game</Polish>
-        </Key>
         <Key ID="STR_LXIM_Back_To_Game_EnableAddon">
             <English>Enable Back To Game</English>
             <Polish>Włącz Back To Game</Polish>
