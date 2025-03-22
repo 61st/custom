@@ -69,8 +69,8 @@ class rhsusf_200Rnd_556x45_M995_soft_pouch: rhsusf_100Rnd_556x45_M995_soft_pouch
     descriptionShort = "Caliber: 5.56x45mm AP NATO<br />Rounds: 200<br />Used in: M249";
     displayname = "200rnd M249 Softpack M995 AP";
     mass = 45.87;
-    model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_200rnd_softpouch_mag";
-    modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_pouch_200rnd";
+    model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_200rnd_softpouch_mag.p3d";
+    modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_pouch_200rnd.p3d";
 };
 class rhsusf_200Rnd_556x45_M995_soft_pouch_coyote: rhsusf_100Rnd_556x45_M995_soft_pouch_coyote {
     author = "Red Hammer Studios & johnb43";
@@ -78,8 +78,8 @@ class rhsusf_200Rnd_556x45_M995_soft_pouch_coyote: rhsusf_100Rnd_556x45_M995_sof
     descriptionShort = "Caliber: 5.56x45mm AP NATO<br />Rounds: 200<br />Used in: M249";
     displayname = "200rnd M249 Softpack M995 AP";
     mass = 45.87;
-    model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_200rnd_softpouch_mag";
-    modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_pouch_200rnd";
+    model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_200rnd_softpouch_mag.p3d";
+    modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_pouch_200rnd.p3d";
 };
 class rhsusf_200Rnd_556x45_M995_soft_pouch_ucp: rhsusf_100Rnd_556x45_M995_soft_pouch_ucp {
     author = "Red Hammer Studios & johnb43";
@@ -87,8 +87,8 @@ class rhsusf_200Rnd_556x45_M995_soft_pouch_ucp: rhsusf_100Rnd_556x45_M995_soft_p
     descriptionShort = "Caliber: 5.56x45mm AP NATO<br />Rounds: 200<br />Used in: M249";
     displayname = "200rnd M249 Softpack M995 AP";
     mass = 45.87;
-    model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_200rnd_softpouch_mag";
-    modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_pouch_200rnd";
+    model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_200rnd_softpouch_mag.p3d";
+    modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_pouch_200rnd.p3d";
 };
 
 class rhs_200rnd_556x45_T_SAW: rhs_200rnd_556x45_M_SAW {

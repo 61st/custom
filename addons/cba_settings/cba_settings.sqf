@@ -330,7 +330,6 @@ force force ace_medical_painUnconsciousThreshold = 0.6;
 force force ace_medical_playerDamageThreshold = 2.25;
 force force ace_medical_spontaneousWakeUpChance = 0.8;
 force force ace_medical_spontaneousWakeUpEpinephrineBoost = 1.4;
-force force ace_medical_statemachine_AIUnconsciousness = true;
 force force ace_medical_statemachine_cardiacArrestBleedoutEnabled = true;
 force force ace_medical_statemachine_cardiacArrestTime = 360;
 force force ace_medical_statemachine_fatalInjuriesAI = 0;
@@ -459,7 +458,7 @@ force force ace_repair_fullRepairLocation = 3;
 force force ace_repair_fullRepairRequiredItems = ["ace_repair_anyToolKit"];
 force force ace_repair_locationsBoostTraining = true;
 force force ace_repair_miscRepairRequiredItems = ["ace_repair_anyToolKit"];
-force force ace_repair_miscRepairTime = 15;
+force force ace_repair_miscRepairTime = 12;
 force force ace_repair_patchWheelEnabled = 0;
 force force ace_repair_patchWheelLocation = ["ground","vehicle"];
 force force ace_repair_patchWheelMaximumRepair = 0.3;
@@ -685,7 +684,7 @@ force force ACM_damage_headTraumaCardiacArrestThreshold = 0;
 force force ACM_damage_headTraumaCardiacArrestThresholdAI = 8;
 force force ACM_damage_headTraumaDeathThreshold = 0;
 force force ACM_damage_headTraumaDeathThresholdAI = 19;
-force force ACM_damage_internalBleedingChanceMultiplier = 1;
+force force ACM_damage_internalBleedingChanceMultiplier = .9;
 
 // ACM: Disability
 force force ACM_disability_tourniquetImpactLimbs = true;

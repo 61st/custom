@@ -135,6 +135,7 @@ class CfgVehicles {
     class Land_PlasticCase_01_large_F;
     class Land_PlasticCase_01_large_idap_F;
     class Land_PlasticCase_01_medium_CBRN_F;
+    class Land_PlasticCase_01_large_olive_CBRN_F;
 
     class GVAR(MOPP): Land_PlasticCase_01_medium_CBRN_F {
         displayName="[61ST] MOPP Box";
@@ -245,8 +246,12 @@ class CfgVehicles {
         };
     };
 
-    class GVAR(outlawHQ): Land_PlasticCase_01_large_black_F {
+    class GVAR(outlawHQ): Land_PlasticCase_01_large_olive_CBRN_F {
         displayName="[61ST] Outlaw HQ Resupply";
+        hiddenSelectionsTextures[]= {
+            "a3\Props_F_Enoch\Military\Supplies\Data\PlasticCase_01_olive_CO.paa",
+            QPATHTOF(data\plasticcase_01_logo_01_hq.paa)
+        };
         maximumLoad = 6000;
         class TransportWeapons {
             MACRO_ADDWEAPON(rhs_weap_M136,4);
@@ -313,9 +318,13 @@ class CfgVehicles {
         };
     };
 
-    class GVAR(outlaw11): Land_PlasticCase_01_large_F {
+    class GVAR(outlaw11): Land_PlasticCase_01_large_olive_CBRN_F {
         displayName="[61ST] Outlaw 1-1 Resupply";
         maximumLoad = 6000;
+        hiddenSelectionsTextures[]= {
+            "a3\Props_F_Enoch\Military\Supplies\Data\PlasticCase_01_olive_CO.paa",
+            QPATHTOF(data\plasticcase_01_logo_01_11.paa)
+        };
         class TransportWeapons {
             MACRO_ADDWEAPON(rhs_weap_M136,4);
             MACRO_ADDWEAPON(launch_MRAWS_olive_F,2);
@@ -381,8 +390,12 @@ class CfgVehicles {
         };
     };
 
-    class GVAR(outlaw12): Land_PlasticCase_01_large_olive_F {
+    class GVAR(outlaw12): Land_PlasticCase_01_large_olive_CBRN_F {
         displayName="[61ST] Outlaw 1-2 Resupply";
+        hiddenSelectionsTextures[]= {
+            "a3\Props_F_Enoch\Military\Supplies\Data\PlasticCase_01_olive_CO.paa",
+            QPATHTOF(data\plasticcase_01_logo_01_12.paa)
+        };
         maximumLoad = 6000;
         class TransportWeapons {
             MACRO_ADDWEAPON(rhs_weap_fgm148,1);

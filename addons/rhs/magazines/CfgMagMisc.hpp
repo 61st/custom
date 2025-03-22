@@ -62,7 +62,7 @@ class rhs_mag_20Rnd_762x51_m80_fnfal: CA_Magazine {
     mass = 16.24;
 };
 class rhs_mag_30Rnd_762x51_m80_fnfal: rhs_mag_20Rnd_762x51_m80_fnfal {
-    modelSpecial = "rhsgref\addons\rhsgref_weapons3\mag_proxies\rhs_mag_762x51_fnfal_20rnd";
+    modelSpecial = "rhsgref\addons\rhsgref_weapons3\mag_proxies\rhs_mag_762x51_fnfal_20rnd.p3d";
     scope = 2;
 };
 
@@ -71,8 +71,8 @@ class rhsusf_50Rnd_762x51_m993: rhsusf_50Rnd_762x51 {
     scope = 2;
 };
 class rhsusf_100Rnd_762x51_m993: rhsusf_50Rnd_762x51_m993 {
-    model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m240_mag";
-    modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_762x51_m240_pouch_100rnd";
+    model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m240_mag.p3d";
+    modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_762x51_m240_pouch_100rnd.p3d";
     picture = "\rhsusf\addons\rhsusf_inventoryicons\data\magazines\rhsusf_100Rnd_762x51_m61_ap_ca.paa";
     scope = 2;
 };
