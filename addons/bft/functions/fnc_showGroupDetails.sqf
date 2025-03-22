@@ -25,7 +25,7 @@ if (!isNull (_markerName call BIS_fnc_groupFromNetId)) then {
     _group = group (_markerName call BIS_fnc_objectFromNetId);
 };
 
-if (!((side _group) isEqualTo playerSide)) exitWith {
+if (((side _group) isNotEqualTo playerSide)) exitWith {
     hintSilent "This group is not in your faction!";
 };
 

@@ -232,9 +232,9 @@ private _vehicles = [];
 ///////////////////////////////////////////////////////////
 // GARRISONS
 ///////////////////////////////////////////////////////////
-if !(_infList isEqualTo []) then {
+if (_infList isNotEqualTo []) then {
     if (_GarrisonedGroupsMax > 0) then {
-       private _GarDif = _GarrisonedGroupsMax - _GarrisonedGroupsMin;
+        private _GarDif = _GarrisonedGroupsMax - _GarrisonedGroupsMin;
         if (_GarDif <0) then {_GarDif = 0};
 
         private _GarrisonedGroupsExact = _GarrisonedGroupsMin + floor (random _GarDif);
@@ -263,8 +263,8 @@ if !(_infList isEqualTo []) then {
 ///////////////////////////////////////////////////////////
 // STANDARD INFANTRY
 ///////////////////////////////////////////////////////////
-if !(_infList isEqualTo []) then {
-   private _InfDif = _infMax - _infMin;
+if (_infList isNotEqualTo []) then {
+    private _InfDif = _infMax - _infMin;
     if (_InfDif <0) then {_InfDif = 0};
 
     for "_x" from 1 to (_infMin + floor(random _InfDif)) do {
@@ -283,8 +283,8 @@ if !(_infList isEqualTo []) then {
 // AA INFANTRY
 ///////////////////////////////////////////////////////////
 
-if !(_infaaList isEqualTo []) then {
-   private _InfaaDif = _InfaaMax - _InfaaMin;
+if (_infaaList isNotEqualTo []) then {
+    private _InfaaDif = _InfaaMax - _InfaaMin;
     if (_InfaaDif <0) then {_InfaaDif = 0};
 
     for "_x" from 1 to (_InfaaMin + floor(random _InfaaDif)) do {
@@ -303,8 +303,8 @@ if !(_infaaList isEqualTo []) then {
 // AT INFANTRY
 ///////////////////////////////////////////////////////////
 
-if !(_infatList isEqualTo []) then {
-   private _InfatDif = _InfatMax - _InfatMin;
+if (_infatList isNotEqualTo []) then {
+    private _InfatDif = _InfatMax - _InfatMin;
     if (_InfatDif <0) then {_InfatDif = 0};
 
     for "_x" from 1 to (_InfatMin + floor(random _InfatDif)) do {
@@ -322,8 +322,8 @@ if !(_infatList isEqualTo []) then {
 ///////////////////////////////////////////////////////////
 // SNIPER TEAMS
 ///////////////////////////////////////////////////////////
-if !(_sniperList isEqualTo []) then {
-   private _SniperDif = _SniperMax - _SniperMin;
+if (_sniperList isNotEqualTo []) then {
+    private _SniperDif = _SniperMax - _SniperMin;
     if (_SniperDif <0) then {_SniperDif = 0};
 
     for "_x" from 1 to (_SniperMin + floor(random _SniperDif)) do {
@@ -343,8 +343,8 @@ if !(_sniperList isEqualTo []) then {
 // AA
 ///////////////////////////////////////////////////////////
 
-if !(_vehAAList isEqualTo []) then {
-   private _VehAADif = _VehAAMax - _VehAAMin;
+if (_vehAAList isNotEqualTo []) then {
+    private _VehAADif = _VehAAMax - _VehAAMin;
     if (_VehAADif <0) then {_VehAADif = 0};
 
     for "_x" from 1 to (_VehAAMin + floor(random _VehAADif)) do {
@@ -354,7 +354,7 @@ if !(_vehAAList isEqualTo []) then {
 
         _rpos = [_center, _radius, _waypoints] call _fnc_pos_veh;
 
-        if !(_rpos isEqualTo [0,0]) then {
+        if (_rpos isNotEqualTo [0,0]) then {
             _v = (selectRandom _vehAAList) createVehicle _rpos ;
             _v lock 2;
 
@@ -375,8 +375,8 @@ if !(_vehAAList isEqualTo []) then {
 // MRAP
 ///////////////////////////////////////////////////////////
 
-if !(_vehmrapList isEqualTo []) then {
-   private _VehMRAPDif = _VehMRAPMax - _VehMRAPMin;
+if (_vehmrapList isNotEqualTo []) then {
+    private _VehMRAPDif = _VehMRAPMax - _VehMRAPMin;
     if (_VehMRAPDif <0) then {_VehMRAPDif = 0};
 
     for "_x" from 1 to (_VehMRAPMin + floor(random _VehMRAPDif)) do {
@@ -386,7 +386,7 @@ if !(_vehmrapList isEqualTo []) then {
 
         _rpos = [_center, _radius, _waypoints] call _fnc_pos_veh;
 
-        if !(_rpos isEqualTo [0,0]) then {
+        if (_rpos isNotEqualTo [0,0]) then {
             _v = (selectRandom _vehmrapList) createVehicle _rpos ;
             _v lock 3;
 
@@ -407,9 +407,9 @@ if !(_vehmrapList isEqualTo []) then {
 // LIGHT VEHS
 ///////////////////////////////////////////////////////////
 
-if !(_vehLightList isEqualTo []) then {
+if (_vehLightList isNotEqualTo []) then {
 
-   private _VehLightDif = _VehLightMax - _VehLightMin;
+    private _VehLightDif = _VehLightMax - _VehLightMin;
     if (_VehLightDif <0) then {_VehLightDif = 0};
 
     for "_x" from 1 to (_VehLightMin + floor(random _VehLightDif)) do {
@@ -419,7 +419,7 @@ if !(_vehLightList isEqualTo []) then {
 
         _rpos = [_center, _radius, _waypoints] call _fnc_pos_veh;
 
-        if !(_rpos isEqualTo [0,0]) then {
+        if (_rpos isNotEqualTo [0,0]) then {
             _v = (selectRandom _vehLightList) createVehicle _rpos ;
             _v lock 3;
 
@@ -440,8 +440,8 @@ if !(_vehLightList isEqualTo []) then {
 // HEAVY VEHS
 ///////////////////////////////////////////////////////////
 
-if !(_vehHeavyList isEqualTo []) then {
-   private _VehHeavyDif = _VehHeavyMax - _VehHeavyMin;
+if (_vehHeavyList isNotEqualTo []) then {
+    private _VehHeavyDif = _VehHeavyMax - _VehHeavyMin;
     if (_VehHeavyDif <0) then {_VehHeavyDif = 0};
 
     for "_x" from 1 to (_VehHeavyMin + floor(random _VehHeavyDif)) do {
@@ -451,7 +451,7 @@ if !(_vehHeavyList isEqualTo []) then {
 
         _rpos = [_center, _radius, _waypoints] call _fnc_pos_veh;
 
-        if !(_rpos isEqualTo [0,0]) then {
+        if (_rpos isNotEqualTo [0,0]) then {
             _v = (selectRandom _vehHeavyList) createVehicle _rpos ;
             _v lock 3;
 
@@ -477,9 +477,9 @@ if !(_vehHeavyList isEqualTo []) then {
 ///////////////////////////////////////////////////////////
 {_vehRandList append _x} forEach [_vehAAList, _vehMrapList, _vehLightList, _vehHeavyList];
 
-if !(_vehRandList isEqualTo []) then {
+if (_vehRandList isNotEqualTo []) then {
 
-   private _VehRandDif = _VehRandMax - _VehRandMin;
+    private _VehRandDif = _VehRandMax - _VehRandMin;
     if (_VehRandDif <0) then {_VehRandDif = 0};
 
     for "_x" from 1 to (_VehRandMin + floor(random _VehRandDif)) do {
@@ -489,7 +489,7 @@ if !(_vehRandList isEqualTo []) then {
 
         _rpos = [_center, _radius, _waypoints] call _fnc_pos_veh;
 
-        if !(_rpos isEqualTo [0,0]) then {
+        if (_rpos isNotEqualTo [0,0]) then {
             _v = (selectRandom _vehRandList) createVehicle _rpos ;
             _v lock 3;
 

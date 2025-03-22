@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="LXIM">
     <Package name="Tagging">
-        <Key ID="STR_LXIM_Tagging_DisplayName">
-            <English>61st Mechanized Infantry Battalion - Tagging</English>
-        </Key>
         <Key ID="STR_LXIM_Tagging_Enabled">
             <English>Enable ACE Tagging markers</English>
             <Polish>Włącz markery ACE Tagging</Polish>

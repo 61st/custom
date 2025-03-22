@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="LXIM">
     <Package name="Insurgents">
-        <Key ID="STR_LXIM_Insurgents_DisplayName">
-            <English>61st Mechanized Infantry Battalion - Insurgents</English>
-            <Polish>61st Mechanized Infantry Battalion - Partyzanci</Polish>
-        </Key>
         <Key ID="STR_LXIM_Insurgents_Gear">
             <English>Insurgents Gear</English>
             <Polish>Sprzęt Partyzantów</Polish>

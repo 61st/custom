@@ -135,7 +135,7 @@ for [{_j = 0}, {(_unitIndex < count _units) && {(count _buildingPosArray > 0)}},
         _housePos = _building buildingPos (_posArray select _randomIndex);
         _housePos = [(_housePos select 0), (_housePos select 1), (_housePos select 2) + (getTerrainHeightASL _housePos) + EYE_HEIGHT];
 
-        _posArray set [_randomIndex, _posArray select (count _posArray - 1)];
+        _posArray set [_randomIndex, _posArray select -1];
         _posArray resize (count _posArray - 1);
 
         _startAngle = (round random 10) * (round random 36);
