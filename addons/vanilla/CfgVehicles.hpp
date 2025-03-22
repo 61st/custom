@@ -1330,8 +1330,8 @@ class CfgVehicles {
                 mass = -50;
             };
         };
-        driverCanSee = "4+8+2+32+16";
-        gunnerCanSee = "4+2+8+32+16";
+        driverCanSee = 4+8+2+32+16;
+        gunnerCanSee = 4+2+8+32+16;
         weapons[] = {"TruckHorn","SmokeLauncher"};
         magazines[] = {"SmokeLauncherMag"};
         class Turrets {};

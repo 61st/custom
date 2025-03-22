@@ -40,15 +40,5 @@
         <Key ID="STR_LXIM_Main_Menu_SpotlightHeader">
             <English>61st Mechanized Infantry Battalion</English>
         </Key>
-        <Key ID="STR_LXIM_Main_Menu_SpotlightJoin">
-            <English>Join</English>
-            <Polish>Dołącz</Polish>
-        </Key>
-        <Key ID="STR_LXIM_Main_Menu_lximJoin_tooltip">
-            <English>Enlist Today!</English>
-        </Key>
-        <Key ID="STR_LXIM_Main_Menu_lximJoin_url">
-            <English>https://www.arma.wiki/</English>
-        </Key>
     </Package>
 </Project>
