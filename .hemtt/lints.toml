@@ -16,3 +16,17 @@ options.ignore = [
 options.banned = [
     "execVM",
 ]
+
+[sqf.undefined]
+enabled = true
+options.check_orphan_code = true
+
+[sqf.unused]
+#enabled = true #many false positives without DEBUG_MODE_FULL
+options.check_params = false
+
+[sqf.shadowed]
+enabled = false
+
+[sqf.not_private]
+enabled = true
