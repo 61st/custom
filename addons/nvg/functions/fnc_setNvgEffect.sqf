@@ -26,7 +26,7 @@ if !_nvgMode exitWith {
 
 private _nvgEffect = call FUNC(getNvgEffect);
 
-if !(_nvgEffect isEqualTo []) then {
+if (_nvgEffect isNotEqualTo []) then {
     private _effect = ppEffectCreate ["ColorCorrections", 16735];
 
     _effect ppEffectAdjust _nvgEffect;

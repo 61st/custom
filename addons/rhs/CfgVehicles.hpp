@@ -1262,7 +1262,7 @@ class CfgVehicles {
         fuelConsumptionRate = 0.2;
         incomingMissileDetectionSystem = 16; // 0
         irTargetSize = 0.84; // 0.9
-        LockDetectionSystem = "2 + 8 + 4"; // 0
+        LockDetectionSystem = 2 + 8 + 4; // 0
         nvScanner = 1; // 0
         radarTargetSize = 1.05; // 1
         radarType = 8; // 1
@@ -1314,7 +1314,7 @@ class CfgVehicles {
         camouflage = 88; // 100
         incomingMissileDetectionSystem = 16; // 0
         irTargetSize = 0.86; // 0.9
-        LockDetectionSystem = "2 + 8 + 4"; // 0
+        LockDetectionSystem = 2 + 8 + 4; // 0
         nvScanner = 1; // 0
         radarTargetSize = 1.25; // 1
     };
@@ -1366,7 +1366,7 @@ class CfgVehicles {
         camShakeCoef = 0.8; // 0
         incomingMissileDetectionSystem = 16; // 0
         irTargetSize = 0.31; // 0.7
-        LockDetectionSystem = "2 + 8 + 4"; // 0
+        LockDetectionSystem = 2 + 8 + 4; // 0
         maxSpeed=260;
         nvScanner = 1; // 0
         radarTargetSize = 0.65; // 0.8
@@ -2679,8 +2679,8 @@ class CfgVehicles {
                 mass = -50;
             };
         };
-        driverCanSee = "4+8+2+32+16";
-        gunnerCanSee = "4+2+8+32+16";
+        driverCanSee = 4+8+2+32+16;
+        gunnerCanSee = 4+2+8+32+16;
         weapons[] = {"TruckHorn","SmokeLauncher","rhsusf_weap_duke"};
         magazines[] = {"SmokeLauncherMag","rhsusf_mag_duke"};
         class Turrets {};

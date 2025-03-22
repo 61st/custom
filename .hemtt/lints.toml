@@ -9,7 +9,7 @@ options.ignore = [
     "RESISTANCE",
     "CIVILIAN",
     "getVehicleTiPars",
-    "setVehicleTiPars",
+    "setVehicleTiPars"
 ]
 
 [sqf.banned_commands]
@@ -30,3 +30,11 @@ enabled = false
 
 [sqf.not_private]
 enabled = true
+
+[config.math_could_be_unquoted]
+command_case = "Warning"
+options.ignore = [
+    "driverCanSee",
+    "gunnerCanSee",
+    "LockDetectionSystem"
+    ]

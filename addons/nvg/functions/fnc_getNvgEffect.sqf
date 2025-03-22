@@ -19,7 +19,7 @@ private _nvgBlacklist    = lxim_nvg_Blacklist; // nvg blacklist
 private _effect = [];
 
 if !((hmd player) in _nvgBlacklist) then {
-    if !(_effectSelection isEqualTo "") then {
+    if (_effectSelection isNotEqualTo "") then {
         _effect = (
         configFile >> "CfgEffects" >> format [
             "%1%2", _effectSelection, ["", "Ace"] select lxim_nvg_ACE
