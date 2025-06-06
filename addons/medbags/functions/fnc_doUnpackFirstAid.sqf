@@ -74,9 +74,11 @@ if (isNull _unit) exitWith {};
         sleep 0.3;
         [_unit, "ACE_salineIV_500", 1, _order, _overflow] call EFUNC(common,addItem);
         sleep 0.3;
-        [_unit, "ACE_splint", 1, _order, _overflow] call EFUNC(common,addItem);
+        [_unit, "ACE_splint", 2, _order, _overflow] call EFUNC(common,addItem);
         sleep 0.3;
         [_unit, "ACM_Paracetamol", 2, _order, _overflow] call EFUNC(common,addItem);
+        sleep 0.3;
+        [_unit, "ACM_ChestSeal", 2, _order, _overflow] call EFUNC(common,addItem);
     };
     if (lxim_MEDICAL_SUPPLIES_UNPACK_FAILURE) exitWith {
         [_unit, QGVAR(Medical_FirstAid_Open_1)] call EFUNC(common,stop3dSound);
