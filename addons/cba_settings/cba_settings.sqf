@@ -787,7 +787,6 @@ force force BCE_FriendlyTrack_fn = false;
 force BCE_Landmarks_fn = false;
 force force BCE_UnitTrack_fn = false;
 
-
 // Better CAS Environment (Server)
 force force BCE_AI_CAS_Support_fn = true;
 force force BCE_AIAir_IR_fn = true;
@@ -862,8 +861,6 @@ force FSNB_MushroomCloud = true;
 force FSNB_SmokeSpike = true;
 force FSNB_Sound = true;
 force FSNB_StaticRad = -1;
-
-
 
 // GRAD Trenches
 force force grad_trenches_functions_allowBigEnvelope = true;
