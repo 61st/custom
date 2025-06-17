@@ -178,9 +178,11 @@ force force ace_explosives_punishNonSpecialists = true;
 force force ace_explosives_requireSpecialist = true;
 
 // ACE Field Rations
+force ace_field_rations_zeusUpdates = false;
 force force acex_field_rations_affectAdvancedFatigue = true;
 force force acex_field_rations_enabled = false;
 force force acex_field_rations_hungerSatiated = 1;
+force acex_field_rations_nearDepletedConsequence = 1;
 force force acex_field_rations_terrainObjectActions = true;
 force force acex_field_rations_thirstQuenched = 1;
 force force acex_field_rations_timeWithoutFood = 2;
@@ -209,13 +211,38 @@ force force ace_gforces_coef = 0.8;
 force force ace_gforces_enabledFor = 1;
 
 // ACE Goggles
-ace_goggles_drawOverlay = true;
 force force ace_goggles_effects = 2;
 force force ace_goggles_showClearGlasses = true;
 force force ace_goggles_showInThirdPerson = false;
 
 // ACE Grenades
 force force ace_grenades_convertExplosives = true;
+
+// ACE Grenades in hatches - Tweaked
+force force grenades_hatches_main_allowedBehaviorSetting = "[""CARELESS"",""SAFE"",""AWARE"",""COMBAT"",""STEALTH""]";
+force force grenades_hatches_main_allowedGrenadesSetting = "[""HandGrenade"",""MiniGrenade""]";
+force force grenades_hatches_main_autodetectGrenadesSetting = true;
+force force grenades_hatches_main_blacklistVehiclesInheritanceSetting = "[]";
+force force grenades_hatches_main_blacklistVehiclesSetting = "[]";
+force force grenades_hatches_main_damageDealtCrew = 5;
+force force grenades_hatches_main_damageDealtCrewVanilla = 0.25;
+force force grenades_hatches_main_damageDealtEngine = 1;
+force force grenades_hatches_main_damageDealtEngineMax = 1;
+force force grenades_hatches_main_damageDealtHull = 0.75;
+force force grenades_hatches_main_damageDealtHullMax = 0.75;
+force force grenades_hatches_main_damageDealtTurret = 1;
+force force grenades_hatches_main_damageDealtTurretMax = 1;
+force force grenades_hatches_main_damageType = true;
+force force grenades_hatches_main_delayExplosion = 5;
+force force grenades_hatches_main_delayInteraction = 3;
+force force grenades_hatches_main_disablePlayerAmbush = false;
+force force grenades_hatches_main_distanceInteraction = 10;
+force force grenades_hatches_main_enableKnowledgeMultiplier = false;
+force force grenades_hatches_main_forceCrewDismount = true;
+force force grenades_hatches_main_killCrewIfVehicleExplodes = false;
+force force grenades_hatches_main_knowledgeMultiplier = 5;
+force force grenades_hatches_main_whitelistVehiclesInheritanceSetting = "[""Tank"",""Wheeled_Apc_F""]";
+force force grenades_hatches_main_whitelistVehiclesSetting = "[]";
 
 // ACE Headless
 force force acex_headless_delay = 15;
@@ -226,7 +253,8 @@ force force acex_headless_transferLoadout = 1;
 
 // ACE Hearing
 force force ace_hearing_autoAddEarplugsToUnits = 2;
-force force ace_hearing_disableEarRinging = true;
+ace_hearing_disableEarRinging = true;
+force ace_hearing_earplugsVolume = 0.5;
 force force ace_hearing_enableCombatDeafness = false;
 force force ace_hearing_enableNoiseDucking = true;
 force force ace_hearing_explosionDeafnessCoefficient = 0;
@@ -292,16 +320,6 @@ force force ace_markers_timestampTimezone = 0;
 force force ace_markers_TimestampUTCMinutesOffset = 0;
 force force ace_markers_timestampUTCOffset = 0;
 
-// ACE Map Gestures
-force force ace_map_gestures_allowCurator = true;
-force force ace_map_gestures_allowSpectator = true;
-force force ace_map_gestures_briefingMode = 0;
-force force ace_map_gestures_enabled = true;
-force force ace_map_gestures_interval = 0.03;
-force force ace_map_gestures_maxRange = 7;
-force force ace_map_gestures_maxRangeCamera = 14;
-force force ace_map_gestures_onlyShowFriendlys = false;
-
 // ACE Map Tools
 force force ace_maptools_drawStraightLines = true;
 force force ace_maptools_plottingBoardAllowChannelDrawing = 1;
@@ -330,6 +348,7 @@ force force ace_medical_painUnconsciousThreshold = 0.6;
 force force ace_medical_playerDamageThreshold = 2.25;
 force force ace_medical_spontaneousWakeUpChance = 0.8;
 force force ace_medical_spontaneousWakeUpEpinephrineBoost = 1.4;
+force ace_medical_statemachine_AIUnconsciousness = true;
 force force ace_medical_statemachine_cardiacArrestBleedoutEnabled = true;
 force force ace_medical_statemachine_cardiacArrestTime = 360;
 force force ace_medical_statemachine_fatalInjuriesAI = 0;
@@ -391,6 +410,10 @@ force force ace_medical_treatment_treatmentTimeGrave = 10;
 force force ace_medical_treatment_treatmentTimeIV = 12;
 force force ace_medical_treatment_treatmentTimeSplint = 7;
 force force ace_medical_treatment_treatmentTimeTourniquet = 7;
+force force ace_medical_treatment_treatmentTimeTrainedAutoinjector = 3;
+force force ace_medical_treatment_treatmentTimeTrainedIV = 8;
+force force ace_medical_treatment_treatmentTimeTrainedSplint = 5;
+force force ace_medical_treatment_treatmentTimeTrainedTourniquet = 5;
 force force ace_medical_treatment_woundReopenChance = 0.4;
 force force ace_medical_treatment_woundStitchTime = 5;
 
@@ -602,7 +625,6 @@ force force ace_zeus_zeusAscension = true;
 force force ace_zeus_zeusBird = false;
 
 // ACM: Airway
-force force ACM_airway_airwayAdjunctReusable = false;
 force force ACM_airway_airwayCollapseChance = 1;
 force force ACM_airway_airwayObstructionBloodChance = 1;
 force force ACM_airway_airwayObstructionVomitChance = 1;
@@ -611,6 +633,7 @@ force force ACM_airway_allowNPA = 0;
 force force ACM_airway_allowOPA = 0;
 force force ACM_airway_allowSGA = 1;
 force force ACM_airway_allowSuctionBag = 0;
+force force ACM_airway_allowSurgicalAirway = 1;
 force force ACM_airway_enable = true;
 force force ACM_airway_treatmentTimeNPA = 5;
 force force ACM_airway_treatmentTimeOPA = 3;
@@ -627,16 +650,35 @@ force force ACM_breathing_Hardcore_ChestInjury = false;
 force force ACM_breathing_Hardcore_HemothoraxBleeding = false;
 force force ACM_breathing_hemothoraxChance = 0.1;
 force force ACM_breathing_locationThoracostomy = 0;
-force force ACM_breathing_pneumothoraxDeteriorateChance = .5;
+force force ACM_breathing_pneumothoraxDeteriorateChance = 0.5;
 force force ACM_breathing_pneumothoraxEnabled = true;
 force force ACM_breathing_showCyanosisSeverity = true;
 force force ACM_breathing_treatmentTimeInspectChest = 6;
 
+// ACM: CBRN
+force ACM_cbrn_allowATNAAutoinjector = 0;
+force ACM_cbrn_allowMidazolamAutoinjector = 0;
+force ACM_cbrn_chemicalAffectAI = true;
+force ACM_cbrn_chemicalAffectAISkill = true;
+force ACM_cbrn_chlorineCauseBlindness = true;
+force ACM_cbrn_CSCauseBlindness = true;
+force ACM_cbrn_customPPEList_gasmask = "JCA_G_AirPurifyingRespirator_03_black_clear_F, JCA_G_AirPurifyingRespirator_03_black_tinted_F, CA_G_AirPurifyingRespirator_03_olive_clear_F, JCA_G_AirPurifyingRespirator_03_olive_tinted_F, JCA_G_AirPurifyingRespirator_03_sand_clear_F, JCA_G_AirPurifyingRespirator_03_sand_tinted_F";
+force ACM_cbrn_customPPEList_suit = "lxim_rhs_moppsuit";
+force ACM_cbrn_customVehicleList_CBRN = "";
+force ACM_cbrn_customVehicleList_sealed = "";
+force ACM_cbrn_enable = false;
+force ACM_cbrn_lewisiteCauseBlindness = true;
+force ACM_cbrn_lewisiteIsColorless = true;
+force ACM_cbrn_sarinIsColorless = true;
+
 // ACM: Circulation
 force force ACM_circulation_AEDDistanceLimit = 5;
 force force ACM_circulation_allowAED = 0;
+force force ACM_circulation_allowAmmoniaInhalant = 1;
+force force ACM_circulation_allowFentanylLozenge = 1;
 force force ACM_circulation_allowIO = 1;
 force force ACM_circulation_allowIV = 1;
+force force ACM_circulation_allowSyringe = 1;
 force force ACM_circulation_BloodType_Ratio_A = 28;
 force force ACM_circulation_BloodType_Ratio_AB = 4;
 force force ACM_circulation_BloodType_Ratio_ABN = 1;
@@ -651,7 +693,7 @@ force force ACM_circulation_cardiacArrestDeteriorationRate = 1;
 force force ACM_circulation_coagulationClotting = true;
 force force ACM_circulation_coagulationClottingAffectAI = true;
 force force ACM_circulation_CPREffectiveness = 1;
-force force ACM_circulation_customBloodTypeList_Enable = false;
+force force ACM_circulation_customBloodTypeList_enable = false;
 force force ACM_circulation_Hardcore_PostCardiacArrest = false;
 force force ACM_circulation_IVComplications = true;
 force force ACM_circulation_IVComplicationsDeteriorate = true;
@@ -666,12 +708,10 @@ force force ACM_circulation_treatmentTimeIV_16 = 6;
 force force ACM_core_allowWrap = 1;
 force force ACM_core_Dogtag_ShowWeight = true;
 force force ACM_core_ignoreIncompatibleAddonWarning = false;
-force force ACM_core_splintFallOffTime = 60;
-force force ACM_core_treatmentTimeSAMSplint = 3;
+force force ACM_core_MedicAI_AllowIntermediateTreatment = false;
 force force ACM_core_treatmentTimeSutureStitch = 0.5;
 force force ACM_core_treatmentTimeTakeOffTourniquet = 4;
 force force ACM_core_treatmentTimeWrappedStitch = 2;
-force force ACM_core_treatmentTimeWrapSplint = 5;
 
 // ACM: Damage
 force force ACM_damage_AIStayDownChance = 1;
@@ -684,10 +724,17 @@ force force ACM_damage_headTraumaCardiacArrestThreshold = 0;
 force force ACM_damage_headTraumaCardiacArrestThresholdAI = 8;
 force force ACM_damage_headTraumaDeathThreshold = 0;
 force force ACM_damage_headTraumaDeathThresholdAI = 19;
-force force ACM_damage_internalBleedingChanceMultiplier = .4;
+force force ACM_damage_internalBleedingChanceMultiplier = 0.4;
 
 // ACM: Disability
+force force ACM_disability_allowFractureRealignment = 1;
+force force ACM_disability_allowInspectForFracture = 1;
+force force ACM_disability_enableFractureSeverity = true;
+force force ACM_disability_Hardcore_ComplexFracture = false;
+force force ACM_disability_splintFallOffTime = 60;
 force force ACM_disability_tourniquetImpactLimbs = true;
+force force ACM_disability_treatmentTimeSAMSplint = 3;
+force force ACM_disability_treatmentTimeWrapSplint = 5;
 
 // ACM: Evacuation
 force force ACM_evacuation_allowConvert = 2;
@@ -697,25 +744,11 @@ force force ACM_evacuation_enable = true;
 force force ACM_evacuation_locationConvert = 0;
 force force ACM_evacuation_playerFaction = WEST;
 force force ACM_evacuation_requireAntibiotics = true;
-force force ACM_evacuation_ticketCountCasualty = 5;
-force force ACM_evacuation_ticketCountRespawn = 20;
+force force ACM_evacuation_ticketCountCasualty = 15;
+force force ACM_evacuation_ticketCountRespawn = 50;
 
-// ACRE2
-force acre_sys_core_automaticAntennaDirection = true;
-force acre_sys_core_defaultRadioVolume = 0.8;
-force acre_sys_core_fullDuplex = true;
-force acre_sys_core_ignoreAntennaDirection = true;
-force acre_sys_core_interference = false;
-force acre_sys_core_revealToAI = 1;
-force acre_sys_core_terrainLoss = 0;
-force acre_sys_core_ts3ChannelSwitch = true;
-force acre_sys_radio_defaultRadio = "ACRE_PRC148";
-force acre_sys_signal_signalModel = 3;
-
-// ACRE2 Zeus
-force acre_sys_zeus_zeusCanSpectate = true;
-force acre_sys_zeus_zeusCommunicateViaCamera = true;
-force acre_sys_zeus_zeusDefaultVoiceSource = false;
+// AZM Miclic
+force AZM_CBAOptionMiclic = 5;
 
 // Backpack On Chest
 force force bocr_main_disabled = false;
@@ -727,6 +760,7 @@ force BCE_CamNoise_sdr = 0.5;
 force force BCE_FriendlyTrack_fn = false;
 force BCE_Landmarks_fn = false;
 force force BCE_UnitTrack_fn = false;
+
 
 // Better CAS Environment (Server)
 force force BCE_AI_CAS_Support_fn = true;
@@ -746,23 +780,35 @@ force force cba_disposable_replaceDisposableLauncher = false;
 force force cba_network_loadoutValidation = 1;
 
 // Crows Electronic Warfare
+crowsEW_main_zeus_jam_immune = true;
+crowsEW_main_zeus_jam_marker_show = true;
 force force crowsEW_spectrum_defaultClassForJammingSignal = "UGV_01_base_F,UGV_02_Base_F,UAV_01_base_F,UAV_02_base_F,UAV_03_base_F,UAV_04_base_F,UAV_05_Base_F,UAV_06_base_F";
+force crowsEW_spectrum_defaultRangesForJammingSignal = "298,299,301,3002,3003,3004,3005,306";
 force force crowsEW_spectrum_minJamSigStrength = -40;
 force force crowsEW_spectrum_selfTracking = false;
 force force crowsEW_spectrum_spectrumAutoline = true;
+crowsEW_spectrum_spectrumAutolineColor1 = 2;
+crowsEW_spectrum_spectrumAutolineColor2 = 7;
+crowsEW_spectrum_spectrumAutolineColor3 = 8;
+crowsEW_spectrum_spectrumAutolineColor4 = 5;
 force force crowsEW_spectrum_spectrumAutolineLength = 6000;
 force force crowsEW_spectrum_spectrumAutolineNoise = 0;
 force force crowsEW_spectrum_spectrumEnable = true;
 force force crowsEW_spectrum_tfarSideTrack = false;
+crowsEW_spectrum_UAVterminalUserVisibleInSpectrum = false;
+
 
 // cTab
 force force ctab_compass_enable = true;
 force force ctab_core_bft_mode = 0;
+ctab_core_defMapStyle = "SAT";
 force force ctab_core_gridPrecision = 2;
 force force ctab_core_helmetcam_mode = 1;
 force force ctab_core_sync_time = 30;
 force force ctab_core_uav_mode = 1;
 force force ctab_core_useAceMicroDagr = true;
+ctab_core_useArmaMarker = true;
+ctab_core_useMils = false;
 
 // Fire support PLUS
 force FSPLUS_105mmTrainingShell = true;
@@ -802,6 +848,54 @@ force FSNB_MushroomCloud = true;
 force FSNB_SmokeSpike = true;
 force FSNB_Sound = true;
 force FSNB_StaticRad = -1;
+
+// GRAD Civilians
+grad_civs_activities_panicCooldown = "[15, 120, 240]";
+force grad_civs_cars_animalTransportChance = 0.4;
+force grad_civs_cars_animalTransportVehicles = "";
+force grad_civs_cars_automaticVehicleGroupSize = true;
+grad_civs_cars_globalSpeedLimit = 50;
+grad_civs_cars_townSpeedLimit = 30;
+force grad_civs_cars_vehicles = "[""C_Van_01_fuel_F"",""C_Hatchback_01_F"",""C_Truck_02_fuel_F"",""C_Truck_02_covered_F"",""C_Offroad_01_F"",""C_SUV_01_F"",""C_Van_01_transport_F"",""C_Van_01_box_F""]";
+grad_civs_diagnostics_showFps = false;
+grad_civs_diagnostics_showInfoLine = false;
+grad_civs_diagnostics_showMisc = false;
+grad_civs_diagnostics_showOnMap = false;
+grad_civs_diagnostics_showPinkArrows = false;
+grad_civs_diagnostics_showSpawnAttempts = false;
+grad_civs_diagnostics_showSpeedLimitsOnMap = false;
+force grad_civs_gta_enabled = true;
+force grad_civs_lifecycle_civClasses = "C_Man_1";
+force grad_civs_lifecycle_cleanupCorpses = true;
+force grad_civs_lifecycle_minCivOwnerFps = 30;
+grad_civs_lifecycle_minCivUpdateTime = 3;
+force grad_civs_lifecycle_minServerFps = 40;
+force grad_civs_lifecycle_smMultiplicator = 1;
+force grad_civs_lifecycle_spawnCandidateHeightLimit = 200;
+force grad_civs_lifecycle_spawnCandidateLimitEnabled = true;
+force grad_civs_lifecycle_spawnCandidateSpeedLimit = 100;
+force grad_civs_lifecycle_spawnOnlyWithPlayers = true;
+force grad_civs_lifecycle_spawnRate = 0.5;
+force grad_civs_loadout_backpackProbability = 0.5;
+force grad_civs_loadout_backpacks = "[]";
+force grad_civs_loadout_clothes = "[]";
+force grad_civs_loadout_faces = "[]";
+force grad_civs_loadout_goggles = "[]";
+force grad_civs_loadout_headgear = "[]";
+force grad_civs_main_enabled = false;
+force grad_civs_mimikry_enabled = true;
+force grad_civs_patrol_initialGroupSize = 3;
+force grad_civs_patrol_maxCivsOnFoot = 30;
+grad_civs_patrol_spawnDistancesOnFoot = "[1000, 4500]";
+grad_civs_residents_chatTime = 20;
+force grad_civs_residents_maxCivsResidents = 20;
+grad_civs_residents_meetNeighborCooldown = 150;
+grad_civs_residents_spawnDistancesResidents = "[500,  1000]";
+force grad_civs_transit_maxVehiclesInTransit = 5;
+force grad_civs_transit_vehicles = "[]";
+force grad_civs_voyage_maxCivsInVehicles = 10;
+grad_civs_voyage_maxTravelRadius = 0;
+grad_civs_voyage_spawnDistancesInVehicles = "[1500, 6000]";
 
 // GRAD Trenches
 force force grad_trenches_functions_allowBigEnvelope = true;
@@ -864,11 +958,13 @@ force force sss_logistics_visualAidsLive = true;
 force force sss_optionadminAccess = false;
 force force sss_optionadminSide = false;
 force force sss_optioncleanupCrew = true;
+sss_optioncloseOnConfirm = true;
 force force sss_optiondebugGeneral = false;
 force force sss_optiondebugPerf = false;
 force force sss_optiondeleteVehicleOnEntityRemoval = true;
 force force sss_optionejectInterval = 0.5;
 force force sss_optionmarkerScope = "ACCESS";
+sss_optionnotificationStyle = 0;
 force force sss_optionnotifyScope = "ACCESS";
 force force sss_optionparachuteClass = "B_Parachute";
 force force sss_optionparachuteDeploy = true;
@@ -890,10 +986,12 @@ force force sss_transport_visualAids = true;
 force force sss_transport_visualAidsLive = true;
 
 
+
 // TFAR - Global settings
 force force TFAR_AICanHearPlayer = true;
 force force TFAR_AICanHearSpeaker = true;
 force force TFAR_allowDebugging = true;
+tfar_core_noTSNotConnectedHint = false;
 force force TFAR_defaultIntercomSlot = 0;
 force force TFAR_disableAutoMute = false;
 force force TFAR_enableIntercom = true;
@@ -937,6 +1035,8 @@ force force TFAR_setting_externalIntercomWirelessHeadgear = "";
 force force TFAR_spectatorCanHearEnemyUnits = true;
 force force TFAR_spectatorCanHearFriendlies = true;
 force force TFAR_takingRadio = 2;
+force TFAR_Teamspeak_Channel_Name = "TaskForceRadio";
+force TFAR_Teamspeak_Channel_Password = "123";
 force force tfar_terrain_interception_coefficient = 7;
 force force TFAR_voiceCone = true;
 
@@ -1049,6 +1149,7 @@ force force tsp_cba_breach_reinforced = "[
 	""Land_Cargo_House_V3_F""
 ]";
 force force tsp_cba_breach_shock = 240;
+force tsp_cba_breach_stun = true;
 force force tsp_cba_breach_vanilla = false;
 force force tsp_cba_breach_walls = "[
 	[""AHHH"", ""Land_BrickWall_04_l_5m_F"", ""Land_BrickWall_04_l_5m_d_F""],
@@ -1090,13 +1191,13 @@ force force tsp_cba_flashbang_surrender = 0.1;
 force force tsp_cba_flashbang_volume = 5;
 
 // TSP Core
-force force tsp_cba_angle = -0.1;
-force force tsp_cba_compat = false;
-force force tsp_cba_core_chvd = false;
-force force tsp_cba_core_pause = false;
-force force tsp_cba_hint = "Subtitle";
-force force tsp_cba_hint_distance = 20;
-force force tsp_param_faction = false;
+force tsp_cba_angle = -0.1;
+force tsp_cba_compat = false;
+force tsp_cba_core_chvd = false;
+force tsp_cba_core_pause = false;
+force tsp_cba_hint = "Subtitle";
+force tsp_cba_hint_distance = 20;
+force tsp_param_faction = false;
 
 // TSP Melee
 force force tsp_cba_melee = true;
@@ -1148,6 +1249,9 @@ force force Fat_Lurch_ShowTarget = true;
 // UH-60M
 force force vtx_ace_viv_loadDistance = 15;
 force force vtx_ace_viv_timeFactor = 1;
+vtx_uh60_anvishud_defaultMode = -1;
+vtx_uh60_anvishud_settingBrightness = 0.6;
+vtx_uh60_anvishud_settingColor = [0.082,0.608,0.039];
 force force vtx_uh60_flir_setting_AimSlewBlockMouse = true;
 force force vtx_uh60_flir_setting_AimSlewSpeed = 1;
 force force vtx_uh60_flir_setting_AimXFactor = 1;
@@ -1156,11 +1260,22 @@ force force vtx_uh60_flir_setting_KeySlewSpeed = 1;
 force force vtx_uh60_flir_setting_KeyXFactor = 1;
 force force vtx_uh60_flir_setting_syncDelay = 0.015;
 force force vtx_uh60_hoist_setting_useAttachScript = false;
+vtx_uh60_jvmf_defaults = true;
 force force vtx_uh60_sfmPlus_showDamageHints = true;
 force force vtx_uh60_sfmPlusStabilatorEnabled = 1;
 force force vtx_uh60_ui_showDebugMessages = false;
+vtx_uh60m_enabled_aar = true;
+vtx_uh60m_enabled_cas = true;
+vtx_uh60m_enabled_engine = true;
+vtx_uh60m_enabled_fd = true;
+vtx_uh60m_enabled_flir = true;
+vtx_uh60m_enabled_fms = true;
+vtx_uh60m_enabled_jvmf = true;
+vtx_uh60m_enabled_mfd = true;
 force force vtx_uh60m_simpleCollective = false;
 force force vtx_uh60m_simpleStartup = false;
+vtx_uh60m_trackIR_interaction_cursor = false;
+vtx_uh60m_trackIR_interaction_cursorSensitivity = 2.5;
 
 // USAF
 force force usaf_afterburner_setting_allow_ai = true;
