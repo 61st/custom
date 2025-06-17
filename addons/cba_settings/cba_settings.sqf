@@ -178,9 +178,11 @@ force force ace_explosives_punishNonSpecialists = true;
 force force ace_explosives_requireSpecialist = true;
 
 // ACE Field Rations
+force ace_field_rations_zeusUpdates = false;
 force force acex_field_rations_affectAdvancedFatigue = true;
 force force acex_field_rations_enabled = false;
 force force acex_field_rations_hungerSatiated = 1;
+force acex_field_rations_nearDepletedConsequence = 1;
 force force acex_field_rations_terrainObjectActions = true;
 force force acex_field_rations_thirstQuenched = 1;
 force force acex_field_rations_timeWithoutFood = 2;
@@ -188,7 +190,7 @@ force force acex_field_rations_timeWithoutWater = 2;
 force force acex_field_rations_waterSourceActions = 2;
 
 // ACE Fire
-force force ace_fire_dropWeapon = 2;
+force force ace_fire_dropWeapon = 1;
 force force ace_fire_enabled = true;
 force force ace_fire_enableFlare = true;
 force force ace_fire_enableScreams = true;
@@ -209,13 +211,38 @@ force force ace_gforces_coef = 0.8;
 force force ace_gforces_enabledFor = 1;
 
 // ACE Goggles
-ace_goggles_drawOverlay = true;
 force force ace_goggles_effects = 2;
 force force ace_goggles_showClearGlasses = true;
 force force ace_goggles_showInThirdPerson = false;
 
 // ACE Grenades
 force force ace_grenades_convertExplosives = true;
+
+// ACE Grenades in hatches - Tweaked
+force force grenades_hatches_main_allowedBehaviorSetting = "[""CARELESS"",""SAFE"",""AWARE"",""COMBAT"",""STEALTH""]";
+force force grenades_hatches_main_allowedGrenadesSetting = "[""HandGrenade"",""MiniGrenade""]";
+force force grenades_hatches_main_autodetectGrenadesSetting = true;
+force force grenades_hatches_main_blacklistVehiclesInheritanceSetting = "[]";
+force force grenades_hatches_main_blacklistVehiclesSetting = "[]";
+force force grenades_hatches_main_damageDealtCrew = 5;
+force force grenades_hatches_main_damageDealtCrewVanilla = 0.25;
+force force grenades_hatches_main_damageDealtEngine = 1;
+force force grenades_hatches_main_damageDealtEngineMax = 1;
+force force grenades_hatches_main_damageDealtHull = 0.75;
+force force grenades_hatches_main_damageDealtHullMax = 0.75;
+force force grenades_hatches_main_damageDealtTurret = 1;
+force force grenades_hatches_main_damageDealtTurretMax = 1;
+force force grenades_hatches_main_damageType = true;
+force force grenades_hatches_main_delayExplosion = 5;
+force force grenades_hatches_main_delayInteraction = 3;
+force force grenades_hatches_main_disablePlayerAmbush = false;
+force force grenades_hatches_main_distanceInteraction = 10;
+force force grenades_hatches_main_enableKnowledgeMultiplier = false;
+force force grenades_hatches_main_forceCrewDismount = true;
+force force grenades_hatches_main_killCrewIfVehicleExplodes = false;
+force force grenades_hatches_main_knowledgeMultiplier = 5;
+force force grenades_hatches_main_whitelistVehiclesInheritanceSetting = "[""Tank"",""Wheeled_Apc_F""]";
+force force grenades_hatches_main_whitelistVehiclesSetting = "[]";
 
 // ACE Headless
 force force acex_headless_delay = 15;
@@ -315,7 +342,7 @@ force force ace_medical_blood_bloodLifetime = 900;
 force force ace_medical_blood_enabledFor = 2;
 force force ace_medical_blood_maxBloodObjects = 50;
 force force ace_medical_deathChance = 0.2;
-force force ace_medical_dropWeaponUnconsciousChance = 0.25;
+force force ace_medical_dropWeaponUnconsciousChance = 0;
 force force ace_medical_enableVehicleCrashes = true;
 force force ace_medical_engine_damagePassThroughEffect = 1;
 force force ace_medical_fatalDamageSource = 1;
@@ -330,6 +357,7 @@ force force ace_medical_painUnconsciousThreshold = 0.6;
 force force ace_medical_playerDamageThreshold = 2.25;
 force force ace_medical_spontaneousWakeUpChance = 0.8;
 force force ace_medical_spontaneousWakeUpEpinephrineBoost = 1.4;
+force ace_medical_statemachine_AIUnconsciousness = true;
 force force ace_medical_statemachine_cardiacArrestBleedoutEnabled = true;
 force force ace_medical_statemachine_cardiacArrestTime = 360;
 force force ace_medical_statemachine_fatalInjuriesAI = 0;
@@ -391,6 +419,10 @@ force force ace_medical_treatment_treatmentTimeGrave = 10;
 force force ace_medical_treatment_treatmentTimeIV = 12;
 force force ace_medical_treatment_treatmentTimeSplint = 7;
 force force ace_medical_treatment_treatmentTimeTourniquet = 7;
+force force ace_medical_treatment_treatmentTimeTrainedAutoinjector = 3;
+force force ace_medical_treatment_treatmentTimeTrainedIV = 8;
+force force ace_medical_treatment_treatmentTimeTrainedSplint = 5;
+force force ace_medical_treatment_treatmentTimeTrainedTourniquet = 5;
 force force ace_medical_treatment_woundReopenChance = 0.4;
 force force ace_medical_treatment_woundStitchTime = 5;
 
@@ -602,7 +634,6 @@ force force ace_zeus_zeusAscension = true;
 force force ace_zeus_zeusBird = false;
 
 // ACM: Airway
-force force ACM_airway_airwayAdjunctReusable = false;
 force force ACM_airway_airwayCollapseChance = 1;
 force force ACM_airway_airwayObstructionBloodChance = 1;
 force force ACM_airway_airwayObstructionVomitChance = 1;
@@ -611,6 +642,7 @@ force force ACM_airway_allowNPA = 0;
 force force ACM_airway_allowOPA = 0;
 force force ACM_airway_allowSGA = 1;
 force force ACM_airway_allowSuctionBag = 0;
+force force ACM_airway_allowSurgicalAirway = 1;
 force force ACM_airway_enable = true;
 force force ACM_airway_treatmentTimeNPA = 5;
 force force ACM_airway_treatmentTimeOPA = 3;
@@ -627,16 +659,35 @@ force force ACM_breathing_Hardcore_ChestInjury = false;
 force force ACM_breathing_Hardcore_HemothoraxBleeding = false;
 force force ACM_breathing_hemothoraxChance = 0.1;
 force force ACM_breathing_locationThoracostomy = 0;
-force force ACM_breathing_pneumothoraxDeteriorateChance = .5;
+force force ACM_breathing_pneumothoraxDeteriorateChance = 0.5;
 force force ACM_breathing_pneumothoraxEnabled = true;
 force force ACM_breathing_showCyanosisSeverity = true;
 force force ACM_breathing_treatmentTimeInspectChest = 6;
 
+// ACM: CBRN
+force ACM_cbrn_allowATNAAutoinjector = 0;
+force ACM_cbrn_allowMidazolamAutoinjector = 0;
+force ACM_cbrn_chemicalAffectAI = true;
+force ACM_cbrn_chemicalAffectAISkill = true;
+force ACM_cbrn_chlorineCauseBlindness = true;
+force ACM_cbrn_CSCauseBlindness = true;
+force ACM_cbrn_customPPEList_gasmask = "JCA_G_AirPurifyingRespirator_03_black_clear_F, JCA_G_AirPurifyingRespirator_03_black_tinted_F, CA_G_AirPurifyingRespirator_03_olive_clear_F, JCA_G_AirPurifyingRespirator_03_olive_tinted_F, JCA_G_AirPurifyingRespirator_03_sand_clear_F, JCA_G_AirPurifyingRespirator_03_sand_tinted_F";
+force ACM_cbrn_customPPEList_suit = "lxim_rhs_moppsuit";
+force ACM_cbrn_customVehicleList_CBRN = "";
+force ACM_cbrn_customVehicleList_sealed = "";
+force ACM_cbrn_enable = false;
+force ACM_cbrn_lewisiteCauseBlindness = true;
+force ACM_cbrn_lewisiteIsColorless = true;
+force ACM_cbrn_sarinIsColorless = true;
+
 // ACM: Circulation
 force force ACM_circulation_AEDDistanceLimit = 5;
 force force ACM_circulation_allowAED = 0;
+force force ACM_circulation_allowAmmoniaInhalant = 1;
+force force ACM_circulation_allowFentanylLozenge = 1;
 force force ACM_circulation_allowIO = 1;
 force force ACM_circulation_allowIV = 1;
+force force ACM_circulation_allowSyringe = 1;
 force force ACM_circulation_BloodType_Ratio_A = 28;
 force force ACM_circulation_BloodType_Ratio_AB = 4;
 force force ACM_circulation_BloodType_Ratio_ABN = 1;
@@ -651,7 +702,7 @@ force force ACM_circulation_cardiacArrestDeteriorationRate = 1;
 force force ACM_circulation_coagulationClotting = true;
 force force ACM_circulation_coagulationClottingAffectAI = true;
 force force ACM_circulation_CPREffectiveness = 1;
-force force ACM_circulation_customBloodTypeList_Enable = false;
+force force ACM_circulation_customBloodTypeList_enable = false;
 force force ACM_circulation_Hardcore_PostCardiacArrest = false;
 force force ACM_circulation_IVComplications = true;
 force force ACM_circulation_IVComplicationsDeteriorate = true;
@@ -666,12 +717,10 @@ force force ACM_circulation_treatmentTimeIV_16 = 6;
 force force ACM_core_allowWrap = 1;
 force force ACM_core_Dogtag_ShowWeight = true;
 force force ACM_core_ignoreIncompatibleAddonWarning = false;
-force force ACM_core_splintFallOffTime = 60;
-force force ACM_core_treatmentTimeSAMSplint = 3;
+force force ACM_core_MedicAI_AllowIntermediateTreatment = false;
 force force ACM_core_treatmentTimeSutureStitch = 0.5;
 force force ACM_core_treatmentTimeTakeOffTourniquet = 4;
 force force ACM_core_treatmentTimeWrappedStitch = 2;
-force force ACM_core_treatmentTimeWrapSplint = 5;
 
 // ACM: Damage
 force force ACM_damage_AIStayDownChance = 1;
@@ -684,10 +733,17 @@ force force ACM_damage_headTraumaCardiacArrestThreshold = 0;
 force force ACM_damage_headTraumaCardiacArrestThresholdAI = 8;
 force force ACM_damage_headTraumaDeathThreshold = 0;
 force force ACM_damage_headTraumaDeathThresholdAI = 19;
-force force ACM_damage_internalBleedingChanceMultiplier = .4;
+force force ACM_damage_internalBleedingChanceMultiplier = 0.4;
 
 // ACM: Disability
+force force ACM_disability_allowFractureRealignment = 1;
+force force ACM_disability_allowInspectForFracture = 1;
+force force ACM_disability_enableFractureSeverity = true;
+force force ACM_disability_Hardcore_ComplexFracture = false;
+force force ACM_disability_splintFallOffTime = 60;
 force force ACM_disability_tourniquetImpactLimbs = true;
+force force ACM_disability_treatmentTimeSAMSplint = 3;
+force force ACM_disability_treatmentTimeWrapSplint = 5;
 
 // ACM: Evacuation
 force force ACM_evacuation_allowConvert = 2;
@@ -697,8 +753,8 @@ force force ACM_evacuation_enable = true;
 force force ACM_evacuation_locationConvert = 0;
 force force ACM_evacuation_playerFaction = WEST;
 force force ACM_evacuation_requireAntibiotics = true;
-force force ACM_evacuation_ticketCountCasualty = 5;
-force force ACM_evacuation_ticketCountRespawn = 20;
+force force ACM_evacuation_ticketCountCasualty = 15;
+force force ACM_evacuation_ticketCountRespawn = 50;
 
 // ACRE2
 force acre_sys_core_automaticAntennaDirection = true;
@@ -716,6 +772,9 @@ force acre_sys_signal_signalModel = 3;
 force acre_sys_zeus_zeusCanSpectate = true;
 force acre_sys_zeus_zeusCommunicateViaCamera = true;
 force acre_sys_zeus_zeusDefaultVoiceSource = false;
+
+// AZM Miclic
+force AZM_CBAOptionMiclic = 5;
 
 // Backpack On Chest
 force force bocr_main_disabled = false;
@@ -889,7 +948,6 @@ force force sss_transport_taskMarkers = true;
 force force sss_transport_visualAids = true;
 force force sss_transport_visualAidsLive = true;
 
-
 // TFAR - Global settings
 force force TFAR_AICanHearPlayer = true;
 force force TFAR_AICanHearSpeaker = true;
@@ -1049,6 +1107,7 @@ force force tsp_cba_breach_reinforced = "[
 	""Land_Cargo_House_V3_F""
 ]";
 force force tsp_cba_breach_shock = 240;
+force force tsp_cba_breach_stun = true;
 force force tsp_cba_breach_vanilla = false;
 force force tsp_cba_breach_walls = "[
 	[""AHHH"", ""Land_BrickWall_04_l_5m_F"", ""Land_BrickWall_04_l_5m_d_F""],
