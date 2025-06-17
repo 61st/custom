@@ -102,7 +102,7 @@ class CfgVehicles {
         displayName="[61ST] AMS-TI (Khaki)";
         class TransportItems {
             class GVAR(optic_AMS_khk) {
-                name=QGVAR(optic_AMS_khk) ;
+                name=QGVAR(optic_AMS_khk);
                 count=1;
             };
         };
