@@ -665,20 +665,20 @@ force force ACM_breathing_showCyanosisSeverity = true;
 force force ACM_breathing_treatmentTimeInspectChest = 6;
 
 // ACM: CBRN
-force ACM_cbrn_allowATNAAutoinjector = 0;
-force ACM_cbrn_allowMidazolamAutoinjector = 0;
-force ACM_cbrn_chemicalAffectAI = true;
-force ACM_cbrn_chemicalAffectAISkill = true;
-force ACM_cbrn_chlorineCauseBlindness = true;
-force ACM_cbrn_CSCauseBlindness = true;
-force ACM_cbrn_customPPEList_gasmask = "JCA_G_AirPurifyingRespirator_03_black_clear_F, JCA_G_AirPurifyingRespirator_03_black_tinted_F, CA_G_AirPurifyingRespirator_03_olive_clear_F, JCA_G_AirPurifyingRespirator_03_olive_tinted_F, JCA_G_AirPurifyingRespirator_03_sand_clear_F, JCA_G_AirPurifyingRespirator_03_sand_tinted_F";
-force ACM_cbrn_customPPEList_suit = "lxim_rhs_moppsuit";
-force ACM_cbrn_customVehicleList_CBRN = "";
-force ACM_cbrn_customVehicleList_sealed = "";
-force ACM_cbrn_enable = true;
-force ACM_cbrn_lewisiteCauseBlindness = true;
-force ACM_cbrn_lewisiteIsColorless = true;
-force ACM_cbrn_sarinIsColorless = true;
+force force ACM_cbrn_allowATNAAutoinjector = 0;
+force force ACM_cbrn_allowMidazolamAutoinjector = 0;
+force force ACM_cbrn_chemicalAffectAI = true;
+force force ACM_cbrn_chemicalAffectAISkill = true;
+force force ACM_cbrn_chlorineCauseBlindness = true;
+force force ACM_cbrn_CSCauseBlindness = true;
+force force ACM_cbrn_customPPEList_gasmask = "JCA_G_AirPurifyingRespirator_03_black_clear_F, JCA_G_AirPurifyingRespirator_03_black_tinted_F, CA_G_AirPurifyingRespirator_03_olive_clear_F, JCA_G_AirPurifyingRespirator_03_olive_tinted_F, JCA_G_AirPurifyingRespirator_03_sand_clear_F, JCA_G_AirPurifyingRespirator_03_sand_tinted_F";
+force force ACM_cbrn_customPPEList_suit = "lxim_rhs_moppsuit";
+force force ACM_cbrn_customVehicleList_CBRN = "RHS_M2A3_BUSKIII, RHS_M6, rhsusf_m1240a1_m2crows_usarmy_d, rhsusf_m1245_m2crows_socom_d rhsusf_M1238A1_M2_socom_d, rhsusf_M1230a1_usarmy_d, rhsusf_m113d_usarmy_medical, rhsusf_M1085A1P2_B_D_Medical_fmtv_usarmy, rhsusf_stryker_m1126_m2_d, rhsusf_stryker_m1126_m2_d, lxim_rhs_mk20, lxim_rhs_mev_mk20, lxim_rhs_repair_mk20, rhsusf_m1a2sep2d_usarmy, rhsusf_M1239_socom_d, rhsusf_M1239_M2_Deploy_socom_d";
+force force ACM_cbrn_customVehicleList_sealed = "";
+force force ACM_cbrn_enable = true;
+force force ACM_cbrn_lewisiteCauseBlindness = true;
+force force ACM_cbrn_lewisiteIsColorless = true;
+force force ACM_cbrn_sarinIsColorless = true;
 
 // ACM: Circulation
 force force ACM_circulation_AEDDistanceLimit = 5;
