@@ -64,9 +64,16 @@ if (isNull _unit) exitWith {};
         private _order = [3,2,1];
         private _overflow = true;
 
+        [_unit, "JCA_G_AirPurifyingRespirator_03_black_clear_F", 1, _order, _overflow] call EFUNC(common,addItem);
+        sleep 0.3;
         [_unit, "lxim_rhs_moppsuit", 1, _order, _overflow] call EFUNC(common,addItem);
         sleep 0.3;
-        [_unit, "JCA_G_AirPurifyingRespirator_03_black_clear_F", 1, _order, _overflow] call EFUNC(common,addItem);
+        [_unit, "ACM_Autoinjector_ATNA", 3, _order, _overflow] call EFUNC(common,addItem);
+        sleep 0.3;
+        [_unit, "ACM_Autoinjector_Midazolam", 1, _order, _overflow] call EFUNC(common,addItem);
+        sleep 0.3;
+        [_unit, "ACE_WaterBottle_Half", 1, _order, _overflow] call EFUNC(common,addItem);
+
     };
     if (lxim_MEDICAL_SUPPLIES_UNPACK_FAILURE) exitWith {
         [_unit, QGVAR(Medical_FirstAid_Open_1)] call EFUNC(common,stop3dSound);
