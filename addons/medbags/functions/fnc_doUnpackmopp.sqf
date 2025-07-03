@@ -66,6 +66,10 @@ if (isNull _unit) exitWith {};
 
         [_unit, "lxim_rhs_moppsuit", 1, _order, _overflow] call EFUNC(common,addItem);
         sleep 0.3;
+        [_unit, "ACM_Autoinjector_ATNA", 3, _order, _overflow] call EFUNC(common,addItem);
+        sleep 0.3;
+        [_unit, "ACM_Autoinjector_Midazolam", 1, _order, _overflow] call EFUNC(common,addItem);
+        sleep 0.3;
         [_unit, "JCA_G_AirPurifyingRespirator_03_black_clear_F", 1, _order, _overflow] call EFUNC(common,addItem);
     };
     if (lxim_MEDICAL_SUPPLIES_UNPACK_FAILURE) exitWith {
