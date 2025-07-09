@@ -9,6 +9,7 @@ class CfgPatches {
         };
         units[] = {};
         weapons[] = {};
+        requiredVersion = 1.52;
         VERSION_CONFIG;
         authors[] = {"Fusselwurm"};
     };
