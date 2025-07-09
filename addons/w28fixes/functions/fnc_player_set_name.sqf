@@ -27,6 +27,25 @@ switch (_playerUID) do {
     case "76561198989999596": {[player,"us_sierra"] call simc_fnc_setUnitNom;}; 
     case "76561198078542421": {[player,"us_terminator"] call simc_fnc_setUnitNom;}; 
     case "76561198125989282": {[player,"us_bulck"] call simc_fnc_setUnitNom;}; 
+    case "76561198098568997": {[player,"us_onscreeneel"] call simc_fnc_setUnitNom;};
+    case "76561198045342621": {[player,"us_wilder"] call simc_fnc_setUnitNom;};
+    case "76561199153445272": {[player,"us_abstract"] call simc_fnc_setUnitNom;};
+    case "76561198422262967": {[player,"us_werebear"] call simc_fnc_setUnitNom;};
+    case "76561198083979010": {[player,"us_sora"] call simc_fnc_setUnitNom;};
+    case "76561198332567290": {[player,"us_teru"] call simc_fnc_setUnitNom;};
+    case "76561198206345929": {[player,"us_raven"] call simc_fnc_setUnitNom;};
+    case "76561198060346334": {[player,"us_saika"] call simc_fnc_setUnitNom;};
+    case "76561198263340747": {[player,"us_rexican"] call simc_fnc_setUnitNom;};
+    case "76561198088548222": {[player,"us_aesop"] call simc_fnc_setUnitNom;};
+    case "76561199081818170": {[player,"us_graham"] call simc_fnc_setUnitNom;};
+    case "76561198227272616": {[player,"us_luda"] call simc_fnc_setUnitNom;};
+    case "76561197983771505": {[player,"us_holloway"] call simc_fnc_setUnitNom;};
+    case "76561198354375612": {[player,"us_thirsty"] call simc_fnc_setUnitNom;};
+    case "76561198043626452": {[player,"us_goose"] call simc_fnc_setUnitNom;};
+    case "76561199053597963": {[player,"us_panzer"] call simc_fnc_setUnitNom;};
+    case "76561198277597338": {[player,"us_buck"] call simc_fnc_setUnitNom;};
+    case "76561198175908683": {[player,"us_void"] call simc_fnc_setUnitNom;};
+    case "76561198024628957": {[player,"us_lurburk"] call simc_fnc_setUnitNom;};
     default {};
 };
 

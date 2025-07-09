@@ -5,7 +5,7 @@ class CfgPatches {
         author = QAUTHOR;
         name = COMPONENT_NAME;
         url = URL;
-        requiredVersion = 1.0;
+        requiredVersion = 1.52;
         requiredAddons[] = {"lxim_main"};
         units[] = {};
         weapons[] = {};
