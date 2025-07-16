@@ -8,3 +8,4 @@ _vehLightList = ["CFP_O_CHDKZ_Datsun_620_Pickup_PK_SNW_01","CFP_O_CHDKZ_Datsun_6
 _vehHeavyList = ["CFP_O_CHDKZ_T55_SNW_01","CFP_O_CHDKZ_T72_SNW_01"];
 
 [_InfantryType, _infaaList, _infatList, _sniperList, _vehAAList, _vehMrapList, _vehLightList, _vehHeavyList]
+

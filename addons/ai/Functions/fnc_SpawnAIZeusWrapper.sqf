@@ -146,3 +146,4 @@ private _dialogResult = [
 if !(_dialogResult) exitWith {
     ["Failed to create zen dialog!", "ErrorLog"] call EFUNC(common,log);
 };
+

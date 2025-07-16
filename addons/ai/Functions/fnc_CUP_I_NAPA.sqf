@@ -8,3 +8,4 @@ _vehLightList = ["CUP_I_Datsun_PK","CUP_I_Datsun_PK_Random","CUP_I_Datsun_4seat"
 _vehHeavyList = ["CUP_I_T34_NAPA","CUP_I_T55_NAPA","CUP_I_T72_NAPA"];
 
 [_InfantryType, _infaaList, _infatList, _sniperList, _vehAAList, _vehMrapList, _vehLightList, _vehHeavyList]
+

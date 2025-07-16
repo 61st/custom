@@ -103,8 +103,6 @@ class CfgAmmo {
         submunitionParentSpeedCoef = 0;
         warheadName = "TandemHEAT";
     };
-    class M_Titan_AP;
-    class M_Titan_AA;
     
     class rhs_ammo_TOW2_BB_explosive;
 

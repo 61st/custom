@@ -1,4 +1,3 @@
-class ctrlCombo;
 class ctrlEdit;
 class ctrlControlsGroupNoScrollbars;
 class ctrlStatic;

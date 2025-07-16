@@ -8,3 +8,4 @@ _vehLightList = ["LOP_US_BM21","LOP_US_UAZ","LOP_US_UAZ_AGS","LOP_US_UAZ_DshKM",
 _vehHeavyList = ["LOP_US_T72BA","LOP_US_T72BB","LOP_US_T72BC"];
 
 [_InfantryType, _infaaList, _infatList, _sniperList, _vehAAList, _vehMrapList, _vehLightList, _vehHeavyList]
+

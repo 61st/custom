@@ -1,4 +1,3 @@
-class RscText;
 class RscPicture;
 class RscStandardDisplay;
 class RscControlsGroup;

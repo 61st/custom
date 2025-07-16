@@ -8,3 +8,4 @@ _vehLightList = ["LOP_AA_Offroad","LOP_AA_Offroad_M2","LOP_AA_Offroad_Police","L
 _vehHeavyList = ["LOP_AA_T34","LOP_AA_T72BA","LOP_AA_T72BB","LOP_AA_T55"];
 
 [_InfantryType, _infaaList, _infatList, _sniperList, _vehAAList, _vehMrapList, _vehLightList, _vehHeavyList]
+

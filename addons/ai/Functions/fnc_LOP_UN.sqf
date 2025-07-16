@@ -8,3 +8,4 @@ _vehLightList = ["LOP_UN_BM21","LOP_UN_Offroad","LOP_UN_UAZ","LOP_UN_UAZ_AGS","L
 _vehHeavyList = [];
 
 [_InfantryType, _infaaList, _infatList, _sniperList, _vehAAList, _vehMrapList, _vehLightList, _vehHeavyList]
+

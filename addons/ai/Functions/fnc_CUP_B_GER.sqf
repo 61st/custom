@@ -8,3 +8,4 @@ _vehLightList = ["CUP_B_Dingo_GL_GER_Des","CUP_B_Dingo_GL_GER_Wdl","CUP_B_Dingo_
 _vehHeavyList = ["CUP_B_Leopard2A6_GER"];
 
 [_InfantryType, _infaaList, _infatList, _sniperList, _vehAAList, _vehMrapList, _vehLightList, _vehHeavyList]
+

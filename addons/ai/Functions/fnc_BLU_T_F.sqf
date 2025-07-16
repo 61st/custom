@@ -8,3 +8,4 @@ _vehLightList = ["B_T_LSV_01_armed_F","B_T_LSV_01_AT_F","B_T_LSV_01_unarmed_F","
 _vehHeavyList = ["B_T_MBT_01_TUSK_F","B_T_MBT_01_cannon_F"];
 
 [_InfantryType, _infaaList, _infatList, _sniperList, _vehAAList, _vehMrapList, _vehLightList, _vehHeavyList]
+

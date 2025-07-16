@@ -8,3 +8,4 @@ _vehLightList = ["UK3CB_TKA_O_Tigr_STS","UK3CB_TKA_O_Tigr_FFV","UK3CB_TKA_O_Tigr
 _vehHeavyList = ["UK3CB_TKA_O_T34","UK3CB_TKA_O_T55","UK3CB_TKA_O_T72A","UK3CB_TKA_O_T72BM","UK3CB_TKA_O_T72B"];
 
 [_InfantryType, _infaaList, _infatList, _sniperList, _vehAAList, _vehMrapList, _vehLightList, _vehHeavyList]
+

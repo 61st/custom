@@ -8,3 +8,4 @@ _vehLightList = ["CUP_B_HMMWV_Unarmed_USA","CUP_B_HMMWV_Crows_M2_USA","CUP_B_HMM
 _vehHeavyList = ["CUP_B_M2Bradley_USA_D","CUP_B_M2A3Bradley_USA_D","CUP_B_M7Bradley_USA_D","CUP_B_M1A1_DES_US_Army","CUP_B_M1A2_TUSK_MG_DES_US_Army"];
 
 [_InfantryType, _infaaList, _infatList, _sniperList, _vehAAList, _vehMrapList, _vehLightList, _vehHeavyList]
+

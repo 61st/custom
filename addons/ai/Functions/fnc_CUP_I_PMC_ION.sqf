@@ -8,3 +8,4 @@ _vehLightList = ["CUP_I_SUV_Armored_ION","CUP_I_FENNEK_ION","CUP_I_FENNEK_GMG_IO
 _vehHeavyList = [];
 
 [_InfantryType, _infaaList, _infatList, _sniperList, _vehAAList, _vehMrapList, _vehLightList, _vehHeavyList]
+

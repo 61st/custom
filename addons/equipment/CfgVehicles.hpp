@@ -1,7 +1,4 @@
-class CBA_Extended_EventHandlers_base;
 class CfgVehicles {    
-    // Box
-    class NATO_Box_Base;
         // Rebreather
     class Vest_V_RebreatherB;
     class GVAR(Item_vest_rebreather): Vest_V_RebreatherB {
@@ -130,9 +127,6 @@ class CfgVehicles {
     class Box_NATO_Ammo_F;
     class Box_NATO_AmmoOrd_F;
     class Box_NATO_WpsSpecial_F;
-    class Land_PlasticCase_01_large_olive_F;
-    class Land_PlasticCase_01_large_black_F;
-    class Land_PlasticCase_01_large_F;
     class Land_PlasticCase_01_large_idap_F;
     class Land_PlasticCase_01_medium_CBRN_F;
     class Land_PlasticCase_01_large_olive_CBRN_F;

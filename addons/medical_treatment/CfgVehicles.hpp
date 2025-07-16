@@ -1,19 +1,10 @@
 class CfgVehicles {
     class Logic;
     class Module_F: Logic {
-        class AttributesBase {
-            class Default;
-            class Edit;
-            class Combo;
-            class Checkbox;
-            class CheckboxNumber;
-            class ModuleDescription;
-            class Units;
-        };
+        class AttributesBase {};
 
-        class ModuleDescription {
-            class AnyBrain;
-        };
+        class ModuleDescription {};
     };
     #include "MedicalModule.hpp"
 };
+

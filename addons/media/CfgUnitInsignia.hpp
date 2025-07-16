@@ -138,3 +138,4 @@ class CfgUnitInsignia {
         textureVehicle = "";             // Does nothing, reserved for future use
     };
 };
+
