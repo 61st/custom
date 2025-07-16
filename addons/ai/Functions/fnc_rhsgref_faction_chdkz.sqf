@@ -9,3 +9,4 @@ _vehHeavyList = ["rhsgref_ins_bmp2k","rhsgref_ins_bmp2d","rhsgref_ins_bmp2","rhs
 
 
 [_InfantryType, _infaaList, _infatList, _sniperList, _vehAAList, _vehMrapList, _vehLightList, _vehHeavyList]
+

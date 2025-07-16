@@ -15,49 +15,21 @@
  * Public: No
  */
 
-class DefaultVehicleSystemsDisplayManagerLeft {
-    class components;
-};
-class DefaultVehicleSystemsDisplayManagerRight {
-    class components;
-};
-class VehicleSystemsTemplateLeftDriver: DefaultVehicleSystemsDisplayManagerLeft {
-    class components;
-};
-class VehicleSystemsTemplateRightDriver: DefaultVehicleSystemsDisplayManagerRight {
-    class components;
-};
-class VehicleSystemsTemplateLeftCommander: DefaultVehicleSystemsDisplayManagerLeft {
-    class components;
-};
-class VehicleSystemsTemplateRightCommander: DefaultVehicleSystemsDisplayManagerRight {
-    class components;
-};
-class VehicleSystemsTemplateLeftGunner: DefaultVehicleSystemsDisplayManagerLeft {
-    class components;
-};
-class VehicleSystemsTemplateRightGunner: DefaultVehicleSystemsDisplayManagerRight {
-    class components;
-};
-class CBA_Extended_EventHandlers;
-class SensorTemplatePassiveRadar;
-class SensorTemplateAntiRadiation;
-class SensorTemplateActiveRadar;
-class SensorTemplateIR;
-class SensorTemplateVisual;
-class SensorTemplateMan;
-class SensorTemplateLaser;
-class SensorTemplateNV;
+class DefaultVehicleSystemsDisplayManagerLeft {};
+class DefaultVehicleSystemsDisplayManagerRight {};
+class VehicleSystemsTemplateLeftDriver: DefaultVehicleSystemsDisplayManagerLeft {};
+class VehicleSystemsTemplateRightDriver: DefaultVehicleSystemsDisplayManagerRight {};
+class VehicleSystemsTemplateLeftCommander: DefaultVehicleSystemsDisplayManagerLeft {};
+class VehicleSystemsTemplateRightCommander: DefaultVehicleSystemsDisplayManagerRight {};
+class VehicleSystemsTemplateLeftGunner: DefaultVehicleSystemsDisplayManagerLeft {};
+class VehicleSystemsTemplateRightGunner: DefaultVehicleSystemsDisplayManagerRight {};
 class SensorTemplateDataLink;
 class AnimationSources;
 
 class CfgVehicles {
-    class All {
-        class Turrets;
-    };
+    class All {};
     class AllVehicles: All {
         class NewTurret {
-            class Turrets;
         };
     };
     class Land: AllVehicles {};
@@ -71,9 +43,6 @@ class CfgVehicles {
         };
     };
     class Wheeled_APC_F: Car_F {
-        class ViewPilot;
-        class ViewOptics;
-        class ViewCargo;
         class Turrets {
             class MainTurret: NewTurret {
                 class Turrets {
@@ -81,7 +50,6 @@ class CfgVehicles {
                 };
             };
         };
-        class EventHandlers;
     };
     
     class APC_Wheeled_03_base_F: Wheeled_APC_F {

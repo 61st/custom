@@ -20,12 +20,10 @@ if (_activated) then {
     /* hint str (allVariables _logic); */
 
     if (_spDisable and !(isMultiplayer))then{
-        [false] call EFUNC(briefing,toggleSafeStartGlobal);
     }else{
         private _trg = createTrigger ["EmptyDetector", (getPos _logic)];
         _trg setTriggerArea _area;
         _trg setTriggerActivation ["ANYPLAYER", "PRESENT", false];
-        _trg setTriggerStatements ["this", QUOTE([false] call EFUNC(briefing,toggleSafeStartGlobal);),""];
     };
 
 };

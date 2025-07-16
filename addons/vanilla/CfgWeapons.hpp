@@ -1,8 +1,6 @@
 class CfgWeapons {
     class CannonCore;
-    class autocannon_Base_F: CannonCore {
-        class player;
-    };
+    class autocannon_Base_F: CannonCore {};
     class autocannon_30mm_CTWS: autocannon_Base_F {
         class HE: autocannon_Base_F {};
         class AP: autocannon_Base_F {};
@@ -29,3 +27,4 @@ class CfgWeapons {
         };
     };
 };
+

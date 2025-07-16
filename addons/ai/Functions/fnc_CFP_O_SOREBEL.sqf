@@ -8,3 +8,4 @@ _vehLightList = ["CFP_O_SOREBEL_Technical_DSHkM_01","CFP_O_SOREBEL_Technical_PK_
 _vehHeavyList = [];
 
 [_InfantryType, _infaaList, _infatList, _sniperList, _vehAAList, _vehMrapList, _vehLightList, _vehHeavyList]
+

@@ -91,9 +91,4 @@ class CfgAmmo {
     class GVAR(35mm_ABM_Tracer_Red): ACE_B_35mm_ABM_Tracer_Red {
         weaponType = "cannon"; 
     };
-
-    /* titans ----------------------------------------------------------------------------------------------------------- */
-    class M_Titan_AP;
-    class M_Titan_AT;
-    class M_Titan_AA;
 };

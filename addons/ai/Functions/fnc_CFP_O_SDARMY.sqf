@@ -8,3 +8,4 @@ _vehLightList = ["CFP_O_SDARMY_HMMWV_01","CFP_O_SDARMY_HMMWV_DShKM_01","CFP_O_SD
 _vehHeavyList = ["CFP_O_SDARMY_M60_01","CFP_O_SDARMY_T55_01","CFP_O_SDARMY_T72_01"];
 
 [_InfantryType, _infaaList, _infatList, _sniperList, _vehAAList, _vehMrapList, _vehLightList, _vehHeavyList]
+

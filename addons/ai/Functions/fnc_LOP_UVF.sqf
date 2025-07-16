@@ -8,3 +8,4 @@ _vehLightList = ["LOP_UVF_Landrover","LOP_UVF_Landrover_SPG9","LOP_UVF_Nissan_PK
 _vehHeavyList = [];
 
 [_InfantryType, _infaaList, _infatList, _sniperList, _vehAAList, _vehMrapList, _vehLightList, _vehHeavyList]
+

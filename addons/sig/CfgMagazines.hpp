@@ -133,3 +133,4 @@ class CfgMagazines {
         tracersEvery= 5;
     };
 };
+

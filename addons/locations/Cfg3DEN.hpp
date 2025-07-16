@@ -11,10 +11,7 @@ class Cfg3DEN {
             };
         };
         class Combo: Title {
-            class Controls: Controls {
-                class Title;
-                class Value;
-            };
+            class Controls: Controls {};
         };
 
         class GVAR(EditDisabled): Edit {

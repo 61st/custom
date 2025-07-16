@@ -8,3 +8,4 @@ _vehLightList = ["uns_nvatruck","uns_nvatruck_camo","uns_nvatruck_mg","uns_nvatr
 _vehHeavyList = ["uns_ot34_85_nva","uns_t34_85_nva","uns_t54_nva","uns_t55_nva","uns_to55_nva"];
 
 [_InfantryType, _infaaList, _infatList, _sniperList, _vehAAList, _vehMrapList, _vehLightList, _vehHeavyList]
+

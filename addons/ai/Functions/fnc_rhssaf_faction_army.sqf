@@ -8,3 +8,4 @@ _vehLightList = ["rhssaf_m1025_olive_m2","rhssaf_m1025_olive","rhssaf_m998_olive
 _vehHeavyList = ["rhssaf_army_t72s"];
 
 [_InfantryType, _infaaList, _infatList, _sniperList, _vehAAList, _vehMrapList, _vehLightList, _vehHeavyList]
+

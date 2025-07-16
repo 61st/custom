@@ -242,3 +242,4 @@ class lxim_ModuleAISpawnsIndependent: Module_F {
             duplicate = 1; // Multiple entities of this type can be synced
     };
 };
+

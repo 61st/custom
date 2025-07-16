@@ -4,56 +4,17 @@
     // camouflage: 1 = soldier, 4 = truck, 8 = tank
     // radarTargetSize: 0.1 = fully stealth, 0.7 = small aircraft/semi-stealth, 1 = mid sized aircraft/car, 1.2 = tank/truck, 2 = large bomber (max value)
 
-class CBA_Extended_EventHandlers;
-class DefaultVehicleSystemsDisplayManagerLeft {
-    class components;
-};
-class DefaultVehicleSystemsDisplayManagerRight {
-    class components;
-};
-class VehicleSystemsTemplateLeftDriver: DefaultVehicleSystemsDisplayManagerLeft {
-    class components;
-};
-class VehicleSystemsTemplateRightDriver: DefaultVehicleSystemsDisplayManagerRight {
-    class components;
-};
-class VehicleSystemsTemplateLeftCommander: DefaultVehicleSystemsDisplayManagerLeft {
-    class components;
-};
-class VehicleSystemsTemplateRightCommander: DefaultVehicleSystemsDisplayManagerRight {
-    class components;
-};
-class VehicleSystemsTemplateLeftGunner: DefaultVehicleSystemsDisplayManagerLeft {
-    class components;
-};
-class VehicleSystemsTemplateRightGunner: DefaultVehicleSystemsDisplayManagerRight {
-    class components;
-};
-class SensorTemplatePassiveRadar;
-class SensorTemplateAntiRadiation;
-class SensorTemplateActiveRadar;
-class SensorTemplateIR;
-class SensorTemplateVisual;
-class SensorTemplateMan;
-class SensorTemplateLaser;
-class SensorTemplateNV;
+class DefaultVehicleSystemsDisplayManagerLeft {};
+class DefaultVehicleSystemsDisplayManagerRight {};
+class VehicleSystemsTemplateLeftDriver: DefaultVehicleSystemsDisplayManagerLeft {};
+class VehicleSystemsTemplateRightDriver: DefaultVehicleSystemsDisplayManagerRight {};
+class VehicleSystemsTemplateLeftCommander: DefaultVehicleSystemsDisplayManagerLeft {};
+class VehicleSystemsTemplateRightCommander: DefaultVehicleSystemsDisplayManagerRight {};
+class VehicleSystemsTemplateLeftGunner: DefaultVehicleSystemsDisplayManagerLeft {};
+class VehicleSystemsTemplateRightGunner: DefaultVehicleSystemsDisplayManagerRight {};
 class SensorTemplateDataLink;
-class AnimationSources;
-class HScrollbar;
-class IGUIBack;
-class RscButton;
-class RscButtonMenu;
-class RscControlsGroup {
-    class VScrollbar;
-    class HScrollbar;
-};
-class RscOpticsText;
-class RscOpticsValue;
-class RscPicture;
-class RscShortcutButton;
-class RscText;
-class RscTextCheckBox;
-class VScrollbar;
+
+
 class CfgVehicles {
     class rhs_vdv_gorka_r_g_gloves_rifleman;
     class GVAR(moppsuit_item): rhs_vdv_gorka_r_g_gloves_rifleman {
@@ -91,22 +52,9 @@ class CfgVehicles {
     class Car_F: Car {
         class AnimationSources;
         class Turrets {
-            class MainTurret: NewTurret {
-                class ViewOptics;
-            };
+            class MainTurret: NewTurret {};
         };
-        class HitPoints {
-            class HitLFWheel;
-            class HitLF2Wheel;
-            class HitRFWheel;
-            class HitRF2Wheel;
-            class HitGlass1;
-            class HitGlass2;
-            class HitGlass3;
-            class HitGlass4;
-            class HitGlass5;
-            class HitGlass6;
-        };
+        class HitPoints {};
     };
     class Tank: LandVehicle {
         class NewTurret;
@@ -116,53 +64,30 @@ class CfgVehicles {
     class Tank_F: Tank {
         class Turrets {
             class MainTurret: NewTurret {
-                class Turrets {
-                    class CommanderOptics;
-                };
+                class Turrets {};
             };
         };
-        class AnimationSources;
-        class ViewPilot;
         class ViewOptics;
-        class ViewCargo;
-        class HeadLimits;
-        class HitPoints: HitPoints {
-            class HitHull;
-            class HitEngine;
-            class HitLTrack;
-            class HitRTrack;
-        };
-        class Sounds: Sounds {
-            class Engine;
-            class Movement;
-        };
+        class HitPoints: HitPoints {};
+        class Sounds: Sounds {};
     };
     class MBT_01_base_F: Tank_F {
-        class EventHandlers;
         class Turrets {
             class MainTurret: NewTurret {
-                class Turrets {
-                    class CommanderOptics;
-                };
+                class Turrets {};
             };
         };
     };
     class Wheeled_APC_F: Car_F {
-        class ViewPilot;
-        class ViewOptics;
-        class ViewCargo;
         class NewTurret;
         class Turrets {
             class MainTurret: NewTurret {
                 class ViewOptics;
-                class ViewGunner;
                 class Turrets {
                     class CommanderOptics;
                 };
             };
         };
-        class EventHandlers;
-        class Components;
     };
     // Abrams
     class rhsusf_m1a1tank_base: MBT_01_base_F {
@@ -291,9 +216,7 @@ class CfgVehicles {
         };
     };
     class MRAP_01_base_F: Car_F {
-        class Sounds;
         class EventHandlers;
-        class Components;
     };
     class rhsusf_MATV_base: MRAP_01_base_F {
         class AcreIntercoms {
@@ -1102,9 +1025,7 @@ class CfgVehicles {
     class APC_Tracked_03_base_F: Tank_F {
         class Turrets {
             class MainTurret: NewTurret {
-                class Turrets {
-                    class CommanderOptics;
-                };
+                class Turrets {};
             };
         };
     };

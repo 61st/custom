@@ -22,3 +22,4 @@ class CfgPatches {
 #include "CfgVehicles.hpp"
 #include "CfgWeapons.hpp"
 #include "cTab_CfgMarkers.hpp"
+

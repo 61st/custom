@@ -34,3 +34,4 @@ if ((side _unit) == civilian) then {
 };
 
 _unit removeAllEventHandlers "FiredNear";
+

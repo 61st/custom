@@ -8,3 +8,4 @@ _vehLightList = ["CUP_O_lxim_MG_TKA", "CUP_O_lxim_SPG9_TKA", "CUP_O_lxim_Transpo
 _vehHeavyList = ["CUP_O_T72_TKA", "CUP_O_T55_TK", "CUP_O_T34_TKA"];
 
 [_InfantryType, _infaaList, _infatList, _sniperList, _vehAAList, _vehMrapList, _vehLightList, _vehHeavyList]
+

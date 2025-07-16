@@ -46,3 +46,4 @@ for "_i" from 0 to _findWps do {
 _wpc = _group addWaypoint [selectRandom _wayPoints, 0];
 _wpc setWaypointType "CYCLE";
 _wpc setWaypointCompletionRadius 5;
+

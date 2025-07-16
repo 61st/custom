@@ -5,10 +5,7 @@ class Cfg3DEN {
             class Controls;
         };
         class Edit: Title {
-            class Controls: Controls {
-                class Title;
-                class Value;
-            };
+            class Controls: Controls {};
         };
         class Combo: Title {
             class Controls: Controls {

@@ -5,11 +5,6 @@ class CfgVehicles {
             class Default;
             class Checkbox;
             class Edit;
-            class Units;
-            class Combo;
-            class Title;
-            class ModuleDescription;
-
             class GVAR(supplyClasses): Default {
                 control = QGVAR(supplyClasses);
                 defaultValue = "'[]'";
@@ -18,7 +13,6 @@ class CfgVehicles {
             };
         };
 
-        class ModuleDescription;
         class EventHandlers;
     };
 
