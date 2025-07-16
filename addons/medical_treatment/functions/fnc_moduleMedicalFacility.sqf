@@ -12,3 +12,4 @@ private _objects = synchronizedObjects _logic;
 {
     [_x] call FUNC(setMedicalFacility);
 } forEach _objects;
+

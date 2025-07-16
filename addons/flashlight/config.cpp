@@ -25,10 +25,6 @@ class asdg_FrontSideRail: asdg_SlotInfo {
 };
 
 class CfgWeapons {
-    
-    class ItemCore;
-
-    class InventoryItem_Base_F;
     class InventoryFlashLightItem_Base_F;
 
     class acc_flashlight {
@@ -78,11 +74,7 @@ class CfgWeapons {
 };
 
 class CfgVehicles {
-    
-    /*extern*/ class Strategic;
-    /*extern*/ class ReammoBox;
-    /*extern*/ class WeaponHolder;
-    /*extern*/ class Item_Base_F;
+        /*extern*/ class Item_Base_F;
 
     class Item_acc_flashlight: Item_Base_F {
         scope = 2;
@@ -103,3 +95,4 @@ class CfgVehicles {
         displayName = "61st Enhanced Flashlight";
     };
 };
+

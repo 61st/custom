@@ -51,3 +51,4 @@ _SpawnLocation = (getPos _logic);
     [_VehHeavyMin, _VehHeavyMax],
     [_VehRandomMin, _VehRandomMax]
 ] call lxim_ai_fnc_SpawnAI;
+

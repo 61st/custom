@@ -1,6 +1,5 @@
 class CfgWeapons {
     class ACE_ItemCore;
-    class CBA_MiscItem_ItemInfo;
     class ACE_fieldDressing : ACE_ItemCore {
         scope=2;
         picture="\z\lxim\addons\media\images\icon\IB.paa";

@@ -153,3 +153,4 @@ class CfgWeapons {
         baseWeapon= QGVAR(M250_BLK);
     };
 };
+

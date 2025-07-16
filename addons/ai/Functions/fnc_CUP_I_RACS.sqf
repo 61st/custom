@@ -8,3 +8,4 @@ _vehLightList = ["CUP_I_lxim_MG_RACS","CUP_I_lxim_Transport_RACS"];
 _vehHeavyList = ["CUP_I_M60A3_RACS","CUP_I_M60A3_TTS_RACS","CUP_I_T72_RACS"];
 
 [_InfantryType, _infaaList, _infatList, _sniperList, _vehAAList, _vehMrapList, _vehLightList, _vehHeavyList]
+

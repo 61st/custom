@@ -87,8 +87,5 @@ if (_success) then {
     GVAR(invalidTargetHit) = nil;
 };
 
-// Admin log
-["[QGVAR(stopped), [_controller, _name, _mode, _success, _scorePercentage, _timeElapsed]]",false,"[Shooting Range]"] call lxim_adminmenu_fnc_log;
-
 // Public API event
 [QGVAR(stopped), [_controller, _name, _mode, _success, _scorePercentage, _timeElapsed]] call CBA_fnc_localEvent;

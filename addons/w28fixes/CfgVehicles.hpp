@@ -1,4 +1,3 @@
-class CBA_Extended_EventHandlers;
 class CfgVehicles {
     class B_AssaultPack_rgr;
     class B_tweed_pack_camel_base: B_AssaultPack_rgr {

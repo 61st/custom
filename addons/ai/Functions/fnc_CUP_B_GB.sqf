@@ -8,3 +8,4 @@ _vehLightList = ["CUP_B_BAF_Coyote_GMG_D","CUP_B_BAF_Coyote_GMG_W","CUP_B_BAF_Co
 _vehHeavyList = ["CUP_B_Challenger2_Desert_BAF","CUP_B_Challenger2_2CW_BAF","CUP_B_Challenger2_2CD_BAF","CUP_B_Challenger2_Woodland_BAF"];
 
 [_InfantryType, _infaaList, _infatList, _sniperList, _vehAAList, _vehMrapList, _vehLightList, _vehHeavyList]
+

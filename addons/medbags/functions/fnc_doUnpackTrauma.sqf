@@ -182,10 +182,6 @@ if (isNull _unit) exitWith {};
 
     if (lxim_MEDICAL_SUPPLIES_UNPACK_FAILURE) exitWith {
 
-        [_unit, QGVAR(Medical_MedicKit_Open_1)] call EFUNC(common,stop3dSound);
-
-
-
     };
 
 };

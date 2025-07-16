@@ -1,24 +1,17 @@
 class CfgWeapons {
     class CBA_MiscItem;
-    class CBA_MiscItem_ItemInfo;
     class ace_xm157_prototype;
-    class optic_DMS;
     class optic_Nightstalker;
     class InventoryOpticsItem_Base_F;
     class ACE_Vector;
     class Uniform_Base;
     class VestItem;
     class V_RebreatherB;
-    class InventoryItem_Base_F;
     class ItemCore;
     class UniformItem;
-    class U_B_CTRG_Soldier_F: Uniform_Base {
-        class ItemInfo;
-    };
+    class U_B_CTRG_Soldier_F: Uniform_Base {};
     class U_B_Wetsuit;
-    class optic_lrps;
     class Binocular;
-    class Vest_Camo_Base;
     class Laserdesignator: Binocular {
             visionMode[] = {"Normal","NVG","TI"};
     };
@@ -445,7 +438,5 @@ class CfgWeapons {
     class ItemMicroDAGRMisc: CBA_MiscItem {
         ACE_isTool = 1;
     };
-    class optic_MRD : ItemCore {
-        class ItemInfo;
-    };
+    class optic_MRD : ItemCore {};
 };

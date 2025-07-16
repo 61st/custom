@@ -23,9 +23,7 @@ class rhs_weap_panzerfaust60: Launcher_Base_F {
 };
 
 class launch_Titan_base;
-class launch_O_Titan_F: launch_Titan_base {
-    class WeaponSlotsInfo;
-};
+class launch_O_Titan_F: launch_Titan_base {};
 class rhs_weap_fim92: launch_O_Titan_F {
     magazineWell[] += {"CBA_FIM"};
     class WeaponSlotsInfo {

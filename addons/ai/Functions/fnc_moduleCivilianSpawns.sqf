@@ -42,3 +42,4 @@ switch (_Side) do {
     [_civVehPatrolsMin, _civVehPatrolsMax],
     [_civVehParkedMin, _civVehParkedMax]
 ] call lxim_ai_fnc_SpawnCivilians;
+

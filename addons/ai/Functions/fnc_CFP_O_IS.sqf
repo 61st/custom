@@ -8,3 +8,4 @@ _vehLightList = ["cfp_o_is_hmmwv_ags","cfp_o_is_hmmwv_dshkm","cfp_o_is_jeep_at",
 _vehHeavyList = ["cfp_o_is_T34","cfp_o_is_T55","cfp_o_is_T72","cfp_o_is_T72_flag"];
 
 [_InfantryType, _infaaList, _infatList, _sniperList, _vehAAList, _vehMrapList, _vehLightList, _vehHeavyList]
+

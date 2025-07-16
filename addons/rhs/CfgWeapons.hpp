@@ -1,16 +1,12 @@
 class Mode_FullAuto;
 
-class rhs_russian_ak_barrel_slot;
-
 class CfgWeapons {
     class H_HelmetB;
     class ItemCore;
     class UniformItem;
     class Rifle;
     class Uniform_Base;
-    class Rifle_Base_F: Rifle {
-        class WeaponSlotsInfo;
-    };
+    class Rifle_Base_F: Rifle {};
     class UnderBarrelSlot_rail;
     class asdg_MuzzleSlot_556;
     

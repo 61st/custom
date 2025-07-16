@@ -8,3 +8,4 @@ _vehLightList = ["cfp_b_iqpolice_hmmwv_dshkm","cfp_b_iqpolice_HMMWV_M2","cfp_b_i
 _vehHeavyList = [];
 
 [_InfantryType, _infaaList, _infatList, _sniperList, _vehAAList, _vehMrapList, _vehLightList, _vehHeavyList]
+

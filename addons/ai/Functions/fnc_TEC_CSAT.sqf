@@ -8,3 +8,4 @@ _vehLightList = ["TEC_VH_MRAP_Abda_HMG","TEC_VH_MRAP_Shir_GMG","TEC_VH_MRAP_Shir
 _vehHeavyList = ["TEC_VH_Tank_Angara","TEC_VH_Tank_Varsuk_F"];
 
 [_InfantryType, _infaaList, _infatList, _sniperList, _vehAAList, _vehMrapList, _vehLightList, _vehHeavyList]
+

@@ -9,3 +9,4 @@ _vehLightList = ["O_LSV_02_armed_F", "O_G_Offroad_01_armed_F"];
 _vehHeavyList = ["O_MBT_02_cannon_F", "O_MBT_04_cannon_F", "O_MBT_04_command_F"];
 
 [_InfantryType, _infaaList, _infatList, _sniperList, _vehAAList, _vehMrapList, _vehLightList, _vehHeavyList]
+

@@ -9,3 +9,4 @@ class BettIR_Config {
         class rhsusf_acc_anpeq15_wmx_light_h: rhsusf_acc_anpeq15_top {};
     };
 };
+

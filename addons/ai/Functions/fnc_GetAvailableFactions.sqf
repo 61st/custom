@@ -51,3 +51,4 @@ private _factions = [];
 } forEach _sides;
 
 _factions;
+

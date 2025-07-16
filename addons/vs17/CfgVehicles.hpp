@@ -3,7 +3,6 @@ class CBA_Extended_EventHandlers: CBA_Extended_EventHandlers_base {};
 class CfgVehicles {
     class Man;
     class Helipad_base_F;
-    class Land_HelipadCircle_F;
     class GVAR(vs17_base): Helipad_base_F {
         scope = 0;
         vehicleclass = "lxim";

@@ -8,3 +8,4 @@ _vehLightList = ["CFP_B_USARMY_1991_HMMWV_Unarmed_WDL_01","CFP_B_USARMY_1991_HMM
 _vehHeavyList = ["CFP_B_USARMY_1991_M1A1_Abrams_WDL_01"];
 
 [_InfantryType, _infaaList, _infatList, _sniperList, _vehAAList, _vehMrapList, _vehLightList, _vehHeavyList]
+
