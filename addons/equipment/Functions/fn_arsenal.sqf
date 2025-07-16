@@ -40,3 +40,4 @@ if (isNil "_radios") then {
     "Radios",
     "\a3\ui_f\data\IGUI\Cfg\simpleTasks\types\radio_ca.paa"
 ] call ACEFUNC(arsenal,addRightPanelButton);
+

@@ -412,13 +412,8 @@ class CfgWeapons {
             mass=70;
         };
     };
-    class HelmetBase;
-    class H_HelmetB: ItemCore {
-        class ItemInfo;
-    };
-    class H_tweed_ech_casque_base: H_HelmetB {
-        class ItemInfo;
-    };
+    class H_HelmetB: ItemCore {};
+    class H_tweed_ech_casque_base: H_HelmetB {};
     class H_tweed_ech_OCP: H_tweed_ech_casque_base {
         displayName="[US] ACH (OCP)";
     };

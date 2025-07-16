@@ -8,3 +8,4 @@ _vehLightList = ["rhsgref_cdf_reg_uaz","rhsgref_cdf_reg_uaz_ags","rhsgref_cdf_re
 _vehHeavyList = ["rhsgref_cdf_t72ba_tv","rhsgref_cdf_t72bb_tv","rhsgref_cdf_t80b_tv","rhsgref_cdf_t80bv_tv"];
 
 [_InfantryType, _infaaList, _infatList, _sniperList, _vehAAList, _vehMrapList, _vehLightList, _vehHeavyList]
+

@@ -8,3 +8,4 @@ _vehLightList = ["UK3CB_CCM_O_Ikarus","UK3CB_CCM_O_Datsun_Civ_Closed","UK3CB_CCM
 _vehHeavyList = [];
 
 [_InfantryType, _infaaList, _infatList, _sniperList, _vehAAList, _vehMrapList, _vehLightList, _vehHeavyList]
+

@@ -21,3 +21,4 @@ class cTab_CfgMarkers {
         Hide_Direction = 1; //- Won't Draw Direction on cTab
     };
 };
+

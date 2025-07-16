@@ -8,3 +8,4 @@ _vehLightList = ["UK3CB_BAF_Coyote_Logistics_L134A1_D_MTP","UK3CB_BAF_Coyote_Log
 _vehHeavyList = [];
 
 [_InfantryType, _infaaList, _infatList, _sniperList, _vehAAList, _vehMrapList, _vehLightList, _vehHeavyList]
+

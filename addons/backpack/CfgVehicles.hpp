@@ -1,4 +1,3 @@
-class CBA_Extended_EventHandlers;
 class CfgVehicles {
     // External class reference START
     class B_AssaultPack_rgr;

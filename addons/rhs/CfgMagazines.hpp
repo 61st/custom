@@ -1,9 +1,5 @@
 class CfgMagazines {
     class CA_Magazine;
-    class ATMine_Range_Mag;
-    class DemoCharge_Remote_Mag;
-    class rhssaf_mine_mrud_a_mag;
-    class rhs_mine_ozm72_a_mag;
     class 30Rnd_556x45_Stanag;
     class rhs_mag_30Rnd_556x45_M855_Stanag;
     class rhs_mag_30Rnd_556x45_M855A1_Stanag;

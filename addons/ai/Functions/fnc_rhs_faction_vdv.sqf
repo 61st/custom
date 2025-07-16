@@ -8,3 +8,4 @@ _vehLightList = ["rhs_tigr_vdv","rhs_tigr_3camo_vdv","rhs_tigr_sts_vdv","rhs_tig
 _vehHeavyList = ["rhs_btr60_vdv","rhs_btr70_vdv","rhs_btr80_vdv","rhs_btr80a_vdv", "rhs_sprut_vdv"];
 
 [_InfantryType, _infaaList, _infatList, _sniperList, _vehAAList, _vehMrapList, _vehLightList, _vehHeavyList]
+

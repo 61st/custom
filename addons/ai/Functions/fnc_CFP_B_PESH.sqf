@@ -8,3 +8,4 @@ _vehLightList = ["cfp_b_pesh_HMMWV_M2","cfp_b_pesh_offroad","cfp_b_pesh_offroad_
 _vehHeavyList = [];
 
 [_InfantryType, _infaaList, _infatList, _sniperList, _vehAAList, _vehMrapList, _vehLightList, _vehHeavyList]
+

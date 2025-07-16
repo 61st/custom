@@ -40,3 +40,4 @@ if (_arithSearch isEqualTo "") exitWith {systemChat "randomPos: no arithmetic op
 private _returnValue = selectBestPlaces [_pos, _radius, _arithSearch, 60, 10];
 
 _returnValue select 0
+

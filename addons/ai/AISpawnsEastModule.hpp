@@ -258,3 +258,4 @@ class lxim_ModuleAISpawns: Module_F {
             duplicate = 1; // Multiple entities of this type can be synced
     };
 };
+

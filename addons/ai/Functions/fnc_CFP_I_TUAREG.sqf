@@ -8,3 +8,4 @@ _vehLightList = ["CFP_I_TUAREG_Datsun_01","CFP_I_TUAREG_Datsun_PK_01","CFP_I_TUA
 _vehHeavyList = [];
 
 [_InfantryType, _infaaList, _infatList, _sniperList, _vehAAList, _vehMrapList, _vehLightList, _vehHeavyList]
+

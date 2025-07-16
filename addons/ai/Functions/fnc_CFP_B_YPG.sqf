@@ -8,3 +8,4 @@ _vehLightList = ["cfp_b_ypg_offroad","cfp_b_ypg_offroad_flag","cfp_b_ypg_offroad
 _vehHeavyList = [];
 
 [_InfantryType, _infaaList, _infatList, _sniperList, _vehAAList, _vehMrapList, _vehLightList, _vehHeavyList]
+

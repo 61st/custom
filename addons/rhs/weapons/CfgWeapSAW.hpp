@@ -1,6 +1,5 @@
 class rhs_weap_saw_base;
 class rhs_weap_lmg_minimipara: rhs_weap_saw_base {
-    class WeaponSlotsInfo;
 };
 class rhs_weap_minimi_para_railed: rhs_weap_lmg_minimipara {
     class WeaponSlotsInfo {
@@ -14,7 +13,6 @@ class rhs_weap_minimi_para_railed_folded: rhs_weap_minimi_para_railed {
 
 class rhs_weap_lmg_minimi_railed: rhs_weap_lmg_minimipara {
     displayName = "FN Minimi Para (Short/RIS)";
-    class WeaponSlotsInfo;
 };
 class rhs_weap_m249: rhs_weap_lmg_minimi_railed {
     class WeaponSlotsInfo {

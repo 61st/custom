@@ -19,3 +19,4 @@ class CfgPatches {
 #include "CfgEventHandlers.hpp"
 #include "CfgUnitInsignia.hpp"
 #include "CfgSounds.hpp"
+

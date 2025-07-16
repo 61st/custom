@@ -6,3 +6,4 @@ if (_pos isEqualTo [0, 0, 0]) exitWith {
 };
 
 [_pos] call FUNC(SpawnCivZeusWrapper);
+

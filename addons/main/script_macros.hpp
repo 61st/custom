@@ -82,3 +82,4 @@
 #define FADE_LENGTH 0.25
 #define FADE_ENABLED 0
 #define FADE_DISABLED 0.7
+

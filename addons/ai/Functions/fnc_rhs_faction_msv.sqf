@@ -8,3 +8,4 @@ _vehLightList = ["rhs_tigr_msv","rhs_tigr_3camo_msv","rhs_tigr_sts_msv","rhs_tig
 _vehHeavyList = ["rhs_bmp3_msv","rhs_bmp3_late_msv","rhs_bmp3mera_msv"];
 
 [_InfantryType, _infaaList, _infatList, _sniperList, _vehAAList, _vehMrapList, _vehLightList, _vehHeavyList]
+

@@ -5,3 +5,4 @@ class CfgMagazines {
         displayName = "Tylenol";
     };
 };
+

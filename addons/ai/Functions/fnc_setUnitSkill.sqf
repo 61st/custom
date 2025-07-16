@@ -87,3 +87,4 @@ if (side _target == civilian) then {
         } count _units;
     };
 };
+

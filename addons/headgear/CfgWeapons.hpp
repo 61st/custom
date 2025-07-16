@@ -21,9 +21,7 @@ class CfgWeapons {
             hiddenSelections[] = {"camo"};
         };
     };
-    class H_Cap_red: HelmetBase {
-        class ItemInfo;
-    };
+    class H_Cap_red: HelmetBase {};
     class GVAR(Cap_BlackLogo): H_Cap_red {
         dlc = QUOTE(PREFIX);
         scope = 2;

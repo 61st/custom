@@ -2,20 +2,12 @@ class CfgVehicles {
     class Logic;
     class Module_F: Logic {
         class AttributesBase {
-            class Default;
             class Edit;
             class Combo;
-            class Checkbox;
-            class CheckboxNumber;
             class ModuleDescription;
-            class Units;
         };
 
-        class ModuleDescription {
-            class AnyPlayer;
-            class AnyBrain;
-            class EmptyDetector;
-        };
+        class ModuleDescription {};
     };
 
     #include "AISpawnsEastModule.hpp"
@@ -23,7 +15,6 @@ class CfgVehicles {
     #include "AISpawnsWestModule.hpp"
     #include "CivilianSpawnsModule.hpp"
 
-    class ModuleEmpty_F;
     class ModuleCurator_F: Module_F {
         class Attributes {
             class lxim_Config_Zeus {
@@ -39,3 +30,4 @@ class CfgVehicles {
         };
     };
 };
+

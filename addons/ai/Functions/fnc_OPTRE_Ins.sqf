@@ -8,3 +8,4 @@ _vehLightList = ["OPTRE_m1015_mule_ins","OPTRE_M12_FAV_ins","OPTRE_M274_ATV_Ins"
 _vehHeavyList = ["OPTRE_M12_LRV_ins","OPTRE_M12A1_LRV_ins"];
 
 [_InfantryType, _infaaList, _infatList, _sniperList, _vehAAList, _vehMrapList, _vehLightList, _vehHeavyList]
+

@@ -8,3 +8,4 @@ _vehLightList = ["rhsgref_nat_uaz","rhsgref_nat_uaz_dshkm","rhsgref_nat_uaz_open
 _vehHeavyList = [];
 
 [_InfantryType, _infaaList, _infatList, _sniperList, _vehAAList, _vehMrapList, _vehLightList, _vehHeavyList]
+

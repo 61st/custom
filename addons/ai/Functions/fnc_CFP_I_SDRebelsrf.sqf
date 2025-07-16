@@ -8,3 +8,4 @@ _vehLightList = ["CFP_I_SDRebelsrf_Land_Rover_01","CFP_I_SDRebelsrf_Land_Rover_S
 _vehHeavyList = [];
 
 [_InfantryType, _infaaList, _infatList, _sniperList, _vehAAList, _vehMrapList, _vehLightList, _vehHeavyList]
+

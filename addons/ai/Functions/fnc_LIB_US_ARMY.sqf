@@ -8,3 +8,4 @@ _vehLightList = ["LIB_US_GMC_Tent","LIB_US_Scout_M3","LIB_US_Scout_M3_FFV","LIB_
 _vehHeavyList = ["LIB_M3A3_Stuart","LIB_M4A3_75","LIB_M4A3_75_Tubes","LIB_M4A3_76","LIB_M4A3_76_HVSS","LIB_M4A4_FIREFLY","LIB_M5A1_Stuart"];
 
 [_InfantryType, _infaaList, _infatList, _sniperList, _vehAAList, _vehMrapList, _vehLightList, _vehHeavyList]
+
