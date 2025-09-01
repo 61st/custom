@@ -15,7 +15,7 @@ class CfgDifficultyPresets {
             enemyTags = 0;   // Enemy name tags (0 = never, 1 = limited distance, 2 = always)
             detectedMines = 0;  // Detected mines (0 = never, 1 = limited distance, 2 = always)
             commands = 0;   // Commands (0 = never, 1 = fade out, 2 = always)
-            waypoints = 0;   // Waypoints (0 = never, 1 = fade out, 2 = always)
+            waypoints = 1;   // Waypoints (0 = never, 1 = fade out, 2 = always)
             tacticalPing = 0;  // Tactical ping (0 = disable, 1 = enable)
 
             /* Personal awareness */
@@ -30,7 +30,7 @@ class CfgDifficultyPresets {
             cameraShake = 1;  // Camera shake
 
             /* Multiplayer */
-            scoreTable = 0;   // Score table
+            scoreTable = 1;   // Score table
             deathMessages = 0;  // Killed by
             vonID = 0;    // VoN ID
 
