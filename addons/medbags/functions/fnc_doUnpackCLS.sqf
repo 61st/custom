@@ -84,7 +84,7 @@ if (isNull _unit) exitWith {};
         [_unit, "ACM_ChestSeal",2, _order, _overflow] call EFUNC(common,addItem);
 
         [_unit, "ACM_PocketBVM",1, _order, _overflow] call EFUNC(common,addItem); 
-                
+        
         // Circulation
         [_unit, "ACM_IV_16g",4, _order, _overflow] call EFUNC(common,addItem);
 
@@ -94,7 +94,7 @@ if (isNull _unit) exitWith {};
         
         [_unit, "ACE_salineIV_250",2, _order, _overflow] call EFUNC(common,addItem);
         [_unit, "ACE_salineIV_500",2, _order, _overflow] call EFUNC(common,addItem);
-                
+        
         [_unit, "ACM_SAMSplint",02, _order, _overflow] call EFUNC(common,addItem);
         
         // Other
@@ -103,6 +103,5 @@ if (isNull _unit) exitWith {};
         
     };
     if (lxim_MEDICAL_SUPPLIES_UNPACK_FAILURE) exitWith {
-        [_unit, QGVAR(Medical_MedicKit_Open_1)] call EFUNC(common,stop3dSound);
     };
 };
