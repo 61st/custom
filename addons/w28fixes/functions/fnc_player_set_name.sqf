@@ -46,6 +46,7 @@ switch (_playerUID) do {
     case "76561198277597338": {[player,"us_buck"] call simc_fnc_setUnitNom;};
     case "76561198175908683": {[player,"us_void"] call simc_fnc_setUnitNom;};
     case "76561198024628957": {[player,"us_lurburk"] call simc_fnc_setUnitNom;};
+    case "76561198206345929": {[player,"us_viper"] call simc_fnc_setUnitNom;};
     default {};
 };
 

@@ -34,5 +34,23 @@ class CfgUnitNoms {
         texture=QUOTE(z\lxim\addons\media\images\names\us_cury.paa);
         textureVehicle="";
     };
+    class us_buck {
+        displayName="BUCK - USA";
+        material="\tweed_eden_21\patches\fabr.rvmat";
+        texture=QUOTE(z\lxim\addons\media\images\names\us_buck.paa);
+        textureVehicle="";
+    };
+        class us_viper {
+        displayName="BUCK - USA";
+        material="\tweed_eden_21\patches\fabr.rvmat";
+        texture=QUOTE(z\lxim\addons\media\images\names\us_viper.paa);
+        textureVehicle="";
+    };
+        class us_onscreeneel {
+        displayName="BUCK - USA";
+        material="\tweed_eden_21\patches\fabr.rvmat";
+        texture=QUOTE(z\lxim\addons\media\images\names\us_onscreeneel.paa);
+        textureVehicle="";
+    };
 };
 
