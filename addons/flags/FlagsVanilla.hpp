@@ -84,3 +84,75 @@ class GVAR(Zeus): Flag_White_F {
         init = "(_this select 0) setFlagTexture 'z\lxim\addons\media\images\flags\xrayflag.paa'";
     };
 };
+class GVAR(OL11): Flag_White_F {
+    author = "61st Mechanized Infantry Battalion, A3";
+    displayName = "Flag (Outlaw 1-1)";
+
+    class EventHandlers {
+        init = "(_this select 0) setFlagTexture 'z\lxim\addons\media\images\flags\outlaw11.paa'";
+    };
+};
+class GVAR(OL12): Flag_White_F {
+    author = "61st Mechanized Infantry Battalion, A3";
+    displayName = "Flag (Outlaw 1-2)";
+
+    class EventHandlers {
+        init = "(_this select 0) setFlagTexture 'z\lxim\addons\media\images\flags\outlaw12.paa'";
+    };
+};
+class GVAR(OLHQ): Flag_White_F {
+    author = "61st Mechanized Infantry Battalion, A3";
+    displayName = "Flag (Outlaw HQ)";
+
+    class EventHandlers {
+        init = "(_this select 0) setFlagTexture 'z\lxim\addons\media\images\flags\outlawhq.paa'";
+    };
+};
+class GVAR(iron): Flag_White_F {
+    author = "61st Mechanized Infantry Battalion, A3";
+    displayName = "Flag (Iron Promise)";
+
+    class EventHandlers {
+        init = "(_this select 0) setFlagTexture 'z\lxim\addons\media\images\flags\ironpromise.paa'";
+    };
+};
+class GVAR(air): Flag_White_F {
+    author = "61st Mechanized Infantry Battalion, A3";
+    displayName = "Flag (Phoenix)";
+
+    class EventHandlers {
+        init = "(_this select 0) setFlagTexture 'z\lxim\addons\media\images\flags\phoenix.paa'";
+    };
+};
+class GVAR(rhino): Flag_White_F {
+    author = "61st Mechanized Infantry Battalion, A3";
+    displayName = "Flag (Rhino)";
+
+    class EventHandlers {
+        init = "(_this select 0) setFlagTexture 'z\lxim\addons\media\images\flags\rhino.paa'";
+    };
+};
+class GVAR(side): Flag_White_F {
+    author = "61st Mechanized Infantry Battalion, A3";
+    displayName = "Flag (Side Operation)";
+
+    class EventHandlers {
+        init = "(_this select 0) setFlagTexture 'z\lxim\addons\media\images\flags\sideop.paa'";
+    };
+};
+class GVAR(tank): Flag_White_F {
+    author = "61st Mechanized Infantry Battalion, A3";
+    displayName = "Flag (Thunder)";
+
+    class EventHandlers {
+        init = "(_this select 0) setFlagTexture 'z\lxim\addons\media\images\flags\thunder.paa'";
+    };
+};
+class GVAR(med): Flag_White_F {
+    author = "61st Mechanized Infantry Battalion, A3";
+    displayName = "Flag (Perseus)";
+
+    class EventHandlers {
+        init = "(_this select 0) setFlagTexture 'z\lxim\addons\media\images\flags\medic.paa'";
+    };
+};
