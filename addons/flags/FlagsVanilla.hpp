@@ -30,9 +30,9 @@ FLAG(Spain);
 
 class GVAR(Russia): Flag_White_F {
     author = "61st Mechanized Infantry Battalion, A3";
-    displayName = "Flag (Russia)";
+    displayName = "Flag (61st)";
 
     class EventHandlers {
-        init = "(_this select 0) setFlagTexture '\A3\UI_F_Enoch\Data\CfgMarkers\Russia_CA.paa'";
+        init = "(_this select 0) setFlagTexture 'addons\media\images\flags\61stflag.paa'";
     };
 };
