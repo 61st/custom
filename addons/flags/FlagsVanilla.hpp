@@ -30,9 +30,57 @@ FLAG(Spain);
 
 class GVAR(Russia): Flag_White_F {
     author = "61st Mechanized Infantry Battalion, A3";
-    displayName = "Flag (Russia)";
+    displayName = "Flag (61st)";
 
     class EventHandlers {
-        init = "(_this select 0) setFlagTexture '\A3\UI_F_Enoch\Data\CfgMarkers\Russia_CA.paa'";
+        init = "(_this select 0) setFlagTexture 'z\lxim\addons\media\images\flags\61stflag.paa'";
+    };
+};
+class GVAR(NKorreeno): Flag_White_F {
+    author = "61st Mechanized Infantry Battalion, A3";
+    displayName = "Flag (N. Korreeno)";
+
+    class EventHandlers {
+        init = "(_this select 0) setFlagTexture 'z\lxim\addons\media\images\flags\nkorreno.paa'";
+    };
+};
+class GVAR(SKorreeno): Flag_White_F {
+    author = "61st Mechanized Infantry Battalion, A3";
+    displayName = "Flag (S. Korreeno)";
+
+    class EventHandlers {
+        init = "(_this select 0) setFlagTexture 'z\lxim\addons\media\images\flags\skorreno.paa'";
+    };
+};
+class GVAR(Belvaria): Flag_White_F {
+    author = "61st Mechanized Infantry Battalion, A3";
+    displayName = "Flag (Belvaria)";
+
+    class EventHandlers {
+        init = "(_this select 0) setFlagTexture 'z\lxim\addons\media\images\flags\BELVARIANFLAG.paa'";
+    };
+};
+class GVAR(Banshiri): Flag_White_F {
+    author = "61st Mechanized Infantry Battalion, A3";
+    displayName = "Flag (Banshiri)";
+
+    class EventHandlers {
+        init = "(_this select 0) setFlagTexture 'z\lxim\addons\media\images\flags\PBBFlag.paa'";
+    };
+};
+class GVAR(Banshiri_a): Flag_White_F {
+    author = "61st Mechanized Infantry Battalion, A3";
+    displayName = "Flag (Banshiri Army)";
+
+    class EventHandlers {
+        init = "(_this select 0) setFlagTexture 'z\lxim\addons\media\images\flags\PBBarmyflag.paa'";
+    };
+};
+class GVAR(Zeus): Flag_White_F {
+    author = "61st Mechanized Infantry Battalion, A3";
+    displayName = "Flag (Xray)";
+
+    class EventHandlers {
+        init = "(_this select 0) setFlagTexture 'z\lxim\addons\media\images\flags\xrayflag.paa'";
     };
 };
