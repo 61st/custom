@@ -7,7 +7,7 @@ extensions/vcproj64/*
 .vscode/*
 hemtt
 hemtt.exe
-.hemttout
+.hemttout/
 tools/temp
 *.cache
 texHeaders.bin
