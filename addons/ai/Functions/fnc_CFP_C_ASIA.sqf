@@ -1,4 +1,4 @@
-_pedPool = [
+private _pedPool = [
 "CFP_C_ASIA_Civilian_1_01",
 "CFP_C_ASIA_Civilian_2_01",
 "CFP_C_ASIA_Civilian_3_01",
@@ -13,7 +13,7 @@ _pedPool = [
 "CFP_C_ASIA_Civilian_12_01"
 ];
 
-_motPool = [
+private _motPool = [
 "CFP_C_ASIA_Datsun_Pickup_01",
 "CFP_C_ASIA_Land_Rover_01",
 "CFP_C_ASIA_MB_4WD_01",

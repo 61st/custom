@@ -1,4 +1,4 @@
-_pedPool = [
+private _pedPool = [
     "UK3CB_TKC_C_CIV",
     "UK3CB_TKC_C_DOC",
     "UK3CB_TKC_C_PILOT",
@@ -6,7 +6,7 @@ _pedPool = [
     "UK3CB_TKC_C_SPOT"
 ];
 
-_motPool = [
+private _motPool = [
     "UK3CB_TKC_C_Ikarus",
     "UK3CB_TKC_C_Datsun_Civ_Closed",
     "UK3CB_TKC_C_Datsun_Civ_Open",

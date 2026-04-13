@@ -101,7 +101,7 @@
             {
                 params [["_boat", objNull]];
                 private _driver = driver _boat;
-                _bomb = "APERSTripMine_Wire_Ammo" createVehicle (getPos _boat);
+                private _bomb = "APERSTripMine_Wire_Ammo" createVehicle (getPos _boat);
                 _bomb setDamage 1;
                 sleep 1;
                 [_boat, _driver]

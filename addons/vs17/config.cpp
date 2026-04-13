@@ -3,8 +3,12 @@
 class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
-        units[] = {};
-        weapons[] = {};
+        units[] = {
+            QGVAR(vs17_item)
+        };
+        weapons[] = {
+            QGVAR(vs17)
+        };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "lxim_main"

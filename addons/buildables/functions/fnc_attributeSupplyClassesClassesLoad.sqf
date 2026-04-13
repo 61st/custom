@@ -20,7 +20,7 @@ private _classes = "
 " configClasses (configFile >> "CfgVehicles");
 
 {
-    _idx = _tv tvAdd [[], getText (_x >> "displayName")];
+    private _idx = _tv tvAdd [[], getText (_x >> "displayName")];
     _tv tvSetData [[_idx], configName _x];
 } forEach _classes;
 

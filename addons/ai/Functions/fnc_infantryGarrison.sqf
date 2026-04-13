@@ -64,7 +64,7 @@ private _failed = [_pos, nil, _units, _radius, _AIOB_Positioning, true, _maxFill
 
 // Remove any non-garrisoned units
 { deleteVehicle _x; } forEach _failed;
-_allUnits = _units - _failed;
+private _allUnits = _units - _failed;
 
 // Set Skill
 [_allUnits, _skill] call FUNC(setUnitSkill);

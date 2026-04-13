@@ -21,7 +21,7 @@ private _layers = (all3DENEntities select 6) apply {(_x get3DENAttribute 'name')
 _layers sort true;
 
 {
-    _lbAdd = _control lbAdd format ['%1: %2', _layerText, _x];
+    private _lbAdd = _control lbAdd format ['%1: %2', _layerText, _x];
     _control lbSetPicture [_lbAdd, _picture];
 
     _control lbSetData [_lbAdd, _x];

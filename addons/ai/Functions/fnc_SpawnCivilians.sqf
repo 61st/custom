@@ -63,7 +63,7 @@ params [
 
 private _AIReporting = lxim_AI_Reporting;
 
-_typeNameCenter = typeName _center;
+private _typeNameCenter = typeName _center;
 
 call {
     if (_typeNameCenter isEqualTo "OBJECT") exitWith { _center = getPos _center;};
@@ -79,22 +79,22 @@ _ped params ["_pedMin", "_pedMax"];
 _vehpatrol params ["_vehpatrolMin", "_vehpatrolMax"];
 _vehparked params ["_vehparkedMin", "_vehparkedMax"];
 
-_GetFactionArrays = compileFinal format ["call lxim_ai_fnc_%1", _faction];
-_FactionArrays = call _GetFactionArrays;
+private _GetFactionArrays = compileFinal format ["call lxim_ai_fnc_%1", _faction];
+private _FactionArrays = call _GetFactionArrays;
 _FactionArrays params ["_pedPool", "_motPool"];
 
 // Populate road positions for waypoints etc...
 // Obtain as many positions as we need
-_minPositions = _garrisonsMax + _pedMax + _vehpatrolMax + _vehparkedMax + SLACK;
+private _minPositions = _garrisonsMax + _pedMax + _vehpatrolMax + _vehparkedMax + SLACK;
 
 // Get list of roads around the center
-_roadList = [];
+private _roadList = [];
 _roadList = _center nearRoads _radius;
 
 // Now increase the search radius until we have found enough positions
 if (count _roadList < _minPositions) then {
-    _i = 0;
-    _radExtension = 0;
+    private _i = 0;
+    private _radExtension = 0;
     // If we exceed our max in iterations, abort and use random positions instead...
     while {(count _roadList < _minPositions) && (_i < MAX_SEARCH_ITS)} do {
         _radExtension = _radExtension + EXT_RADIUS;
@@ -106,7 +106,7 @@ if (count _roadList < _minPositions) then {
 // If we still don't have enough positions, fill the remaining spots up with random positions
 if (count _roadList < _minPositions) then {
     while {count _roadList < _minPositions} do {
-        _rpos = [[[_center, _radius],[]],["water"]] call lxim_common_fnc_SafePos;
+        private _rpos = [[[_center, _radius],[]],["water"]] call lxim_common_fnc_SafePos;
         _roadList append [_rpos];
     };
 };
@@ -183,8 +183,8 @@ if !((_motPool isEqualTo []) || (_pedPool isEqualTo [])) then {
         // Obtain direction stuff, bit of a pain...
         if ((typeName _rpos) isEqualTo "OBJECT") then {
             private _connectedRoads = roadsConnectedTo _rpos;
-            if ((count _connectedRoads) > 0) then {
-                _adjRoad = _connectedRoads select 0;
+            if (_connectedRoads isNotEqualTo []) then {
+                private _adjRoad = _connectedRoads select 0;
                 _dir = [_rpos, _adjRoad] call BIS_fnc_dirTo;
             };
         };
@@ -224,8 +224,8 @@ if (_motPool isNotEqualTo []) then {
         // Obtain direction stuff, bit of a pain...
         if ((typeName _rpos) isEqualTo "OBJECT") then {
             private _connectedRoads = roadsConnectedTo _rpos;
-            if ((count _connectedRoads) > 0) then {
-                _adjRoad = _connectedRoads select 0;
+            if (_connectedRoads isNotEqualTo []) then {
+                private _adjRoad = _connectedRoads select 0;
                 _dir = [_rpos, _adjRoad] call BIS_fnc_dirTo;
             };
         };

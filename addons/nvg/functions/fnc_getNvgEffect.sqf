@@ -28,5 +28,5 @@ if !((hmd player) in _nvgBlacklist) then {
     };
 };
 
-_return = _effect;
+private _return = _effect;
 _return

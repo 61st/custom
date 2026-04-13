@@ -10,7 +10,7 @@
   {},
   {},
   {   
-   _veh = cursorTarget;
+   private _veh = cursorTarget;
    _veh setVectorUp [0,0,1];
    cursorTarget setPosATL [(getPosATL _veh) select 0, (getPosATL _veh) select 1, 0];
         },
@@ -34,7 +34,7 @@
   {},
   {},
   {   
-   _veh = cursorTarget;
+   private _veh = cursorTarget;
    _veh setVectorUp [0,0,1];
    cursorTarget setPosATL [(getPosATL _veh) select 0, (getPosATL _veh) select 1, 0];
         },

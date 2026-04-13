@@ -36,9 +36,10 @@ params [
     ["_timeout", 25]
 ];
 
-_pos = [0,0,0];
+private _pos = [0,0,0];
 
 if (_pos isEqualTo [0,0,0]) then {
+    private _i = 0;
     for [{_i = 0}, {_i < _timeout}, {_i = _i + 1}] do {
         _pos = [_whitelist, _blacklist,_code] call BIS_fnc_randomPos;
 

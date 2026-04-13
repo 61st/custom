@@ -34,12 +34,5 @@ class CfgFactionClasses {
         icon = "\rhsafrf\addons\rhs_main\data\icons\vmf.paa";
         priority = -5;
     };
-    class taliban {
-        displayName="Taliban Force (2022ish)";
-        side=0;
-        flag="z\lxim\addons\media\images\flags\flag_taliban.paa";
-        icon="z\lxim\addons\media\images\flags\flag_taliban.paa";
-        priority=0;
-    };
 };
 

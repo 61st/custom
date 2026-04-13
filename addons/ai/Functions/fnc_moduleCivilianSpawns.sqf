@@ -2,22 +2,22 @@
 // not documented: module called
 if !(isServer) exitWith {};
 
-_logic = param [0,objNull,[objNull]];
+private _logic = param [0,objNull,[objNull]];
 
-_SpawnLocation = (getPos _logic);
-_ObjName = _logic getVariable ["ObjName", "Objective 1"];
-_Faction = _logic getVariable ["Type", "CIV_F"];
-_Side = _logic getVariable ["Side", "civilian"];
-_GarrRadius = _logic getVariable ["GarrRadius", 200];
-_GarrisonedUnitsMin = _logic getVariable ["GarrisonedUnitsMin", 0];
-_GarrisonedUnitsMax = _logic getVariable ["GarrisonedUnitsMax", 0];
-_Radius = _logic getVariable ["Radius", 500];
-_civPedPatrolsMin = _logic getVariable ["CivPedPatrolsMin", 0];
-_civPedPatrolsMax = _logic getVariable ["CivPedPatrolsMax", 0];
-_civVehPatrolsMin = _logic getVariable ["CivVehPatrolsMin", 0];
-_civVehPatrolsMax = _logic getVariable ["CivVehPatrolsMax", 0];
-_civVehParkedMin = _logic getVariable ["CivVehParkedMin", 0];
-_civVehParkedMax = _logic getVariable ["CivVehParkedMax", 0];
+private _SpawnLocation = (getPos _logic);
+private _ObjName = _logic getVariable ["ObjName", "Objective 1"];
+private _Faction = _logic getVariable ["Type", "CIV_F"];
+private _Side = _logic getVariable ["Side", "civilian"];
+private _GarrRadius = _logic getVariable ["GarrRadius", 200];
+private _GarrisonedUnitsMin = _logic getVariable ["GarrisonedUnitsMin", 0];
+private _GarrisonedUnitsMax = _logic getVariable ["GarrisonedUnitsMax", 0];
+private _Radius = _logic getVariable ["Radius", 500];
+private _civPedPatrolsMin = _logic getVariable ["CivPedPatrolsMin", 0];
+private _civPedPatrolsMax = _logic getVariable ["CivPedPatrolsMax", 0];
+private _civVehPatrolsMin = _logic getVariable ["CivVehPatrolsMin", 0];
+private _civVehPatrolsMax = _logic getVariable ["CivVehPatrolsMax", 0];
+private _civVehParkedMin = _logic getVariable ["CivVehParkedMin", 0];
+private _civVehParkedMax = _logic getVariable ["CivVehParkedMax", 0];
 
 // Figure out the side stuff
 _Side = toLower _Side;

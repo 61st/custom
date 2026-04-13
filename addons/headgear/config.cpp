@@ -8,7 +8,7 @@ class CfgPatches {
             QGVAR(H_HelmetCrew_green),
             QGVAR(H_HelmetCrew_sand),
             QGVAR(Cap_Headphones_BlackLogo),
-            QGVAR(H_HelmetCrew_sand)
+            QGVAR(Cap_BlackLogo)
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {

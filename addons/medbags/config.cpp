@@ -15,6 +15,7 @@ class CfgPatches {
             QGVAR(Item_MedicKit),
             QGVAR(Item_CLS),
             QGVAR(Item_DrugKit),
+            QGVAR(Item_Fluid),
             QGVAR(Item_Trauma),
             QGVAR(Item_mopp)
         };
@@ -23,6 +24,7 @@ class CfgPatches {
             QGVAR(MedicKit),
             QGVAR(CLS),
             QGVAR(DrugKit),
+            QGVAR(Fluid),
             QGVAR(Trauma),
             QGVAR(mopp)
         };

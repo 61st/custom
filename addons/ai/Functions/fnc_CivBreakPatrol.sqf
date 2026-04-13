@@ -20,13 +20,13 @@ Author:
 
 params ["_unit"];
 
-_group = group _unit;
+private _group = group _unit;
+private _idx = currentWaypoint _group;
 
 _group setBehaviour "COMBAT";
 _group setSpeedMode "NORMAL";
 
 if ((side _unit) == civilian) then {
-    _idx = currentWaypoint _group;
     deleteWaypoint [_group, _idx];
     _group allowFleeing 1;
 } else {

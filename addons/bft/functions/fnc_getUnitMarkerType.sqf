@@ -34,7 +34,7 @@ if (!isNull objectParent _unit) exitWith {
         "iconStaticMortar"
     };
 
-    if (getNumber (configFile >> "CfgVehicles" >> typeOf _vehicle >> "artilleryScanner") == 1) exitWith {
+    if (getNumber (configOf _vehicle >> "artilleryScanner") == 1) exitWith {
         "iconStaticCannon"
     };
 

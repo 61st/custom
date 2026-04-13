@@ -1,4 +1,4 @@
-_pedPool = [
+private _pedPool = [
 "CUP_C_TK_Man_04",
 "CUP_C_TK_Man_04_Jack",
 "CUP_C_TK_Man_04_Waist",
@@ -25,7 +25,7 @@ _pedPool = [
 "CUP_C_TK_Man_03_Waist"
 ];
 
-_motPool = [
+private _motPool = [
 "CUP_C_TT650_TK_CIV",
 "CUP_C_S1203_CIV",
 "CUP_C_Ikarus_TKC",

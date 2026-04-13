@@ -2,10 +2,10 @@
 
 params ["_side","_groupConfig", "_spawnPos", "_moveMarker", "_waves", "_con", "_huntTrigger", "_sadTrigger"];
 
-_group = [_spawnPos, _side, _groupConfig] call BIS_fnc_spawnGroup;
+private _group = [_spawnPos, _side, _groupConfig] call BIS_fnc_spawnGroup;
 _group deleteGroupWhenEmpty true;
-_marker = _moveMarker select (floor random 2);
-_wp1 = _group addWaypoint [_marker, 0];
+private _marker = _moveMarker select (floor random 2);
+private _wp1 = _group addWaypoint [_marker, 0];
 _wp1 setWaypointType "MOVE";
 
 [{
@@ -28,20 +28,20 @@ _wp1 setWaypointType "MOVE";
                 };
             };
         }else {
-            _marker = _moveMarker select (floor random 2);
+            private _marker = _moveMarker select (floor random 2);
             if ((getPos leader _group) inArea _sadTrigger) then {
                 if !(isClass(configFile >> "CfgPatches" >> "Vcm_AIMod")) then {
-                    while {(count (waypoints _group)) > 0} do{
+                    while {waypoints _group isNotEqualTo []} do{
                         deleteWaypoint ((waypoints _group) select 0);
                     };
-                    _wp1 = _group addWaypoint [_marker, 0];
+                    private _wp1 = _group addWaypoint [_marker, 0];
                     _wp1 setWaypointType "SAD";
                 };
             }else{
-                while {(count (waypoints _group)) > 0} do{
+                while {waypoints _group isNotEqualTo []} do{
                     deleteWaypoint ((waypoints _group) select 0);
                 };
-                _wp1 = _group addWaypoint [_marker, 0];
+                private _wp1 = _group addWaypoint [_marker, 0];
                 _wp1 setWaypointType "MOVE";
             };
         };

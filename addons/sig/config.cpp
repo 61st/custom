@@ -6,9 +6,8 @@ class CfgPatches {
         units[] = {};
         weapons[] = {
             QGVAR(XM7),
-            QGVAR(XM7_G),
             QGVAR(XM7_BLK),
-            QGVAR(XM7_BLK_G),
+            QGVAR(XM7_KHK),
             QGVAR(M250),
             QGVAR(M250_BLK)
         };

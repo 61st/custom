@@ -50,7 +50,7 @@ if (isNull _unit) exitWith {};
         [],
         { lxim_MEDICAL_SUPPLIES_UNPACK_SUCCESS = true; },
         { lxim_MEDICAL_SUPPLIES_UNPACK_FAILURE = true; },
-        hint "Unpacking Boo Boo Bag....",
+        "Unpacking Boo Boo Bag....",
         {true},
         ["isNotInside", "isNotSitting", "isNotSwimming"]
     ] call ACE_common_fnc_progressBar;

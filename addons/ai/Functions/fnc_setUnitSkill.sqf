@@ -73,8 +73,8 @@ private _units = call {
 };
 
 {
-    _a = _x;
-    _b = _skillv select _forEachIndex;
+    private _a = _x;
+    private _b = _skillv select _forEachIndex;
     {[_x, [_a, _b]] remoteExec ["setSkill", _x]; true } count _units;
 } forEach _skillt;
 

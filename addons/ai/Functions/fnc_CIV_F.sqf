@@ -1,4 +1,4 @@
-_pedPool = [
+private _pedPool = [
 "C_man_p_beggar_F",
 "C_man_1",
 "C_Man_casual_1_F",
@@ -30,7 +30,7 @@ _pedPool = [
 "C_Man_UtilityWorker_01_F"
 ];
 
-_motPool = [
+private _motPool = [
 "C_Hatchback_01_F",
 "C_Hatchback_01_sport_F",
 "C_Van_01_fuel_F",

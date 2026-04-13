@@ -37,7 +37,7 @@ _unitNameList = "";
     private ["_markerColorName", "_color", "_unitMOS", "_unitName", "_leader", "_vehicle"];
     _markerColorName = [_x] call FUNC(getMarkerColor);
     _color = (getArray (configFile >> "CfgMarkerColors" >> _markerColorName >> "color")) call BIS_fnc_colorRGBtoHTML;
-    _unitMOS = "[" + getText (configFile >> "CfgVehicles" >> (typeOf _x) >> "displayName") + "]";
+    _unitMOS = "[" + getText (configOf _x >> "displayName") + "]";
     _unitName = name _x;
     _leader = "";
     _vehicle = "";
@@ -47,7 +47,7 @@ _unitNameList = "";
     };
 
     if (!isNull objectParent _x) then {
-        _vehicle = "[" + getText (configFile >> "CfgVehicles" >> (typeOf (vehicle _x)) >> "displayName") + "]";
+        _vehicle = "[" + getText (configOf (vehicle _x) >> "displayName") + "]";
     };
 
     if (!isPlayer _x && !(GVAR(showAINames))) then {

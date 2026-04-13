@@ -3,7 +3,12 @@
 class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
-        units[] = {"lxim_testModule"};
+        units[] = {
+            "lxim_moduleAiSpawner",
+            "lxim_moduleAiHunter",
+            "lxim_moduleSafeStart",
+            "lxim_moduleHealArea"
+        };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"lxim_main"};

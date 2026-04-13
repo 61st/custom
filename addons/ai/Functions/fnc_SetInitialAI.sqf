@@ -3,9 +3,9 @@
 
 if (!isServer) exitWith {};
 {
-    _class = typeOf (_x);
+    private _class = typeOf (_x);
 
-    _result  = call {
+    call {
         if (_class isKindOf "Man") exitWith {
             private _Group = call {
                 if ((typeName _x) isEqualTo "GROUP") exitWith { _x };

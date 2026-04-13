@@ -40,8 +40,8 @@ params [
     ["_excludes", []]
 ];
 
-_units = [];
-_group = createGroup [_side, true];
+private _units = [];
+private _group = createGroup [_side, true];
 
 for "_x" from 0 to _unitCount do {
     private _u = _group createUnit [(selectRandom _pedList), _pos, [], 0, "CAN_COLLIDE"];
@@ -54,7 +54,7 @@ private _failed = [_pos, nil, _units, _GarrRadius, _AIOB_Positioning, true, _max
 
 // Remove any non-garrisoned units
 { deleteVehicle _x; } forEach _failed;
-_allUnits = _units - _failed;
+private _allUnits = _units - _failed;
 
 // Add units to zeus
 {_x addCuratorEditableObjects [_allUnits, false];} forEach allCurators;

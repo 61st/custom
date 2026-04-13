@@ -7,11 +7,11 @@ params ["_group", "_huntTrigger"];
     if (({alive _x} count units _group) == 0) then{
         deleteGroup _group;
     }else {
-        while {(count (waypoints _group)) > 0} do
+        while {waypoints _group isNotEqualTo []} do
         {
             deleteWaypoint ((waypoints _group) select 0);
         };
-        _wp1 = _group addWaypoint [getPos ((allPlayers inAreaArray _huntTrigger) select 0), 0];
+        private _wp1 = _group addWaypoint [getPos ((allPlayers inAreaArray _huntTrigger) select 0), 0];
         _wp1 setWaypointType "SAD";
     };
 

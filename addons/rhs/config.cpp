@@ -4,8 +4,11 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
-            QGVAR(moppsuit_item)
-            };
+            QGVAR(moppsuit_item),
+            QGVAR(mk20),
+            QGVAR(mev_mk20),
+            QGVAR(repair_mk20)
+        };
         weapons[] = {
             "rhs_weap_m16a3_carryhandle", "rhs_weap_m16a3_carryhandle_grip", "rhs_weap_m16a3_carryhandle_grip2", "rhs_weap_m16a3_carryhandle_grip3",
             "rhs_weap_m16a3_carryhandle_M203", "rhs_weap_m16a3_carryhandle_M203_grip",

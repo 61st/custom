@@ -30,8 +30,8 @@ _object addEventHandler [
     "CuratorObjectPlaced", {
         params ["_curator", "_entity"];
 
-        _class = typeOf (_entity);
-        _result  = call {
+        private _class = typeOf (_entity);
+        call {
             if (_class isKindOf "Man") exitWith {
 
                 private _Group = call {

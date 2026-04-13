@@ -28,10 +28,10 @@ if (_pos isEqualTo [0, 0, 0]) exitWith {
 };
 
 // Holds the array of factions that are available for selection, based on side
-_prettyNames = CIV_FACTIONS;
+private _prettyNames = CIV_FACTIONS;
 
 // Is used to match the selected faction with the the internal name, by index
-_lookup = CIV_FACTIONS_LOOKUP;
+private _lookup = CIV_FACTIONS_LOOKUP;
 
 private _dialogResult = [
     "Spawn AI - Civilian",
@@ -55,10 +55,10 @@ private _dialogResult = [
 
         _args params ["_pos"];
 
-        _procResults = [];
+        private _procResults = [];
 
         {
-            _value = _x;
+            private _value = _x;
 
             // Process number inputs and make sure they're integers
             if (_forEachIndex > 2) then {

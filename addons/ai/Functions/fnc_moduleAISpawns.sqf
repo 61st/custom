@@ -2,36 +2,36 @@
 // not documented: module called
 if !(isServer) exitWith {};
 
-_logic = param [0,objNull,[objNull]];
+private _logic = param [0,objNull,[objNull]];
 
-_ObjName = _logic getVariable ["ObjName", "Objective 1"];
-_Faction = _logic getVariable ["EnemyType", "OPF_F"];
-_GarrRadius = _logic getVariable ["GarrRadius", 100];
-_GarrisonedGroupsMin = _logic getVariable ["GarrisonedGroupsMin", 0];
-_GarrisonedGroupsMax = _logic getVariable ["GarrisonedGroupsMax", 0];
-_PatrolMethod = _logic getVariable ["PatrolMethod", "RANDOM"];
-_Radius = _logic getVariable ["Radius", 500];
-_EIPatrolsMin = _logic getVariable ["EIPatrolsMin", 0];
-_EIPatrolsMax = _logic getVariable ["EIPatrolsMax", 0];
-_EIAAMin = _logic getVariable ["EIAAMin", 0];
-_EIAAMax = _logic getVariable ["EIAAMax", 0];
-_EIATMin = _logic getVariable ["EIATMin", 0];
-_EIATMax = _logic getVariable ["EIATMax", 0];
-_EISniperMin = _logic getVariable ["EISniperMin", 0];
-_EISniperMax = _logic getVariable ["EISniperMax", 0];
-_VehAAMin = _logic getVariable ["VehAAMin", 0];
-_VehAAMax = _logic getVariable ["VehAAMax", 0];
-_VehLightMin = _logic getVariable ["VehLightMin", 0];
-_VehLightMax = _logic getVariable ["VehLightMax", 0];
-_VehMRAPMin = _logic getVariable ["VehMRAPMin", 0];
-_VehMRAPMax = _logic getVariable ["VehMRAPMax", 0];
-_VehHeavyMin  = _logic getVariable ["VehHeavyMin", 0];
-_VehHeavyMax = _logic getVariable ["VehHeavyMax", 0];
-_VehRandomMin = _logic getVariable ["VehRandomMin", 0];
-_VehRandomMax = _logic getVariable ["VehRandomMax", 0];
+private _ObjName = _logic getVariable ["ObjName", "Objective 1"];
+private _Faction = _logic getVariable ["EnemyType", "OPF_F"];
+private _GarrRadius = _logic getVariable ["GarrRadius", 100];
+private _GarrisonedGroupsMin = _logic getVariable ["GarrisonedGroupsMin", 0];
+private _GarrisonedGroupsMax = _logic getVariable ["GarrisonedGroupsMax", 0];
+private _PatrolMethod = _logic getVariable ["PatrolMethod", "RANDOM"];
+private _Radius = _logic getVariable ["Radius", 500];
+private _EIPatrolsMin = _logic getVariable ["EIPatrolsMin", 0];
+private _EIPatrolsMax = _logic getVariable ["EIPatrolsMax", 0];
+private _EIAAMin = _logic getVariable ["EIAAMin", 0];
+private _EIAAMax = _logic getVariable ["EIAAMax", 0];
+private _EIATMin = _logic getVariable ["EIATMin", 0];
+private _EIATMax = _logic getVariable ["EIATMax", 0];
+private _EISniperMin = _logic getVariable ["EISniperMin", 0];
+private _EISniperMax = _logic getVariable ["EISniperMax", 0];
+private _VehAAMin = _logic getVariable ["VehAAMin", 0];
+private _VehAAMax = _logic getVariable ["VehAAMax", 0];
+private _VehLightMin = _logic getVariable ["VehLightMin", 0];
+private _VehLightMax = _logic getVariable ["VehLightMax", 0];
+private _VehMRAPMin = _logic getVariable ["VehMRAPMin", 0];
+private _VehMRAPMax = _logic getVariable ["VehMRAPMax", 0];
+private _VehHeavyMin  = _logic getVariable ["VehHeavyMin", 0];
+private _VehHeavyMax = _logic getVariable ["VehHeavyMax", 0];
+private _VehRandomMin = _logic getVariable ["VehRandomMin", 0];
+private _VehRandomMax = _logic getVariable ["VehRandomMax", 0];
 
 
-_SpawnLocation = (getPos _logic);
+private _SpawnLocation = (getPos _logic);
 
 [
     _SpawnLocation,

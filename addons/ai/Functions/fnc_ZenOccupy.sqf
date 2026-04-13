@@ -64,9 +64,9 @@ _units = _this select 1;
 _buildingRadius = _this select 2;
 _putOnRoof = _this select 3;
 _fillEvenly = _this select 4;
-_mode = _this select 5;
+private _mode = _this select 5;
 //if (_mode == 1) then {
-    _classRef = _this select 6;
+    private _classRef = _this select 6;
 //};
 
 _Zen_ExtendPosition = {

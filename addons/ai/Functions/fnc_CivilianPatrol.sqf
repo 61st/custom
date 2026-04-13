@@ -28,22 +28,22 @@ params [
 
 _patrolLength params ["_patrolLengthMin", "_patrolLengthMax"];
 
-_findWps = _patrolLengthMin + floor (random (_patrolLengthMax - _patrolLengthMin));
+private _findWps = _patrolLengthMin + floor (random (_patrolLengthMax - _patrolLengthMin));
 
 _group setBehaviour "SAFE";
 _group setSpeedMode "LIMITED";
 
-_EHfiredNear = (leader _group) addEventHandler ["FiredNear", {_this call lxim_ai_fnc_CivBreakPatrol;}];
+private _EHfiredNear = (leader _group) addEventHandler ["FiredNear", {_this call lxim_ai_fnc_CivBreakPatrol;}];
 
 for "_i" from 0 to _findWps do {
-    _wp = selectRandom _waypoints;
+    private _wp = selectRandom _waypoints;
     _wp = _group addWaypoint [_wp, 0];
     _wp setWaypointType "MOVE";
     _wp setWaypointCompletionRadius 5;
     [_group, _i] setWaypointTimeout [0, 2, 4];
 };
 
-_wpc = _group addWaypoint [selectRandom _wayPoints, 0];
+private _wpc = _group addWaypoint [selectRandom _wayPoints, 0];
 _wpc setWaypointType "CYCLE";
 _wpc setWaypointCompletionRadius 5;
 

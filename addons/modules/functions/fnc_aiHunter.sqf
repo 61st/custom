@@ -3,7 +3,7 @@
 
 params ["_side","_groupType", "_spawnPos", "_waves", "_huntTrigger"];
 
-_group = [_spawnPos, _side, _groupType] call BIS_fnc_spawnGroup;
+private _group = [_spawnPos, _side, _groupType] call BIS_fnc_spawnGroup;
 _group deleteGroupWhenEmpty true;
 
 
@@ -26,11 +26,11 @@ _group deleteGroupWhenEmpty true;
             };
         };
     }else {
-        while {(count (waypoints _group)) > 0} do{
+        while {waypoints _group isNotEqualTo []} do{
             deleteWaypoint ((waypoints _group) select 0);
         };
 
-        _wp1 = _group addWaypoint [getPos ((allPlayers inAreaArray _huntTrigger) select 0), 0];
+        private _wp1 = _group addWaypoint [getPos ((allPlayers inAreaArray _huntTrigger) select 0), 0];
         _wp1 setWaypointType "SAD";
     };
 

@@ -20,7 +20,7 @@
 private _nvgMode = call FUNC(getVisionMode);
 
 if !_nvgMode exitWith {
-    _return = ["", false];
+    private _return = ["", false];
     _return
 };
 

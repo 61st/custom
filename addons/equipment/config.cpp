@@ -14,10 +14,8 @@ class CfgPatches {
             QGVAR(Item_optic_AMSTI),
             QGVAR(Item_optic_AMSTI_khk),
             QGVAR(Item_optic_AMSTI_snd),
-            QGVAR(vest_rebreather),
-            QGVAR(Item_Wetsuit),
-            QGVAR(diver_base_F),
-            QGVAR(vs17_item)
+            QGVAR(Item_vest_rebreather),
+            QGVAR(Item_Wetsuit)
         };
         weapons[] = {
             QGVAR(xm157_prototype),
@@ -32,10 +30,8 @@ class CfgPatches {
             QGVAR(optic_AMSTI),
             QGVAR(optic_AMSTI_khk),
             QGVAR(optic_AMSTI_snd),
-            QGVAR(xm157_ace),
             QGVAR(rebreather),
-            QGVAR(Wetsuit),
-            QGVAR(vs17)
+            QGVAR(Wetsuit)
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {

@@ -21,9 +21,9 @@ private _visionMode = currentVisionMode player;
 //private _inZeus = if !(isNull findDisplay 312) then {true} else {false};
 
 if (_visionMode != 1) exitWith {
-    _return = false;
+    private _return = false;
     _return
 };
 
-_return = true;
+private _return = true;
 _return

@@ -33,10 +33,10 @@ if ((_side isEqualTo "") || (_pos isEqualTo [0, 0, 0])) exitWith {
 };
 
 // Holds the array of factions that are available for selection, based on side
-_prettyNames = [];
+private _prettyNames = [];
 
 // Is used to match the selected faction with the the internal name, by index
-_lookup = [];
+private _lookup = [];
 
 switch (toLower _side) do {
     case "east": {
@@ -88,10 +88,10 @@ private _dialogResult = [
 
         _args params ["_pos"];
 
-        _procResults = [];
+        private _procResults = [];
 
         {
-            _value = _x;
+            private _value = _x;
 
             // Process number inputs and make sure they're integers
             if !(_forEachIndex in [0, 1, 5]) then {

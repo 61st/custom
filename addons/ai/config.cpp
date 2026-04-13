@@ -3,7 +3,12 @@
 class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
-        units[] = {};
+        units[] = {
+            "lxim_ModuleAISpawns",
+            "lxim_ModuleAISpawnsIndependent",
+            "lxim_ModuleAISpawnsWest",
+            "lxim_ModuleCivilianSpawns"
+        };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {

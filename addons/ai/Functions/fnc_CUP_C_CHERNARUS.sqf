@@ -1,4 +1,4 @@
-_pedPool = [
+private _pedPool = [
 "CUP_C_C_Assistant_01",
 "CUP_C_C_Citizen_02",
 "CUP_C_C_Citizen_01",
@@ -46,7 +46,7 @@ _pedPool = [
 "CUP_C_C_Worker_01"
 ];
 
-_motPool = [
+private _motPool = [
 "CUP_C_Skoda_Blue_CIV",
 "CUP_C_Skoda_Green_CIV",
 "CUP_C_Skoda_White_CIV",

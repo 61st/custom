@@ -39,7 +39,7 @@ params [
     ["_excludes", [], [[]]]
 ];
 
-_origUnits  = _unitsArray + [];
+private _origUnits  = _unitsArray + [];
 _unitsArray = _unitsArray select {alive _x && {!isPlayer _x}};
 
 if (_startingPos isEqualTo [0,0,0]) exitWith {
@@ -47,7 +47,7 @@ if (_startingPos isEqualTo [0,0,0]) exitWith {
     systemChat "[lxim_ai_fnc_AIOccupyBuilding] Error: Position provided is invalid";
 };
 
-if (count _unitsArray == 0 || {isNull (_unitsArray select 0)}) exitWith {
+if (_unitsArray isEqualTo [] || {isNull (_unitsArray select 0)}) exitWith {
     diag_log "[lxim_ai_fnc_AIOccupyBuilding] Error: No unit provided";
     systemChat "[lxim_ai_fnc_AIOccupyBuilding] Error: No unit provided";
 };
@@ -63,7 +63,7 @@ _buildings =
 
 _buildings = _buildings call BIS_fnc_arrayShuffle;
 
-if (count _buildings == 0) exitWith {
+if (_buildings isEqualTo []) exitWith {
     diag_log "[lxim_ai_fnc_AIOccupyBuilding] Error: No valid building found";
     systemChat "[lxim_ai_fnc_AIOccupyBuilding] Error: No valid building found";
     _unitsArray
@@ -106,7 +106,7 @@ if (_topDownFilling) then {
 // Remove buildings without positions
 {
     _buildingsIndexes deleteAt (_buildingsIndexes find _x);
-} forEach (_buildingsIndexes select {count _x == 0});
+} forEach (_buildingsIndexes select {_x isEqualTo []});
 
 // Warn the user that there's not enough positions to place all units
 private _count = 0;
@@ -122,8 +122,8 @@ private _placedUnits = [];
 // Do the placement
 switch (_fillingType) do {
     case 0: {
-        while {count _unitsArray > 0} do {
-            if (count _buildingsIndexes == 0) exitWith {};
+        while {_unitsArray isNotEqualTo []} do {
+            if (_buildingsIndexes isEqualTo []) exitWith {};
 
             private _building = _buildingsIndexes select 0;
 
@@ -133,7 +133,7 @@ switch (_fillingType) do {
                 private _pos = _building select 0;
 
                 private _nearestUnits = (_pos nearEntities ["CAManBase", 1]);
-                if (count _nearestUnits  > 0 && {count (_nearestUnits select {getPos _x select 2 == _pos select 2}) > 0}) then {
+                if (_nearestUnits isNotEqualTo [] && {(_nearestUnits select {getPos _x select 2 == _pos select 2}) isNotEqualTo []}) then {
                     _buildingsIndexes set [0,  _building - [_pos]];
 
                 } else {
@@ -150,8 +150,8 @@ switch (_fillingType) do {
     };
 
     case 1: {
-        while {count _unitsArray > 0} do {
-            if (count _buildingsIndexes == 0) exitWith {};
+        while {_unitsArray isNotEqualTo []} do {
+            if (_buildingsIndexes isEqualTo []) exitWith {};
 
             private _building = _buildingsIndexes select 0;
 
@@ -161,7 +161,7 @@ switch (_fillingType) do {
                 private _pos = _building select 0;
 
                 private _nearestUnits = (_pos nearEntities ["CAManBase", 1]);
-                if (count _nearestUnits  > 0 && {count (_nearestUnits select {getPos _x select 2 == _pos select 2}) > 0}) then {
+                if (_nearestUnits isNotEqualTo [] && {(_nearestUnits select {getPos _x select 2 == _pos select 2}) isNotEqualTo []}) then {
                     _buildingsIndexes set [0, _building - [_pos]];
 
                 } else {
@@ -176,8 +176,8 @@ switch (_fillingType) do {
     };
 
     case 2: {
-        while {count _unitsArray > 0} do {
-            if (count _buildingsIndexes == 0) exitWith {};
+        while {_unitsArray isNotEqualTo []} do {
+            if (_buildingsIndexes isEqualTo []) exitWith {};
 
             private _building = selectRandom _buildingsIndexes;
 
@@ -187,7 +187,7 @@ switch (_fillingType) do {
                 private _pos = selectRandom _building;
 
                 private _nearestUnits = (_pos nearEntities ["CAManBase", 1]);
-                if (count _nearestUnits  > 0 && {count (_nearestUnits select {getPos _x select 2 == _pos select 2}) > 0}) then {
+                if (_nearestUnits isNotEqualTo [] && {(_nearestUnits select {getPos _x select 2 == _pos select 2}) isNotEqualTo []}) then {
                     _buildingsIndexes set [(_buildingsIndexes find _building), _building - [_pos]];
 
                 } else {

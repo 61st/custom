@@ -90,7 +90,7 @@ params [
 
 ];
 
-_typeNameCenter = typeName _center;
+private _typeNameCenter = typeName _center;
 
 call {
     if (_typeNameCenter isEqualTo "OBJECT") exitWith { _center = getPos _center;};
@@ -174,8 +174,8 @@ call {
 };
 if (isNil "_Faction") exitWith {systemChat format ["Faction missing from %1 at %2",_grpPrefix, _center]};
 
-_GetFactionArrays = compileFinal format ["call lxim_ai_fnc_%1", _faction];
-_FactionArrays = call _GetFactionArrays;
+private _GetFactionArrays = compileFinal format ["call lxim_ai_fnc_%1", _faction];
+private _FactionArrays = call _GetFactionArrays;
 _FactionArrays params ["_InfantryType", "_infaaList", "_infatList", "_sniperList", "_vehAAList", "_vehMrapList", "_vehLightList", "_vehHeavyList"];
 
 private ["_x","_g","_pos","_flatPos","_rpos","_v"];
@@ -186,16 +186,16 @@ private _waypoints = [];
 if (_patrolMethod isEqualTo "ROAD") then {
 
     // Obtain as many positions as we need
-    _minPositions = _GarrisonedGroupsMax + _infMax + _infaaMax + _infatMax + _sniperMax + _vehaaMax + _vehmrapMax + _vehlightMax + _vehheavyMax + _vehrandMax + SLACK;
+    private _minPositions = _GarrisonedGroupsMax + _infMax + _infaaMax + _infatMax + _sniperMax + _vehaaMax + _vehmrapMax + _vehlightMax + _vehheavyMax + _vehrandMax + SLACK;
 
     // Get list of roads around the center
-    _roadList = [];
+    private _roadList = [];
     _roadList = _center nearRoads _radius;
 
     // Now increase the search radius until we have found enough positions
     if (count _roadList < _minPositions) then {
-        _i = 0;
-        _radExtension = 0;
+        private _i = 0;
+        private _radExtension = 0;
         // If we exceed our max in iterations, abort and use random positions instead...
         while {(count _roadList < _minPositions) && (_i < MAX_SEARCH_ITS)} do {
             _radExtension = _radExtension + EXT_RADIUS;
