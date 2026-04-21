@@ -52,5 +52,53 @@ class CfgUnitNoms {
         texture=QUOTE(z\lxim\addons\media\images\names\us_onscreeneel.paa);
         textureVehicle="";
     };
+        class us_midlightt {
+        displayName="Midlight - USA";
+        material="\tweed_eden_21\patches\fabr.rvmat";
+        texture=QUOTE(z\lxim\addons\media\images\names\us_midlightt.paa);
+        textureVehicle="";
+    };
+        class us_banjo {
+        displayName="Banjo - USA";
+        material="\tweed_eden_21\patches\fabr.rvmat";
+        texture=QUOTE(z\lxim\addons\media\images\names\us_banjo.paa);
+        textureVehicle="";
+    };
+        class us_bigfoot {
+        displayName="Bigfoot - USA";
+        material="\tweed_eden_21\patches\fabr.rvmat";
+        texture=QUOTE(z\lxim\addons\media\images\names\us_bigfoot.paa);
+        textureVehicle="";
+    };
+        class us_mendez {
+        displayName="Mendez - USA";
+        material="\tweed_eden_21\patches\fabr.rvmat";
+        texture=QUOTE(z\lxim\addons\media\images\names\us_mendez.paa);
+        textureVehicle="";
+    };
+        class us_delta {
+        displayName="Delta - USA";
+        material="\tweed_eden_21\patches\fabr.rvmat";
+        texture=QUOTE(z\lxim\addons\media\images\names\us_delta.paa);
+        textureVehicle="";
+    };
+        class us_finney {
+        displayName="Midlight - USA";
+        material="\tweed_eden_21\patches\fabr.rvmat";
+        texture=QUOTE(z\lxim\addons\media\images\names\us_finney.paa);
+        textureVehicle="";
+    };
+        class us_cummings {
+        displayName="Cummings - USA";
+        material="\tweed_eden_21\patches\fabr.rvmat";
+        texture=QUOTE(z\lxim\addons\media\images\names\us_cummings.paa);
+        textureVehicle="";
+    };
+        class us_wearbear {
+        displayName="Midlight - USA";
+        material="\tweed_eden_21\patches\fabr.rvmat";
+        texture=QUOTE(z\lxim\addons\media\images\names\us_wearbear.paa);
+        textureVehicle="";
+    };
 };
 

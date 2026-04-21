@@ -92,9 +92,9 @@ force force ace_advanced_ballistics_muzzleVelocityVariationEnabled = true;
 force force ace_advanced_ballistics_simulationInterval = 0.05;
 
 // ACE Advanced Fatigue
-force force ace_advanced_fatigue_enabled = true;
+force force ace_advanced_fatigue_enabled = false;
 force force ace_advanced_fatigue_enableStaminaBar = false;
-ace_advanced_fatigue_fadeStaminaBar = true;
+ace_advanced_fatigue_fadeStaminaBar = false;
 force force ace_advanced_fatigue_loadFactor = 0;
 force force ace_advanced_fatigue_performanceFactor = 5;
 force force ace_advanced_fatigue_recoveryFactor = 5;
@@ -213,7 +213,7 @@ force force ace_gforces_enabledFor = 1;
 // ACE Goggles
 force force ace_goggles_effects = 2;
 force force ace_goggles_showClearGlasses = true;
-force force ace_goggles_showInThirdPerson = false;
+force force ace_goggles_showInThirdPerson = true;
 
 // ACE Grenades
 force force ace_grenades_convertExplosives = true;
