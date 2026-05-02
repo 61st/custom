@@ -94,11 +94,6 @@ class CfgUnitNoms {
         texture=QUOTE(z\lxim\addons\media\images\names\us_cummings.paa);
         textureVehicle="";
     };
-        class us_wearbear {
-        displayName="Midlight - USA";
-        material="\tweed_eden_21\patches\fabr.rvmat";
-        texture=QUOTE(z\lxim\addons\media\images\names\us_wearbear.paa);
-        textureVehicle="";
-    };
+
 };
 
