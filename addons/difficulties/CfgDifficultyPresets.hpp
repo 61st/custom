@@ -21,7 +21,7 @@ class CfgDifficultyPresets {
             /* Personal awareness */
             weaponInfo = 2;   // Weapon info (0 = never, 1 = fade out, 2 = always)
             stanceIndicator = 2; // Stance indicator (0 = never, 1 = fade out, 2 = always)
-            staminaBar = 1;   // Stamina bar
+            staminaBar = 0;   // Stamina bar (hidden; stamina disabled via enableStamina false)
             weaponCrosshair = 0; // Weapon crosshair
             visionAid = 0;   // Vision aid
 
