@@ -8,6 +8,14 @@ GVAR(playerStartingSide) = sideUnknown;
 GVAR(playerAuth) = false;
 GVAR(playerTech) = false;
 
+// Fully disable engine (vanilla) stamina for the local player.
+// Re-applies on respawn / unit switch via the player event handler, so it stays off.
+if (hasInterface) then {
+    ["unit", {
+        (_this select 0) enableStamina false;
+    }, true] call CBA_fnc_addPlayerEventHandler;
+};
+
 if (hasInterface) then {
     ["unit", {
         if (isNull player) exitWith {};
