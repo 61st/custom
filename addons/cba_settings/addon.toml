@@ -4,3 +4,5 @@ enabled = true
 [binarize]
 enabled = true
 
+[addon]
+ignore_pboprefix = true
