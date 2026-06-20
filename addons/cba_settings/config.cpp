@@ -1,15 +1,17 @@
-#include "script_component.hpp"
 
 class CfgPatches {
     class cba_settings_userconfig {
-        name = COMPONENT_NAME;
+        author = "$STR_CBA_Author";
+        name = "$STR_CBA_Settings_Component";
+        url = "$STR_CBA_URL";
         units[] = {};
         weapons[] = {};
-        requiredVersion = REQUIRED_VERSION;
+        requiredVersion = 1.0;
         requiredAddons[] = {"cba_settings"};
-        author = "lxim";
+        version = 1.0;
         authors[] = {"commy2"};
-        authorUrl = URL;
-        VERSION_CONFIG;
     };
 };
+
+// Uncommenting this will make any changes to "Server" settings be lost upon game restart, applies only to dedicated servers
+// cba_settings_volatile = 1;
