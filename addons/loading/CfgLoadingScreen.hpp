@@ -21,10 +21,11 @@ class GVAR(CfgLoadingScreen) {
         LOADING_SCREEN_CLASS(stackupHD,CURY);
         LOADING_SCREEN_CLASS(WardaddyHD,CURY);
         LOADING_SCREEN_CLASS(airassaultHD,CURY);
-        LOADING_SCREEN_CLASS(stageblackh,MORRIS);
         LOADING_SCREEN_CLASS(seachnok,CURY);
         LOADING_SCREEN_CLASS(sideopbw,CURY);
         LOADING_SCREEN_CLASS(cebu_end,61st);
+        LOADING_SCREEN_CLASS(halodropHD,CURY);
+        LOADING_SCREEN_CLASS(tombhd,CURY);
     };
 };
 
