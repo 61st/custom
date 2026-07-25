@@ -48,10 +48,10 @@ class RscDisplayMain: RscStandardDisplay {
             y = "0.37 - (10 / 2) * (pixelH * pixelGridNoUIScale * 2)";
             w = "10 * pixelW * pixelGridNoUIScale * 2)";
             h = "1 * (pixelH * pixelGridNoUIScale * 2)";
-            text = "61st Events Server"; 
-            tooltip = "61st Events Server (extra mods, may not always be running)"; 
+            text = "61st Liberation Server"; 
+            tooltip = "61st Liberation Server (extra mods, may not always be running)"; 
             colorBackground[] = {0.886,0.616,0.133,1};
-            onButtonClick = "connectToServer ['185.150.189.213', 2602, '61st'];";
+            onButtonClick = "connectToServer ['185.150.189.213', 2502, '61st'];";
         };
     };
 };
