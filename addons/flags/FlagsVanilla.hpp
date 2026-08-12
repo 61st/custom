@@ -156,3 +156,35 @@ class GVAR(med): Flag_White_F {
         init = "(_this select 0) setFlagTexture 'z\lxim\addons\media\images\flags\medic.paa'";
     };
 };
+class GVAR(retro): Flag_White_F {
+    author = "61st Mechanized Infantry Battalion, A3";
+    displayName = "Flag (Retrograde)";
+
+    class EventHandlers {
+        init = "(_this select 0) setFlagTexture 'z\lxim\addons\media\images\flags\retrograde.paa'";
+    };
+};
+class GVAR(ripflag): Flag_White_F {
+    author = "61st Mechanized Infantry Battalion, A3";
+    displayName = "Flag (USARIP)";
+
+    class EventHandlers {
+        init = "(_this select 0) setFlagTexture 'z\lxim\addons\media\images\flags\ripflag.paa'";
+    };
+};
+class GVAR(vardovia): Flag_White_F {
+    author = "61st Mechanized Infantry Battalion, A3";
+    displayName = "Flag (Vardovia)";
+
+    class EventHandlers {
+        init = "(_this select 0) setFlagTexture 'z\lxim\addons\media\images\flags\vardovia.paa'";
+    };
+};
+class GVAR(china): Flag_White_F {
+    author = "61st Mechanized Infantry Battalion, A3";
+    displayName = "Flag (China)";
+
+    class EventHandlers {
+        init = "(_this select 0) setFlagTexture 'z\lxim\addons\media\images\flags\china.paa'";
+    };
+};
